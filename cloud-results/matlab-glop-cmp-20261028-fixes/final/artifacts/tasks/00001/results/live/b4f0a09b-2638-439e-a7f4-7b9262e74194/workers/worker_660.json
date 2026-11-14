@@ -1,0 +1,1 @@
+{"schema_version":1,"worker_pid":660,"global_trial_id":77550,"parameters":[12,0.5,2,4,1,10],"started_at":"2026-11-11T20:11:00.191Z","stage":"idle","active":false,"objective_evaluations":563842,"stage_evaluations":560280,"last_objective":0.68462523142826937,"best_stage_objective":0.0071972791048163726,"updated_at":"2026-11-11T22:44:13.842Z","elapsed_seconds":9193.652697}
