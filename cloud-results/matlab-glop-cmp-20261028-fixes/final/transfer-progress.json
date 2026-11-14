@@ -1,0 +1,12 @@
+{
+  "expected": 311132,
+  "verified": 311132,
+  "present": 276920,
+  "reused": 0,
+  "downloaded": 34212,
+  "errors": 0,
+  "elapsed_seconds": 930,
+  "updated_at": "2026-11-13T15:58:34.724Z",
+  "verified_objects": 311132,
+  "status": "transfer_complete"
+}

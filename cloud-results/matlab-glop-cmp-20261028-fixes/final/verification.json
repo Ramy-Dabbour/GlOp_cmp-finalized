@@ -1,0 +1,34 @@
+{
+  "run_id": "matlab-glop-cmp-20261028-fixes",
+  "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+  "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+  "verified_at_utc": "2026-11-13T16:04:51.739369+00:00",
+  "bucket_output": "gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-cmp-20261028-fixes",
+  "all_checks_passed": true,
+  "bucket_objects_checked_against_size_and_md5": 311132,
+  "bucket_bytes": 2417872844,
+  "completed_trials": 77760,
+  "outcomes": {
+    "succeeded": 15608,
+    "nonconverged": 62152,
+    "failed": 0
+  },
+  "trials_with_mat_sidecar_and_commit": 77760,
+  "original_supplementary_trial_diagnostics": 77758,
+  "trial_ids_with_no_supplementary_diagnostic_in_bucket": [
+    24136,
+    29058
+  ],
+  "checkpoint_mat_and_sidecar_sha256_and_contents_checked": true,
+  "checked_per_task": [
+    19440,
+    19440,
+    19440,
+    19440
+  ],
+  "combined_file_sha256": {
+    "trial_results.csv": "4d90c971b4c38611811bc3c86460a7670e6d77da83d13e32db99242afa299755",
+    "benchmark_results.mat": "8127836fc9a9aec2a97768bc71b9a4e2f5e77a50170968e5ffbb1024da797038",
+    "benchmark_summary.csv": "7fa622441677957fbb4ebcfde089fafaeed0debca3bd15958f66658ce8ffa97f"
+  }
+}
