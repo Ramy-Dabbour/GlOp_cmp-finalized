@@ -1,0 +1,125 @@
+{
+  "collected_at": "2026-10-29T17:09:42.450728+00:00",
+  "files": [
+    {
+      "path": "tasks/00000/logs/matlab-attempt-0.log",
+      "generation": "1793293746631881",
+      "bytes": 1653203
+    },
+    {
+      "path": "tasks/00000/results/benchmark_results.csv",
+      "generation": "1793293746749967",
+      "bytes": 1594
+    },
+    {
+      "path": "tasks/00000/results/benchmark_results.mat",
+      "generation": "1793293746839626",
+      "bytes": 201555
+    },
+    {
+      "path": "tasks/00000/results/manifest.mat",
+      "generation": "1793220044711379",
+      "bytes": 1063
+    },
+    {
+      "path": "tasks/00000/results/progress.log",
+      "generation": "1793293749143883",
+      "bytes": 1653025
+    },
+    {
+      "path": "tasks/00000/results/trial_results.csv",
+      "generation": "1793293749289340",
+      "bytes": 744534
+    },
+    {
+      "path": "tasks/00001/logs/matlab-attempt-0.log",
+      "generation": "1793293743649654",
+      "bytes": 1619863
+    },
+    {
+      "path": "tasks/00001/results/benchmark_results.csv",
+      "generation": "1793293743786532",
+      "bytes": 1556
+    },
+    {
+      "path": "tasks/00001/results/benchmark_results.mat",
+      "generation": "1793293743880548",
+      "bytes": 198065
+    },
+    {
+      "path": "tasks/00001/results/manifest.mat",
+      "generation": "1793220092094125",
+      "bytes": 1062
+    },
+    {
+      "path": "tasks/00001/results/progress.log",
+      "generation": "1793293746114104",
+      "bytes": 1619685
+    },
+    {
+      "path": "tasks/00001/results/trial_results.csv",
+      "generation": "1793293746233301",
+      "bytes": 740013
+    },
+    {
+      "path": "tasks/00002/logs/matlab-attempt-0.log",
+      "generation": "1793293745994071",
+      "bytes": 1581620
+    },
+    {
+      "path": "tasks/00002/results/benchmark_results.csv",
+      "generation": "1793293074438634",
+      "bytes": 1576
+    },
+    {
+      "path": "tasks/00002/results/benchmark_results.mat",
+      "generation": "1793293074531089",
+      "bytes": 194791
+    },
+    {
+      "path": "tasks/00002/results/manifest.mat",
+      "generation": "1793220168024676",
+      "bytes": 1063
+    },
+    {
+      "path": "tasks/00002/results/progress.log",
+      "generation": "1793293747531370",
+      "bytes": 1581442
+    },
+    {
+      "path": "tasks/00002/results/trial_results.csv",
+      "generation": "1793293076202859",
+      "bytes": 735784
+    },
+    {
+      "path": "tasks/00003/logs/matlab-attempt-0.log",
+      "generation": "1793293751142540",
+      "bytes": 1497455
+    },
+    {
+      "path": "tasks/00003/results/benchmark_results.csv",
+      "generation": "1793293677064715",
+      "bytes": 1589
+    },
+    {
+      "path": "tasks/00003/results/benchmark_results.mat",
+      "generation": "1793293677168690",
+      "bytes": 186354
+    },
+    {
+      "path": "tasks/00003/results/manifest.mat",
+      "generation": "1793220216478382",
+      "bytes": 1063
+    },
+    {
+      "path": "tasks/00003/results/progress.log",
+      "generation": "1793293770739580",
+      "bytes": 1497418
+    },
+    {
+      "path": "tasks/00003/results/trial_results.csv",
+      "generation": "1793293679588154",
+      "bytes": 725156
+    }
+  ]
+}

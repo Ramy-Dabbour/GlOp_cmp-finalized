@@ -1,0 +1,146 @@
+[
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00000/logs/matlab-attempt-0.log",
+    "generation": "1793458159905610",
+    "size": "5157710",
+    "md5Hash": "f64tOKCcr/0VFV+IgkAqvw=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00000/results/benchmark_results.csv",
+    "generation": "1793458118798168",
+    "size": "1658",
+    "md5Hash": "9w6wOAz3IbpRytrObRUPag=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00000/results/benchmark_results.mat",
+    "generation": "1793458118917739",
+    "size": "312645",
+    "md5Hash": "zvSr4KCX7Gp0nVyrG9ukwQ=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00000/results/manifest.mat",
+    "generation": "1793220044711379",
+    "size": "1063",
+    "md5Hash": "/jArUQS2B0z0eGJ6SzKbwg=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00000/results/progress.log",
+    "generation": "1793458162583126",
+    "size": "5157532",
+    "md5Hash": "9T85CgY+M1IcY7BHQvp64g=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00000/results/trial_results.csv",
+    "generation": "1793458121825406",
+    "size": "889211",
+    "md5Hash": "MyuKkebeQioZrzqySAEbuA=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00001/logs/matlab-attempt-0.log",
+    "generation": "1793458166704945",
+    "size": "5081114",
+    "md5Hash": "b9jaMI1aic9VDZpbJSPdiQ=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00001/results/benchmark_results.csv",
+    "generation": "1793458166790905",
+    "size": "1655",
+    "md5Hash": "P9J7nnls5J/2MMO9mluSPw=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00001/results/benchmark_results.mat",
+    "generation": "1793458166885552",
+    "size": "305057",
+    "md5Hash": "MVvfzpoxX4y+F/JNZvNUag=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00001/results/manifest.mat",
+    "generation": "1793220092094125",
+    "size": "1062",
+    "md5Hash": "rIHYvj2BOiVXJm3s510QxQ=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00001/results/progress.log",
+    "generation": "1793458169572389",
+    "size": "5080936",
+    "md5Hash": "Z0hG1GzpfkN7eyN+ibCAmQ=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00001/results/trial_results.csv",
+    "generation": "1793458169678289",
+    "size": "879247",
+    "md5Hash": "L1YyOspaLbgzOfIEQugBaA=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00002/logs/matlab-attempt-0.log",
+    "generation": "1793458161410441",
+    "size": "5021773",
+    "md5Hash": "eF95IgNteM0bHEuK6WTRSA=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00002/results/benchmark_results.csv",
+    "generation": "1793458161515209",
+    "size": "1639",
+    "md5Hash": "rg5vUAnl8Gro2qUFa+/A4w=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00002/results/benchmark_results.mat",
+    "generation": "1793458161626342",
+    "size": "299111",
+    "md5Hash": "EYUOX4rAYSTKCJxjlTugeQ=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00002/results/manifest.mat",
+    "generation": "1793220168024676",
+    "size": "1063",
+    "md5Hash": "FJ84yM0p1nzBxNLUTrK7MA=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00002/results/progress.log",
+    "generation": "1793458164575543",
+    "size": "5021595",
+    "md5Hash": "mub5srKel6hQyvo95o2ftw=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00002/results/trial_results.csv",
+    "generation": "1793458164672249",
+    "size": "871680",
+    "md5Hash": "sL12Id8pi42E2zICxhJOyA=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00003/logs/matlab-attempt-0.log",
+    "generation": "1793458161158862",
+    "size": "4786646",
+    "md5Hash": "yW5X0egbtq8kx+1vRt2j/Q=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00003/results/benchmark_results.csv",
+    "generation": "1793458161253023",
+    "size": "1637",
+    "md5Hash": "gp8nsd1GF3tuWepGVMuCRw=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00003/results/benchmark_results.mat",
+    "generation": "1793458161342635",
+    "size": "275747",
+    "md5Hash": "iJWsogp1nhCSurgurHUodA=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00003/results/manifest.mat",
+    "generation": "1793220216478382",
+    "size": "1063",
+    "md5Hash": "QnhKkBfcVfadDC9lrFdOJw=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00003/results/progress.log",
+    "generation": "1793458165314193",
+    "size": "4786619",
+    "md5Hash": "TbAb4OXa1nAbyc0yavMawg=="
+  },
+  {
+    "name": "outputs/matlab-glop-cmp-20261028-fixes/artifacts/tasks/00003/results/trial_results.csv",
+    "generation": "1793458165422749",
+    "size": "842723",
+    "md5Hash": "TPmvLjhvo9evguI0Kf/Fpw=="
+  }
+]

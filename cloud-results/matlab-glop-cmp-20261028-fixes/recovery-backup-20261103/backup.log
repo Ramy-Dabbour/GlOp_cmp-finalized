@@ -1,0 +1,52 @@
+[2026-11-03T10:36:46.135927+00:00] Starting read-only backup and integrity validation; cloud computation is not started by this script.
+[2026-11-03T10:37:16.271177+00:00] Found 27907 committed trials and 83721 checkpoint objects.
+[2026-11-03T10:37:41.772113+00:00] Validated 9/27907 complete trials; errors=0; elapsed=56s.
+[2026-11-03T10:38:07.428382+00:00] Validated 32/27907 complete trials; errors=0; elapsed=81s.
+[2026-11-03T10:38:32.600235+00:00] Validated 59/27907 complete trials; errors=0; elapsed=106s.
+[2026-11-03T10:38:43.765865+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000085.commit.json?alt=media&generation=1793220199438364 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:38:44.284903+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000097.commit.json?alt=media&generation=1793220209888075 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:38:45.377927+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000109.commit.json?alt=media&generation=1793220262825667 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:38:45.413663+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000029.commit.json?alt=media&generation=1793220133211161 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:38:46.226911+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000093.commit.json?alt=media&generation=1793220225483905 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:38:57.631538+00:00] Validated 353/27907 complete trials; errors=32; elapsed=132s.
+[2026-11-03T10:39:22.753786+00:00] Validated 744/27907 complete trials; errors=32; elapsed=157s.
+[2026-11-03T10:39:47.775230+00:00] Validated 1206/27907 complete trials; errors=32; elapsed=182s.
+[2026-11-03T10:40:12.811284+00:00] Validated 1821/27907 complete trials; errors=44; elapsed=207s.
+[2026-11-03T10:40:37.862156+00:00] Validated 2601/27907 complete trials; errors=52; elapsed=232s.
+[2026-11-03T10:41:02.907874+00:00] Validated 3503/27907 complete trials; errors=52; elapsed=257s.
+[2026-11-03T10:41:27.956048+00:00] Validated 4674/27907 complete trials; errors=52; elapsed=282s.
+[2026-11-03T10:41:53.118531+00:00] Validated 5823/27907 complete trials; errors=52; elapsed=307s.
+[2026-11-03T10:42:18.251450+00:00] Validated 7041/27907 complete trials; errors=52; elapsed=332s.
+[2026-11-03T10:42:43.437382+00:00] Validated 8295/27907 complete trials; errors=56; elapsed=357s.
+[2026-11-03T10:43:08.653964+00:00] Validated 9533/27907 complete trials; errors=56; elapsed=383s.
+[2026-11-03T10:43:33.839277+00:00] Validated 10789/27907 complete trials; errors=56; elapsed=408s.
+[2026-11-03T10:43:58.887217+00:00] Validated 12033/27907 complete trials; errors=56; elapsed=433s.
+[2026-11-03T10:44:24.070593+00:00] Validated 13130/27907 complete trials; errors=56; elapsed=458s.
+[2026-11-03T10:44:49.099371+00:00] Validated 14398/27907 complete trials; errors=56; elapsed=483s.
+[2026-11-03T10:45:14.201948+00:00] Validated 15678/27907 complete trials; errors=57; elapsed=508s.
+[2026-11-03T10:45:39.248774+00:00] Validated 16910/27907 complete trials; errors=57; elapsed=533s.
+[2026-11-03T10:46:04.427510+00:00] Validated 18176/27907 complete trials; errors=57; elapsed=558s.
+[2026-11-03T10:46:29.526673+00:00] Validated 19399/27907 complete trials; errors=57; elapsed=583s.
+[2026-11-03T10:46:54.790864+00:00] Validated 20607/27907 complete trials; errors=57; elapsed=609s.
+[2026-11-03T10:47:19.835553+00:00] Validated 21771/27907 complete trials; errors=57; elapsed=634s.
+[2026-11-03T10:47:44.877644+00:00] Validated 22935/27907 complete trials; errors=57; elapsed=659s.
+[2026-11-03T10:48:10.039932+00:00] Validated 24200/27907 complete trials; errors=57; elapsed=684s.
+[2026-11-03T10:48:35.209166+00:00] Validated 25453/27907 complete trials; errors=57; elapsed=709s.
+[2026-11-03T10:49:00.220829+00:00] Validated 26701/27907 complete trials; errors=57; elapsed=734s.
+[2026-11-03T10:49:45.822734+00:00] Starting read-only backup and integrity validation; cloud computation is not started by this script.
+[2026-11-03T10:50:18.088639+00:00] Found 27907 committed trials and 83721 checkpoint objects.
+[2026-11-03T10:50:43.151316+00:00] Validated 372/27907 complete trials; errors=0; elapsed=57s.
+[2026-11-03T10:51:08.172026+00:00] Validated 759/27907 complete trials; errors=0; elapsed=82s.
+[2026-11-03T10:51:33.177690+00:00] Validated 1487/27907 complete trials; errors=0; elapsed=107s.
+[2026-11-03T10:51:38.280288+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000153.commit.json?alt=media&generation=1793220387078182 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:51:41.142836+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000081.commit.json?alt=media&generation=1793220200978192 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:51:42.212282+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000029.commit.json?alt=media&generation=1793220133211161 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:51:42.850810+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000069.commit.json?alt=media&generation=1793220182565381 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:51:43.745383+00:00] CHECK FAILED: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000145.commit.json?alt=media&generation=1793220376875365 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+[2026-11-03T10:51:58.173532+00:00] Validated 5837/27907 complete trials; errors=30; elapsed=132s.
+[2026-11-03T10:52:23.243332+00:00] Validated 12730/27907 complete trials; errors=30; elapsed=157s.
+[2026-11-03T10:52:48.300482+00:00] Validated 19652/27907 complete trials; errors=30; elapsed=182s.
+[2026-11-03T10:53:13.331145+00:00] Validated 26605/27907 complete trials; errors=30; elapsed=208s.
+[2026-11-03T10:53:17.799338+00:00] Retrying 30 incomplete downloads, pass 1.
+[2026-11-03T10:54:00.403446+00:00] Retrieving existing MAT/CSV/log exports.
+[2026-11-03T10:54:43.039989+00:00] BACKUP COMPLETE: {"verified_at_utc": "2026-11-03T10:54:42.983949+00:00", "run_id": "matlab-glop-cmp-20261028-fixes", "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31", "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65", "all_checks_passed": true, "verified_committed_trials": 27907, "total_trials": 77760, "remaining_trials": 49853, "by_task": {"0": 7590, "1": 7262, "2": 7021, "3": 6034}, "outcomes": {"nonconverged": 22339, "succeeded": 5568}, "checkpoint_objects_listed": 83721, "downloaded_export_files": 24, "source_manifest_matches": true, "full_mat_results_verified": true, "checks": ["GCS object MD5 and size", "MAT and sidecar SHA-256", "run/source/config identities", "shard assignment and unique trial IDs", "frozen-grid parameters", "MAT readability", "MAT/JSON outcomes and complete optimization results"], "elapsed_seconds": 297.2029999999795, "backup_directory": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud-results\\matlab-glop-cmp-20261028-fixes\\recovery-backup-20261103"}
