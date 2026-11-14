@@ -1,0 +1,8 @@
+[2026-10-15 16:14:34 +03:00] Local benchmark supervisor PID 21364. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-bdd1e990c0574bcdb8bf9b6611c928f4\run\supervisor.log
+[2026-10-15 16:14:34 +03:00] Started attempt 20261015-131434-339-21364, worker PID 12148. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-bdd1e990c0574bcdb8bf9b6611c928f4\run\attempts\20261015-131434-339-21364\matlab.log
+[2026-10-15 16:14:36 +03:00] Attempt 20261015-131434-339-21364 exited with code . Outcome: failed.
+[2026-10-15 16:14:36 +03:00] Restarting in 1 seconds from the saved trials. STOP suppresses restart.
+[2026-10-15 16:14:37 +03:00] Started attempt 20261015-131437-782-21364, worker PID 11844. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-bdd1e990c0574bcdb8bf9b6611c928f4\run\attempts\20261015-131437-782-21364\matlab.log
+[2026-10-15 16:14:41 +03:00] Local benchmark supervisor PID 21836. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-bdd1e990c0574bcdb8bf9b6611c928f4\run\supervisor.log
+[2026-10-15 16:14:41 +03:00] Reattached to surviving worker PID 11844; no duplicate trial execution was started.
+[2026-10-15 16:14:42 +03:00] STOP requested. MATLAB will preserve committed results and exit at its next cancellation check.

@@ -1,0 +1,7 @@
+Batch task 100000 of 100000: 0 of 77760 global trials.
+Executing 0 independent trials with 0 pool workers.
+Saved C:\Users\Dell\Documents\MATLAB\GlOp_cmp\parallel_empty_shard_check\trial_shard_99999.mat. Merge shards after the Batch job completes.
+BATCH_ENTRY_POINT_PASS
+[]
+[]
+[{"id":"MSNU","message":"A Code Analyzer message was once suppressed here, but the message is no longer generated.","fix":1,"line":218,"column":[82,92]},{"id":"MSNU","message":"A Code Analyzer message was once suppressed here, but the message is no longer generated.","fix":1,"line":322,"column":[56,66]}]

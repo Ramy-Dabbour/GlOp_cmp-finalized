@@ -1,0 +1,1972 @@
+{
+  "current_snapshot": {
+    "count": 5066,
+    "id_min": 1,
+    "id_max": 5067,
+    "successful": 1047,
+    "failed": 4019,
+    "no_stage2_ids": [
+      35,
+      114,
+      234,
+      594,
+      1597,
+      2170,
+      3743,
+      4480,
+      4585
+    ],
+    "all_stage1_valid": true,
+    "reconstructable_end_to_end": 5057,
+    "finite_stage1_times": 5066,
+    "finite_stage2_times": 5057,
+    "max_success_error_difference": 3.3306690738754696e-16,
+    "max_success_eval_difference": 0.0,
+    "max_dc_offset_from_half": 8.881784197001252e-16,
+    "max_even_lag_coefficient": 1.790229612425054e-16,
+    "stage_solver_details": {
+      "1:ga": {
+        "count": 866,
+        "exit_flags": {
+          "1": 828,
+          "0": 38
+        },
+        "evals_min": 15875.0,
+        "evals_max": 456252.0,
+        "evals_mean": 147987.18706697458,
+        "seconds_mean": 36.4281614073903
+      },
+      "1:particleswarm": {
+        "count": 840,
+        "exit_flags": {
+          "1": 810,
+          "0": 30
+        },
+        "evals_min": 17700.0,
+        "evals_max": 400200.0,
+        "evals_mean": 118008.0,
+        "seconds_mean": 27.026883193809525
+      },
+      "1:surrogateopt": {
+        "count": 840,
+        "exit_flags": {
+          "-1": 840
+        },
+        "evals_min": 201.0,
+        "evals_max": 222.0,
+        "evals_mean": 211.35714285714286,
+        "seconds_mean": 4.158577737023809
+      },
+      "1:simulannealbnd": {
+        "count": 840,
+        "exit_flags": {
+          "1": 840
+        },
+        "evals_min": 61.0,
+        "evals_max": 605.0,
+        "evals_mean": 147.97857142857143,
+        "seconds_mean": 0.12772733226190475
+      },
+      "1:patternsearch": {
+        "count": 840,
+        "exit_flags": {
+          "1": 816,
+          "0": 24
+        },
+        "evals_min": 410.0,
+        "evals_max": 2995.0,
+        "evals_mean": 1385.85,
+        "seconds_mean": 0.5512443217857144
+      },
+      "1:paretosearch": {
+        "count": 840,
+        "exit_flags": {
+          "0": 840
+        },
+        "evals_min": 20000.0,
+        "evals_max": 20000.0,
+        "evals_mean": 20000.0,
+        "seconds_mean": 6.920927179523809
+      },
+      "2:ga": {
+        "count": 859,
+        "exit_flags": {
+          "1": 33,
+          "0": 826
+        },
+        "evals_min": 11412.0,
+        "evals_max": 49673.0,
+        "evals_mean": 34573.192083818394,
+        "seconds_mean": 192.40191459313155
+      },
+      "2:particleswarm": {
+        "count": 841,
+        "exit_flags": {
+          "1": 748,
+          "0": 93
+        },
+        "evals_min": 7440.0,
+        "evals_max": 520260.0,
+        "evals_mean": 133819.33412604043,
+        "seconds_mean": 680.8391363116527
+      },
+      "2:surrogateopt": {
+        "count": 840,
+        "exit_flags": {
+          "-1": 840
+        },
+        "evals_min": 260.0,
+        "evals_max": 1296.0,
+        "evals_mean": 586.8964285714286,
+        "seconds_mean": 43.607476510595234
+      },
+      "2:simulannealbnd": {
+        "count": 840,
+        "exit_flags": {
+          "1": 840
+        },
+        "evals_min": 61.0,
+        "evals_max": 298.0,
+        "evals_mean": 106.8952380952381,
+        "seconds_mean": 0.76311428
+      },
+      "2:patternsearch": {
+        "count": 840,
+        "exit_flags": {
+          "0": 832,
+          "1": 8
+        },
+        "evals_min": 1030.0,
+        "evals_max": 3663.0,
+        "evals_mean": 2452.1107142857145,
+        "seconds_mean": 14.271789467857143
+      },
+      "2:paretosearch": {
+        "count": 837,
+        "exit_flags": {
+          "0": 837
+        },
+        "evals_min": 20000.0,
+        "evals_max": 20000.0,
+        "evals_mean": 20000.0,
+        "seconds_mean": 91.60574269784945
+      }
+    },
+    "pairs": [
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "ga",
+        "n": 160,
+        "successful": 6,
+        "P": 0.0375,
+        "E_success": 0.5445344046562818,
+        "C_success": 107738.83333333333,
+        "F": 0.005943160982006539,
+        "E_all_valid": 0.5457292213143097
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "particleswarm",
+        "n": 146,
+        "successful": 115,
+        "P": 0.7876712328767124,
+        "E_success": 0.545566785416835,
+        "C_success": 277326.5652173913,
+        "F": 0.11519767653000497,
+        "E_all_valid": 0.5454199252547904
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5456891462968193
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 134,
+        "P": 0.9571428571428572,
+        "E_success": 0.583917881578387,
+        "C_success": 137973.2014925373,
+        "F": 0.13850438499107556,
+        "E_all_valid": 0.5832001657858313
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 1,
+        "P": 0.007142857142857143,
+        "E_success": 0.6031011031558351,
+        "C_success": 24207.0,
+        "F": 0.0011732794255864573,
+        "E_all_valid": 0.5463500605938112
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.547212410101587
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 6,
+        "P": 0.04285714285714286,
+        "E_success": 0.5440365626658893,
+        "C_success": 58780.333333333336,
+        "F": 0.007173498051738209,
+        "E_all_valid": 0.545208615514362
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 114,
+        "P": 0.8142857142857143,
+        "E_success": 0.5452125976959338,
+        "C_success": 225776.1403508772,
+        "F": 0.12115546101682398,
+        "E_all_valid": 0.5451444406148837
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5453943632999059
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 135,
+        "P": 0.9642857142857143,
+        "E_success": 0.583605962465177,
+        "C_success": 111223.11851851852,
+        "F": 0.14220219138936513,
+        "E_all_valid": 0.5832284829133444
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5457672590178344
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5470628685277801
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6711606458299146
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6720865856504943
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6720226635877447
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6868376546174174
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6712717188179828
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6723430009320066
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 7,
+        "P": 0.05,
+        "E_success": 0.6631269335441459,
+        "C_success": 22454.571428571428,
+        "F": 0.007525548261356432,
+        "E_all_valid": 0.66018893256234
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 127,
+        "P": 0.9071428571428571,
+        "E_success": 0.6619736230031446,
+        "C_success": 76705.50393700787,
+        "F": 0.12183446659612254,
+        "E_all_valid": 0.6607596946121413
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6606496284375498
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 140,
+        "P": 1.0,
+        "E_success": 0.6770421873678284,
+        "C_success": 246.36428571428573,
+        "F": 0.26821562604921756,
+        "E_all_valid": 0.6770421873678284
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 2,
+        "P": 0.014285714285714285,
+        "E_success": 0.561254509676377,
+        "C_success": 1760.5,
+        "F": 0.0034058585875033007,
+        "E_all_valid": 0.6606547444528442
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6616625480710011
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 4,
+        "P": 0.02857142857142857,
+        "E_success": 0.5531673621161529,
+        "C_success": 30354.75,
+        "F": 0.005004560046758839,
+        "E_all_valid": 0.5511623135236572
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 118,
+        "P": 0.8428571428571429,
+        "E_success": 0.5516092159409257,
+        "C_success": 129574.33050847458,
+        "F": 0.12979914647628774,
+        "E_all_valid": 0.5511450919878099
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5511329909644961
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 136,
+        "P": 0.9714285714285714,
+        "E_success": 0.5825207759670182,
+        "C_success": 1479.6911764705883,
+        "F": 0.22845520871032696,
+        "E_all_valid": 0.582855222282432
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 2,
+        "P": 0.014285714285714285,
+        "E_success": 0.5584560021565215,
+        "C_success": 2136.0,
+        "F": 0.0033366071998205188,
+        "E_all_valid": 0.5514400751215257
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5521486495059128
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5745592792471959
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5744621690020719
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5744002273011526
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6051084672150958
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5752694508921893
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5750952023698046
+      }
+    ]
+  },
+  "prefix_global_ids_through_4947": {
+    "count": 4947,
+    "id_min": 1,
+    "id_max": 4947,
+    "successful": 1042,
+    "failed": 3905,
+    "no_stage2_ids": [
+      35,
+      114,
+      234,
+      594,
+      1597,
+      2170,
+      3743,
+      4480,
+      4585
+    ],
+    "all_stage1_valid": true,
+    "reconstructable_end_to_end": 4938,
+    "finite_stage1_times": 4947,
+    "finite_stage2_times": 4938,
+    "max_success_error_difference": 3.3306690738754696e-16,
+    "max_success_eval_difference": 0.0,
+    "max_dc_offset_from_half": 8.881784197001252e-16,
+    "max_even_lag_coefficient": 1.790229612425054e-16,
+    "stage_solver_details": {
+      "1:ga": {
+        "count": 840,
+        "exit_flags": {
+          "1": 804,
+          "0": 36
+        },
+        "evals_min": 15875.0,
+        "evals_max": 418231.0,
+        "evals_mean": 144447.75714285715,
+        "seconds_mean": 34.67025407357143
+      },
+      "1:particleswarm": {
+        "count": 840,
+        "exit_flags": {
+          "1": 810,
+          "0": 30
+        },
+        "evals_min": 17700.0,
+        "evals_max": 400200.0,
+        "evals_mean": 118008.0,
+        "seconds_mean": 27.026883193809525
+      },
+      "1:surrogateopt": {
+        "count": 840,
+        "exit_flags": {
+          "-1": 840
+        },
+        "evals_min": 201.0,
+        "evals_max": 222.0,
+        "evals_mean": 211.35714285714286,
+        "seconds_mean": 4.158577737023809
+      },
+      "1:simulannealbnd": {
+        "count": 840,
+        "exit_flags": {
+          "1": 840
+        },
+        "evals_min": 61.0,
+        "evals_max": 605.0,
+        "evals_mean": 147.97857142857143,
+        "seconds_mean": 0.12772733226190475
+      },
+      "1:patternsearch": {
+        "count": 840,
+        "exit_flags": {
+          "1": 816,
+          "0": 24
+        },
+        "evals_min": 410.0,
+        "evals_max": 2995.0,
+        "evals_mean": 1385.85,
+        "seconds_mean": 0.5512443217857144
+      },
+      "1:paretosearch": {
+        "count": 747,
+        "exit_flags": {
+          "0": 747
+        },
+        "evals_min": 20000.0,
+        "evals_max": 20000.0,
+        "evals_mean": 20000.0,
+        "seconds_mean": 6.807788402008033
+      },
+      "2:ga": {
+        "count": 839,
+        "exit_flags": {
+          "1": 33,
+          "0": 806
+        },
+        "evals_min": 11412.0,
+        "evals_max": 45852.0,
+        "evals_mean": 34213.24433849821,
+        "seconds_mean": 186.4593818603099
+      },
+      "2:particleswarm": {
+        "count": 822,
+        "exit_flags": {
+          "1": 733,
+          "0": 89
+        },
+        "evals_min": 7440.0,
+        "evals_max": 480240.0,
+        "evals_mean": 132306.54501216544,
+        "seconds_mean": 663.4768825155718
+      },
+      "2:surrogateopt": {
+        "count": 820,
+        "exit_flags": {
+          "-1": 820
+        },
+        "evals_min": 260.0,
+        "evals_max": 1296.0,
+        "evals_mean": 583.6573170731707,
+        "seconds_mean": 43.03568963036585
+      },
+      "2:simulannealbnd": {
+        "count": 820,
+        "exit_flags": {
+          "1": 820
+        },
+        "evals_min": 61.0,
+        "evals_max": 298.0,
+        "evals_mean": 106.85609756097561,
+        "seconds_mean": 0.759290061707317
+      },
+      "2:patternsearch": {
+        "count": 820,
+        "exit_flags": {
+          "0": 812,
+          "1": 8
+        },
+        "evals_min": 1030.0,
+        "evals_max": 3663.0,
+        "evals_mean": 2436.218292682927,
+        "seconds_mean": 14.045118708536583
+      },
+      "2:paretosearch": {
+        "count": 817,
+        "exit_flags": {
+          "0": 817
+        },
+        "evals_min": 20000.0,
+        "evals_max": 20000.0,
+        "evals_mean": 20000.0,
+        "seconds_mean": 90.66301109999999
+      }
+    },
+    "pairs": [
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 6,
+        "P": 0.04285714285714286,
+        "E_success": 0.5445344046562818,
+        "C_success": 107738.83333333333,
+        "F": 0.006792183979436045,
+        "E_all_valid": 0.5455891859193259
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 110,
+        "P": 0.7857142857142857,
+        "E_success": 0.5455342885280617,
+        "C_success": 269840.2090909091,
+        "F": 0.11516979027826714,
+        "E_all_valid": 0.5453858011516304
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5456891462968193
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 134,
+        "P": 0.9571428571428572,
+        "E_success": 0.583917881578387,
+        "C_success": 137973.2014925373,
+        "F": 0.13850438499107556,
+        "E_all_valid": 0.5832001657858313
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 1,
+        "P": 0.007142857142857143,
+        "E_success": 0.6031011031558351,
+        "C_success": 24207.0,
+        "F": 0.0011732794255864573,
+        "E_all_valid": 0.5463500605938112
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.547212410101587
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 6,
+        "P": 0.04285714285714286,
+        "E_success": 0.5440365626658893,
+        "C_success": 58780.333333333336,
+        "F": 0.007173498051738209,
+        "E_all_valid": 0.545208615514362
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 114,
+        "P": 0.8142857142857143,
+        "E_success": 0.5452125976959338,
+        "C_success": 225776.1403508772,
+        "F": 0.12115546101682398,
+        "E_all_valid": 0.5451444406148837
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5453943632999059
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 135,
+        "P": 0.9642857142857143,
+        "E_success": 0.583605962465177,
+        "C_success": 111223.11851851852,
+        "F": 0.14220219138936513,
+        "E_all_valid": 0.5832284829133444
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5457672590178344
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5470628685277801
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6711606458299146
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6720865856504943
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6720226635877447
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6868376546174174
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6712717188179828
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6723430009320066
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 7,
+        "P": 0.05,
+        "E_success": 0.6631269335441459,
+        "C_success": 22454.571428571428,
+        "F": 0.007525548261356432,
+        "E_all_valid": 0.66018893256234
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 127,
+        "P": 0.9071428571428571,
+        "E_success": 0.6619736230031446,
+        "C_success": 76705.50393700787,
+        "F": 0.12183446659612254,
+        "E_all_valid": 0.6607596946121413
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6606496284375498
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 140,
+        "P": 1.0,
+        "E_success": 0.6770421873678284,
+        "C_success": 246.36428571428573,
+        "F": 0.26821562604921756,
+        "E_all_valid": 0.6770421873678284
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 2,
+        "P": 0.014285714285714285,
+        "E_success": 0.561254509676377,
+        "C_success": 1760.5,
+        "F": 0.0034058585875033007,
+        "E_all_valid": 0.6606547444528442
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6616625480710011
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 4,
+        "P": 0.02857142857142857,
+        "E_success": 0.5531673621161529,
+        "C_success": 30354.75,
+        "F": 0.005004560046758839,
+        "E_all_valid": 0.5511623135236572
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 118,
+        "P": 0.8428571428571429,
+        "E_success": 0.5516092159409257,
+        "C_success": 129574.33050847458,
+        "F": 0.12979914647628774,
+        "E_all_valid": 0.5511450919878099
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5511329909644961
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 136,
+        "P": 0.9714285714285714,
+        "E_success": 0.5825207759670182,
+        "C_success": 1479.6911764705883,
+        "F": 0.22845520871032696,
+        "E_all_valid": 0.582855222282432
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 2,
+        "P": 0.014285714285714285,
+        "E_success": 0.5584560021565215,
+        "C_success": 2136.0,
+        "F": 0.0033366071998205188,
+        "E_all_valid": 0.5514400751215257
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5521486495059128
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5745592792471959
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "particleswarm",
+        "n": 127,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5713501579282836
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "surrogateopt",
+        "n": 120,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5698728301534466
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "simulannealbnd",
+        "n": 120,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6018265424420471
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "patternsearch",
+        "n": 120,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5711004062033761
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "paretosearch",
+        "n": 120,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5699401182762631
+      }
+    ]
+  },
+  "earliest_4947_completed": {
+    "count": 4947,
+    "id_min": 1,
+    "id_max": 4948,
+    "successful": 1042,
+    "failed": 3905,
+    "no_stage2_ids": [
+      35,
+      114,
+      234,
+      594,
+      1597,
+      2170,
+      3743,
+      4480,
+      4585
+    ],
+    "all_stage1_valid": true,
+    "reconstructable_end_to_end": 4938,
+    "finite_stage1_times": 4947,
+    "finite_stage2_times": 4938,
+    "max_success_error_difference": 3.3306690738754696e-16,
+    "max_success_eval_difference": 0.0,
+    "max_dc_offset_from_half": 8.881784197001252e-16,
+    "max_even_lag_coefficient": 1.790229612425054e-16,
+    "stage_solver_details": {
+      "1:ga": {
+        "count": 840,
+        "exit_flags": {
+          "1": 804,
+          "0": 36
+        },
+        "evals_min": 15875.0,
+        "evals_max": 418231.0,
+        "evals_mean": 144447.75714285715,
+        "seconds_mean": 34.67025407357143
+      },
+      "1:particleswarm": {
+        "count": 840,
+        "exit_flags": {
+          "1": 810,
+          "0": 30
+        },
+        "evals_min": 17700.0,
+        "evals_max": 400200.0,
+        "evals_mean": 118008.0,
+        "seconds_mean": 27.026883193809525
+      },
+      "1:surrogateopt": {
+        "count": 840,
+        "exit_flags": {
+          "-1": 840
+        },
+        "evals_min": 201.0,
+        "evals_max": 222.0,
+        "evals_mean": 211.35714285714286,
+        "seconds_mean": 4.158577737023809
+      },
+      "1:simulannealbnd": {
+        "count": 840,
+        "exit_flags": {
+          "1": 840
+        },
+        "evals_min": 61.0,
+        "evals_max": 605.0,
+        "evals_mean": 147.97857142857143,
+        "seconds_mean": 0.12772733226190475
+      },
+      "1:patternsearch": {
+        "count": 840,
+        "exit_flags": {
+          "1": 816,
+          "0": 24
+        },
+        "evals_min": 410.0,
+        "evals_max": 2995.0,
+        "evals_mean": 1385.85,
+        "seconds_mean": 0.5512443217857143
+      },
+      "1:paretosearch": {
+        "count": 747,
+        "exit_flags": {
+          "0": 747
+        },
+        "evals_min": 20000.0,
+        "evals_max": 20000.0,
+        "evals_mean": 20000.0,
+        "seconds_mean": 6.807883844712182
+      },
+      "2:ga": {
+        "count": 839,
+        "exit_flags": {
+          "1": 33,
+          "0": 806
+        },
+        "evals_min": 11412.0,
+        "evals_max": 45852.0,
+        "evals_mean": 34213.24433849821,
+        "seconds_mean": 186.45938186030992
+      },
+      "2:particleswarm": {
+        "count": 822,
+        "exit_flags": {
+          "1": 734,
+          "0": 88
+        },
+        "evals_min": 7440.0,
+        "evals_max": 480240.0,
+        "evals_mean": 131783.62530413625,
+        "seconds_mean": 658.9775047551094
+      },
+      "2:surrogateopt": {
+        "count": 820,
+        "exit_flags": {
+          "-1": 820
+        },
+        "evals_min": 260.0,
+        "evals_max": 1296.0,
+        "evals_mean": 583.6573170731707,
+        "seconds_mean": 43.03568963036585
+      },
+      "2:simulannealbnd": {
+        "count": 820,
+        "exit_flags": {
+          "1": 820
+        },
+        "evals_min": 61.0,
+        "evals_max": 298.0,
+        "evals_mean": 106.85609756097561,
+        "seconds_mean": 0.759290061707317
+      },
+      "2:patternsearch": {
+        "count": 820,
+        "exit_flags": {
+          "0": 812,
+          "1": 8
+        },
+        "evals_min": 1030.0,
+        "evals_max": 3663.0,
+        "evals_mean": 2436.218292682927,
+        "seconds_mean": 14.045118708536583
+      },
+      "2:paretosearch": {
+        "count": 817,
+        "exit_flags": {
+          "0": 817
+        },
+        "evals_min": 20000.0,
+        "evals_max": 20000.0,
+        "evals_mean": 20000.0,
+        "seconds_mean": 90.66301109999999
+      }
+    },
+    "pairs": [
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 6,
+        "P": 0.04285714285714286,
+        "E_success": 0.5445344046562818,
+        "C_success": 107738.83333333333,
+        "F": 0.006792183979436045,
+        "E_all_valid": 0.5455891859193259
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 110,
+        "P": 0.7857142857142857,
+        "E_success": 0.5455342885280617,
+        "C_success": 269840.2090909091,
+        "F": 0.11516979027826714,
+        "E_all_valid": 0.5453858011516304
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5456891462968193
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 134,
+        "P": 0.9571428571428572,
+        "E_success": 0.5839178815783869,
+        "C_success": 137973.2014925373,
+        "F": 0.13850438499107562,
+        "E_all_valid": 0.5832001657858314
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 1,
+        "P": 0.007142857142857143,
+        "E_success": 0.6031011031558351,
+        "C_success": 24207.0,
+        "F": 0.0011732794255864573,
+        "E_all_valid": 0.5463500605938112
+      },
+      {
+        "reference_solver": "ga",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.547212410101587
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 6,
+        "P": 0.04285714285714286,
+        "E_success": 0.5440365626658893,
+        "C_success": 58780.333333333336,
+        "F": 0.007173498051738209,
+        "E_all_valid": 0.545208615514362
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 114,
+        "P": 0.8142857142857143,
+        "E_success": 0.5452125976959339,
+        "C_success": 225776.1403508772,
+        "F": 0.12115546101682395,
+        "E_all_valid": 0.5451444406148837
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5453943632999059
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 135,
+        "P": 0.9642857142857143,
+        "E_success": 0.583605962465177,
+        "C_success": 111223.11851851852,
+        "F": 0.14220219138936513,
+        "E_all_valid": 0.5832284829133444
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5457672590178344
+      },
+      {
+        "reference_solver": "particleswarm",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5470628685277801
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6711606458299146
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6720865856504943
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6720226635877447
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6868376546174174
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6712717188179828
+      },
+      {
+        "reference_solver": "surrogateopt",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6723430009320066
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 7,
+        "P": 0.05,
+        "E_success": 0.6631269335441459,
+        "C_success": 22454.571428571428,
+        "F": 0.007525548261356432,
+        "E_all_valid": 0.66018893256234
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 127,
+        "P": 0.9071428571428571,
+        "E_success": 0.6619736230031446,
+        "C_success": 76705.50393700787,
+        "F": 0.12183446659612254,
+        "E_all_valid": 0.6607596946121415
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6606496284375498
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 140,
+        "P": 1.0,
+        "E_success": 0.6770421873678284,
+        "C_success": 246.36428571428573,
+        "F": 0.26821562604921756,
+        "E_all_valid": 0.6770421873678284
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 2,
+        "P": 0.014285714285714285,
+        "E_success": 0.561254509676377,
+        "C_success": 1760.5,
+        "F": 0.0034058585875033007,
+        "E_all_valid": 0.6606547444528443
+      },
+      {
+        "reference_solver": "simulannealbnd",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6616625480710011
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 4,
+        "P": 0.02857142857142857,
+        "E_success": 0.5531673621161529,
+        "C_success": 30354.75,
+        "F": 0.005004560046758839,
+        "E_all_valid": 0.5511623135236572
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "particleswarm",
+        "n": 140,
+        "successful": 118,
+        "P": 0.8428571428571429,
+        "E_success": 0.5516092159409257,
+        "C_success": 129574.33050847458,
+        "F": 0.12979914647628774,
+        "E_all_valid": 0.5511450919878099
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "surrogateopt",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5511329909644961
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "simulannealbnd",
+        "n": 140,
+        "successful": 136,
+        "P": 0.9714285714285714,
+        "E_success": 0.5825207759670182,
+        "C_success": 1479.6911764705883,
+        "F": 0.22845520871032696,
+        "E_all_valid": 0.582855222282432
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "patternsearch",
+        "n": 140,
+        "successful": 2,
+        "P": 0.014285714285714285,
+        "E_success": 0.5584560021565215,
+        "C_success": 2136.0,
+        "F": 0.0033366071998205188,
+        "E_all_valid": 0.5514400751215257
+      },
+      {
+        "reference_solver": "patternsearch",
+        "mzi_solver": "paretosearch",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5521486495059128
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "ga",
+        "n": 140,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5745592792471957
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "particleswarm",
+        "n": 127,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.571528654164025
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "surrogateopt",
+        "n": 120,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5698728301534466
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "simulannealbnd",
+        "n": 120,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.6018265424420471
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "patternsearch",
+        "n": 120,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5711004062033761
+      },
+      {
+        "reference_solver": "paretosearch",
+        "mzi_solver": "paretosearch",
+        "n": 120,
+        "successful": 0,
+        "P": 0.0,
+        "E_success": NaN,
+        "C_success": NaN,
+        "F": 0,
+        "E_all_valid": 0.5699401182762631
+      }
+    ]
+  },
+  "exception_evidence": [
+    {
+      "id": 35,
+      "file": "local-results\\live\\5b9a12e6-45c1-4cc0-a57d-fe227695cc07\\trials\\trial_000000000035.json",
+      "elapsed_seconds": 80.201029,
+      "stage": "mzi",
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n"
+    },
+    {
+      "id": 114,
+      "file": "local-results\\live\\5b9a12e6-45c1-4cc0-a57d-fe227695cc07\\trials\\trial_000000000114.json",
+      "elapsed_seconds": 36.1303873,
+      "stage": "mzi",
+      "identifier": "MATLAB:eig:NoConvergence",
+      "message": "Algorithm did not succeed."
+    },
+    {
+      "id": 234,
+      "file": "local-results\\live\\5b9a12e6-45c1-4cc0-a57d-fe227695cc07\\trials\\trial_000000000234.json",
+      "elapsed_seconds": 16.7144116,
+      "stage": "mzi",
+      "identifier": "MATLAB:eig:NoConvergence",
+      "message": "Algorithm did not succeed."
+    },
+    {
+      "id": 594,
+      "file": "local-results\\live\\5b9a12e6-45c1-4cc0-a57d-fe227695cc07\\trials\\trial_000000000594.json",
+      "elapsed_seconds": 22.3507605,
+      "stage": "mzi",
+      "identifier": "MATLAB:eig:NoConvergence",
+      "message": "Algorithm did not succeed."
+    },
+    {
+      "id": 1597,
+      "file": "local-results\\live\\2fb65f1b-4538-4d89-ac53-42fa439fc760\\trials\\trial_000000001597.json",
+      "elapsed_seconds": 252.1419399,
+      "stage": "mzi",
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n"
+    },
+    {
+      "id": 2170,
+      "file": "local-results\\live\\2fb65f1b-4538-4d89-ac53-42fa439fc760\\trials\\trial_000000002170.json",
+      "elapsed_seconds": 41.0603665,
+      "stage": "mzi",
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n"
+    },
+    {
+      "id": 3743,
+      "file": "local-results\\live\\2fb65f1b-4538-4d89-ac53-42fa439fc760\\trials\\trial_000000003743.json",
+      "elapsed_seconds": 1733.0895306,
+      "stage": "mzi",
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n"
+    },
+    {
+      "id": 4480,
+      "file": "local-results\\live\\cfa73822-8d99-4675-9d1d-6a371052afa5\\trials\\trial_000000004480.json",
+      "elapsed_seconds": 145.4124231,
+      "stage": "mzi",
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n"
+    },
+    {
+      "id": 4585,
+      "file": "local-results\\live\\cfa73822-8d99-4675-9d1d-6a371052afa5\\trials\\trial_000000004585.json",
+      "elapsed_seconds": 128.8523794,
+      "stage": "mzi",
+      "identifier": "MATLAB:eig:NoConvergence",
+      "message": "Algorithm did not succeed."
+    }
+  ],
+  "selected_examples": [
+    {
+      "id": 1,
+      "completed_at": "2026-10-19T12:40:10.541Z",
+      "success": 1,
+      "order": 4,
+      "ratio": 0.2,
+      "seed": 0,
+      "reference_solver": "ga",
+      "mzi_solver": "ga",
+      "checkpoint_error": 0.5448092224378128,
+      "checkpoint_evaluations": 97150.0,
+      "result_completed": 1,
+      "has_stage1": 1,
+      "has_stage2": 1,
+      "stage1_exitFlag": 1.0,
+      "stage1_isValidSolution": 1.0,
+      "stage1_objectiveValue": 0.1589430209623993,
+      "stage1_functionEvaluations": 75820.0,
+      "stage1_elapsedSeconds": 18.3612046,
+      "stage2_exitFlag": 1.0,
+      "stage2_isValidSolution": 1.0,
+      "stage2_objectiveValue": 0.5291978587815537,
+      "stage2_functionEvaluations": 21330.0,
+      "stage2_elapsedSeconds": 91.7369119,
+      "recovered_error": 0.5448092224378128,
+      "reference_error_common_metric": 0.09189739973366615,
+      "stage2_error_common_denominator": 0.5057779209976758,
+      "decomposition_cross_term": 0.032560651406753884,
+      "stage1_recomputed_objective": 0.1589430209623993,
+      "recovered_evaluations": 97150.0,
+      "stages_elapsed_seconds": 110.0981165,
+      "max_dc_offset_from_half": 1.1102230246251565e-16,
+      "max_even_lag_coefficient": 1.3931997916438744e-17
+    },
+    {
+      "id": 41,
+      "completed_at": "2026-10-19T13:33:51.188Z",
+      "success": 0,
+      "order": 4,
+      "ratio": 0.2,
+      "seed": 0,
+      "reference_solver": "ga",
+      "mzi_solver": "surrogateopt",
+      "checkpoint_error": 0.0,
+      "checkpoint_evaluations": 0.0,
+      "result_completed": 1,
+      "has_stage1": 1,
+      "has_stage2": 1,
+      "stage1_exitFlag": 1.0,
+      "stage1_isValidSolution": 1.0,
+      "stage1_objectiveValue": 0.1589430209623993,
+      "stage1_functionEvaluations": 75820.0,
+      "stage1_elapsedSeconds": 11.8562133,
+      "stage2_exitFlag": -1.0,
+      "stage2_isValidSolution": 1.0,
+      "stage2_objectiveValue": 0.5292128070520925,
+      "stage2_functionEvaluations": 321.0,
+      "stage2_elapsedSeconds": 25.2574145,
+      "recovered_error": 0.5447290722887088,
+      "reference_error_common_metric": 0.09189739973366615,
+      "stage2_error_common_denominator": 0.5057922077244079,
+      "decomposition_cross_term": 0.0324588727239776,
+      "stage1_recomputed_objective": 0.1589430209623993,
+      "recovered_evaluations": 76141.0,
+      "stages_elapsed_seconds": 37.1136278,
+      "max_dc_offset_from_half": 1.1102230246251565e-16,
+      "max_even_lag_coefficient": 1.7920076692561246e-17
+    },
+    {
+      "id": 101,
+      "completed_at": "2026-10-19T13:47:02.247Z",
+      "success": 0,
+      "order": 4,
+      "ratio": 0.2,
+      "seed": 0,
+      "reference_solver": "ga",
+      "mzi_solver": "paretosearch",
+      "checkpoint_error": 0.0,
+      "checkpoint_evaluations": 0.0,
+      "result_completed": 1,
+      "has_stage1": 1,
+      "has_stage2": 1,
+      "stage1_exitFlag": 1.0,
+      "stage1_isValidSolution": 1.0,
+      "stage1_objectiveValue": 0.1589430209623993,
+      "stage1_functionEvaluations": 75820.0,
+      "stage1_elapsedSeconds": 13.4428644,
+      "stage2_exitFlag": 0.0,
+      "stage2_isValidSolution": 1.0,
+      "stage2_objectiveValue": 0.5292148282688822,
+      "stage2_functionEvaluations": 20000.0,
+      "stage2_elapsedSeconds": 64.593534,
+      "recovered_error": 0.5442710863407503,
+      "reference_error_common_metric": 0.09189739973366615,
+      "stage2_error_common_denominator": 0.5057941394911543,
+      "decomposition_cross_term": 0.031958171805134224,
+      "stage1_recomputed_objective": 0.1589430209623993,
+      "recovered_evaluations": 95820.0,
+      "stages_elapsed_seconds": 78.03639840000001,
+      "max_dc_offset_from_half": 5.551115123125783e-17,
+      "max_even_lag_coefficient": 1.1045309632196076e-17
+    },
+    {
+      "id": 141,
+      "completed_at": "2026-10-19T14:10:36.491Z",
+      "success": 1,
+      "order": 4,
+      "ratio": 0.2,
+      "seed": 0,
+      "reference_solver": "particleswarm",
+      "mzi_solver": "particleswarm",
+      "checkpoint_error": 0.5441630299349745,
+      "checkpoint_evaluations": 115980.0,
+      "result_completed": 1,
+      "has_stage1": 1,
+      "has_stage2": 1,
+      "stage1_exitFlag": 1.0,
+      "stage1_isValidSolution": 1.0,
+      "stage1_objectiveValue": 0.15786849949594187,
+      "stage1_functionEvaluations": 101700.0,
+      "stage1_elapsedSeconds": 13.9624594,
+      "stage2_exitFlag": 1.0,
+      "stage2_isValidSolution": 1.0,
+      "stage2_objectiveValue": 0.5268414097490849,
+      "stage2_functionEvaluations": 14280.0,
+      "stage2_elapsedSeconds": 41.4865611,
+      "recovered_error": 0.5441630299349745,
+      "reference_error_common_metric": 0.09126526003102127,
+      "stage2_error_common_denominator": 0.5038141796692707,
+      "decomposition_cross_term": 0.0339553278236618,
+      "stage1_recomputed_objective": 0.15786849949594187,
+      "recovered_evaluations": 115980.0,
+      "stages_elapsed_seconds": 55.4490205,
+      "max_dc_offset_from_half": 2.220446049250313e-16,
+      "max_even_lag_coefficient": 7.58941523261972e-18
+    },
+    {
+      "id": 241,
+      "completed_at": "2026-10-19T14:58:13.896Z",
+      "success": 0,
+      "order": 4,
+      "ratio": 0.2,
+      "seed": 0,
+      "reference_solver": "surrogateopt",
+      "mzi_solver": "ga",
+      "checkpoint_error": 0.0,
+      "checkpoint_evaluations": 0.0,
+      "result_completed": 1,
+      "has_stage1": 1,
+      "has_stage2": 1,
+      "stage1_exitFlag": -1.0,
+      "stage1_isValidSolution": 1.0,
+      "stage1_objectiveValue": 0.972192795216856,
+      "stage1_functionEvaluations": 211.0,
+      "stage1_elapsedSeconds": 3.4554041,
+      "stage2_exitFlag": 1.0,
+      "stage2_isValidSolution": 1.0,
+      "stage2_objectiveValue": 0.3890800634706892,
+      "stage2_functionEvaluations": 19620.0,
+      "stage2_elapsedSeconds": 58.4356077,
+      "recovered_error": 0.7190340685097537,
+      "reference_error_common_metric": 0.5711452101401362,
+      "stage2_error_common_denominator": 0.30603145447151003,
+      "decomposition_cross_term": 0.09714788948572103,
+      "stage1_recomputed_objective": 0.9721927952168559,
+      "recovered_evaluations": 19831.0,
+      "stages_elapsed_seconds": 61.8910118,
+      "max_dc_offset_from_half": 3.3306690738754696e-16,
+      "max_even_lag_coefficient": 7.08670115997375e-18
+    },
+    {
+      "id": 481,
+      "completed_at": "2026-10-19T16:31:31.596Z",
+      "success": 0,
+      "order": 4,
+      "ratio": 0.2,
+      "seed": 0,
+      "reference_solver": "patternsearch",
+      "mzi_solver": "ga",
+      "checkpoint_error": 0.0,
+      "checkpoint_evaluations": 0.0,
+      "result_completed": 1,
+      "has_stage1": 1,
+      "has_stage2": 1,
+      "stage1_exitFlag": 1.0,
+      "stage1_isValidSolution": 1.0,
+      "stage1_objectiveValue": 0.18461102234638999,
+      "stage1_functionEvaluations": 490.0,
+      "stage1_elapsedSeconds": 0.1448677,
+      "stage2_exitFlag": 0.0,
+      "stage2_isValidSolution": 1.0,
+      "stage2_objectiveValue": 0.5319443753275311,
+      "stage2_functionEvaluations": 22926.0,
+      "stage2_elapsedSeconds": 71.2432954,
+      "recovered_error": 0.5478868939194838,
+      "reference_error_common_metric": 0.1069852472855153,
+      "stage2_error_common_denominator": 0.5020506711063284,
+      "decomposition_cross_term": 0.036679329033682005,
+      "stage1_recomputed_objective": 0.18461102234638999,
+      "recovered_evaluations": 23416.0,
+      "stages_elapsed_seconds": 71.3881631,
+      "max_dc_offset_from_half": 2.220446049250313e-16,
+      "max_even_lag_coefficient": 2.482823751833705e-17
+    },
+    {
+      "id": 4947,
+      "completed_at": "2026-10-24T16:32:30.280Z",
+      "success": 0,
+      "order": 10,
+      "ratio": 0.2,
+      "seed": 0,
+      "reference_solver": "paretosearch",
+      "mzi_solver": "particleswarm",
+      "checkpoint_error": 0.0,
+      "checkpoint_evaluations": 0.0,
+      "result_completed": 1,
+      "has_stage1": 1,
+      "has_stage2": 1,
+      "stage1_exitFlag": 0.0,
+      "stage1_isValidSolution": 1.0,
+      "stage1_objectiveValue": 0.39375347189720866,
+      "stage1_functionEvaluations": 20000.0,
+      "stage1_elapsedSeconds": 8.2306305,
+      "stage2_exitFlag": 1.0,
+      "stage2_isValidSolution": 1.0,
+      "stage2_objectiveValue": 0.46416575194736165,
+      "stage2_functionEvaluations": 78240.0,
+      "stage2_elapsedSeconds": 448.8257522,
+      "recovered_error": 0.5710254217070965,
+      "reference_error_common_metric": 0.23824696591265115,
+      "stage2_error_common_denominator": 0.41181249420503846,
+      "decomposition_cross_term": 0.0997188850858086,
+      "stage1_recomputed_objective": 0.39375347189720866,
+      "recovered_evaluations": 98240.0,
+      "stages_elapsed_seconds": 457.05638270000003,
+      "max_dc_offset_from_half": 1.1102230246251565e-16,
+      "max_even_lag_coefficient": 5.1431364101248286e-17
+    }
+  ]
+}

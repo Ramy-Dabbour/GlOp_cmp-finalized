@@ -1,0 +1,38 @@
+[
+  {
+    "textPayload": "OLD_STORAGE {\"total\": 262144, \"used\": 0, \"free\": 262144}",
+    "timestamp": "2026-10-05T21:01:23.618373942Z"
+  },
+  {
+    "textPayload": "OLD_1MIB_WRITE_ENOSPC",
+    "timestamp": "2026-10-05T21:01:23.619272550Z"
+  },
+  {
+    "textPayload": "STORAGE_SMOKE_MATLAB_STARTED 26.1.0.3346908 (R2026a) Update 5",
+    "timestamp": "2026-10-05T21:01:47.123988944Z"
+  },
+  {
+    "textPayload": "Executing 2 independent trials with 0 pool workers.",
+    "timestamp": "2026-10-05T21:01:47.292544728Z"
+  },
+  {
+    "textPayload": "Connected to parallel pool with 2 workers.",
+    "timestamp": "2026-10-05T21:02:10.666840756Z"
+  },
+  {
+    "textPayload": "Executing 2 independent trials with 2 pool workers.",
+    "timestamp": "2026-10-05T21:02:11.315502163Z"
+  },
+  {
+    "textPayload": "STORAGE_SMOKE_PASSED",
+    "timestamp": "2026-10-05T21:02:14.797788735Z"
+  },
+  {
+    "textPayload": "Copying file:///work/shared/results/storage_smoke.mat to gs://strange-reducer-509621-e8-matlab-glop-cmp/diagnostics/matlab-storage-smoke-20261005-205327/results/storage_smoke.mat",
+    "timestamp": "2026-10-05T21:02:28.570766135Z"
+  },
+  {
+    "textPayload": "Output collection completed. Scientific success is determined separately by the Batch job status and the project results.",
+    "timestamp": "2026-10-05T21:02:30.614995329Z"
+  }
+]

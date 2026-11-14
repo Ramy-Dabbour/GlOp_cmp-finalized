@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-03T11:56:08.324672+00:00",
+  "reported_bucket_reads_since_1119_utc": 112116,
+  "latest_minute": {
+    "interval": {
+      "startTime": "2026-11-03T11:52:01.426238Z",
+      "endTime": "2026-11-03T11:53:01.426238Z"
+    },
+    "value": {
+      "int64Value": "3308"
+    }
+  },
+  "note": "Lagging bucket-wide activity includes source/status reads; not a verified restored-trial count."
+}

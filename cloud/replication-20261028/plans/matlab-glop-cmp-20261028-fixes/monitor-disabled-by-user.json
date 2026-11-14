@@ -1,0 +1,39 @@
+{
+  "stopped_at_utc": "2026-10-29T17:10:53.7890517Z",
+  "reason": "User requested termination of the local process causing terminal pop-ups and prevention of automatic restart.",
+  "targeted_processes": [
+    {
+      "ProcessId": 23300,
+      "ParentProcessId": 1956,
+      "Name": "powershell.exe"
+    },
+    {
+      "ProcessId": 27560,
+      "ParentProcessId": 23300,
+      "Name": "conhost.exe"
+    },
+    {
+      "ProcessId": 1532,
+      "ParentProcessId": 23300,
+      "Name": "python.exe"
+    }
+  ],
+  "remaining_monitor_count": 0,
+  "scheduled_tasks": [
+    {
+      "TaskName": "GlOp_cmp Cloud Replication 20261026",
+      "State": "Disabled"
+    },
+    {
+      "TaskName": "GlOp_cmp Cloud Replication 20261028",
+      "State": "Disabled"
+    },
+    {
+      "TaskName": "GlOp_cmp Local Recovery 05FD25BC9F41",
+      "State": "Disabled"
+    }
+  ],
+  "cloud_job_modified": false,
+  "restart_suppressed": true,
+  "verified_stopped_at_utc": "2026-10-29T17:12:30.8423542Z"
+}

@@ -1,0 +1,278 @@
+{
+  "checked_utc": "2026-11-02T15:24:34.048812+00:00",
+  "evidence_directory": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\reliability-fixes-20261028\\cloud-status-20261102T152325Z",
+  "batch_status": {
+    "check_error": "HTTP Error 403: Forbidden",
+    "response_body": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Read access to project 'strange-reducer-509621-e8' was denied: please check billing account associated and retry\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+  },
+  "identity_matches": null,
+  "summary": {
+    "check_error": "HTTP Error 403: Forbidden",
+    "response_body": "The billing account for the owning project is disabled in state closed"
+  },
+  "latest_trial": null,
+  "tasks": [],
+  "batch_tasks": {
+    "check_error": "HTTP Error 403: Forbidden",
+    "response_body": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Write access to project 'strange-reducer-509621-e8' was denied: please check billing account associated and retry\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+  },
+  "billing_info": {
+    "name": "projects/strange-reducer-509621-e8/billingInfo",
+    "projectId": "strange-reducer-509621-e8",
+    "billingAccountName": "billingAccounts/01D6C5-4D9D70-815F9F",
+    "billingEnabled": false
+  },
+  "project_info": {
+    "name": "projects/1064328294968",
+    "parent": "organizations/870771636270",
+    "projectId": "strange-reducer-509621-e8",
+    "state": "ACTIVE",
+    "displayName": "FIR-Fil-Op-Al-Cmp",
+    "createTime": "2026-09-24T21:13:09.575Z",
+    "updateTime": "2026-09-29T02:04:57.814272Z",
+    "etag": "W/\"cce81b5b5c2bde42\""
+  },
+  "compute_instances": {
+    "check_error": "HTTP Error 403: Forbidden",
+    "response_body": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"This API method requires billing to be enabled. Please enable billing on project #strange-reducer-509621-e8 by visiting https://console.developers.google.com/billing/enable?project=strange-reducer-509621-e8 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\",\n    \"errors\": [\n      {\n        \"message\": \"This API method requires billing to be enabled. Please enable billing on project #strange-reducer-509621-e8 by visiting https://console.developers.google.com/billing/enable?project=strange-reducer-509621-e8 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\",\n        \"domain\": \"global\",\n        \"reason\": \"forbidden\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"BILLING_DISABLED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"consumer\": \"projects/strange-reducer-509621-e8\",\n          \"consoleUrl\": \"https://console.developers.google.com/billing/enable?project=strange-reducer-509621-e8\",\n          \"containerInfo\": \"strange-reducer-509621-e8\",\n          \"service\": \"compute.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"This API method requires billing to be enabled. Please enable billing on project #strange-reducer-509621-e8 by visiting https://console.developers.google.com/billing/enable?project=strange-reducer-509621-e8 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Google developers console billing\",\n            \"url\": \"https://console.developers.google.com/billing/enable?project=strange-reducer-509621-e8\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+  },
+  "checkpoint_progress": {
+    "last_checkpoint_task_1": {
+      "entries": [
+        {
+          "insertId": "79r6l8f25shpg",
+          "jsonPayload": {
+            "completed": 7260,
+            "status": "running",
+            "task_index": 1,
+            "event": "checkpoint-progress",
+            "pending_upload_errors": 0
+          },
+          "resource": {
+            "type": "batch.googleapis.com/Job",
+            "labels": {
+              "location": "us-central1-a",
+              "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+              "resource_container": "strange-reducer-509621-e8"
+            }
+          },
+          "timestamp": "2026-10-31T14:49:09.790384161Z",
+          "severity": "INFO",
+          "labels": {
+            "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "matlab_smoke": "false",
+            "matlab_cloud_workers": "8",
+            "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1",
+            "matlab_reliability_fixes": "true",
+            "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+            "matlab_project": "glop-cmp",
+            "matlab_cloud_tasks": "4",
+            "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+            "matlab_replication": "20261028",
+            "matlab_cloud_managed": "true",
+            "matlab_cloud_mode": "durable_trial_shards",
+            "matlab_cloud_live": "true"
+          },
+          "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+          "receiveTimestamp": "2026-10-31T14:49:19.775598951Z"
+        }
+      ],
+      "nextPageToken": "eoQHCv8GAUI4sNyqoh7e-DmVeDyVeWm34oXW8B1gOo4g0iSshKSQ7dJ8m5LZEeb8EEzbFsz1osSdOgVAx0LVMPsu1AnK3omDaJOT_yaGkx-c6NUb7K2T7n1ZnJx_jjvGXmtitLT1hli4B67q8QV7FKDEC-nXZA9MA_mtTMkiB39SK_bgGuV2Bw__ad1LCeuJ2gniDynCfMIEhox1IM_Dxc4IGuZMs-tLNlgLkL79dEt0AY80j58L-05OqW8tugsTWk-WK6B6xVJ8H5C1JX0MALMG_1DsmCvAORISxr0OSny0BvO9h29bxw0bP5jQ_yUlh1ZWaw5y3a10WqS00cjo8-pZPQQMIRzmoGWofaiDoxPFkTwTepIFwL1OtAt4RDPdTdbkaex4x5nK0srdVEYhE6nN8KvAx7Iowv8HyXRmfjEkcPSpNvtE6vEjHKu46HntdPibFnupj89mSpR5MoOV1GrjxkcA98jL2h7Jj_MbjoC7Qr-HAYi0JNBt0zxrfO2VXBxkI8XrTObA7poqDpzRR4U2JUDJ_rif24uUgSsAfR-EXujMWIQKQf3vFWft28XNlXNFhgC7Wk-a1KefI_wfyrS7Y6k70O42-gHMhiBggeA3G7TIztX9wz4fdYO7lAtWh9ZZJKTlhX-_y2_m5IuA1com9JFBuunEUQ_Xnj2YIXRmyXYaoOtB-H7KF8RGjctM1PxnfWrCLb8UhHpV42lv9ABF_UwOhxjBl0yayIAkUH99hGiTzOHkfAVa1CfktdEODPuyEjUJZevEqoa7ITp1uBSPfkQ35yJQIzYZhugmnf5jankXXJkmJwdrZdGIN17zZaW5b4z4_DTEjZr4NgjkKbxY8VIRBjz5qH509OfXfXiwKTGcEfsvB7b2e_kYBC7GQVQ7b4rSUncLDg6gnyu9j_aqwnxZjjYlR4HqlJnnA8DzGgxypzcpdva23F43IG62HjTvcs9Je0EHrrkmsrlo2pk8MUhzErUhkDMY50uFzIZkZFqKSDVQpeqoHBvqLJBgC291WrwBiPxVnjiI40Q4CT24Z49cmrQwRvd1WXISF0uJTfwjjHT6gz4SJPhXn63tircJcM_YRxwWuEd38IWxelsSRcU45MZMTDBfmHkdW1LfJJP5gpaWqD8OYgOH3V4dQUXhJqtrvs1ff5KfDb0JCzJAiW54vQEu5a85S1cM33hP2uQh3BAB"
+    },
+    "last_checkpoint_task_0": {
+      "entries": [
+        {
+          "insertId": "sx5hawf248205",
+          "jsonPayload": {
+            "status": "running",
+            "event": "checkpoint-progress",
+            "task_index": 0,
+            "pending_upload_errors": 0,
+            "completed": 7590
+          },
+          "resource": {
+            "type": "batch.googleapis.com/Job",
+            "labels": {
+              "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+              "resource_container": "strange-reducer-509621-e8",
+              "location": "us-central1-a"
+            }
+          },
+          "timestamp": "2026-10-31T14:49:02.739966184Z",
+          "severity": "INFO",
+          "labels": {
+            "matlab_cloud_mode": "durable_trial_shards",
+            "matlab_cloud_workers": "8",
+            "matlab_smoke": "false",
+            "matlab_cloud_managed": "true",
+            "matlab_cloud_tasks": "4",
+            "matlab_cloud_live": "true",
+            "matlab_replication": "20261028",
+            "matlab_project": "glop-cmp",
+            "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+            "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+            "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0",
+            "matlab_reliability_fixes": "true"
+          },
+          "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+          "receiveTimestamp": "2026-10-31T14:49:14.528430420Z"
+        }
+      ],
+      "nextPageToken": "eoMHCv4GAUI4sNwArxqni6IT_lejdobk2gMTHNflt36M6ZF8xvWGBZFsE90t8roBRCVW5bzBhw__cUF5PzCFTe6jazX5DkTpiXmyrADzzNkSXd8Li5jdcrnVZghvqsiFuDvSDh80f3MWiqlm_PB5iZyfRgfsbKvaiOZwM12LGflM6ux7QTklxhkW6TvH5SelNdG8bGPriHmulW200acCgqEN5qgZR5ZBClpZTNoO-vjr64UJo6RkX9JJ00w9alNEVPzv4tn7XH2XfHP2eMZ4OC-fCWa8I4HtN8DmdtaY-lZJeYDdSpKnF6J2hTvuYYJd1RfE8DBcdl_hTO-_UTHaFOhhTM7nLYrVZyDVLw-PpykUl7TSegMo-nM78ayf40aeCQOrKr3CVKgjcoYY4rjEkhqtByjpgczcMfBxIR02YE5YmFiIWgBOmA27Cz8JPFT-NO8MEmjzaUv8g6eI0Lzl5VJb4aT1ToXo7vAGVSqwvogoxgCI5FtLTqsq_stDeQlvphINcIL071bKggcPg-yQK4tHdpPfoNzCkqxnsceRecygZVKe5Z2arkimzZReW64ThvoCEHo3KgyNQXOkbeqXFiGV9GR6cqob1M7xQ7mkvkeYLk0-cfQpRT7ojAlPWJibGOQtN99VUsziwMQvDQsaa1PUD5CLCPeYQL1cArbZHkfkRgktadDksUjg612o9On-XX0Pq9Chq-hSX5mSaFDSpZMd2TnuYAZBIIAp34uwaYhMhfn8Akh5MOghHEDXwoYkGT70lJlx_kxjDaYWwYl3lKd7qZCX1GeIw4wywiDn5mMpAJleGSwfFb_bRkSAi4EIiceCQc0SzUkcSnNmMm2D9d1z3ZFYp1B0qMk3a1hLZsQpzZWaVX5vBjQEB1F0UW_9DCfA5anQyGwiI-jDyXFdKeI6AhSVVTs3tVyMjrKiPQ1sFg0OPRkVC3eEkzGaxM0XzS-kWL6Urt1ZXVYmzvO8Nei6rXTi_bVorbo3TgBoxgAplKL4eI1KLARspbcWi2RFeCi7K3K_JIW2dwmeBUHkiQ7GmKZPgesuEdYw-Gzdu4E11IASvL07NguYhD9_KsMQ2291Hts--4zMbn7Y5lP7fyxW-dBryDzvW4R_rjybviBkzAX43jIJR5nsQT-IyxNKHvgsLMXx-7wtcAiIZzl2H8URuF6GTEiNSWw7Kzcf4XYgwJ6GEAE"
+    },
+    "last_checkpoint_task_2": {
+      "entries": [
+        {
+          "insertId": "fll0meez0oo6",
+          "jsonPayload": {
+            "completed": 7019,
+            "status": "running",
+            "event": "checkpoint-progress",
+            "pending_upload_errors": 0,
+            "task_index": 2
+          },
+          "resource": {
+            "type": "batch.googleapis.com/Job",
+            "labels": {
+              "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+              "resource_container": "strange-reducer-509621-e8",
+              "location": "us-central1-a"
+            }
+          },
+          "timestamp": "2026-10-31T14:49:04.242337266Z",
+          "severity": "INFO",
+          "labels": {
+            "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "matlab_smoke": "false",
+            "matlab_cloud_workers": "8",
+            "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2",
+            "matlab_reliability_fixes": "true",
+            "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+            "matlab_project": "glop-cmp",
+            "matlab_cloud_tasks": "4",
+            "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+            "matlab_replication": "20261028",
+            "matlab_cloud_managed": "true",
+            "matlab_cloud_live": "true",
+            "matlab_cloud_mode": "durable_trial_shards"
+          },
+          "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+          "receiveTimestamp": "2026-10-31T14:49:23.992417980Z"
+        }
+      ],
+      "nextPageToken": "ev4GCvkGAUI4sNyUSeBghIlyABpwAruauVeS8ohF4q-HS10PDDLfWRzF3rvGXSnE22dMwNahsTt0J5G45OyB6ENuhEJLjXgmOtffBsZ5-uC5TC-Z2hUUXR-si6hkxgTvMkzjrELCAf3jSdXMkkFi4SbbX5mOUXAtn68IC5sPrYq401c88UsWMsLbJePSdsWMWgOPOpT8lFTTexDz-S2yvNSh_M-vg-OeHhRsaG1HthIaBKmxs-As4kgVngRgKOPJw4i1DVVVgysOovFeMnYftA-aoc2hMgOq5rG5sPb-gzY5nPtxCluCaO5kuTi_3th0wNRjVcehlEccO952tDLqaItZzmKmVRWi9bjH_1sS75IqpEupRvJmU680-f8eLWuvWHk7FCdIuYj2frzQVYA48szSe9TsdIsPM4PsM5eALJpwluq2MqRPK8UpuKzfjZvqpDqcEwnqk1TYCMZPLQNmeiirUVtufLYkcysNoQXJC2trgP1jenr1KR8cc80MWXqkU7TVOz2q5jV1FGDbWTVBT2xEAV1IBpuqisB_l0Jvq9rkALQpULgxSPuoks1SEIcWHlRud8zq0JksK4QXKRDa0UqsDqgE5Jz5ztqljAypTcqdZpCBRqVO6NRc27fTi8J4TpURA4n9aE2AycUT6WNlJbC6ZrXGEwz7eDmImllg9E1hKVDTSU75diTq46rgotkvsCL7456vtwrVy97B1NubCUrSA27pk8CoZ1K5PHpDzG-jVQ6h6YoFXoZbsdIM8b6vfsdttbD3wTOYqLKnrkcPmpDvTfy2j0YSwb6etnO97mUZz6AcKUI_FG1sb6hYDprCfmVkkHbYkiVMh4DJPh5VGNiNLUpxRyRnMpW7dFDbxOEC_hxut9cuv56XZAGRwwfXYR4_LjzKSojg3IdB8eGiGYbaMrUpr237nWNUtgJvX2NblYKm3HI_2vozrTc0K9gyUkyewn16rWSdIDdvv1myr-Fhgj_wEH7p1ukQooyQBUKZA6CIHyvwxU8cavBo3MiNbBBwJwX0JIKeE2SZH1tSkUUiwBgvuc5Gy8TR3GBQrX9KLEXgzYOAEG4sfe5HT7bF-Sf01yUbW-Q4jH7R7_qjWvwlQfC30GedZpKflkIbPZr-efoPqWEXk0__hxw6o7Nui7ZDPggunntP1pR-vm1PuR2z6aMFC82fhF22Cr4PoRAB"
+    },
+    "last_checkpoint_task_3": {
+      "entries": [
+        {
+          "insertId": "28f94dexxzjm",
+          "jsonPayload": {
+            "pending_upload_errors": 0,
+            "completed": 6032,
+            "event": "checkpoint-progress",
+            "task_index": 3,
+            "status": "running"
+          },
+          "resource": {
+            "type": "batch.googleapis.com/Job",
+            "labels": {
+              "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+              "location": "us-central1-a",
+              "resource_container": "strange-reducer-509621-e8"
+            }
+          },
+          "timestamp": "2026-10-31T14:49:03.451658621Z",
+          "severity": "INFO",
+          "labels": {
+            "matlab_cloud_managed": "true",
+            "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+            "matlab_reliability_fixes": "true",
+            "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "matlab_cloud_workers": "8",
+            "matlab_cloud_mode": "durable_trial_shards",
+            "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-3",
+            "matlab_smoke": "false",
+            "matlab_replication": "20261028",
+            "matlab_cloud_live": "true",
+            "matlab_cloud_tasks": "4",
+            "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+            "matlab_project": "glop-cmp"
+          },
+          "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+          "receiveTimestamp": "2026-10-31T14:49:22.397141778Z"
+        }
+      ],
+      "nextPageToken": "eoAHCvsGAUI4sNxPHg9rOdHOjc0qTddb5NNLXM7VKsU09noHcHBmo9qBjbV4VBJTi9MKE9fS5fSPnipX5RCVcRw30oK1qTnUcLMOb4BPfEinryEW-0P1L0uhSma29Ft7O-Pewmx2bho_D1tBMWhJuI8oPZetZsYiDu-npWE2RfLbCEPpyi63gmTF4Vbtut5W1E3SHauoe0pdYj03j2geWPD1VTX5LUoBPPDcIwEVD1DJZLh601jKiupCx2Eo7yWaBWQFMhvL_q7uQsOD-DrFZkDKlDYvs5RrjQFCt8a9FOtW8pxyYnWRTKstZsOfr3iLREKp-4ca1ClvCSlKsyUTqN6yicS3mCdWleKrzGvZzeoKUmm9OmIUy6xxebK50Ig2v9PUM0zwURsTpVMlUdzpq19g0MMjDjrnzE4ha49mb0K-djlz9ApgzcN3aRSFB32PbxZD9xHONOqcMuk6zHDwdL9dxiUFD0hHlNz0I5juoqhp-9QvCef2EOdB_wBquv3roKS1CbD3JiA0ETM7AMGLPEiP3dhFfKPJDkpGR0JTRe7tU4EXIOwtBMRbiTiY_lmAlFNavkmnBLrbKewwQVNzjsM3z_Jn-Jkhs971VadbGwy6slc6W_zS2g-2D6Tl4y-x03-0g8gRmMzjfMevz0HNqhU2vcnkgAZ_M5Lv7dYGBkw7RbSt_4mzuEpGmFXFS7bccx2-iSYt00emvLJx1MdlUEjb-Sl74TAqt4VjPGx788QcCoxZnUUoA5uNVi78XJdD4ETyqhbrhAI5xVW4murUD79mGLHAPkpgcsD_gq6qBhXm_zJ3W7A0i2jJgw-ofEkbAR4BucS-JZvc-FYaQkX6Qa0lkeiUrFqUOyVuGGhTgKpxZD646Os6gaH-Hqj-DZGrGvc2vla_WGwC-J6xQJxGAZk4aenZh-c18dkuVMIgXNJ9ZeC65HpFcDdDZc78_-zNgUH0RGyU_Zclh9SAXcfcr0Rz3-HM__gMf7H6S00__TzsUzSHxhrKSwiOfSks_ov2g-auRfLt7C80eIdjtwVVs_g6EKDAsDkq18NuJefie-3LlPyuqara-ucdiuqAUV7D0KSMSPBmjFd2SHzyU0G0z-MB4T1t0M2HZrhe4193ptU763ALKv98zXd-LkWNNRAXm7aiwjs8x4LtMjswEU0pCZPv9KZnA4QsWqScajKbLXoqEAE"
+    }
+  },
+  "error_logs": [
+    {
+      "timestamp": "2026-10-31T14:49:35.572935715Z",
+      "message": "rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry. Retrying in 5.717319397s\n"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:35.572900195Z",
+      "message": "instance 2248781657292137749 report agent state error: rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry\n"
+    },
+    {
+      "timestamp": "2026-10-31T13:51:23.725440656Z",
+      "message": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 3.665552392s\n"
+    },
+    {
+      "timestamp": "2026-10-31T13:51:23.725196686Z",
+      "message": "instance 974632647761323285 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n"
+    },
+    {
+      "timestamp": "2026-10-31T13:21:08.640984656Z",
+      "message": "unexpected value <!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 503 (Server Error)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>503.</b> <ins>That\u2019s an error.</ins>\n  <p>The service you requested is not available yet.<p>Please try again in 30 seconds.  <ins>That\u2019s all we know.</ins>\n got from Spot preemption notice\n"
+    },
+    {
+      "timestamp": "2026-10-31T07:22:27.829012615Z",
+      "message": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 3.598570436s\n"
+    },
+    {
+      "timestamp": "2026-10-31T07:22:27.828984195Z",
+      "message": "instance 2248781657292137749 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n"
+    },
+    {
+      "timestamp": "2026-10-31T06:46:36.108638969Z",
+      "message": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 2.725269653s\n"
+    }
+  ],
+  "recent_logs": [
+    {
+      "timestamp": "2026-10-31T14:49:36.271633327Z",
+      "message": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k\" instance_id:5763941655804634389 creation_time:{seconds:1793219602 nanos:682490743} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219603 nanos:431205314} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219603 nanos:431209634} task_state:RUNNI"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:35.572935715Z",
+      "message": "rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry. Retrying in 5.717319397s\n"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:35.572900195Z",
+      "message": "instance 2248781657292137749 report agent state error: rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry\n"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:35.550820656Z",
+      "message": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4\" instance_id:2248781657292137749 creation_time:{seconds:1793219599 nanos:976242403} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219600 nanos:785304225} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219600 nanos:785311565} task_state:RUNNI"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:27.661551893Z",
+      "message": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z\" instance_id:974632647761323285 creation_time:{seconds:1793219608 nanos:330362418} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219609 nanos:1337343} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219609 nanos:1343163} task_state:RUNNING} s"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:19.776479563Z",
+      "message": "[2026-10-31T14:49:19.775Z] START trial 24164: FIR=10 passband=0.5 seed=0 solvers=3/2 sample=4"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:19.766653080Z",
+      "message": "[2026-10-31T14:49:19.761Z] DURABLE trial 24128: nonconverged error=0.635383299 evaluations=45937 | 6033/19440; MAT+CSV published"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:16.110486065Z",
+      "message": "[2026-10-31T14:49:16.109Z] START trial 28115: FIR=7 passband=0.2 seed=1 solvers=0/1 sample=15"
+    }
+  ],
+  "identity_check_note": "Unavailable: live summary access denied by disabled billing; no mismatch was established."
+}

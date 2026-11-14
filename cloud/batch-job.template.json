@@ -1,0 +1,84 @@
+{
+  "taskGroups": [
+    {
+      "taskCount": "3",
+      "parallelism": "3",
+      "taskCountPerNode": "1",
+      "schedulingPolicy": "AS_SOON_AS_POSSIBLE",
+      "taskSpec": {
+        "runnables": [
+          {
+            "displayName": "glop-cmp-trials",
+            "container": {
+              "imageUri": "REGION-docker.pkg.dev/PROJECT_ID/REPOSITORY/glop-cmp@sha256:IMAGE_DIGEST",
+              "entrypoint": "/usr/local/bin/matlab",
+              "commands": [
+                "-singleCompThread",
+                "-batch",
+                "cd('/opt/glop-cmp'); main"
+              ],
+              "volumes": [
+                "/mnt/disks/glop-results:/results:rw"
+              ]
+            }
+          }
+        ],
+        "environment": {
+          "variables": {
+            "FPF_OUTPUT_DIR": "/results",
+            "FPF_WORKERS_PER_TASK": "8"
+          }
+        },
+        "volumes": [
+          {
+            "gcs": {
+              "remotePath": "BUCKET/runs/RUN_ID"
+            },
+            "mountPath": "/mnt/disks/glop-results",
+            "mountOptions": [
+              "--uid=1001",
+              "--gid=1001",
+              "--file-mode=664",
+              "--dir-mode=775",
+              "-o rw,allow_other"
+            ]
+          }
+        ],
+        "computeResource": {
+          "cpuMilli": "8000",
+          "memoryMib": "30000"
+        },
+        "maxRetryCount": 0,
+        "maxRunDuration": "259200s"
+      }
+    }
+  ],
+  "allocationPolicy": {
+    "instances": [
+      {
+        "policy": {
+          "machineType": "e2-standard-8",
+          "provisioningModel": "STANDARD",
+          "bootDisk": {
+            "type": "pd-balanced",
+            "sizeGb": "100"
+          }
+        }
+      }
+    ],
+    "location": {
+      "allowedLocations": [
+        "regions/REGION"
+      ]
+    },
+    "serviceAccount": {
+      "email": "BATCH_SERVICE_ACCOUNT@PROJECT_ID.iam.gserviceaccount.com"
+    }
+  },
+  "labels": {
+    "matlab_project": "glop-cmp"
+  },
+  "logsPolicy": {
+    "destination": "CLOUD_LOGGING"
+  }
+}

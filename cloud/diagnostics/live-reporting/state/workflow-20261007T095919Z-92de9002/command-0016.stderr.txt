@@ -1,0 +1,7 @@
+Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/liveSmokeTrial.m#1791367002308785 to file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\downloads\live-smoke\matlab-glop-live-smoke-20261007-094350-9c2a5c\snapshot-78bfc741958f5e1f\workspace\liveSmokeTrial.m
+Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/main.m#1791367002349819 to file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\downloads\live-smoke\matlab-glop-live-smoke-20261007-094350-9c2a5c\snapshot-78bfc741958f5e1f\workspace\main.m
+  
+Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/parallelSweepTest.m#1791367002333757 to file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\downloads\live-smoke\matlab-glop-live-smoke-20261007-094350-9c2a5c\snapshot-78bfc741958f5e1f\workspace\parallelSweepTest.m
+..........................
+
+Average throughput: 255.0kiB/s

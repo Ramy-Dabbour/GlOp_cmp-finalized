@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-11-03T12:00:22.013449+00:00",
+  "job_id": "matlab-glop-cmp-20261028-fixes-r01",
+  "state": "RUNNING",
+  "restored_trials": 27907,
+  "restored_by_task": {
+    "1": 7262,
+    "0": 7590,
+    "2": 7021,
+    "3": 6034
+  },
+  "matlab_pools": 4,
+  "workers_per_pool": 8,
+  "active_workers": 32,
+  "committed_trials": 27936,
+  "new_committed_trials": 29,
+  "remaining_trials": 49824,
+  "pending_upload_errors": 0,
+  "stale_workers": 0,
+  "new_trial_sample_verified": 24224,
+  "source_and_config_identity_match": true,
+  "old_failed_group_target_size": 0,
+  "desktop_monitor_enabled": false,
+  "evidence_directory": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\reliability-fixes-20261028\\cloud-status-20261103T120011Z",
+  "all_recovery_checks_passed": true
+}

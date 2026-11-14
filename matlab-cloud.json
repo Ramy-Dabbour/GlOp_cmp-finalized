@@ -1,0 +1,18 @@
+{
+  "project_key": "glop-cmp",
+  "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+  "entry_points": ["main.m"],
+  "machine_type": "e2-standard-8",
+  "cpu_milli": 8000,
+  "memory_mib": 30000,
+  "batch_mode": "trial_shards",
+  "task_count": "auto",
+  "parallelism": "auto",
+  "task_count_per_node": 1,
+  "workers_per_task": 8,
+  "live_reporting": true,
+  "live_publish_seconds": 15,
+  "local_matlab_executable": "C:/Program Files/MATLAB/R2026a/bin/matlab.exe",
+  "boot_disk_gb": 100,
+  "max_run_seconds": 259200
+}

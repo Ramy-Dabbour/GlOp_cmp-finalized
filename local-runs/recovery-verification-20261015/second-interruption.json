@@ -1,0 +1,24 @@
+{
+  "test": "kill_terminal_supervisor",
+  "killedPid": 23180,
+  "committed": 4,
+  "hashes": [
+    {
+      "Path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-runs\\recovery-verification-20261015\\local-results\\checkpoints\\trial_000000000001.mat",
+      "Hash": "B4BE90CC1482F39FF3A6B1678B2069FE457B1830C2F408B5FB0B0593B6697257"
+    },
+    {
+      "Path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-runs\\recovery-verification-20261015\\local-results\\checkpoints\\trial_000000000002.mat",
+      "Hash": "C6D4FED32B538ED80E7F61DD299049F0DCDC8545C58D70694F596EF7522C545C"
+    },
+    {
+      "Path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-runs\\recovery-verification-20261015\\local-results\\checkpoints\\trial_000000000003.mat",
+      "Hash": "59681DB8BB228CE461D21A116ADD152AE3EFF5C7CEEF92BEAEF30BD78C93250C"
+    },
+    {
+      "Path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-runs\\recovery-verification-20261015\\local-results\\checkpoints\\trial_000000000004.mat",
+      "Hash": "F1F8ED616AC1CB365FCF7FF951C1A679B3FA17616F8E3DF08245375207B09ACC"
+    }
+  ],
+  "timestamp": "2026-10-15T13:18:26.8837952Z"
+}

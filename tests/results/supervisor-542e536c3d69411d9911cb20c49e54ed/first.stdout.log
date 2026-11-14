@@ -1,0 +1,4 @@
+[2026-10-15 16:11:16 +03:00] Local benchmark supervisor PID 5080. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-542e536c3d69411d9911cb20c49e54ed\run\supervisor.log
+Intentional stop: scripts\local-benchmark.cmd Stop. Resume: scripts\local-benchmark.cmd Resume.
+[2026-10-15 16:11:17 +03:00] Started attempt 20261015-131117-161-5080, worker PID 8960. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-542e536c3d69411d9911cb20c49e54ed\run\attempts\20261015-131117-161-5080\matlab.log
+RESUME 0/24

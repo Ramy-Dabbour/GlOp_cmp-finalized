@@ -1,0 +1,16 @@
+{
+  "test": "kill_matlab",
+  "killedPid": 7676,
+  "committed": 2,
+  "hashes": [
+    {
+      "Path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-runs\\recovery-verification-20261015\\local-results\\checkpoints\\trial_000000000001.mat",
+      "Hash": "B4BE90CC1482F39FF3A6B1678B2069FE457B1830C2F408B5FB0B0593B6697257"
+    },
+    {
+      "Path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-runs\\recovery-verification-20261015\\local-results\\checkpoints\\trial_000000000002.mat",
+      "Hash": "C6D4FED32B538ED80E7F61DD299049F0DCDC8545C58D70694F596EF7522C545C"
+    }
+  ],
+  "timestamp": "2026-10-15T13:17:04.0840330Z"
+}

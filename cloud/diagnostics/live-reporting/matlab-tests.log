@@ -1,0 +1,126 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\Dell\Documents\MATLAB\FIR_Photonic_Filter__Global_Optimization\Module_1__RefGen] 
+[Warning: Name is nonexistent or not a directory: C:\Users\Dell\Documents\MATLAB\FIR_Photonic_Filter__Global_Optimization] 
+Running liveReportingTest
+Executing 3 independent trials with 0 pool workers.
+Executing 3 independent trials with 0 pool workers.
+
+================================================================================
+Verification failed in liveReportingTest/completedTrialsRetainAllOutcomesAndScientificData.
+    ---------------------
+    Framework Diagnostic:
+    ---------------------
+    verifyEqual failed.
+    --> Sizes do not match.
+        
+        Actual size:
+             2     1
+        Expected size:
+             1     2
+    
+    Actual Value:
+         1
+         2
+    Expected Value:
+         1     2
+    ------------------
+    Stack Information:
+    ------------------
+    In C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\liveReportingTest.m (liveReportingTest.completedTrialsRetainAllOutcomesAndScientificData) at 22
+================================================================================
+
+================================================================================
+Verification failed in liveReportingTest/completedTrialsRetainAllOutcomesAndScientificData.
+    ---------------------
+    Framework Diagnostic:
+    ---------------------
+    verifyEqual failed.
+    --> Sizes do not match.
+        
+        Actual size:
+             2     1
+        Expected size:
+             1     2
+    
+    Actual Value:
+         3
+         4
+    Expected Value:
+         3     4
+    ------------------
+    Stack Information:
+    ------------------
+    In C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\liveReportingTest.m (liveReportingTest.completedTrialsRetainAllOutcomesAndScientificData) at 23
+================================================================================
+..Executing 1 independent trials with 0 pool workers.
+
+================================================================================
+Verification failed in liveReportingTest/unexpectedExceptionsPublishFailureAndStillFailSweep.
+    ---------------------
+    Framework Diagnostic:
+    ---------------------
+    verifyError failed.
+    --> The function threw the wrong exception.
+        
+        Actual Exception:
+            'MATLAB:maxlhs'
+        Expected Exception:
+            'fixture:Unexpected'
+    --> Actual Error Report:
+            Error using liveReportingTest.throwingTrial
+            Too many output arguments.
+            
+            Error in fpf.runReportedTrial (line 10)
+                    result = runTrial(parameter(1),parameter(2),parameter(4),...
+            
+            Error in fpf.runSweep (line 31)
+                parfor (workIndex = 1:numberOfTests,workerLimit)
+            
+            Error in liveReportingTest>@()fpf.runSweep(config,1,0,RunTrial=@liveReportingTest.throwingTrial,LiveDirectory=folder.Folder) (line 54)
+                        testCase.verifyError(@() fpf.runSweep(config,1,0,...
+    
+    Evaluated Function:
+      function_handle with value:
+    
+        @()fpf.runSweep(config,1,0,RunTrial=@liveReportingTest.throwingTrial,LiveDirectory=folder.Folder)
+    ------------------
+    Stack Information:
+    ------------------
+    In C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\liveReportingTest.m (liveReportingTest.unexpectedExceptionsPublishFailureAndStillFailSweep) at 54
+================================================================================
+
+================================================================================
+Verification failed in liveReportingTest/unexpectedExceptionsPublishFailureAndStillFailSweep.
+    ---------------------
+    Framework Diagnostic:
+    ---------------------
+    verifyEqual failed.
+    --> The character arrays are not equal.
+    
+    Actual char:
+        MATLAB:maxlhs
+    Expected char:
+        fixture:Unexpected
+    ------------------
+    Stack Information:
+    ------------------
+    In C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\liveReportingTest.m (liveReportingTest.unexpectedExceptionsPublishFailureAndStillFailSweep) at 59
+================================================================================
+.Executing 8 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 8 independent trials with 2 pool workers.
+Parallel pool using the 'Processes' profile is shutting down.
+.
+Done liveReportingTest
+__________
+
+Failure Summary:
+
+     Name                                                                   Failed  Incomplete  Reason(s)
+    ====================================================================================================================
+     liveReportingTest/completedTrialsRetainAllOutcomesAndScientificData      X                 Failed by verification.
+    --------------------------------------------------------------------------------------------------------------------
+     liveReportingTest/unexpectedExceptionsPublishFailureAndStillFailSweep    X                 Failed by verification.
+{Error using assert
+Assertion failed.
+} 

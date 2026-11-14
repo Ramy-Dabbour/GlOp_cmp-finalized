@@ -1,0 +1,29 @@
+{
+  "verified_at_utc": "2026-10-27T10:38:31.346564+00:00",
+  "collected_at_utc": "2026-10-27T10:37:10.613120+00:00",
+  "csv_modified_at_utc": "2026-10-27T10:37:03.138835+00:00",
+  "mat_modified_at_utc": "2026-10-27T10:37:46.606975+00:00",
+  "assigned_rows": 77760,
+  "unique_trial_ids": 77760,
+  "completed_trials": 9766,
+  "successful_trials": 1947,
+  "run_identity": {
+    "run_id": "matlab-glop-cmp-20261026-1405",
+    "source_sha256": "32fccb2a1045390fc73044cbeab27fa128f8e195b7060a70009f833508349fa9",
+    "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65"
+  },
+  "checks": {
+    "file_timestamps_stable_during_read": true,
+    "ids_match": true,
+    "ids_cover_1_to_77760": true,
+    "identity_matches_launch": true,
+    "completed_masks_match": true,
+    "all_numeric_fields_match": true,
+    "all_status_strings_match": true
+  },
+  "files": {
+    "csv": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud-results\\matlab-glop-cmp-20261026-1405\\trial_results.csv",
+    "mat": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud-results\\matlab-glop-cmp-20261026-1405\\benchmark_results.mat"
+  },
+  "limitation": "Snapshot of partial exports; execution continues and later exports may contain additional completed trials."
+}

@@ -1,0 +1,12 @@
+Running telemetryRobustnessTest
+...
+Done telemetryRobustnessTest
+__________
+
+                                        Name                                         Passed    Failed    Incomplete    Duration      Details   
+    _____________________________________________________________________________    ______    ______    __________    ________    ____________
+
+    {'telemetryRobustnessTest/lockedWorkerFileDoesNotAbortTheSolver'            }    true      false       false        2.1412     {1×1 struct}
+    {'telemetryRobustnessTest/publishRetriesWhenTheDestinationIsBrieflyLocked'  }    true      false       false       0.80109     {1×1 struct}
+    {'telemetryRobustnessTest/eigNonConvergenceBecomesAPenalizedStage2Candidate'}    true      false       false        2.2163     {1×1 struct}
+

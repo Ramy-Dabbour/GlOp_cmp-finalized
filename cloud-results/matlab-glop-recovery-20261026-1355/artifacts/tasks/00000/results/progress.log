@@ -1,0 +1,50 @@
+[2026-10-26T14:09:06.229Z] RESUME task 0/1: 0/24 cloud-committed; 24 pending.
+[2026-10-26T14:09:49.341Z] START trial 1: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=1
+[2026-10-26T14:09:49.376Z] START trial 2: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=2
+[2026-10-26T14:09:49.389Z] START trial 3: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=3
+[2026-10-26T14:09:49.399Z] START trial 4: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=4
+[2026-10-26T14:09:49.420Z] START trial 5: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=5
+[2026-10-26T14:09:49.427Z] START trial 6: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=6
+[2026-10-26T14:09:49.433Z] START trial 7: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=7
+[2026-10-26T14:09:49.438Z] START trial 8: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=8
+[2026-10-26T14:09:49.560Z] PROGRESS 0/24; successful=0; other=0; active=[1 2 3 4 5 6 7 8]; elapsed=44s
+[2026-10-26T14:09:51.650Z] PROGRESS 0/24; successful=0; other=0; active=[1 2 3 4 5 6 7 8]; elapsed=47s
+[2026-10-26T14:09:53.895Z] DURABLE trial 3: failed error=NaN evaluations=0 | 1/24; MAT+CSV published
+[2026-10-26T14:09:53.899Z] START trial 9: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=9
+[2026-10-26T14:09:54.102Z] DURABLE trial 4: succeeded error=1 evaluations=38 | 2/24; MAT+CSV published
+[2026-10-26T14:09:54.106Z] START trial 10: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=10
+[2026-10-26T14:09:54.156Z] DURABLE trial 5: succeeded error=1 evaluations=40 | 3/24; MAT+CSV published
+[2026-10-26T14:11:32.216Z] RESUME task 0/1: 10/24 cloud-committed; 14 pending.
+[2026-10-26T14:12:29.067Z] START trial 11: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=11
+[2026-10-26T14:12:29.116Z] START trial 12: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=12
+[2026-10-26T14:12:29.139Z] START trial 13: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=13
+[2026-10-26T14:12:29.152Z] START trial 14: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=14
+[2026-10-26T14:12:29.183Z] START trial 15: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=15
+[2026-10-26T14:12:29.189Z] START trial 16: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=16
+[2026-10-26T14:12:29.195Z] START trial 17: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=17
+[2026-10-26T14:12:29.201Z] START trial 18: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=18
+[2026-10-26T14:12:29.265Z] PROGRESS 10/24; successful=6; other=4; active=[11 12 13 14 15 16 17 18]; elapsed=59s
+[2026-10-26T14:12:31.363Z] PROGRESS 10/24; successful=6; other=4; active=[11 12 13 14 15 16 17 18]; elapsed=61s
+[2026-10-26T14:12:33.429Z] PROGRESS 10/24; successful=6; other=4; active=[11 12 13 14 15 16 17 18]; elapsed=63s
+[2026-10-26T14:12:34.101Z] DURABLE trial 14: succeeded error=1 evaluations=58 | 11/24; MAT+CSV published
+[2026-10-26T14:12:34.108Z] START trial 19: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=19
+[2026-10-26T14:12:34.332Z] DURABLE trial 17: failed error=NaN evaluations=0 | 12/24; MAT+CSV published
+[2026-10-26T14:12:34.338Z] START trial 20: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=20
+[2026-10-26T14:12:34.404Z] DURABLE trial 18: succeeded error=1 evaluations=66 | 13/24; MAT+CSV published
+[2026-10-26T14:12:34.408Z] START trial 21: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=21
+[2026-10-26T14:12:34.595Z] DURABLE trial 11: succeeded error=1 evaluations=52 | 14/24; MAT+CSV published
+[2026-10-26T14:12:34.601Z] START trial 22: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=22
+[2026-10-26T14:12:34.656Z] DURABLE trial 12: succeeded error=1 evaluations=54 | 15/24; MAT+CSV published
+[2026-10-26T14:12:34.661Z] START trial 23: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=23
+[2026-10-26T14:12:34.721Z] DURABLE trial 13: succeeded error=1 evaluations=56 | 16/24; MAT+CSV published
+[2026-10-26T14:12:34.726Z] START trial 24: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=24
+[2026-10-26T14:12:34.778Z] DURABLE trial 15: succeeded error=1 evaluations=60 | 17/24; MAT+CSV published
+[2026-10-26T14:12:34.836Z] DURABLE trial 16: nonconverged error=1 evaluations=62 | 18/24; MAT+CSV published
+[2026-10-26T14:12:34.982Z] DURABLE trial 19: succeeded error=1 evaluations=68 | 19/24; MAT+CSV published
+[2026-10-26T14:12:35.533Z] DURABLE trial 20: succeeded error=1 evaluations=70 | 20/24; MAT+CSV published
+[2026-10-26T14:12:35.589Z] DURABLE trial 21: succeeded error=1 evaluations=72 | 21/24; MAT+CSV published
+[2026-10-26T14:12:35.605Z] PROGRESS 21/24; successful=15; other=6; active=[22 23 24]; elapsed=65s
+[2026-10-26T14:12:36.253Z] DURABLE trial 22: succeeded error=1 evaluations=74 | 22/24; MAT+CSV published
+[2026-10-26T14:12:36.297Z] DURABLE trial 23: nonconverged error=1 evaluations=76 | 23/24; MAT+CSV published
+[2026-10-26T14:12:36.336Z] DURABLE trial 24: failed error=NaN evaluations=0 | 24/24; MAT+CSV published
+[2026-10-26T14:12:36.482Z] COMPLETED: 24/24 durable trials.

@@ -1,0 +1,27 @@
+{
+  "verified_at_utc": "2026-10-27T18:14:23.831069+00:00",
+  "desktop_status": "stopped",
+  "completed_trials": 5182,
+  "mat_readable": true,
+  "csv_readable": true,
+  "automatic_restart_suppressed": true,
+  "attempt_exit": {
+    "attempt": "20261026-222726-715-13476",
+    "finished_utc": "2026-10-27T18:12:58.6058261Z",
+    "reattached": false,
+    "outcome": "stopped",
+    "exit_code": 0
+  },
+  "cloud_verification": {
+    "source": "Fresh Google Cloud Console job details observed in Chrome during this turn",
+    "job_id": "matlab-glop-cmp-20261026-1405",
+    "status": "Running",
+    "tasks_running": 4,
+    "tasks_failed": 0
+  },
+  "limitations": [
+    "Cloud is a separate replication, not an import of desktop checkpoints.",
+    "The cloud source still has the mandatory half-band model; no architecture correction has been deployed.",
+    "Cloud tasks and checkpoint publisher run independently; desktop monitoring, local downloads and job-level replacement require the device and valid CLI authentication."
+  ]
+}

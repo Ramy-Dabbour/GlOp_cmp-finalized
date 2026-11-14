@@ -1,0 +1,162 @@
+{
+  "statuses": [
+    {
+      "id": "A1",
+      "status": "applied"
+    },
+    {
+      "id": "A2",
+      "status": "applied"
+    },
+    {
+      "id": "A3",
+      "status": "applied"
+    },
+    {
+      "id": "A4",
+      "status": "skipped by switch"
+    },
+    {
+      "id": "B1",
+      "status": "applied"
+    },
+    {
+      "id": "B2",
+      "status": "applied"
+    },
+    {
+      "id": "B3",
+      "status": "applied"
+    },
+    {
+      "id": "B4a",
+      "status": "applied"
+    },
+    {
+      "id": "B4b",
+      "status": "applied"
+    },
+    {
+      "id": "B4c",
+      "status": "applied"
+    },
+    {
+      "id": "B5a",
+      "status": "applied"
+    },
+    {
+      "id": "B5b",
+      "status": "applied"
+    },
+    {
+      "id": "B5c",
+      "status": "applied"
+    },
+    {
+      "id": "B6a",
+      "status": "applied"
+    },
+    {
+      "id": "B6b",
+      "status": "applied"
+    },
+    {
+      "id": "B7a",
+      "status": "applied"
+    },
+    {
+      "id": "B7b",
+      "status": "applied"
+    },
+    {
+      "id": "B7c",
+      "status": "applied"
+    },
+    {
+      "id": "B8",
+      "status": "applied"
+    },
+    {
+      "id": "B9",
+      "status": "applied"
+    },
+    {
+      "id": "B10",
+      "status": "applied"
+    },
+    {
+      "id": "B11a",
+      "status": "applied"
+    },
+    {
+      "id": "B11b",
+      "status": "applied"
+    },
+    {
+      "id": "A5",
+      "status": "applied"
+    },
+    {
+      "id": "B12",
+      "status": "applied"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\+fpf\\TrialReporter.m",
+      "sha256_before": "6a2889502356d54dac3fa80bc27d3979371402cf82e0a01fd8c5aac8337a81ae",
+      "sha256_after": "9b4662cb0757fed2e4d2afae277a9a47b149aeaa69d7d9cc743575bd0fda4bee",
+      "added": 11,
+      "removed": 2
+    },
+    {
+      "path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\+fpf\\writeLiveJson.m",
+      "sha256_before": "db4da2de970891b4f6ee441fdbf88c7e3d210f7006269a96eb067b05e495a66e",
+      "sha256_after": "c068c62801517a4a67f02e66da337f94d964ed3c4b63f7c7fc0260c584d6c019",
+      "added": 8,
+      "removed": 1
+    },
+    {
+      "path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\+fpf\\complexHarmonicExtrema.m",
+      "sha256_before": "1e6ce6dd26dd56599fb3792f225c6b2ff85bbf77aec19e289afb98b53580a6fe",
+      "sha256_after": "6c7719c97f7debddb75bfcf23f5d1c959e639592854cf22159dd1db29919b89f",
+      "added": 12,
+      "removed": 1
+    },
+    {
+      "path": "C:\\Users\\Dell\\Documents\\analysis_pkg\\fpf_analysis.py",
+      "sha256_before": "7e66d05f5a3943f09ee53a5732a44f96ae94666a54e4361bd2fc83f04c209f5b",
+      "sha256_after": "8043cef61b0536df0f24ecb18c534e5677f061cc1fe92796be126b872cdcb11b",
+      "added": 42,
+      "removed": 20
+    },
+    {
+      "path": "C:\\Users\\Dell\\Documents\\analysis_pkg\\README_analysis.md",
+      "sha256_before": "74f863a72166a56391a6aa87de38eabeeebfbe7a187bc6eec5bba4c0459166d4",
+      "sha256_after": "4ecf9885e1e83ebe2ac65088858e7bf5bb7f064033ccd5254aab45270c6c1a08",
+      "added": 4,
+      "removed": 3
+    },
+    {
+      "path": "C:\\Users\\Dell\\Documents\\analysis_pkg\\analysis_plan.json",
+      "sha256_before": "d01e93d27dc62809269d3d745ccf279ca0d11ce0a3f4415d335c84f9d99db77e",
+      "sha256_after": "d51c49917e8ccd3cb4cd9d3d766b6e92eac7e281a286aa5d825134bf627f908d",
+      "added": 18,
+      "removed": 4
+    },
+    {
+      "path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\tests\\telemetryRobustnessTest.m",
+      "sha256_before": null,
+      "sha256_after": "805a04a4aa6e88098316c1b2871cf5244c31161ffaa0f917c7049d4eb5905e1d",
+      "added": 78,
+      "removed": 0
+    }
+  ],
+  "inputs": {
+    "PROGRAM_DIR": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp",
+    "ANALYSIS_DIR": "C:\\Users\\Dell\\Documents\\analysis_pkg",
+    "CONFIRM_NO_RUN_IN_PROGRESS": true,
+    "APPLY_A4_STAGE1_EIG_GUARD": false,
+    "COMMIT": false
+  }
+}

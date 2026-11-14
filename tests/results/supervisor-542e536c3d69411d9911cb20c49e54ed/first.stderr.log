@@ -1,0 +1,5 @@
+C:\Users\Dell\Documents\MATLAB\GlOp_cmp\scripts\local-benchmark.ps1 : Exception calling "Replace" with "3" 
+argument(s): "The path is not of a legal form."
+    + CategoryInfo          : NotSpecified: (:) [local-benchmark.ps1], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentException,local-benchmark.ps1
+ 

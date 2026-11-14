@@ -1,0 +1,8 @@
+{
+  "job_id": "matlab-storage-smoke-20261005-205327",
+  "config": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud\\diagnostics\\matlab-storage-smoke-20261005-205327.json",
+  "output_uri": "gs://strange-reducer-509621-e8-matlab-glop-cmp/diagnostics/matlab-storage-smoke-20261005-205327",
+  "source_uri": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261005-201941-8ae913/source",
+  "project": "strange-reducer-509621-e8",
+  "region": "us-central1"
+}

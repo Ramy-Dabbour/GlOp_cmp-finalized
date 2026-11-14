@@ -1,0 +1,29 @@
+[2026-10-15T13:17:27.716Z] RESUME: 2/8 committed trials; 6 pending. Outputs: C:/Users/Dell/Documents/MATLAB/GlOp_cmp/local-runs/recovery-verification-20261015
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+[2026-10-15T13:17:58.410Z] START trial 3/8: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=3
+[2026-10-15T13:17:58.463Z] START trial 4/8: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=4
+[2026-10-15T13:17:58.571Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=32s
+[2026-10-15T13:18:01.726Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=35s
+[2026-10-15T13:18:01.745Z] WORKER 21120 trial=3 stage=reference evaluations=0 best=NaN elapsed=0s last_update=2026-10-15T13:17:58.663Z
+[2026-10-15T13:18:01.753Z] WORKER 21740 trial=4 stage=reference evaluations=0 best=NaN elapsed=0s last_update=2026-10-15T13:17:58.733Z
+[2026-10-15T13:18:04.877Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=39s
+[2026-10-15T13:18:04.888Z] WORKER 21120 trial=3 stage=reference evaluations=47 best=0.0212765957 elapsed=5s last_update=2026-10-15T13:18:03.747Z
+[2026-10-15T13:18:04.898Z] WORKER 21740 trial=4 stage=reference evaluations=48 best=0.0208333333 elapsed=5s last_update=2026-10-15T13:18:03.878Z
+[2026-10-15T13:18:08.009Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=42s
+[2026-10-15T13:18:08.018Z] WORKER 21120 trial=3 stage=reference evaluations=47 best=0.0212765957 elapsed=5s last_update=2026-10-15T13:18:03.747Z
+[2026-10-15T13:18:08.024Z] WORKER 21740 trial=4 stage=reference evaluations=48 best=0.0208333333 elapsed=5s last_update=2026-10-15T13:18:03.878Z
+[2026-10-15T13:18:11.140Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=45s
+[2026-10-15T13:18:11.149Z] WORKER 21120 trial=3 stage=reference evaluations=94 best=0.0106382979 elapsed=10s last_update=2026-10-15T13:18:08.775Z
+[2026-10-15T13:18:11.156Z] WORKER 21740 trial=4 stage=reference evaluations=96 best=0.0104166667 elapsed=10s last_update=2026-10-15T13:18:08.995Z
+[2026-10-15T13:18:14.370Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=48s
+[2026-10-15T13:18:14.383Z] WORKER 21120 trial=3 stage=reference evaluations=140 best=0.00714285714 elapsed=15s last_update=2026-10-15T13:18:13.807Z
+[2026-10-15T13:18:14.390Z] WORKER 21740 trial=4 stage=reference evaluations=143 best=0.00699300699 elapsed=16s last_update=2026-10-15T13:18:14.129Z
+[2026-10-15T13:18:17.505Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=51s
+[2026-10-15T13:18:17.512Z] WORKER 21120 trial=3 stage=reference evaluations=140 best=0.00714285714 elapsed=15s last_update=2026-10-15T13:18:13.807Z
+[2026-10-15T13:18:17.517Z] WORKER 21740 trial=4 stage=reference evaluations=143 best=0.00699300699 elapsed=16s last_update=2026-10-15T13:18:14.129Z
+[2026-10-15T13:18:20.645Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=54s
+[2026-10-15T13:18:20.653Z] WORKER 21120 trial=3 stage=reference evaluations=187 best=0.00534759358 elapsed=20s last_update=2026-10-15T13:18:18.849Z
+[2026-10-15T13:18:23.902Z] PROGRESS 2/8 (25.000%); successful=2; other=0; active=[3 4]; elapsed=58s
+[2026-10-15T13:18:26.265Z] SAVED trial 4: success=0 error=0 evaluations=0 | 3/8 (37.500%); MAT+CSV committed
+[2026-10-15T13:18:26.302Z] START trial 5/8: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=5

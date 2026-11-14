@@ -1,0 +1,9 @@
+{
+  "job_id": "matlab-glop-live-smoke-20261007-094350-9c2a5c",
+  "task_count": 1,
+  "inventory_sha256": "78bfc741958f5e1f6277acbbdb3323de551e62bfc70b7495ccbadfff7208914a",
+  "sha256": {
+    "benchmark_results.mat": "eaaaa279d8c563e1dfdd6eebcf70f21323dcffc6af88d024488bfb42672e31e8",
+    "benchmark_results.csv": "bcd546212a497f5f85e22affaa763e234ed241ad64ffb1160da7fa0b9e8cbbbe"
+  }
+}

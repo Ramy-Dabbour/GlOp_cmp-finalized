@@ -1,0 +1,289 @@
+Running liveReportingTest
+......Executing 3 independent trials with 0 pool workers.
+Executing 3 independent trials with 0 pool workers.
+..Executing 1 independent trials with 0 pool workers.
+.Executing 1 independent trials with 0 pool workers.
+. Executing 8 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 8 independent trials with 2 pool workers.
+Parallel pool using the 'Processes' profile is shutting down.
+.
+Done liveReportingTest
+__________
+
+Running localCheckpointTest
+Executing 5 independent trials with 0 pool workers.
+[2026-10-28T17:45:51.807Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp310ae590_a15d_4f73_b5f7_bf91ad697189
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+[2026-10-28T17:46:17.633Z] START trial 1/5: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=1
+[2026-10-28T17:46:17.653Z] START trial 2/5: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=2
+[2026-10-28T17:46:17.721Z] PROGRESS 0/5 (0.000%); successful=0; other=0; active=[1 2]; elapsed=27s
+[2026-10-28T17:46:18.821Z] PROGRESS 0/5 (0.000%); successful=0; other=0; active=[1 2]; elapsed=28s
+[2026-10-28T17:46:19.950Z] PROGRESS 0/5 (0.000%); successful=0; other=0; active=[1 2]; elapsed=29s
+[2026-10-28T17:46:21.019Z] PROGRESS 0/5 (0.000%); successful=0; other=0; active=[1 2]; elapsed=30s
+[2026-10-28T17:46:22.161Z] PROGRESS 0/5 (0.000%); successful=0; other=0; active=[1 2]; elapsed=31s
+[2026-10-28T17:46:23.192Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-28T17:46:23.207Z] START trial 3/5: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=3
+[2026-10-28T17:46:23.415Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-28T17:46:23.427Z] START trial 4/5: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=4
+[2026-10-28T17:46:23.446Z] PROGRESS 2/5 (40.000%); successful=2; other=0; active=[3 4]; elapsed=33s
+[2026-10-28T17:46:23.464Z] WORKER 17004 trial=4 stage=starting evaluations=0 best=NaN elapsed=0s last_update=2026-10-28T17:46:23.435Z
+[2026-10-28T17:46:23.812Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-28T17:46:23.833Z] START trial 5/5: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=5
+[2026-10-28T17:46:24.056Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-28T17:46:24.378Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-28T17:46:24.691Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+[2026-10-28T17:46:24.853Z] RESUME: 5/5 committed trials; 0 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp310ae590_a15d_4f73_b5f7_bf91ad697189
+[2026-10-28T17:46:24.901Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+Parallel pool using the 'Processes' profile is shutting down.
+.Executing 5 independent trials with 0 pool workers.
+[2026-10-28T17:46:32.156Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp1756ec04_094c_4c73_8320_995a6326371f
+[2026-10-28T17:46:32.164Z] START trial 1/5
+[2026-10-28T17:46:32.304Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-28T17:46:32.311Z] START trial 2/5
+[2026-10-28T17:46:34.888Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-28T17:46:34.894Z] START trial 3/5
+[2026-10-28T17:46:35.276Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-28T17:46:35.283Z] START trial 4/5
+[2026-10-28T17:46:35.606Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-28T17:46:35.612Z] START trial 5/5
+[2026-10-28T17:46:35.886Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-28T17:46:35.932Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+.Executing 5 independent trials with 0 pool workers.
+[2026-10-28T17:46:36.795Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp1cdf8e26_adc5_4363_afbc_8e81ec92bcc9
+[2026-10-28T17:46:36.803Z] START trial 1/5
+[2026-10-28T17:46:36.902Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-28T17:46:36.909Z] START trial 2/5
+[2026-10-28T17:46:37.054Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-28T17:46:37.059Z] START trial 3/5
+[2026-10-28T17:46:37.150Z] ERROR fixture:Interrupted: Simulated interruption at trial 3.. Committed trials remain available for resume.
+[2026-10-28T17:46:37.379Z] RESUME: 2/5 committed trials; 3 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp1cdf8e26_adc5_4363_afbc_8e81ec92bcc9
+[2026-10-28T17:46:37.391Z] START trial 3/5
+[2026-10-28T17:46:37.521Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-28T17:46:37.526Z] START trial 4/5
+[2026-10-28T17:46:37.651Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-28T17:46:37.658Z] START trial 5/5
+[2026-10-28T17:46:37.790Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-28T17:46:37.844Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+.[2026-10-28T17:46:38.161Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpd120b33e_2948_43e1_8e6b_3789e29c2dc9
+[2026-10-28T17:46:38.168Z] START trial 1/5
+[2026-10-28T17:46:38.270Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-28T17:46:38.275Z] START trial 2/5
+[2026-10-28T17:46:38.408Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-28T17:46:38.413Z] START trial 3/5
+[2026-10-28T17:46:38.550Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-28T17:46:38.557Z] START trial 4/5
+[2026-10-28T17:46:38.693Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-28T17:46:38.699Z] START trial 5/5
+[2026-10-28T17:46:38.828Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-28T17:46:38.870Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+.[2026-10-28T17:46:39.171Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp06be5545_01ea_4adf_82bd_9ace655327b6
+[2026-10-28T17:46:39.178Z] START trial 1/5
+[2026-10-28T17:46:39.282Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-28T17:46:39.288Z] START trial 2/5
+[2026-10-28T17:46:39.423Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-28T17:46:39.429Z] START trial 3/5
+[2026-10-28T17:46:39.566Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-28T17:46:39.573Z] START trial 4/5
+[2026-10-28T17:46:39.725Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-28T17:46:39.732Z] START trial 5/5
+[2026-10-28T17:46:39.874Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-28T17:46:39.921Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+[2026-10-28T17:46:40.039Z] ERROR fpf:CorruptCheckpoint: Invalid checkpoint C:\Users\Dell\AppData\Local\Temp\tp06be5545_01ea_4adf_82bd_9ace655327b6\local-results\checkpoints\trial_000000000002.mat: Unable to read file "C:\Users\Dell\AppData\Local\Temp\tp06be5545_01ea_4adf_82bd_9ace655327b6\local-results\checkpoints\trial_000000000002.mat".. Committed trials remain available for resume.
+.[2026-10-28T17:46:40.243Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpc04cc421_ae46_4f99_bd65_a69337bf33b5
+[2026-10-28T17:46:40.250Z] START trial 1/5
+[2026-10-28T17:46:40.345Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-28T17:46:40.351Z] START trial 2/5
+[2026-10-28T17:46:40.469Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-28T17:46:40.474Z] START trial 3/5
+[2026-10-28T17:46:40.608Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-28T17:46:40.614Z] START trial 4/5
+[2026-10-28T17:46:40.759Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-28T17:46:40.767Z] START trial 5/5
+[2026-10-28T17:46:40.904Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-28T17:46:40.954Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+[2026-10-28T17:46:41.088Z] ERROR fpf:CorruptCheckpoint: Invalid checkpoint C:\Users\Dell\AppData\Local\Temp\tpc04cc421_ae46_4f99_bd65_a69337bf33b5\local-results\checkpoints\trial_000000000002.mat: Assertion failed.. Committed trials remain available for resume.
+.[2026-10-28T17:46:41.345Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpf432727e_c9fd_43e2_86ae_c199d647d875
+[2026-10-28T17:46:41.354Z] START trial 1/5
+[2026-10-28T17:46:41.463Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-28T17:46:41.469Z] START trial 2/5
+[2026-10-28T17:46:41.593Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-28T17:46:41.599Z] START trial 3/5
+[2026-10-28T17:46:41.683Z] ERROR fixture:Interrupted: Simulated interruption at trial 3.. Committed trials remain available for resume.
+[2026-10-28T17:46:41.800Z] RESUME: 2/5 committed trials; 3 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpf432727e_c9fd_43e2_86ae_c199d647d875
+[2026-10-28T17:46:41.806Z] START trial 3/5
+[2026-10-28T17:46:41.931Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-28T17:46:41.939Z] START trial 4/5
+[2026-10-28T17:46:42.082Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-28T17:46:42.089Z] START trial 5/5
+[2026-10-28T17:46:42.239Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-28T17:46:42.286Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+[2026-10-28T17:46:42.443Z] RESUME: 5/5 committed trials; 0 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpf432727e_c9fd_43e2_86ae_c199d647d875
+[2026-10-28T17:46:42.502Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+.
+Done localCheckpointTest
+__________
+
+Running parallelSweepTest
+Starting parallel pool (parpool) using the 'Processes' profile ...
+28-Oct-2026 20:47:46: Job Queued. Waiting for parallel pool job with ID 5 to start ...
+Connected to parallel pool with 8 workers.
+Batch pool: 8 process workers, one computational thread per worker.
+Parallel pool using the 'Processes' profile is shutting down.
+.Executing 96 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 96 independent trials with 2 pool workers.
+Parallel pool using the 'Processes' profile is shutting down.
+....Executing 96 independent trials with 0 pool workers.
+..Executing 0 independent trials with 0 pool workers.
+... .......
+Done parallelSweepTest
+__________
+
+Running telemetryRobustnessTest
+
+================================================================================
+Error occurred in telemetryRobustnessTest/lockedWorkerFileDoesNotAbortTheSolver and it did not run to completion.
+    ---------
+    Error ID:
+    ---------
+    'MATLAB:fopen:FopenAllStagedRemoval'
+    --------------
+    Error Details:
+    --------------
+    Error using fopen
+    The 'all' option will be removed in a future release. For a list of all open file identifiers, use the openedFiles function instead.
+    
+    Error in telemetryRobustnessTest.closeIfOpen (line 62)
+                if any(fopen('all') == fid)
+    
+    Error in telemetryRobustnessTest/lockedWorkerFileDoesNotAbortTheSolver (line 23)
+                telemetryRobustnessTest.closeIfOpen(holder);
+================================================================================
+
+================================================================================
+Error occurred in telemetryRobustnessTest/lockedWorkerFileDoesNotAbortTheSolver and it did not run to completion.
+    ---------
+    Error ID:
+    ---------
+    'MATLAB:fopen:FopenAllStagedRemoval'
+    --------------
+    Error Details:
+    --------------
+    Error using fopen
+    The 'all' option will be removed in a future release. For a list of all open file identifiers, use the openedFiles function instead.
+    
+    Error in telemetryRobustnessTest.closeIfOpen (line 62)
+                if any(fopen('all') == fid)
+    
+    Error in telemetryRobustnessTest>@()telemetryRobustnessTest.closeIfOpen(holder) (line 21)
+                testCase.addTeardown(@() telemetryRobustnessTest.closeIfOpen(holder));
+================================================================================
+[Warning: Deletion of "C:\Users\Dell\AppData\Local\Temp\tp18338d0c_125b_4ebb_8b3e_7fcbe59f250e" failed. Caused by:
+No directories were removed.] 
+[]
+.Error while evaluating TimerFcn for timer 'timer-1'
+
+The 'all' option will be removed in a future release. For a list of all open file identifiers, use the openedFiles function instead.
+
+================================================================================
+Error occurred in telemetryRobustnessTest/publishRetriesWhenTheDestinationIsBrieflyLocked and it did not run to completion.
+    ---------
+    Error ID:
+    ---------
+    'fpf:TelemetryWrite'
+    --------------
+    Error Details:
+    --------------
+    Error using fpf.writeLiveJson (line 20)
+    Cannot publish live record: The process cannot access the file because it is being used by another process.
+    
+    
+    Error in telemetryRobustnessTest/publishRetriesWhenTheDestinationIsBrieflyLocked (line 38)
+                fpf.writeLiveJson(target,struct('a',2));
+================================================================================
+
+================================================================================
+Error occurred in telemetryRobustnessTest/publishRetriesWhenTheDestinationIsBrieflyLocked and it did not run to completion.
+    ---------
+    Error ID:
+    ---------
+    'MATLAB:fopen:FopenAllStagedRemoval'
+    --------------
+    Error Details:
+    --------------
+    Error using fopen
+    The 'all' option will be removed in a future release. For a list of all open file identifiers, use the openedFiles function instead.
+    
+    Error in telemetryRobustnessTest.closeIfOpen (line 62)
+                if any(fopen('all') == fid)
+    
+    Error in telemetryRobustnessTest>@()telemetryRobustnessTest.closeIfOpen(holder) (line 33)
+                testCase.addTeardown(@() telemetryRobustnessTest.closeIfOpen(holder));
+================================================================================
+[Warning: Deletion of "C:\Users\Dell\AppData\Local\Temp\tp248d285b_2218_4f20_aaea_0a678e9933e7" failed. Caused by:
+No directories were removed.] 
+[]
+..
+Done telemetryRobustnessTest
+__________
+
+Failure Summary:
+
+     Name                                                                     Failed  Incomplete  Reason(s)
+    ========================================================================================================
+     telemetryRobustnessTest/lockedWorkerFileDoesNotAbortTheSolver              X         X       Errored.
+    --------------------------------------------------------------------------------------------------------
+     telemetryRobustnessTest/publishRetriesWhenTheDestinationIsBrieflyLocked    X         X       Errored.
+                                                 Name                                                  Passed    Failed    Incomplete    Duration      Details   
+    _______________________________________________________________________________________________    ______    ______    __________    ________    ____________
+
+    {'liveReportingTest/everySolverCanSerializeItsDiagnostics(solverIndex=ga)'                    }    true      false       false         7.2768    {1×1 struct}
+    {'liveReportingTest/everySolverCanSerializeItsDiagnostics(solverIndex=particleswarm)'         }    true      false       false        0.70088    {1×1 struct}
+    {'liveReportingTest/everySolverCanSerializeItsDiagnostics(solverIndex=surrogateopt)'          }    true      false       false         6.0601    {1×1 struct}
+    {'liveReportingTest/everySolverCanSerializeItsDiagnostics(solverIndex=simulannealbnd)'        }    true      false       false         2.3882    {1×1 struct}
+    {'liveReportingTest/everySolverCanSerializeItsDiagnostics(solverIndex=patternsearch)'         }    true      false       false          4.184    {1×1 struct}
+    {'liveReportingTest/everySolverCanSerializeItsDiagnostics(solverIndex=paretosearch)'          }    true      false       false         11.595    {1×1 struct}
+    {'liveReportingTest/completedTrialsRetainAllOutcomesAndScientificData'                        }    true      false       false         4.5875    {1×1 struct}
+    {'liveReportingTest/objectiveTrackingPreservesSolverOutputAndCounts'                          }    true      false       false        0.90687    {1×1 struct}
+    {'liveReportingTest/unexpectedExceptionsPublishFailureAndStillFailSweep'                      }    true      false       false        0.68582    {1×1 struct}
+    {'liveReportingTest/realTwoStageTrialPreservesNumericalResults'                               }    true      false       false         13.423    {1×1 struct}
+    {'liveReportingTest/processWorkersWriteEveryTrialExactlyOnce'                                 }    true      false       false         60.679    {1×1 struct}
+    {'localCheckpointTest/localProcessWorkersPersistResultsAndResumeWithoutRepeats'               }    true      false       false          48.22    {1×1 struct}
+    {'localCheckpointTest/publishesEveryTrialBeforeStartingTheNext'                               }    true      false       false         4.6463    {1×1 struct}
+    {'localCheckpointTest/interruptionKeepsPartialOutputsAndResumeSkipsCommittedTrials'           }    true      false       false         1.4289    {1×1 struct}
+    {'localCheckpointTest/changedConfigurationCannotReuseCheckpoints'                             }    true      false       false         1.0051    {1×1 struct}
+    {'localCheckpointTest/corruptedCheckpointStopsBeforeAnotherTrial(corruption=unreadableFile)'  }    true      false       false         1.0831    {1×1 struct}
+    {'localCheckpointTest/corruptedCheckpointStopsBeforeAnotherTrial(corruption=incorrectTrialId)'}    true      false       false         1.0578    {1×1 struct}
+    {'localCheckpointTest/committedTrialsRebuildStaleMatAndMissingCsv'                            }    true      false       false         1.8487    {1×1 struct}
+    {'parallelSweepTest/batchPoolUsesEveryAllocatedVcpuWithOneThread'                             }    true      false       false         105.28    {1×1 struct}
+    {'parallelSweepTest/processPoolMatchesSerialWithSeededTrials'                                 }    true      false       false         41.758    {1×1 struct}
+    {'parallelSweepTest/mapsEveryTrialInOriginalLoopOrder'                                        }    true      false       false        0.10048    {1×1 struct}
+    {'parallelSweepTest/mapsReorderedSubsetAcrossDimensionBoundaries'                             }    true      false       false       0.014836    {1×1 struct}
+    {'parallelSweepTest/fiveThousandBatchTasksCoverDefaultSweepExactlyOnce'                       }    true      false       false        0.62215    {1×1 struct}
+    {'parallelSweepTest/serialSweepMatchesIndependentNestedLoopOracle'                            }    true      false       false        0.47836    {1×1 struct}
+    {'parallelSweepTest/sweepRejectsDuplicateGlobalTrials'                                        }    true      false       false       0.037413    {1×1 struct}
+    {'parallelSweepTest/emptyBatchAssignmentProducesEmptyResultColumns'                           }    true      false       false        0.10441    {1×1 struct}
+    {'parallelSweepTest/failedTrialsStayInDenominatorAndContributeNoMetrics'                      }    true      false       false        0.21466    {1×1 struct}
+    {'parallelSweepTest/summaryMatchesOriginalGroupedFloatingPointSums'                           }    true      false       false         0.2645    {1×1 struct}
+    {'parallelSweepTest/summaryRejectsIncompleteOrDuplicateWork(invalidCoverage=missing)'         }    true      false       false        0.22149    {1×1 struct}
+    {'parallelSweepTest/summaryRejectsIncompleteOrDuplicateWork(invalidCoverage=duplicate)'       }    true      false       false        0.19748    {1×1 struct}
+    {'parallelSweepTest/mergesInterleavedShardsAndWritesMatchingMatAndCsv'                        }    true      false       false         1.1277    {1×1 struct}
+    {'parallelSweepTest/mergeRejectsInvalidShardSets(invalidShards=missing)'                      }    true      false       false        0.40118    {1×1 struct}
+    {'parallelSweepTest/mergeRejectsInvalidShardSets(invalidShards=duplicateTask)'                }    true      false       false        0.36726    {1×1 struct}
+    {'parallelSweepTest/mergeRejectsInvalidShardSets(invalidShards=configuration)'                }    true      false       false        0.28543    {1×1 struct}
+    {'parallelSweepTest/mergeRejectsInvalidShardSets(invalidShards=taskCount)'                    }    true      false       false        0.80552    {1×1 struct}
+    {'telemetryRobustnessTest/lockedWorkerFileDoesNotAbortTheSolver'                              }    false     true        true          6.6401    {1×1 struct}
+    {'telemetryRobustnessTest/publishRetriesWhenTheDestinationIsBrieflyLocked'                    }    false     true        true          6.2324    {1×1 struct}
+    {'telemetryRobustnessTest/eigNonConvergenceBecomesAPenalizedStage2Candidate'                  }    true      false       false        0.85684    {1×1 struct}
+
+{Error using assert
+At least one test failed in the test session.
+
+Error in matlab.unittest.internal.BaseTestResult/assertSuccess (line 126)
+             assert(~any([resultArray.Failed]),message('MATLAB:unittest:TestResult:UnsuccessfulRun'));
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

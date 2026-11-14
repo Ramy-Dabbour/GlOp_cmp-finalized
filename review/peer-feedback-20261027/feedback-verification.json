@@ -1,0 +1,369 @@
+{
+  "verified_at_utc": "2026-10-27T16:32:31.768651+00:00",
+  "source_csv": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\review\\peer-feedback-20261026\\checkpoint-reconstruction.csv",
+  "source_csv_sha256": "58ec485359745aefd53da52d1932666a863537cfdd75e0c5a12e65680dd96e01",
+  "selection": "Global trial IDs 1..4947 inclusive; all returned valid Stage-2 results; no exit-flag filter.",
+  "trials": 4947,
+  "returned_stage2": 4938,
+  "legacy_successes": 1042,
+  "returned_nonsuccesses": 3896,
+  "stage2_groups": [
+    {
+      "solver": "ga",
+      "returned": 839,
+      "mean_end_to_end_error": 0.591365991630074,
+      "median_end_to_end_error": 0.5520784698359296,
+      "mean_stage2_seconds": 186.4593818603099,
+      "median_stage2_seconds": 160.1779997
+    },
+    {
+      "solver": "paretosearch",
+      "returned": 817,
+      "mean_end_to_end_error": 0.5924192375328966,
+      "median_end_to_end_error": 0.5539864849393125,
+      "mean_stage2_seconds": 90.6630111,
+      "median_stage2_seconds": 84.6981398
+    },
+    {
+      "solver": "particleswarm",
+      "returned": 822,
+      "mean_end_to_end_error": 0.591413126898564,
+      "median_end_to_end_error": 0.5514309470195192,
+      "mean_stage2_seconds": 663.4768825155718,
+      "median_stage2_seconds": 321.87370475
+    },
+    {
+      "solver": "patternsearch",
+      "returned": 820,
+      "mean_end_to_end_error": 0.5915851083719084,
+      "median_end_to_end_error": 0.552209676082495,
+      "mean_stage2_seconds": 14.045118708536585,
+      "median_stage2_seconds": 12.37183385
+    },
+    {
+      "solver": "simulannealbnd",
+      "returned": 820,
+      "mean_end_to_end_error": 0.6195879328151283,
+      "median_end_to_end_error": 0.6005309767185052,
+      "mean_stage2_seconds": 0.759290061707317,
+      "median_stage2_seconds": 0.6175451000000001
+    },
+    {
+      "solver": "surrogateopt",
+      "returned": 820,
+      "mean_end_to_end_error": 0.5913038665616168,
+      "median_end_to_end_error": 0.5506393865179406,
+      "mean_stage2_seconds": 43.03568963036585,
+      "median_stage2_seconds": 34.47599915
+    }
+  ],
+  "stage1_groups": [
+    {
+      "solver": "ga",
+      "returned": 837,
+      "mean_end_to_end_error": 0.5522599287714315,
+      "median_end_to_end_error": 0.5462652102898449,
+      "mean_stage2_seconds": 201.392370060454,
+      "median_stage2_seconds": 62.5264164
+    },
+    {
+      "solver": "paretosearch",
+      "returned": 747,
+      "mean_end_to_end_error": 0.5763434495321491,
+      "median_end_to_end_error": 0.5693482563848016,
+      "mean_stage2_seconds": 171.53315101124497,
+      "median_stage2_seconds": 59.9976138
+    },
+    {
+      "solver": "particleswarm",
+      "returned": 836,
+      "mean_end_to_end_error": 0.5519980239162237,
+      "median_end_to_end_error": 0.5461404603354358,
+      "mean_stage2_seconds": 183.5270106076555,
+      "median_stage2_seconds": 62.15190605
+    },
+    {
+      "solver": "patternsearch",
+      "returned": 839,
+      "mean_end_to_end_error": 0.5566527525917888,
+      "median_end_to_end_error": 0.5494312756061644,
+      "mean_stage2_seconds": 193.077901997497,
+      "median_stage2_seconds": 62.5320309
+    },
+    {
+      "solver": "simulannealbnd",
+      "returned": 840,
+      "mean_end_to_end_error": 0.6634929559172841,
+      "median_end_to_end_error": 0.6848374928330623,
+      "mean_stage2_seconds": 138.99480099630952,
+      "median_stage2_seconds": 58.068496550000006
+    },
+    {
+      "solver": "surrogateopt",
+      "returned": 839,
+      "mean_end_to_end_error": 0.6742896676225602,
+      "median_end_to_end_error": 0.6849289234027908,
+      "mean_stage2_seconds": 112.56344283551847,
+      "median_stage2_seconds": 56.752618
+    }
+  ],
+  "minimum_squared_error_above_bound": 0.0008123938827728217,
+  "topology_bounds": [
+    {
+      "order": 4,
+      "rho": 0.2,
+      "bound": 0.5401209664286176
+    },
+    {
+      "order": 5,
+      "rho": 0.2,
+      "bound": 0.5401209664286176
+    },
+    {
+      "order": 6,
+      "rho": 0.2,
+      "bound": 0.5427571057691288
+    },
+    {
+      "order": 7,
+      "rho": 0.2,
+      "bound": 0.5406654484198891
+    },
+    {
+      "order": 8,
+      "rho": 0.2,
+      "bound": 0.5444839330850747
+    },
+    {
+      "order": 9,
+      "rho": 0.2,
+      "bound": 0.5440034891113957
+    },
+    {
+      "order": 10,
+      "rho": 0.2,
+      "bound": 0.5440034891113957
+    },
+    {
+      "order": 11,
+      "rho": 0.2,
+      "bound": 0.5436825793369476
+    },
+    {
+      "order": 12,
+      "rho": 0.2,
+      "bound": 0.5453565101122873
+    },
+    {
+      "order": 4,
+      "rho": 0.3,
+      "bound": 0.4357750792419918
+    },
+    {
+      "order": 5,
+      "rho": 0.3,
+      "bound": 0.4321036774503261
+    },
+    {
+      "order": 6,
+      "rho": 0.3,
+      "bound": 0.4358606488017577
+    },
+    {
+      "order": 7,
+      "rho": 0.3,
+      "bound": 0.4356833186506375
+    },
+    {
+      "order": 8,
+      "rho": 0.3,
+      "bound": 0.4411029984672029
+    },
+    {
+      "order": 9,
+      "rho": 0.3,
+      "bound": 0.44036525925715114
+    },
+    {
+      "order": 10,
+      "rho": 0.3,
+      "bound": 0.44036525925715114
+    },
+    {
+      "order": 11,
+      "rho": 0.3,
+      "bound": 0.4398734641207752
+    },
+    {
+      "order": 12,
+      "rho": 0.3,
+      "bound": 0.4422374331382703
+    },
+    {
+      "order": 4,
+      "rho": 0.4,
+      "bound": 0.2848836004515323
+    },
+    {
+      "order": 5,
+      "rho": 0.4,
+      "bound": 0.2848836004515323
+    },
+    {
+      "order": 6,
+      "rho": 0.4,
+      "bound": 0.3013338443740043
+    },
+    {
+      "order": 7,
+      "rho": 0.4,
+      "bound": 0.30089107091778117
+    },
+    {
+      "order": 8,
+      "rho": 0.4,
+      "bound": 0.30426243351950244
+    },
+    {
+      "order": 9,
+      "rho": 0.4,
+      "bound": 0.3035589311895838
+    },
+    {
+      "order": 10,
+      "rho": 0.4,
+      "bound": 0.3035589311895838
+    },
+    {
+      "order": 11,
+      "rho": 0.4,
+      "bound": 0.303090709223325
+    },
+    {
+      "order": 12,
+      "rho": 0.4,
+      "bound": 0.30456782025884427
+    },
+    {
+      "order": 4,
+      "rho": 0.5,
+      "bound": 5.655120602767387e-17
+    },
+    {
+      "order": 5,
+      "rho": 0.5,
+      "bound": 5.607493909707441e-17
+    },
+    {
+      "order": 6,
+      "rho": 0.5,
+      "bound": 6.867749407273759e-17
+    },
+    {
+      "order": 7,
+      "rho": 0.5,
+      "bound": 6.838551093169759e-17
+    },
+    {
+      "order": 8,
+      "rho": 0.5,
+      "bound": 7.89647862901714e-17
+    },
+    {
+      "order": 9,
+      "rho": 0.5,
+      "bound": 7.876290516674444e-17
+    },
+    {
+      "order": 10,
+      "rho": 0.5,
+      "bound": 8.805960502910498e-17
+    },
+    {
+      "order": 11,
+      "rho": 0.5,
+      "bound": 8.790947368278675e-17
+    },
+    {
+      "order": 12,
+      "rho": 0.5,
+      "bound": 9.63000035089381e-17
+    }
+  ],
+  "exceptions": [
+    {
+      "trial_id": 35,
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\5b9a12e6-45c1-4cc0-a57d-fe227695cc07\\trials\\trial_000000000035.json",
+      "file_sha256": "e8a1b2feb1c3eead6cffa726ac538b5eb544a49ec732e98dee41ee5b0673c80e"
+    },
+    {
+      "trial_id": 114,
+      "identifier": "MATLAB:eig:NoConvergence",
+      "message": "Algorithm did not succeed.",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\5b9a12e6-45c1-4cc0-a57d-fe227695cc07\\trials\\trial_000000000114.json",
+      "file_sha256": "5cb53a74dc9a4b6c817992c42c7cd1fc10f77dad337e4c4aedfc28b3851147ca"
+    },
+    {
+      "trial_id": 234,
+      "identifier": "MATLAB:eig:NoConvergence",
+      "message": "Algorithm did not succeed.",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\5b9a12e6-45c1-4cc0-a57d-fe227695cc07\\trials\\trial_000000000234.json",
+      "file_sha256": "0b539cdb8b6e27e87163466f5305c6c61d55a38b1594400289f3391d315243be"
+    },
+    {
+      "trial_id": 594,
+      "identifier": "MATLAB:eig:NoConvergence",
+      "message": "Algorithm did not succeed.",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\5b9a12e6-45c1-4cc0-a57d-fe227695cc07\\trials\\trial_000000000594.json",
+      "file_sha256": "b30a125ede3f7523055362bbb92b52065621ebdbdfcdc003c1d4e62dac74d5d4"
+    },
+    {
+      "trial_id": 1597,
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\2fb65f1b-4538-4d89-ac53-42fa439fc760\\trials\\trial_000000001597.json",
+      "file_sha256": "b137bc0d4c8dac38770fc530cf952b087eea6e60c2c6112ee5cf0e8f9043292e"
+    },
+    {
+      "trial_id": 2170,
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\2fb65f1b-4538-4d89-ac53-42fa439fc760\\trials\\trial_000000002170.json",
+      "file_sha256": "f4b82fb6aeaaa1dc0d1f2dfe8be5389e9cbb23d3729986a8c0da407504618c4f"
+    },
+    {
+      "trial_id": 3743,
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\2fb65f1b-4538-4d89-ac53-42fa439fc760\\trials\\trial_000000003743.json",
+      "file_sha256": "e409c358d23bee72c828a6ba1f8a46fbe11a004f40187afcf157782217462a27"
+    },
+    {
+      "trial_id": 4480,
+      "identifier": "fpf:TelemetryWrite",
+      "message": "Cannot publish live record: The process cannot access the file because it is being used by another process.\r\n",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\cfa73822-8d99-4675-9d1d-6a371052afa5\\trials\\trial_000000004480.json",
+      "file_sha256": "6605c39f3b2eb26aedddeb8f5a9db8890b315f885172ced6dfc0549cc35fb4de"
+    },
+    {
+      "trial_id": 4585,
+      "identifier": "MATLAB:eig:NoConvergence",
+      "message": "Algorithm did not succeed.",
+      "file": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\live\\cfa73822-8d99-4675-9d1d-6a371052afa5\\trials\\trial_000000004585.json",
+      "file_sha256": "a31294b643956f8a09973b44b03174ee40c47841ce1704d5f7a101923e6a3aaf"
+    }
+  ],
+  "paretosearch": {
+    "path": "C:\\Program Files\\MATLAB\\R2026a\\toolbox\\globaloptim\\+globaloptim\\+paretosearch\\checkConvergence.m",
+    "sha256": "7ca57835ad1e89b8bb1dc521e93a3149a22c873813b016760acda0d8cda59fab",
+    "scalar_convergence_branch_verified": true,
+    "runtime_success_demonstration_performed": false
+  },
+  "limitations": [
+    "Incomplete, unbalanced rho=0.2, seed=0 prefix; diagnostic rather than final comparison.",
+    "Times describe returned Stage-2 solves under existing desktop concurrency.",
+    "The peer's updated outline/archive was not supplied; the pasted feedback was assessed."
+  ]
+}

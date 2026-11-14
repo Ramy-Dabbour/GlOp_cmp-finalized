@@ -1,0 +1,62 @@
+[
+  {
+    "name": "cloudCheckpointTest/processWorkersSaveAllOutcomesAndResume",
+    "passed": true,
+    "failed": false,
+    "duration": 112.48634520000002
+  },
+  {
+    "name": "cloudCheckpointTest/allOutcomesPublishAndResumeWithoutRepeating",
+    "passed": true,
+    "failed": false,
+    "duration": 31.8856962
+  },
+  {
+    "name": "cloudCheckpointTest/missingAckIsNotCompletionAndResumeUsesOriginalMat",
+    "passed": true,
+    "failed": false,
+    "duration": 2.7058402
+  },
+  {
+    "name": "cloudCheckpointTest/invalidAckHashFailsLoudly",
+    "passed": true,
+    "failed": false,
+    "duration": 0.45490830000000004
+  },
+  {
+    "name": "cloudCheckpointTest/identityMismatchCannotReuseRecords",
+    "passed": true,
+    "failed": false,
+    "duration": 0.5910150999999999
+  },
+  {
+    "name": "cloudCheckpointTest/stridedAssignmentKeepsUnassignedMaskFalse",
+    "passed": true,
+    "failed": false,
+    "duration": 1.5124529
+  },
+  {
+    "name": "cloudCheckpointTest/telemetryFailureDoesNotLoseScientificResult",
+    "passed": true,
+    "failed": false,
+    "duration": 1.2632691999999999
+  },
+  {
+    "name": "cloudCheckpointTest/productionRejectsChangedWorkerOrScienceSettings",
+    "passed": true,
+    "failed": false,
+    "duration": 0.4547348
+  },
+  {
+    "name": "cloudCheckpointTest/invalidResponseRetainsReturnedScientificPayload",
+    "passed": true,
+    "failed": false,
+    "duration": 2.2454923999999994
+  },
+  {
+    "name": "cloudCheckpointTest/interruptionAfterThreeCommitsResumesRemainingTrials",
+    "passed": true,
+    "failed": false,
+    "duration": 25.087670600000006
+  }
+]

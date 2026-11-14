@@ -1,0 +1,1959 @@
+[
+  {
+    "insertId": "1rjrezqe4stpc",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:45.421603338Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:40.469120442Z"
+  },
+  {
+    "insertId": "1rjrezqe4stpb",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:45.421603338Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:35.455690326Z"
+  },
+  {
+    "insertId": "1rjrezqe4stpa",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:45.421603338Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:30.438763545Z"
+  },
+  {
+    "insertId": "1rjrezqe4stp9",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:45.421603338Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:25.426573970Z"
+  },
+  {
+    "insertId": "1rjrezqe4stp8",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:45.421603338Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:20.412720611Z"
+  },
+  {
+    "insertId": "ftjjt0f40k1xd",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:39:48.366737719Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:39:18.450358618Z"
+  },
+  {
+    "insertId": "ftjjt0f40k1xc",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:39:48.366737719Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\"  zone:\"us-central1-a\"  instance:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t\"  instance_id:2327029866868485742  creation_time:{seconds:1791365269  nanos:69235302}  creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0\"  version:\"cloud-batch-agent_20260923.00_p00\"  os_release:{key:\"BUILD_ID\"  value:\"18613.731.29\"}  os_release:{key:\"ID\"  value:\"cos\"}  os_release:{key:\"NAME\"  value:\"Container-Optimized OS\"}  os_release:{key:\"VERSION\"  value:\"117\"}  os_release:{key:\"VERSION_ID\"  value:\"117\"}  image_version:\"batch-cos-stable-20260924-00-p01\"  machine_type:\"e2-standard-8\"}  agent_info:{state:AGENT_RUNNING  job_id:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  user_project_num:1064328294968  tasks:{task_id:\"action/STARTUP/0/0/group0\"  task_status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}}  tasks:{task_id:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  task_status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}}  report_time:{seconds:1791365958  nanos:337096914}  task_group_id:\"group0\"}  agent_timing_info:{boot_time:{seconds:1791365261  nanos:227011369}  script_startup_time:{seconds:1791365268  nanos:467011369}  agent_startup_time:{seconds:1791365269  nanos:69235302}}",
+    "timestamp": "2026-10-07T09:39:18.337435414Z"
+  },
+  {
+    "insertId": "1rjrezqe4stp7",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:45.421603338Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:15.399904933Z"
+  },
+  {
+    "insertId": "1tjp5ref7gaa33",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:15.337596023Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:10.384355734Z"
+  },
+  {
+    "insertId": "1tjp5ref7gaa32",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:15.337596023Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:05.370379218Z"
+  },
+  {
+    "insertId": "1tjp5ref7gaa31",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:15.337596023Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:39:00.358671490Z"
+  },
+  {
+    "insertId": "1tjp5ref7gaa30",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:15.337596023Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:55.342161241Z"
+  },
+  {
+    "insertId": "1tjp5ref7gaa2z",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:15.337596023Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:50.328441819Z"
+  },
+  {
+    "insertId": "sd41kyetg2ut",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:39:18.361387123Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:38:48.437586903Z"
+  },
+  {
+    "insertId": "sd41kyetg2us",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:39:18.361387123Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\"  zone:\"us-central1-a\"  instance:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t\"  instance_id:2327029866868485742  creation_time:{seconds:1791365269  nanos:69235302}  creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0\"  version:\"cloud-batch-agent_20260923.00_p00\"  os_release:{key:\"BUILD_ID\"  value:\"18613.731.29\"}  os_release:{key:\"ID\"  value:\"cos\"}  os_release:{key:\"NAME\"  value:\"Container-Optimized OS\"}  os_release:{key:\"VERSION\"  value:\"117\"}  os_release:{key:\"VERSION_ID\"  value:\"117\"}  image_version:\"batch-cos-stable-20260924-00-p01\"  machine_type:\"e2-standard-8\"}  agent_info:{state:AGENT_RUNNING  job_id:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  user_project_num:1064328294968  tasks:{task_id:\"action/STARTUP/0/0/group0\"  task_status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}}  tasks:{task_id:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  task_status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}}  report_time:{seconds:1791365928  nanos:334337110}  task_group_id:\"group0\"}  agent_timing_info:{boot_time:{seconds:1791365261  nanos:227011369}  script_startup_time:{seconds:1791365268  nanos:467011369}  agent_startup_time:{seconds:1791365269  nanos:69235302}}",
+    "timestamp": "2026-10-07T09:38:48.334855110Z"
+  },
+  {
+    "insertId": "1tjp5ref7gaa2y",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:39:15.337596023Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:45.314753345Z"
+  },
+  {
+    "insertId": "indr37f7pwd13",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:45.234935612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:40.299889908Z"
+  },
+  {
+    "insertId": "indr37f7pwd12",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:45.234935612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:35.279980659Z"
+  },
+  {
+    "insertId": "indr37f7pwd11",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:45.234935612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:30.265925769Z"
+  },
+  {
+    "insertId": "indr37f7pwd10",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:45.234935612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:25.244061874Z"
+  },
+  {
+    "insertId": "indr37f7pwd0z",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:45.234935612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:20.228536726Z"
+  },
+  {
+    "insertId": "sd2dqdf88jft5",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:38:48.371158268Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:38:18.442336980Z"
+  },
+  {
+    "insertId": "sd2dqdf88jft4",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:38:48.371158268Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\"  zone:\"us-central1-a\"  instance:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t\"  instance_id:2327029866868485742  creation_time:{seconds:1791365269  nanos:69235302}  creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0\"  version:\"cloud-batch-agent_20260923.00_p00\"  os_release:{key:\"BUILD_ID\"  value:\"18613.731.29\"}  os_release:{key:\"ID\"  value:\"cos\"}  os_release:{key:\"NAME\"  value:\"Container-Optimized OS\"}  os_release:{key:\"VERSION\"  value:\"117\"}  os_release:{key:\"VERSION_ID\"  value:\"117\"}  image_version:\"batch-cos-stable-20260924-00-p01\"  machine_type:\"e2-standard-8\"}  agent_info:{state:AGENT_RUNNING  job_id:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  user_project_num:1064328294968  tasks:{task_id:\"action/STARTUP/0/0/group0\"  task_status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}}  tasks:{task_id:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  task_status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}}  report_time:{seconds:1791365898  nanos:332854358}  task_group_id:\"group0\"}  agent_timing_info:{boot_time:{seconds:1791365261  nanos:227011369}  script_startup_time:{seconds:1791365268  nanos:467011369}  agent_startup_time:{seconds:1791365269  nanos:69235302}}",
+    "timestamp": "2026-10-07T09:38:18.333758628Z"
+  },
+  {
+    "insertId": "indr37f7pwd0y",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:45.234935612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:15.205055328Z"
+  },
+  {
+    "insertId": "1a2gdt6f1llcdb",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:15.115576989Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:10.183940081Z"
+  },
+  {
+    "insertId": "1a2gdt6f1llcda",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:15.115576989Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:05.161769184Z"
+  },
+  {
+    "insertId": "1a2gdt6f1llcd9",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:15.115576989Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:38:00.143934892Z"
+  },
+  {
+    "insertId": "1a2gdt6f1llcd8",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:15.115576989Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:37:55.123553897Z"
+  },
+  {
+    "insertId": "1a2gdt6f1llcd7",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:15.115576989Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:37:50.106648266Z"
+  },
+  {
+    "insertId": "1jizpm7f1wks56",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:48.457642633Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:37:48.412080357Z"
+  },
+  {
+    "insertId": "1jizpm7f1wks55",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:48.457642633Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\"  zone:\"us-central1-a\"  instance:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t\"  instance_id:2327029866868485742  creation_time:{seconds:1791365269  nanos:69235302}  creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0\"  version:\"cloud-batch-agent_20260923.00_p00\"  os_release:{key:\"BUILD_ID\"  value:\"18613.731.29\"}  os_release:{key:\"ID\"  value:\"cos\"}  os_release:{key:\"NAME\"  value:\"Container-Optimized OS\"}  os_release:{key:\"VERSION\"  value:\"117\"}  os_release:{key:\"VERSION_ID\"  value:\"117\"}  image_version:\"batch-cos-stable-20260924-00-p01\"  machine_type:\"e2-standard-8\"}  agent_info:{state:AGENT_RUNNING  job_id:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  user_project_num:1064328294968  tasks:{task_id:\"action/STARTUP/0/0/group0\"  task_status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}}  tasks:{task_id:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  task_status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}}  report_time:{seconds:1791365868  nanos:330109779}  task_group_id:\"group0\"}  agent_timing_info:{boot_time:{seconds:1791365261  nanos:227011369}  script_startup_time:{seconds:1791365268  nanos:467011369}  agent_startup_time:{seconds:1791365269  nanos:69235302}}",
+    "timestamp": "2026-10-07T09:37:48.331391409Z"
+  },
+  {
+    "insertId": "1a2gdt6f1llcd6",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:38:15.115576989Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:37:45.082227400Z"
+  },
+  {
+    "insertId": "b45euf7x922z",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:37:40.064546157Z"
+  },
+  {
+    "insertId": "b45euf7x922y",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:37:35.021391132Z"
+  },
+  {
+    "insertId": "b45euf7x922x",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:37:30.007212336Z"
+  },
+  {
+    "insertId": "b45euf7x922w",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:37:24.986860525Z"
+  },
+  {
+    "insertId": "b45euf7x922v",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "ERROR",
+    "textPayload": ".",
+    "timestamp": "2026-10-07T09:37:24.111588304Z"
+  },
+  {
+    "insertId": "b45euf7x922u",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "ERROR",
+    "textPayload": "  ",
+    "timestamp": "2026-10-07T09:37:23.894146064Z"
+  },
+  {
+    "insertId": "b45euf7x922t",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "ERROR",
+    "textPayload": "Copying file:///work/shared/tasks/00000/logs/matlab-01.log to gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-092446-1347d7/tasks/00000/logs/matlab-01.log",
+    "timestamp": "2026-10-07T09:37:23.881841247Z"
+  },
+  {
+    "insertId": "b45euf7x922s",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "ERROR",
+    "textPayload": "At file:///work/shared/tasks/00000/logs/**, worker process 7 thread 134146336094080 listed 1...",
+    "timestamp": "2026-10-07T09:37:23.778656871Z"
+  },
+  {
+    "insertId": "1jizpm7f1wks54",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:48.457642633Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:37:18.430720959Z"
+  },
+  {
+    "insertId": "1t7gpp6f8b3vhn",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:18.354698788Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\"  zone:\"us-central1-a\"  instance:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t\"  instance_id:2327029866868485742  creation_time:{seconds:1791365269  nanos:69235302}  creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0\"  version:\"cloud-batch-agent_20260923.00_p00\"  os_release:{key:\"BUILD_ID\"  value:\"18613.731.29\"}  os_release:{key:\"ID\"  value:\"cos\"}  os_release:{key:\"NAME\"  value:\"Container-Optimized OS\"}  os_release:{key:\"VERSION\"  value:\"117\"}  os_release:{key:\"VERSION_ID\"  value:\"117\"}  image_version:\"batch-cos-stable-20260924-00-p01\"  machine_type:\"e2-standard-8\"}  agent_info:{state:AGENT_RUNNING  job_id:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  user_project_num:1064328294968  tasks:{task_id:\"action/STARTUP/0/0/group0\"  task_status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}}  tasks:{task_id:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  task_status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] finished with exit code 0.\"  event_time:{seconds:1791365837  nanos:704414296}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #3 with display name [preserve-outputs] started.\"  event_time:{seconds:1791365837  nanos:705469775}  task_state:RUNNING}}}  report_time:{seconds:1791365838  nanos:327084395}  task_group_id:\"group0\"}  agent_timing_info:{boot_time:{seconds:1791365261  nanos:227011369}  script_startup_time:{seconds:1791365268  nanos:467011369}  agent_startup_time:{seconds:1791365269  nanos:69235302}}",
+    "timestamp": "2026-10-07T09:37:18.327322154Z"
+  },
+  {
+    "insertId": "1t7gpp6f8b3vhm",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:18.354698788Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Runnable command line: docker run --rm --name 5ff6d147-080c-4ff3-8ec1-5e1fac81186c --entrypoint /usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3 --env BATCH_TASK_COUNT=1 --env BATCH_TASK_INDEX=0 --env BATCH_TASK_RETRY_ATTEMPT=0 --env BATCH_TASK_UID=matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0 --env CLOUDSDK_PYTHON=/usr/bin/python3 --env BATCH_JOB_UID=matlab-glop-live-s-c1c096ac-8c11-4f0b0 --env BATCH_JOB_ID=matlab-glop-live-smoke-20261007-092446-1347d7 --volume /var/lib/google/matlab-cloud:/work/shared:rw --user 0:0 gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc -c import datetime, hashlib, json, os, pathlib, subprocess, sys\nos.environ['CLOUDSDK_PYTHON'] = sys.executable\ntask_index = int(os.environ['BATCH_TASK_INDEX'])\ntask_count = int(os.environ['BATCH_TASK_COUNT'])\nif not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')\nroot = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'\nroot.mkdir(parents=True, exist_ok=True)\nif not (root / '_PREPARED.json').is_file(): raise RuntimeError('Source preparation did not finish')\nif any(path.is_symlink() for path in root.rglob('*')): raise RuntimeError('Unexpected output symlink')\noutput_uri = 'gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-092446-1347d7'\ntask_uri = output_uri + f'/tasks/{task_index:05d}'\nsubprocess.run(['gcloud','storage','rsync',str(root/'logs'),task_uri+'/logs','--recursive','--checksums-only'],check=True)\nsubprocess.run([sys.executable,str(root/'workspace/cloud/live_reporter.py'),'--root',str(root/'live'),'--output-uri',output_uri,'--job-id','matlab-glop-live-smoke-20261007-092446-1347d7','--workers','8','--final'],check=True)\nflush = json.loads((root/'live/_FLUSHED.json').read_text())\nif flush['status'] != 'completed': raise RuntimeError('Partial live results recovered; MATLAB did not complete every assigned trial')\nif task_index == 0:\n    subprocess.run(['gcloud','storage','rsync',str(root/'workspace'),output_uri+'/workspace','--recursive','--checksums-only'],check=True)\nshard = root / 'results' / f'trial_shard_{task_index:05d}.mat'\nif not shard.is_file(): raise RuntimeError('No completed trial shard; partial logs recovered')\nsubprocess.run(['gcloud','storage','cp',str(shard),output_uri+'/results/'+shard.name,'--if-generation-match=0'],check=True)\nmarker = root / '_TRANSFER_COMPLETE.json'\nmarker.write_text(json.dumps({'schema_version':2,'job_id':'matlab-glop-live-smoke-20261007-092446-1347d7','task_index':task_index,'task_count':task_count,'workers_per_task':8,'live_reporting':True,'live_published_trials':flush['completed_trials'],'shard_sha256':hashlib.sha256(shard.read_bytes()).hexdigest(),'collected_at':datetime.datetime.now(datetime.timezone.utc).isoformat()},indent=2),encoding='utf-8')\nsubprocess.run(['gcloud','storage','cp',str(marker),task_uri+'/'+marker.name,'--if-generation-match=0'],check=True)\nprint(f'Task {task_index} shard and transfer marker uploaded.',flush=True)",
+    "timestamp": "2026-10-07T09:37:17.705435306Z"
+  },
+  {
+    "insertId": "1t7gpp6f8b3vhl",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:18.354698788Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Executing runnable container:{image_uri:\"gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc\"  commands:\"-c\"  commands:\"import datetime, hashlib, json, os, pathlib, subprocess, sys\\nos.environ['CLOUDSDK_PYTHON'] = sys.executable\\ntask_index = int(os.environ['BATCH_TASK_INDEX'])\\ntask_count = int(os.environ['BATCH_TASK_COUNT'])\\nif not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')\\nroot = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'\\nroot.mkdir(parents=True, exist_ok=True)\\nif not (root / '_PREPARED.json').is_file(): raise RuntimeError('Source preparation did not finish')\\nif any(path.is_symlink() for path in root.rglob('*')): raise RuntimeError('Unexpected output symlink')\\noutput_uri = 'gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-092446-1347d7'\\ntask_uri = output_uri + f'/tasks/{task_index:05d}'\\nsubprocess.run(['gcloud','storage','rsync',str(root/'logs'),task_uri+'/logs','--recursive','--checksums-only'],check=True)\\nsubprocess.run([sys.executable,str(root/'workspace/cloud/live_reporter.py'),'--root',str(root/'live'),'--output-uri',output_uri,'--job-id','matlab-glop-live-smoke-20261007-092446-1347d7','--workers','8','--final'],check=True)\\nflush = json.loads((root/'live/_FLUSHED.json').read_text())\\nif flush['status'] != 'completed': raise RuntimeError('Partial live results recovered; MATLAB did not complete every assigned trial')\\nif task_index == 0:\\n    subprocess.run(['gcloud','storage','rsync',str(root/'workspace'),output_uri+'/workspace','--recursive','--checksums-only'],check=True)\\nshard = root / 'results' / f'trial_shard_{task_index:05d}.mat'\\nif not shard.is_file(): raise RuntimeError('No completed trial shard; partial logs recovered')\\nsubprocess.run(['gcloud','storage','cp',str(shard),output_uri+'/results/'+shard.name,'--if-generation-match=0'],check=True)\\nmarker = root / '_TRANSFER_COMPLETE.json'\\nmarker.write_text(json.dumps({'schema_version':2,'job_id':'matlab-glop-live-smoke-20261007-092446-1347d7','task_index':task_index,'task_count':task_count,'workers_per_task':8,'live_reporting':True,'live_published_trials':flush['completed_trials'],'shard_sha256':hashlib.sha256(shard.read_bytes()).hexdigest(),'collected_at':datetime.datetime.now(datetime.timezone.utc).isoformat()},indent=2),encoding='utf-8')\\nsubprocess.run(['gcloud','storage','cp',str(marker),task_uri+'/'+marker.name,'--if-generation-match=0'],check=True)\\nprint(f'Task {task_index} shard and transfer marker uploaded.',flush=True)\"  entrypoint:\"/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3\"  volumes:\"/var/lib/google/matlab-cloud:/work/shared:rw\"  options:\"--user 0:0\"}  display_name:\"preserve-outputs\"  always_run:true  timeout:{seconds:3600} for Task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 in TaskGroup group0 of Job matlab-glop-live-s-c1c096ac-8c11-4f0b0.",
+    "timestamp": "2026-10-07T09:37:17.705167376Z"
+  },
+  {
+    "insertId": "1t7gpp6f8b3vhk",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:18.354698788Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Container name is 5ff6d147-080c-4ff3-8ec1-5e1fac81186c",
+    "timestamp": "2026-10-07T09:37:17.704418167Z"
+  },
+  {
+    "insertId": "1t7gpp6f8b3vhj",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:18.354698788Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 runnable 2 exited with status 0",
+    "timestamp": "2026-10-07T09:37:17.704297217Z"
+  },
+  {
+    "insertId": "b45euf7x922r",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Saved /work/shared/tasks/00000/results/trial_shard_00000.mat. Merge shards after the Batch job completes.",
+    "timestamp": "2026-10-07T09:37:13.062411918Z"
+  },
+  {
+    "insertId": "b45euf7x922q",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:42.453139612Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:37:12.405312155Z"
+  },
+  {
+    "insertId": "4g8ldaf8bnxok",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:12.391311994Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:36:57.389368666Z"
+  },
+  {
+    "insertId": "1t7gpp6f8b3vhi",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:18.354698788Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:36:48.393063167Z"
+  },
+  {
+    "insertId": "1t7gpp6f8b3vhh",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:37:18.354698788Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\"  zone:\"us-central1-a\"  instance:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t\"  instance_id:2327029866868485742  creation_time:{seconds:1791365269  nanos:69235302}  creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0\"  version:\"cloud-batch-agent_20260923.00_p00\"  os_release:{key:\"BUILD_ID\"  value:\"18613.731.29\"}  os_release:{key:\"ID\"  value:\"cos\"}  os_release:{key:\"NAME\"  value:\"Container-Optimized OS\"}  os_release:{key:\"VERSION\"  value:\"117\"}  os_release:{key:\"VERSION_ID\"  value:\"117\"}  image_version:\"batch-cos-stable-20260924-00-p01\"  machine_type:\"e2-standard-8\"}  agent_info:{state:AGENT_RUNNING  job_id:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  user_project_num:1064328294968  tasks:{task_id:\"action/STARTUP/0/0/group0\"  task_status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}}  tasks:{task_id:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  task_status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}}}  report_time:{seconds:1791365808  nanos:326641645}  task_group_id:\"group0\"}  agent_timing_info:{boot_time:{seconds:1791365261  nanos:227011369}  script_startup_time:{seconds:1791365268  nanos:467011369}  agent_startup_time:{seconds:1791365269  nanos:69235302}}",
+    "timestamp": "2026-10-07T09:36:48.327075955Z"
+  },
+  {
+    "insertId": "4g8ldaf8bnxoj",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:37:12.391311994Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:36:42.363601489Z"
+  },
+  {
+    "insertId": "1sdrr40f1ddrj2",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:36:42.363379743Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:36:27.344536145Z"
+  },
+  {
+    "insertId": "bf46gwf1b4191",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:36:48.350233691Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:36:18.419592756Z"
+  },
+  {
+    "insertId": "bf46gwf1b4190",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:36:48.350233691Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\"  zone:\"us-central1-a\"  instance:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t\"  instance_id:2327029866868485742  creation_time:{seconds:1791365269  nanos:69235302}  creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0\"  version:\"cloud-batch-agent_20260923.00_p00\"  os_release:{key:\"BUILD_ID\"  value:\"18613.731.29\"}  os_release:{key:\"ID\"  value:\"cos\"}  os_release:{key:\"NAME\"  value:\"Container-Optimized OS\"}  os_release:{key:\"VERSION\"  value:\"117\"}  os_release:{key:\"VERSION_ID\"  value:\"117\"}  image_version:\"batch-cos-stable-20260924-00-p01\"  machine_type:\"e2-standard-8\"}  agent_info:{state:AGENT_RUNNING  job_id:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  user_project_num:1064328294968  tasks:{task_id:\"action/STARTUP/0/0/group0\"  task_status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}}  tasks:{task_id:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  task_status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}}}  report_time:{seconds:1791365778  nanos:326161953}  task_group_id:\"group0\"}  agent_timing_info:{boot_time:{seconds:1791365261  nanos:227011369}  script_startup_time:{seconds:1791365268  nanos:467011369}  agent_startup_time:{seconds:1791365269  nanos:69235302}}",
+    "timestamp": "2026-10-07T09:36:18.326372172Z"
+  },
+  {
+    "insertId": "1sdrr40f1ddrj1",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:36:42.363379743Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:36:12.333889965Z"
+  },
+  {
+    "insertId": "1fm7rkrf7ic4a2",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:36:12.329158128Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Executing 16 independent trials with 8 pool workers.",
+    "timestamp": "2026-10-07T09:36:09.449795181Z"
+  },
+  {
+    "insertId": "1fm7rkrf7ic4a1",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:36:12.329158128Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Batch pool: 8 process workers, one computational thread per worker.",
+    "timestamp": "2026-10-07T09:36:09.350611240Z"
+  },
+  {
+    "insertId": "1fm7rkrf7ic4a0",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:36:12.329158128Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Connected to parallel pool with 8 workers.",
+    "timestamp": "2026-10-07T09:36:08.313710886Z"
+  },
+  {
+    "insertId": "1fm7rkrf7ic49z",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:36:12.329158128Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:35:57.311228807Z"
+  },
+  {
+    "insertId": "bf6x47f8k5q60",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:36:18.358981446Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:35:48.440416236Z"
+  },
+  {
+    "insertId": "bf6x47f8k5q5z",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:36:18.358981446Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\"  zone:\"us-central1-a\"  instance:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t\"  instance_id:2327029866868485742  creation_time:{seconds:1791365269  nanos:69235302}  creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0\"  version:\"cloud-batch-agent_20260923.00_p00\"  os_release:{key:\"BUILD_ID\"  value:\"18613.731.29\"}  os_release:{key:\"ID\"  value:\"cos\"}  os_release:{key:\"NAME\"  value:\"Container-Optimized OS\"}  os_release:{key:\"VERSION\"  value:\"117\"}  os_release:{key:\"VERSION_ID\"  value:\"117\"}  image_version:\"batch-cos-stable-20260924-00-p01\"  machine_type:\"e2-standard-8\"}  agent_info:{state:AGENT_RUNNING  job_id:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  user_project_num:1064328294968  tasks:{task_id:\"action/STARTUP/0/0/group0\"  task_status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}}  tasks:{task_id:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  task_status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}}}  report_time:{seconds:1791365748  nanos:325617381}  task_group_id:\"group0\"}  agent_timing_info:{boot_time:{seconds:1791365261  nanos:227011369}  script_startup_time:{seconds:1791365268  nanos:467011369}  agent_startup_time:{seconds:1791365269  nanos:69235302}}",
+    "timestamp": "2026-10-07T09:35:48.325814810Z"
+  },
+  {
+    "insertId": "1fm7rkrf7ic49y",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:36:12.329158128Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:35:42.294871575Z"
+  },
+  {
+    "insertId": "k9zp1ye96rgx",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:35:33.998371765Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting parallel pool (parpool) using the 'Processes' profile ...",
+    "timestamp": "2026-10-07T09:35:33.649674773Z"
+  },
+  {
+    "insertId": "k9zp1ye96rgw",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:35:33.998371765Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "In run (line 100)]\b ",
+    "timestamp": "2026-10-07T09:35:31.132547262Z"
+  },
+  {
+    "insertId": "k9zp1ye96rgv",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:35:33.998371765Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[\b> In main (line 44)",
+    "timestamp": "2026-10-07T09:35:31.132485202Z"
+  },
+  {
+    "insertId": "k9zp1ye96rgu",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:35:33.998371765Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[\bWarning: Directory already exists.]\b ",
+    "timestamp": "2026-10-07T09:35:31.131891807Z"
+  },
+  {
+    "insertId": "k9zp1ye96rgt",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:35:33.998371765Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Batch task 1 of 1: 16 of 16 global trials.",
+    "timestamp": "2026-10-07T09:35:30.766163014Z"
+  },
+  {
+    "insertId": "k9zp1ye96rgs",
+    "jsonPayload": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "event": "live-publish-error",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-live-smoke",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "task_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-07T09:35:33.998371765Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+        "location": "us-central1-a",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-07T09:35:27.275275078Z"
+  },
+  {
+    "insertId": "15eh5dwf69c7pq",
+    "labels": {
+      "hostname": "matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0-w99t",
+      "job_uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-07T09:35:48.348904526Z",
+    "resource": {
+      "labels": {
+        "instance_id": "2327029866868485742",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-a"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 2327029866868485742: tasks:{task:\"action/STARTUP/0/0/group0\"  status:{state:SUCCEEDED  status_events:{type:\"ASSIGNED\"  description:\"task action/STARTUP/0/0/group0 ASSIGNED\"  event_time:{seconds:1791365269  nanos:706805073}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task action/STARTUP/0/0/group0 RUNNING\"  event_time:{seconds:1791365269  nanos:706810143}  task_state:RUNNING}  status_events:{type:\"SUCCEEDED\"  description:\"succeeded\"  event_time:{seconds:1791365688  nanos:318160625}  task_state:SUCCEEDED}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  tasks:{task:\"task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0\"  status:{state:RUNNING  status_events:{type:\"ASSIGNED\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 ASSIGNED\"  event_time:{seconds:1791365688  nanos:619758508}  task_state:ASSIGNED}  status_events:{type:\"RUNNING\"  description:\"task task/matlab-glop-live-s-c1c096ac-8c11-4f0b0-group0-0/0/0 RUNNING\"  event_time:{seconds:1791365688  nanos:619764997}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #0 with display name [prepare-source] started.\"  event_time:{seconds:1791365688  nanos:620472527}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_END_EVENT\"  description:\"container at index #0 with display name [prepare-source] finished with exit code 0.\"  event_time:{seconds:1791365711  nanos:197652372}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #1 with display name [publish-live-trials] started.\"  event_time:{seconds:1791365711  nanos:198480232}  task_state:RUNNING}  status_events:{type:\"RUNNABLE_START_EVENT\"  description:\"container at index #2 with display name [matlab-entry-1] started.\"  event_time:{seconds:1791365711  nanos:199008652}  task_state:RUNNING}}  intended_state:ASSIGNED  job_uid:\"matlab-glop-live-s-c1c096ac-8c11-4f0b0\"  task_group_id:\"group0\"  location:\"us-central1\"  job_id:\"matlab-glop-live-smoke-20261007-092446-1347d7\"}  use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-07T09:35:18.458244297Z"
+  }
+]

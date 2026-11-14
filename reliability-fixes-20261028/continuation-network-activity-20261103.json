@@ -1,0 +1,269 @@
+{
+  "timeSeries": [
+    {
+      "metric": {
+        "labels": {
+          "instance_name": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj",
+          "loadbalanced": "false"
+        },
+        "type": "compute.googleapis.com/instance/network/received_bytes_count"
+      },
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8",
+          "instance_id": "1612444482446589917"
+        }
+      },
+      "metricKind": "GAUGE",
+      "valueType": "DOUBLE",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:26:03.326558Z",
+            "endTime": "2026-11-03T11:26:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 116487.11666666667
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:25:03.326558Z",
+            "endTime": "2026-11-03T11:25:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 118743.38333333333
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:24:03.326558Z",
+            "endTime": "2026-11-03T11:24:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 111664
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:03.326558Z",
+            "endTime": "2026-11-03T11:23:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 109139.75
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:03.326558Z",
+            "endTime": "2026-11-03T11:22:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 112586.98333333334
+          }
+        }
+      ]
+    },
+    {
+      "metric": {
+        "labels": {
+          "loadbalanced": "false",
+          "instance_name": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1"
+        },
+        "type": "compute.googleapis.com/instance/network/received_bytes_count"
+      },
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "4629009205104508869",
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "metricKind": "GAUGE",
+      "valueType": "DOUBLE",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:26:03.326558Z",
+            "endTime": "2026-11-03T11:26:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 118290.66666666667
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:25:03.326558Z",
+            "endTime": "2026-11-03T11:25:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 117851.18333333333
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:24:03.326558Z",
+            "endTime": "2026-11-03T11:24:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 112017.21666666666
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:03.326558Z",
+            "endTime": "2026-11-03T11:23:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 114109.85
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:03.326558Z",
+            "endTime": "2026-11-03T11:22:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 107486.18333333333
+          }
+        }
+      ]
+    },
+    {
+      "metric": {
+        "labels": {
+          "loadbalanced": "false",
+          "instance_name": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l"
+        },
+        "type": "compute.googleapis.com/instance/network/received_bytes_count"
+      },
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c",
+          "instance_id": "4886743277640122334"
+        }
+      },
+      "metricKind": "GAUGE",
+      "valueType": "DOUBLE",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:26:03.326558Z",
+            "endTime": "2026-11-03T11:26:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 113013.3
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:25:03.326558Z",
+            "endTime": "2026-11-03T11:25:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 115014.56666666667
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:24:03.326558Z",
+            "endTime": "2026-11-03T11:24:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 106482.33333333333
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:03.326558Z",
+            "endTime": "2026-11-03T11:23:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 104337.15
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:03.326558Z",
+            "endTime": "2026-11-03T11:22:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 79324.2
+          }
+        }
+      ]
+    },
+    {
+      "metric": {
+        "labels": {
+          "loadbalanced": "false",
+          "instance_name": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk"
+        },
+        "type": "compute.googleapis.com/instance/network/received_bytes_count"
+      },
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8",
+          "instance_id": "6293955515076870110"
+        }
+      },
+      "metricKind": "GAUGE",
+      "valueType": "DOUBLE",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:26:03.326558Z",
+            "endTime": "2026-11-03T11:26:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 125229.78333333334
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:25:03.326558Z",
+            "endTime": "2026-11-03T11:25:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 114860.9
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:24:03.326558Z",
+            "endTime": "2026-11-03T11:24:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 113921.08333333333
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:03.326558Z",
+            "endTime": "2026-11-03T11:23:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 109894.11666666667
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:03.326558Z",
+            "endTime": "2026-11-03T11:22:03.326558Z"
+          },
+          "value": {
+            "doubleValue": 109985.93333333333
+          }
+        }
+      ]
+    }
+  ],
+  "unit": "By/s"
+}

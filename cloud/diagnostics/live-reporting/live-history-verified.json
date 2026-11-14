@@ -1,0 +1,23 @@
+{
+  "job_id": "matlab-glop-live-smoke-20261007-094350-9c2a5c",
+  "total_trials": 16,
+  "unique_trial_ids": 16,
+  "immutable_chunks": 2,
+  "outcomes": {
+    "succeeded": 13,
+    "nonconverged": 3
+  },
+  "published_while_running": {
+    "jsonPayload": {
+      "active_workers": 1,
+      "assigned": 16,
+      "completed": 15,
+      "event": "live-progress",
+      "status": "running",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:55:33.234507178Z"
+  },
+  "last_trial_completed_at": "2026-10-07T09:56:30.675000+00:00",
+  "snapshot": "cloud\\diagnostics\\live-reporting\\downloads\\live-smoke\\matlab-glop-live-smoke-20261007-094350-9c2a5c\\snapshot-78bfc741958f5e1f"
+}

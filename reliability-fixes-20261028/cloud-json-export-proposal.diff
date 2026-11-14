@@ -1,0 +1,7 @@
+--- frozen-source/cloud/durable_uploader.py
++++ replacement-source/cloud/durable_uploader.py
+@@
+-                    worker_json = path.suffix.lower() == ".json" and path.parent.name == "workers"
+-                    if path.is_file() and (worker_json or path.suffix.lower() in {".mat", ".csv", ".log", ".txt", ".out", ".err"}):
++                    live_json = path.suffix.lower() == ".json" and path.parent.name in {"workers", "trials"}
++                    if path.is_file() and (live_json or path.suffix.lower() in {".mat", ".csv", ".log", ".txt", ".out", ".err"}):

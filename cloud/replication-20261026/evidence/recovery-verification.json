@@ -1,0 +1,25 @@
+{
+  "job_id": "matlab-glop-recovery-20261026-1355",
+  "batch_state": "SUCCEEDED",
+  "actual_process_workers": 8,
+  "hard_termination_observed": true,
+  "retry_attempt_one_observed": true,
+  "resume_counts": [
+    [
+      "10",
+      "14"
+    ],
+    [
+      "0",
+      "24"
+    ]
+  ],
+  "verified_commits": 24,
+  "outcomes": {
+    "succeeded": 16,
+    "nonconverged": 4,
+    "failed": 4
+  },
+  "all_mat_and_sidecar_hashes_verified": true,
+  "consolidated_mat_and_csv_collected": true
+}

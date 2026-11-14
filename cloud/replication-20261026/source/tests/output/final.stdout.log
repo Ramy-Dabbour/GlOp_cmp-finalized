@@ -1,0 +1,60 @@
+Running cloudCheckpointTest
+[2026-10-26T13:53:19.568Z] RESUME task 0/1: 0/5 cloud-committed; 5 pending.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Batch pool: 2 process workers, one computational thread per worker.
+[2026-10-26T13:54:05.244Z] START trial 1: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=1
+[2026-10-26T13:54:05.344Z] START trial 2: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=2
+[2026-10-26T13:54:05.476Z] PROGRESS 0/5; successful=0; other=0; active=[1 2]; elapsed=49s
+[2026-10-26T13:54:14.954Z] DURABLE trial 2: nonconverged error=1 evaluations=20 | 1/5; MAT+CSV published
+[2026-10-26T13:54:15.089Z] START trial 3: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=3
+[2026-10-26T13:54:16.963Z] DURABLE trial 1: succeeded error=1 evaluations=20 | 2/5; MAT+CSV published
+[2026-10-26T13:54:17.145Z] START trial 4: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=4
+[2026-10-26T13:54:17.424Z] DURABLE trial 3: failed error=NaN evaluations=0 | 3/5; MAT+CSV published
+[2026-10-26T13:54:17.623Z] START trial 5: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=5
+[2026-10-26T13:54:17.681Z] PROGRESS 3/5; successful=1; other=2; active=[4 5]; elapsed=61s
+[2026-10-26T13:54:18.139Z] DURABLE trial 4: failed error=NaN evaluations=10 | 4/5; MAT+CSV published
+[2026-10-26T13:54:18.763Z] DURABLE trial 5: succeeded error=1 evaluations=20 | 5/5; MAT+CSV published
+[2026-10-26T13:54:20.541Z] COMPLETED: 5/5 durable trials.
+[2026-10-26T13:54:22.870Z] RESUME task 0/1: 5/5 cloud-committed; 0 pending.
+Parallel pool using the 'Processes' profile is shutting down.
+.[2026-10-26T13:54:59.558Z] RESUME task 0/1: 0/5 cloud-committed; 5 pending.
+[2026-10-26T13:55:01.443Z] DURABLE trial 1: succeeded error=1 evaluations=20 | 1/5; MAT+CSV published
+[2026-10-26T13:55:08.553Z] DURABLE trial 2: nonconverged error=1 evaluations=20 | 2/5; MAT+CSV published
+[2026-10-26T13:55:12.044Z] DURABLE trial 3: failed error=NaN evaluations=0 | 3/5; MAT+CSV published
+[2026-10-26T13:55:15.167Z] DURABLE trial 4: failed error=NaN evaluations=10 | 4/5; MAT+CSV published
+[2026-10-26T13:55:20.922Z] DURABLE trial 5: succeeded error=1 evaluations=20 | 5/5; MAT+CSV published
+[2026-10-26T13:55:23.410Z] COMPLETED: 5/5 durable trials.
+[2026-10-26T13:55:25.454Z] RESUME task 0/1: 5/5 cloud-committed; 0 pending.
+.[2026-10-26T13:55:31.231Z] RESUME task 0/5: 0/1 cloud-committed; 1 pending.
+[2026-10-26T13:55:32.163Z] RESUME task 0/5: 1/1 cloud-committed; 0 pending.
+...[2026-10-26T13:55:34.178Z] RESUME task 1/2: 0/2 cloud-committed; 2 pending.
+[2026-10-26T13:55:34.529Z] DURABLE trial 2: nonconverged error=1 evaluations=20 | 1/2; MAT+CSV published
+[2026-10-26T13:55:34.982Z] DURABLE trial 4: failed error=NaN evaluations=10 | 2/2; MAT+CSV published
+[2026-10-26T13:55:35.127Z] COMPLETED: 2/2 durable trials.
+....[2026-10-26T13:55:41.884Z] RESUME task 0/1: 0/5 cloud-committed; 5 pending.
+[2026-10-26T13:55:44.247Z] DURABLE trial 1: succeeded error=1 evaluations=20 | 1/5; MAT+CSV published
+[2026-10-26T13:55:46.637Z] DURABLE trial 2: nonconverged error=1 evaluations=20 | 2/5; MAT+CSV published
+[2026-10-26T13:55:51.100Z] DURABLE trial 3: failed error=NaN evaluations=0 | 3/5; MAT+CSV published
+[2026-10-26T13:55:54.864Z] RESUME task 0/1: 3/5 cloud-committed; 2 pending.
+[2026-10-26T13:55:57.694Z] DURABLE trial 4: failed error=NaN evaluations=10 | 4/5; MAT+CSV published
+[2026-10-26T13:56:01.691Z] DURABLE trial 5: succeeded error=1 evaluations=20 | 5/5; MAT+CSV published
+[2026-10-26T13:56:03.931Z] COMPLETED: 5/5 durable trials.
+.
+Done cloudCheckpointTest
+__________
+
+                                       Name                                        Passed    Failed    Incomplete    Duration      Details   
+    ___________________________________________________________________________    ______    ______    __________    ________    ____________
+
+    {'cloudCheckpointTest/processWorkersSaveAllOutcomesAndResume'             }    true      false       false        112.49     {11 struct}
+    {'cloudCheckpointTest/allOutcomesPublishAndResumeWithoutRepeating'        }    true      false       false        31.886     {11 struct}
+    {'cloudCheckpointTest/missingAckIsNotCompletionAndResumeUsesOriginalMat'  }    true      false       false        2.7058     {11 struct}
+    {'cloudCheckpointTest/invalidAckHashFailsLoudly'                          }    true      false       false       0.45491     {11 struct}
+    {'cloudCheckpointTest/identityMismatchCannotReuseRecords'                 }    true      false       false       0.59102     {11 struct}
+    {'cloudCheckpointTest/stridedAssignmentKeepsUnassignedMaskFalse'          }    true      false       false        1.5125     {11 struct}
+    {'cloudCheckpointTest/telemetryFailureDoesNotLoseScientificResult'        }    true      false       false        1.2633     {11 struct}
+    {'cloudCheckpointTest/productionRejectsChangedWorkerOrScienceSettings'    }    true      false       false       0.45473     {11 struct}
+    {'cloudCheckpointTest/invalidResponseRetainsReturnedScientificPayload'    }    true      false       false        2.2455     {11 struct}
+    {'cloudCheckpointTest/interruptionAfterThreeCommitsResumesRemainingTrials'}    true      false       false        25.088     {11 struct}
+

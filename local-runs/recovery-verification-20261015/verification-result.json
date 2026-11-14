@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "matlabCrashRecovered": true,
+  "terminalClosureRecoveredByScheduledTask": true,
+  "committedCheckpointsUnchanged": true,
+  "completedTrials": 8,
+  "matlabWorkers": 2,
+  "calls": [
+    {
+      "trial": "calls_001",
+      "attempts": 1
+    },
+    {
+      "trial": "calls_002",
+      "attempts": 1
+    },
+    {
+      "trial": "calls_003",
+      "attempts": 2
+    },
+    {
+      "trial": "calls_004",
+      "attempts": 2
+    },
+    {
+      "trial": "calls_005",
+      "attempts": 2
+    },
+    {
+      "trial": "calls_006",
+      "attempts": 1
+    },
+    {
+      "trial": "calls_007",
+      "attempts": 1
+    },
+    {
+      "trial": "calls_008",
+      "attempts": 1
+    }
+  ],
+  "verifiedAt": "2026-10-19T12:34:35.7241358Z"
+}

@@ -1,0 +1,139 @@
+{
+  "5182": {
+    "rows": 36,
+    "columns": 132,
+    "new_columns": 65,
+    "changed_existing_columns": [
+      "mean_total_seconds",
+      "excess0.005_ERT_seconds",
+      "excess0.01_ERT_seconds",
+      "excess0.02_ERT_seconds",
+      "excess0.05_ERT_seconds",
+      "excess0.1_ERT_seconds",
+      "cellbest0.001_ERT_seconds",
+      "cellbest0.002_ERT_seconds",
+      "cellbest0.005_ERT_seconds",
+      "cellbest0.01_ERT_seconds",
+      "cellbest0.02_ERT_seconds"
+    ],
+    "bootstrap_rows": 324,
+    "profile_rows": 2880,
+    "exceptions": 9,
+    "validation_pass": 9,
+    "validation_fail": 0
+  },
+  "_4947": {
+    "rows": 36,
+    "columns": 132,
+    "new_columns": 65,
+    "changed_existing_columns": [
+      "mean_total_seconds",
+      "excess0.005_ERT_seconds",
+      "excess0.01_ERT_seconds",
+      "excess0.02_ERT_seconds",
+      "excess0.05_ERT_seconds",
+      "excess0.1_ERT_seconds",
+      "cellbest0.001_ERT_seconds",
+      "cellbest0.002_ERT_seconds",
+      "cellbest0.005_ERT_seconds",
+      "cellbest0.01_ERT_seconds",
+      "cellbest0.02_ERT_seconds"
+    ],
+    "bootstrap_rows": 324,
+    "profile_rows": 2880,
+    "exceptions": 9,
+    "validation_pass": 9,
+    "validation_fail": 0
+  },
+  "historical_spot_checks": [
+    {
+      "reference": "ga",
+      "mzi": "ga",
+      "actual": [
+        0.9785714285714284,
+        0.4714285714285714,
+        0.0,
+        0.0,
+        0.006792183979436,
+        6.0
+      ],
+      "expected": [
+        0.9786,
+        0.4714,
+        0,
+        0,
+        0.0068,
+        6
+      ]
+    },
+    {
+      "reference": "particleswarm",
+      "mzi": "patternsearch",
+      "actual": [
+        0.9714285714285714,
+        0.45,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0.9714,
+        0.45,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "simulannealbnd",
+      "mzi": "simulannealbnd",
+      "actual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2682156260492175,
+        140.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0.2682,
+        140
+      ]
+    },
+    {
+      "reference": "patternsearch",
+      "mzi": "surrogateopt",
+      "actual": [
+        0.7142857142857143,
+        0.1142857142857142,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0.7143,
+        0.1143,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "historical_best_delta_dB": [
+    -25.88,
+    -26.11,
+    -26.99,
+    -30.7,
+    -30.9,
+    -27.58,
+    -27.4
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "active_source": "C:\\Users\\Dell\\Documents\\matlab-cloud-toolkit\\matlab_cloud_run.py",
+  "before_sha256": "c30c1906ec65130362afc4b7890dae65d2535dcb9acbbe71080f078b0262e9ca",
+  "patched_copy": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud\\diagnostics\\storage-fix\\matlab_cloud_run.py",
+  "after_sha256": "295b2acfe386bb99f2d26993ece8658f04f7a6c49d79a4544796c8ffeb1232ab",
+  "offline_tests_passed": 7,
+  "cloud_execution_verified": true,
+  "verified_job_id": "matlab-storage-smoke-20261005-205327",
+  "installed": true
+}

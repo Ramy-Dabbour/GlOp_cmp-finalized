@@ -1,0 +1,26 @@
+{
+  "run_id": "matlab-glop-cmp-20261028-fixes",
+  "plan": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud\\replication-20261028\\plans\\matlab-glop-cmp-20261028-fixes",
+  "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+  "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+  "changed_source_files": [
+    "+fpf/TrialReporter.m",
+    "+fpf/complexHarmonicExtrema.m",
+    "+fpf/writeLiveJson.m",
+    "cloud/durable_uploader.py"
+  ],
+  "added_source_files": [
+    "tests/telemetryRobustnessTest.m"
+  ],
+  "task_count": 4,
+  "workers_per_task": 8,
+  "total_trials": 77760,
+  "analysis_sha256": {
+    "analysis_plan.json": "d51c49917e8ccd3cb4cd9d3d766b6e92eac7e281a286aa5d825134bf627f908d",
+    "fpf_analysis.py": "8043cef61b0536df0f24ecb18c534e5677f061cc1fe92796be126b872cdcb11b",
+    "README_analysis.md": "4ecf9885e1e83ebe2ac65088858e7bf5bb7f064033ccd5254aab45270c6c1a08"
+  },
+  "old_results_imported": false,
+  "custom_computation_timeout": false,
+  "original_resources_unchanged": true
+}

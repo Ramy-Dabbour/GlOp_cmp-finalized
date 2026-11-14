@@ -1,0 +1,206 @@
+{
+  "as_of_utc": "2026-10-29T16:27:30.159675+00:00",
+  "elapsed_hours": 19.8,
+  "completed": 9973,
+  "total": 77760,
+  "percent_complete": 12.83,
+  "lifetime_rate": 503.8,
+  "linear_total_days": 6.43,
+  "linear_remaining_days": 5.61,
+  "recent_rates": [
+    {
+      "requested_hours": 1,
+      "observed_hours": 1.0,
+      "trials_per_hour": 533.8,
+      "remaining_days": 5.29
+    },
+    {
+      "requested_hours": 3,
+      "observed_hours": 6.83,
+      "trials_per_hour": 570.5,
+      "remaining_days": 4.95
+    },
+    {
+      "requested_hours": 6,
+      "observed_hours": 6.83,
+      "trials_per_hour": 570.5,
+      "remaining_days": 4.95
+    },
+    {
+      "requested_hours": 12,
+      "observed_hours": 12.01,
+      "trials_per_hour": 421.3,
+      "remaining_days": 6.7
+    }
+  ],
+  "shards": [
+    {
+      "index": 0,
+      "completed": 2757,
+      "assigned": 19440,
+      "linear_total_days": 5.82,
+      "workers": 8
+    },
+    {
+      "index": 1,
+      "completed": 2658,
+      "assigned": 19440,
+      "linear_total_days": 6.03,
+      "workers": 8
+    },
+    {
+      "index": 2,
+      "completed": 2498,
+      "assigned": 19440,
+      "linear_total_days": 6.42,
+      "workers": 8
+    },
+    {
+      "index": 3,
+      "completed": 2060,
+      "assigned": 19440,
+      "linear_total_days": 7.78,
+      "workers": 8
+    }
+  ],
+  "completed_coverage": [
+    {
+      "rho": 0.2,
+      "order": 4,
+      "count": 720,
+      "mean_seconds": 59.2,
+      "max_seconds": 1020.7
+    },
+    {
+      "rho": 0.2,
+      "order": 5,
+      "count": 720,
+      "mean_seconds": 88.6,
+      "max_seconds": 931.4
+    },
+    {
+      "rho": 0.2,
+      "order": 6,
+      "count": 720,
+      "mean_seconds": 110.6,
+      "max_seconds": 1397.7
+    },
+    {
+      "rho": 0.2,
+      "order": 7,
+      "count": 720,
+      "mean_seconds": 182.6,
+      "max_seconds": 2144.9
+    },
+    {
+      "rho": 0.2,
+      "order": 8,
+      "count": 720,
+      "mean_seconds": 214.0,
+      "max_seconds": 3064.0
+    },
+    {
+      "rho": 0.2,
+      "order": 9,
+      "count": 720,
+      "mean_seconds": 276.7,
+      "max_seconds": 2963.2
+    },
+    {
+      "rho": 0.2,
+      "order": 10,
+      "count": 720,
+      "mean_seconds": 348.2,
+      "max_seconds": 4769.2
+    },
+    {
+      "rho": 0.2,
+      "order": 11,
+      "count": 720,
+      "mean_seconds": 559.8,
+      "max_seconds": 6543.2
+    },
+    {
+      "rho": 0.2,
+      "order": 12,
+      "count": 720,
+      "mean_seconds": 600.6,
+      "max_seconds": 7872.6
+    },
+    {
+      "rho": 0.3,
+      "order": 4,
+      "count": 720,
+      "mean_seconds": 42.7,
+      "max_seconds": 599.0
+    },
+    {
+      "rho": 0.3,
+      "order": 5,
+      "count": 720,
+      "mean_seconds": 78.6,
+      "max_seconds": 1135.0
+    },
+    {
+      "rho": 0.3,
+      "order": 6,
+      "count": 620,
+      "mean_seconds": 125.5,
+      "max_seconds": 1448.5
+    },
+    {
+      "rho": 0.3,
+      "order": 7,
+      "count": 540,
+      "mean_seconds": 181.9,
+      "max_seconds": 1910.5
+    },
+    {
+      "rho": 0.3,
+      "order": 8,
+      "count": 516,
+      "mean_seconds": 234.0,
+      "max_seconds": 2616.7
+    },
+    {
+      "rho": 0.3,
+      "order": 9,
+      "count": 318,
+      "mean_seconds": 254.2,
+      "max_seconds": 3046.6
+    },
+    {
+      "rho": 0.3,
+      "order": 10,
+      "count": 57,
+      "mean_seconds": 259.8,
+      "max_seconds": 2302.6
+    }
+  ],
+  "active_workers": 32,
+  "max_active_trial_seconds": 2807.0,
+  "completed_total_worker_hours": 621.3183650174999,
+  "balanced_rho02_seed0_projection": [
+    {
+      "task": 0,
+      "block_trials": 1620,
+      "balanced_total_days": 6.57
+    },
+    {
+      "task": 1,
+      "block_trials": 1620,
+      "balanced_total_days": 7.17
+    },
+    {
+      "task": 2,
+      "block_trials": 1620,
+      "balanced_total_days": 7.6
+    },
+    {
+      "task": 3,
+      "block_trials": 1620,
+      "balanced_total_days": 9.16
+    }
+  ],
+  "balanced_aggregate_total_days": 7.625944105394967
+}

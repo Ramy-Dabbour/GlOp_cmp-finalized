@@ -1,0 +1,3 @@
+Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-pool-smoke-20261005-225720-29d437/tasks/00000/_TRANSFER_COMPLETE.json#1791241761669705 to file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\pool-per-vcpu\downloads\pool-smoke\matlab-glop-pool-smoke-20261005-225720-29d437\snapshot-676a32f9d427a324-retry-24828a5f\tasks\00000\_TRANSFER_COMPLETE.json
+  
+.......................................

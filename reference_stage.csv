@@ -1,0 +1,649 @@
+firOrder,passbandRatio,randomSeed,referenceSolver,normalizedCoefficientError,elapsedSeconds,functionEvaluations,progressCount,progressUnit,exitFlag,completed,converged,validSolution,failureIdentifier,failureMessage
+4,0.2,0,ga,0.161872435823015,14.7484665,131015,1378,generation,1,1,1,1,,
+5,0.2,0,ga,0.160133094895896,17.7813155,183438,1608,generation,1,1,1,1,,
+6,0.2,0,ga,1.79769313486232e+308,0.9465065,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,0,ga,1.79769313486232e+308,1.2777091,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,0,ga,1.79769313486232e+308,1.5999308,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,0,ga,1.79769313486232e+308,3.595582,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,0,ga,1.79769313486232e+308,2.8301633,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,0,ga,1.79769313486232e+308,3.4259401,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,0,ga,1.79769313486232e+308,4.1249261,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,0,ga,0.151824247613028,7.9454006,97575,1026,generation,1,1,1,1,,
+5,0.3,0,ga,0.122071838787506,2.3703147,23268,203,generation,1,1,1,1,,
+6,0.3,0,ga,1.79769313486232e+308,0.9221189,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,0,ga,1.79769313486232e+308,1.4434223,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,0,ga,1.79769313486232e+308,1.7907186,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,0,ga,1.79769313486232e+308,2.0350448,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,0,ga,1.79769313486232e+308,3.4051531,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,0,ga,1.79769313486232e+308,3.3444434,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,0,ga,1.79769313486232e+308,3.9745649,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,0,ga,0.124205014970791,4.5913491,54540,573,generation,1,1,1,1,,
+5,0.4,0,ga,0.122007827465182,6.9715836,67272,589,generation,1,1,1,1,,
+6,0.4,0,ga,1.79769313486232e+308,1.5934344,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,0,ga,1.79769313486232e+308,1.2142927,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,0,ga,1.79769313486232e+308,1.7771055,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,0,ga,1.79769313486232e+308,2.2046063,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,0,ga,1.79769313486232e+308,2.8252439,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,0,ga,1.79769313486232e+308,3.4402899,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,0,ga,1.79769313486232e+308,4.2860822,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,0,ga,0.127261781954544,3.6241284,42760,449,generation,1,1,1,1,,
+5,0.5,0,ga,0.101920495104557,9.0465829,97482,854,generation,1,1,1,1,,
+6,0.5,0,ga,1.79769313486232e+308,1.1293384,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,0,ga,1.79769313486232e+308,1.2223345,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,0,ga,1.79769313486232e+308,1.6690036,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,0,ga,1.79769313486232e+308,2.0708835,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,0,ga,1.79769313486232e+308,2.620894,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,0,ga,1.79769313486232e+308,3.3491844,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,0,ga,1.79769313486232e+308,4.2727849,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,1,ga,0.15995695206007,4.6739981,52735,554,generation,1,1,1,1,,
+5,0.2,1,ga,1.79769313486232e+308,1.0775438,7080,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.2,1,ga,1.79769313486232e+308,1.0778415,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,1,ga,1.79769313486232e+308,1.2461731,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,1,ga,1.79769313486232e+308,2.1720985,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,1,ga,1.79769313486232e+308,2.0473927,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,1,ga,1.79769313486232e+308,2.6009086,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,1,ga,1.79769313486232e+308,4.0611554,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,1,ga,1.79769313486232e+308,4.3861857,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,1,ga,0.152373178715786,4.1626749,46940,493,generation,1,1,1,1,,
+5,0.3,1,ga,1.79769313486232e+308,0.6754294,7080,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.3,1,ga,1.79769313486232e+308,0.9339487,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,1,ga,1.79769313486232e+308,1.3081341,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,1,ga,1.79769313486232e+308,1.7019743,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,1,ga,1.79769313486232e+308,2.1562494,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,1,ga,1.79769313486232e+308,2.7056612,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,1,ga,1.79769313486232e+308,3.3609745,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,1,ga,1.79769313486232e+308,4.2505989,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,1,ga,0.120691243437633,5.1060978,53780,565,generation,1,1,1,1,,
+5,0.4,1,ga,1.79769313486232e+308,0.7100831,7080,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.4,1,ga,1.79769313486232e+308,1.1123923,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,1,ga,1.79769313486232e+308,1.4528225,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,1,ga,1.79769313486232e+308,1.825644,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,1,ga,1.79769313486232e+308,2.2940365,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,1,ga,1.79769313486232e+308,2.5738059,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,1,ga,1.79769313486232e+308,3.4427275,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,1,ga,1.79769313486232e+308,4.2156335,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,1,ga,0.123525694552522,5.9541323,70120,737,generation,1,1,1,1,,
+5,0.5,1,ga,1.79769313486232e+308,0.7085056,7080,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.5,1,ga,1.79769313486232e+308,0.9300244,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,1,ga,1.79769313486232e+308,1.2614276,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,1,ga,1.79769313486232e+308,1.5934171,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,1,ga,1.79769313486232e+308,2.2354104,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,1,ga,1.79769313486232e+308,3.9455579,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,1,ga,1.79769313486232e+308,3.4679298,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,1,ga,1.79769313486232e+308,4.1671147,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,2,ga,0.161326167280224,5.9948453,69740,733,generation,1,1,1,1,,
+5,0.2,2,ga,1.79769313486232e+308,0.6809354,7080,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.2,2,ga,1.79769313486232e+308,0.9671171,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,2,ga,1.79769313486232e+308,1.2672751,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,2,ga,1.79769313486232e+308,1.6971025,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,2,ga,1.79769313486232e+308,3.3597185,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,2,ga,1.79769313486232e+308,2.7104119,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,2,ga,1.79769313486232e+308,3.3617062,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,2,ga,1.79769313486232e+308,4.2410156,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,2,ga,0.15197148480233,11.5764714,82565,868,generation,1,1,1,1,,
+5,0.3,2,ga,1.79769313486232e+308,0.952811,7080,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.3,2,ga,1.79769313486232e+308,1.0512005,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,2,ga,1.79769313486232e+308,1.1543907,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,2,ga,1.79769313486232e+308,2.9856077,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,2,ga,1.79769313486232e+308,2.2396562,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,2,ga,1.79769313486232e+308,2.747688,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,2,ga,1.79769313486232e+308,4.1473727,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,2,ga,1.79769313486232e+308,5.1803078,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,2,ga,0.123994738915274,2.454184,25850,271,generation,1,1,1,1,,
+5,0.4,2,ga,1.79769313486232e+308,0.6937791,7080,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.4,2,ga,1.79769313486232e+308,1.0638438,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,2,ga,1.79769313486232e+308,1.3204575,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,2,ga,1.79769313486232e+308,2.9620609,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,2,ga,1.79769313486232e+308,2.1207936,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,2,ga,1.79769313486232e+308,2.6263587,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,2,ga,1.79769313486232e+308,3.290697,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,2,ga,1.79769313486232e+308,4.0987121,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,2,ga,0.125331496790647,3.0217814,37440,393,generation,1,1,1,1,,
+5,0.5,2,ga,1.79769313486232e+308,0.8948355,7080,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.5,2,ga,1.79769313486232e+308,0.9811188,8260,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,2,ga,1.79769313486232e+308,1.2992476,9440,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,2,ga,1.79769313486232e+308,1.6501515,10620,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,2,ga,1.79769313486232e+308,2.1374392,11800,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,2,ga,1.79769313486232e+308,2.7866133,12980,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,2,ga,1.79769313486232e+308,3.225388,14160,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,2,ga,1.79769313486232e+308,4.1004745,15340,61,generation,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,0,particleswarm,0.158273211792988,8.6514844,106800,1067,iteration,1,1,1,1,,
+5,0.2,0,particleswarm,0.158020382764674,15.9131383,187680,1563,iteration,1,1,1,1,,
+6,0.2,0,particleswarm,0.147548728240574,10.1681781,95480,681,iteration,1,1,1,1,,
+7,0.2,0,particleswarm,1.79769313486232e+308,1.1991159,9920,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,0,particleswarm,1.79769313486232e+308,1.5674182,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,0,particleswarm,1.79769313486232e+308,3.2536654,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,0,particleswarm,1.79769313486232e+308,2.7547208,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,0,particleswarm,1.79769313486232e+308,3.5765395,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,0,particleswarm,1.79769313486232e+308,4.1910357,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,0,particleswarm,0.147273313880321,1.6297613,21000,209,iteration,1,1,1,1,,
+5,0.3,0,particleswarm,0.120481559327556,5.7879472,66960,557,iteration,1,1,1,1,,
+6,0.3,0,particleswarm,0.116072093542433,5.6546376,56420,402,iteration,1,1,1,1,,
+7,0.3,0,particleswarm,1.79769313486232e+308,1.2321911,9920,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,0,particleswarm,1.79769313486232e+308,1.5624167,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,0,particleswarm,1.79769313486232e+308,2.2362542,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,0,particleswarm,1.79769313486232e+308,4.3048212,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,0,particleswarm,1.79769313486232e+308,3.3355218,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,0,particleswarm,1.79769313486232e+308,4.4136805,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,0,particleswarm,0.12017263734004,2.3309527,30800,307,iteration,1,1,1,1,,
+5,0.4,0,particleswarm,0.120216210114008,3.8744043,44400,369,iteration,1,1,1,1,,
+6,0.4,0,particleswarm,0.102411755996276,15.061494,82740,590,iteration,1,1,1,1,,
+7,0.4,0,particleswarm,1.79769313486232e+308,1.2177856,9920,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,0,particleswarm,1.79769313486232e+308,1.5734746,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,0,particleswarm,1.79769313486232e+308,1.9922915,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,0,particleswarm,1.79769313486232e+308,2.5751356,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,0,particleswarm,1.79769313486232e+308,3.6412487,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,0,particleswarm,1.79769313486232e+308,4.2451723,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,0,particleswarm,0.123479937534398,8.1023501,112400,1123,iteration,1,1,1,1,,
+5,0.5,0,particleswarm,0.101288859404112,20.4325792,240120,2000,iteration,0,1,0,1,,
+6,0.5,0,particleswarm,0.102043223754653,4.5482504,45080,321,iteration,1,1,1,1,,
+7,0.5,0,particleswarm,1.79769313486232e+308,1.4281567,9920,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,0,particleswarm,1.79769313486232e+308,1.5722254,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,0,particleswarm,1.79769313486232e+308,2.0942513,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,0,particleswarm,1.79769313486232e+308,2.8709974,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,0,particleswarm,1.79769313486232e+308,3.2598316,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,0,particleswarm,1.79769313486232e+308,4.2463521,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,1,particleswarm,0.157915550807882,3.6435652,46000,459,iteration,1,1,1,1,,
+5,0.2,1,particleswarm,0.15799277578585,7.0989349,81960,682,iteration,1,1,1,1,,
+6,0.2,1,particleswarm,0.146582372862751,9.9175694,93660,668,iteration,1,1,1,1,,
+7,0.2,1,particleswarm,0.12475801614229,21.480644,167360,1045,iteration,1,1,1,1,,
+8,0.2,1,particleswarm,1.79769313486232e+308,2.8148177,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,1,particleswarm,1.79769313486232e+308,2.2201275,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,1,particleswarm,1.79769313486232e+308,2.9954364,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,1,particleswarm,1.79769313486232e+308,4.0703173,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,1,particleswarm,1.79769313486232e+308,4.5382062,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,1,particleswarm,0.147423471056088,2.1459933,23900,238,iteration,1,1,1,1,,
+5,0.3,1,particleswarm,0.120472431708787,13.0907641,146520,1220,iteration,1,1,1,1,,
+6,0.3,1,particleswarm,0.116074631690779,10.420575,98840,705,iteration,1,1,1,1,,
+7,0.3,1,particleswarm,0.115244739961579,5.8876043,48480,302,iteration,1,1,1,1,,
+8,0.3,1,particleswarm,1.79769313486232e+308,1.8990088,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,1,particleswarm,1.79769313486232e+308,2.2158134,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,1,particleswarm,1.79769313486232e+308,2.9341351,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,1,particleswarm,1.79769313486232e+308,3.4570708,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,1,particleswarm,1.79769313486232e+308,4.5796975,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,1,particleswarm,0.120361752150683,4.5898816,61700,616,iteration,1,1,1,1,,
+5,0.4,1,particleswarm,0.120574118344259,1.9883957,22440,186,iteration,1,1,1,1,,
+6,0.4,1,particleswarm,0.102372620208769,8.5483582,83860,598,iteration,1,1,1,1,,
+7,0.4,1,particleswarm,0.0981369422749322,22.1770538,153440,958,iteration,1,1,1,1,,
+8,0.4,1,particleswarm,1.79769313486232e+308,1.6863407,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,1,particleswarm,1.79769313486232e+308,2.0588444,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,1,particleswarm,1.79769313486232e+308,2.854347,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,1,particleswarm,1.79769313486232e+308,3.5429754,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,1,particleswarm,1.79769313486232e+308,4.480362,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,1,particleswarm,0.123453262642158,3.3139091,46900,468,iteration,1,1,1,1,,
+5,0.5,1,particleswarm,0.101552612465416,7.0906793,83040,691,iteration,1,1,1,1,,
+6,0.5,1,particleswarm,0.101317976600451,5.6213316,52500,374,iteration,1,1,1,1,,
+7,0.5,1,particleswarm,0.087873858650242,7.30772,59360,370,iteration,1,1,1,1,,
+8,0.5,1,particleswarm,1.79769313486232e+308,1.7505935,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,1,particleswarm,1.79769313486232e+308,2.3732464,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,1,particleswarm,1.79769313486232e+308,3.1609526,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,1,particleswarm,1.79769313486232e+308,3.3055251,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,1,particleswarm,1.79769313486232e+308,4.4503094,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,2,particleswarm,0.157895312194603,2.3047311,30200,301,iteration,1,1,1,1,,
+5,0.2,2,particleswarm,0.157869633399191,3.668266,42960,357,iteration,1,1,1,1,,
+6,0.2,2,particleswarm,0.146731284840443,8.9477201,86800,619,iteration,1,1,1,1,,
+7,0.2,2,particleswarm,1.79769313486232e+308,1.2755663,9920,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,2,particleswarm,1.79769313486232e+308,1.675617,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,2,particleswarm,1.79769313486232e+308,3.3076549,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,2,particleswarm,1.79769313486232e+308,2.6415807,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,2,particleswarm,1.79769313486232e+308,3.5831941,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,2,particleswarm,1.79769313486232e+308,4.2219635,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,2,particleswarm,0.1486319042479,5.2242998,64800,647,iteration,1,1,1,1,,
+5,0.3,2,particleswarm,0.121028090520651,8.785219,79080,658,iteration,1,1,1,1,,
+6,0.3,2,particleswarm,0.116540002188151,13.914775,129360,923,iteration,1,1,1,1,,
+7,0.3,2,particleswarm,1.79769313486232e+308,1.4747609,9920,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,2,particleswarm,1.79769313486232e+308,2.3699869,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,2,particleswarm,1.79769313486232e+308,1.9597646,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,2,particleswarm,1.79769313486232e+308,2.4383545,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,2,particleswarm,1.79769313486232e+308,3.3029722,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,2,particleswarm,1.79769313486232e+308,5.6207671,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,2,particleswarm,0.12028410451567,5.1894001,71900,718,iteration,1,1,1,1,,
+5,0.4,2,particleswarm,0.120235135035155,8.9414782,101760,847,iteration,1,1,1,1,,
+6,0.4,2,particleswarm,0.101565767803405,19.0987868,159460,1138,iteration,1,1,1,1,,
+7,0.4,2,particleswarm,1.79769313486232e+308,1.2099132,9920,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,2,particleswarm,1.79769313486232e+308,2.2663518,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,2,particleswarm,1.79769313486232e+308,2.246814,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,2,particleswarm,1.79769313486232e+308,2.8458747,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,2,particleswarm,1.79769313486232e+308,3.4575492,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,2,particleswarm,1.79769313486232e+308,4.2434018,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,2,particleswarm,0.123455075685717,8.4661092,116500,1164,iteration,1,1,1,1,,
+5,0.5,2,particleswarm,0.101219832825599,5.5167687,42600,354,iteration,1,1,1,1,,
+6,0.5,2,particleswarm,0.101630358710284,2.8734297,27860,198,iteration,1,1,1,1,,
+7,0.5,2,particleswarm,1.79769313486232e+308,1.1907941,9920,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,2,particleswarm,1.79769313486232e+308,1.7418523,11160,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,2,particleswarm,1.79769313486232e+308,2.241556,12400,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,2,particleswarm,1.79769313486232e+308,2.718288,13640,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,2,particleswarm,1.79769313486232e+308,3.5496548,14880,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,2,particleswarm,1.79769313486232e+308,4.242628,16120,61,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,0,surrogateopt,0.928452708288338,12.0906659,529,NaN,,-1,1,0,1,,
+5,0.2,0,surrogateopt,1.07503018730216,4.1015755,202,NaN,,-1,1,0,1,,
+6,0.2,0,surrogateopt,1.07416334065161,1.4700266,202,NaN,,-1,1,0,1,,
+7,0.2,0,surrogateopt,1.07255115754248,4.4570631,202,NaN,,-1,1,0,1,,
+8,0.2,0,surrogateopt,1.07136348316109,1.5723134,202,NaN,,-1,1,0,1,,
+9,0.2,0,surrogateopt,1.07101265236217,3.3848438,202,NaN,,-1,1,0,1,,
+10,0.2,0,surrogateopt,1.07101265236217,1.5026886,202,NaN,,-1,1,0,1,,
+11,0.2,0,surrogateopt,1.07077972199239,1.4594816,202,NaN,,-1,1,0,1,,
+12,0.2,0,surrogateopt,1.07027264986257,1.6229096,202,NaN,,-1,1,0,1,,
+4,0.3,0,surrogateopt,0.796567395953088,3.6433333,332,NaN,,-1,1,0,1,,
+5,0.3,0,surrogateopt,0.946042138755818,1.4966216,202,NaN,,-1,1,0,1,,
+6,0.3,0,surrogateopt,0.946491672561929,1.4241974,202,NaN,,-1,1,0,1,,
+7,0.3,0,surrogateopt,0.946582042769345,1.4472914,202,NaN,,-1,1,0,1,,
+8,0.3,0,surrogateopt,0.947228386688104,1.4280695,202,NaN,,-1,1,0,1,,
+9,0.3,0,surrogateopt,0.947590941831292,1.4337477,202,NaN,,-1,1,0,1,,
+10,0.3,0,surrogateopt,0.947590941831292,2.1500712,202,NaN,,-1,1,0,1,,
+11,0.3,0,surrogateopt,0.947830871092745,1.7260633,202,NaN,,-1,1,0,1,,
+12,0.3,0,surrogateopt,0.94810674135036,1.8098143,202,NaN,,-1,1,0,1,,
+4,0.4,0,surrogateopt,0.726204131960376,3.6587741,332,NaN,,-1,1,0,1,,
+5,0.4,0,surrogateopt,0.866039501689031,1.4388287,202,NaN,,-1,1,0,1,,
+6,0.4,0,surrogateopt,0.868444395935079,1.937238,202,NaN,,-1,1,0,1,,
+7,0.4,0,surrogateopt,0.869103757381881,1.4533364,202,NaN,,-1,1,0,1,,
+8,0.4,0,surrogateopt,0.869604107401084,1.4050805,202,NaN,,-1,1,0,1,,
+9,0.4,0,surrogateopt,0.87062700950537,1.4619441,202,NaN,,-1,1,0,1,,
+10,0.4,0,surrogateopt,0.87062700950537,1.5994517,202,NaN,,-1,1,0,1,,
+11,0.4,0,surrogateopt,0.871302796162827,1.7237057,202,NaN,,-1,1,0,1,,
+12,0.4,0,surrogateopt,0.871518193311359,1.5162535,202,NaN,,-1,1,0,1,,
+4,0.5,0,surrogateopt,0.722788554929256,11.1879365,529,NaN,,-1,1,0,1,,
+5,0.5,0,surrogateopt,0.80690468171593,1.4683963,202,NaN,,-1,1,0,1,,
+6,0.5,0,surrogateopt,0.80690468171593,1.4566475,202,NaN,,-1,1,0,1,,
+7,0.5,0,surrogateopt,0.809368104648808,1.5323754,202,NaN,,-1,1,0,1,,
+8,0.5,0,surrogateopt,0.809368104648808,1.5679385,202,NaN,,-1,1,0,1,,
+9,0.5,0,surrogateopt,0.810827674699794,1.4352841,202,NaN,,-1,1,0,1,,
+10,0.5,0,surrogateopt,0.810827674699794,1.4446368,202,NaN,,-1,1,0,1,,
+11,0.5,0,surrogateopt,0.811792167258806,1.9478268,202,NaN,,-1,1,0,1,,
+12,0.5,0,surrogateopt,0.811792167258806,1.972374,202,NaN,,-1,1,0,1,,
+4,0.2,1,surrogateopt,0.928452708288338,12.8007142,529,NaN,,-1,1,0,1,,
+5,0.2,1,surrogateopt,1.07503018730216,1.5598547,202,NaN,,-1,1,0,1,,
+6,0.2,1,surrogateopt,1.07416334065161,1.6285719,202,NaN,,-1,1,0,1,,
+7,0.2,1,surrogateopt,1.07255115754248,1.6415825,202,NaN,,-1,1,0,1,,
+8,0.2,1,surrogateopt,1.07136348316109,1.968956,202,NaN,,-1,1,0,1,,
+9,0.2,1,surrogateopt,1.07101265236217,1.7193368,202,NaN,,-1,1,0,1,,
+10,0.2,1,surrogateopt,1.07101265236217,1.7081985,202,NaN,,-1,1,0,1,,
+11,0.2,1,surrogateopt,1.07077972199239,1.8508086,202,NaN,,-1,1,0,1,,
+12,0.2,1,surrogateopt,1.07027264986257,1.8838777,202,NaN,,-1,1,0,1,,
+4,0.3,1,surrogateopt,0.796567395953088,3.8698308,332,NaN,,-1,1,0,1,,
+5,0.3,1,surrogateopt,0.946042138755818,1.6431977,202,NaN,,-1,1,0,1,,
+6,0.3,1,surrogateopt,0.946491672561929,1.4624938,202,NaN,,-1,1,0,1,,
+7,0.3,1,surrogateopt,0.946582042769345,1.4454769,202,NaN,,-1,1,0,1,,
+8,0.3,1,surrogateopt,0.947228386688104,2.1670019,202,NaN,,-1,1,0,1,,
+9,0.3,1,surrogateopt,0.947590941831292,1.7383421,202,NaN,,-1,1,0,1,,
+10,0.3,1,surrogateopt,0.947590941831292,1.5231546,202,NaN,,-1,1,0,1,,
+11,0.3,1,surrogateopt,0.947830871092745,1.7514667,202,NaN,,-1,1,0,1,,
+12,0.3,1,surrogateopt,0.94810674135036,1.5869985,202,NaN,,-1,1,0,1,,
+4,0.4,1,surrogateopt,0.726204131960376,3.5289663,332,NaN,,-1,1,0,1,,
+5,0.4,1,surrogateopt,0.866039501689031,3.2904053,202,NaN,,-1,1,0,1,,
+6,0.4,1,surrogateopt,0.868444395935079,1.5160952,202,NaN,,-1,1,0,1,,
+7,0.4,1,surrogateopt,0.869103757381881,1.4512773,202,NaN,,-1,1,0,1,,
+8,0.4,1,surrogateopt,0.869604107401084,1.4887173,202,NaN,,-1,1,0,1,,
+9,0.4,1,surrogateopt,0.87062700950537,1.7086715,202,NaN,,-1,1,0,1,,
+10,0.4,1,surrogateopt,0.87062700950537,1.4832701,202,NaN,,-1,1,0,1,,
+11,0.4,1,surrogateopt,0.871302796162827,1.4886624,202,NaN,,-1,1,0,1,,
+12,0.4,1,surrogateopt,0.871518193311359,1.6519727,202,NaN,,-1,1,0,1,,
+4,0.5,1,surrogateopt,0.722788554929256,11.4664791,529,NaN,,-1,1,0,1,,
+5,0.5,1,surrogateopt,0.80690468171593,1.78762,202,NaN,,-1,1,0,1,,
+6,0.5,1,surrogateopt,0.80690468171593,1.6877773,202,NaN,,-1,1,0,1,,
+7,0.5,1,surrogateopt,0.809368104648808,1.4365682,202,NaN,,-1,1,0,1,,
+8,0.5,1,surrogateopt,0.809368104648808,2.3022872,202,NaN,,-1,1,0,1,,
+9,0.5,1,surrogateopt,0.810827674699794,1.6057359,202,NaN,,-1,1,0,1,,
+10,0.5,1,surrogateopt,0.810827674699794,1.7956495,202,NaN,,-1,1,0,1,,
+11,0.5,1,surrogateopt,0.811792167258806,1.6414041,202,NaN,,-1,1,0,1,,
+12,0.5,1,surrogateopt,0.811792167258806,1.726276,202,NaN,,-1,1,0,1,,
+4,0.2,2,surrogateopt,0.928452708288338,11.4622974,529,NaN,,-1,1,0,1,,
+5,0.2,2,surrogateopt,1.07503018730216,1.5453726,202,NaN,,-1,1,0,1,,
+6,0.2,2,surrogateopt,1.07416334065161,1.7696592,202,NaN,,-1,1,0,1,,
+7,0.2,2,surrogateopt,1.07255115754248,1.4427976,202,NaN,,-1,1,0,1,,
+8,0.2,2,surrogateopt,1.07136348316109,1.44742,202,NaN,,-1,1,0,1,,
+9,0.2,2,surrogateopt,1.07101265236217,2.426178,202,NaN,,-1,1,0,1,,
+10,0.2,2,surrogateopt,1.07101265236217,1.4906759,202,NaN,,-1,1,0,1,,
+11,0.2,2,surrogateopt,1.07077972199239,1.5208789,202,NaN,,-1,1,0,1,,
+12,0.2,2,surrogateopt,1.07027264986257,1.5256662,202,NaN,,-1,1,0,1,,
+4,0.3,2,surrogateopt,0.796567395953088,3.7646607,332,NaN,,-1,1,0,1,,
+5,0.3,2,surrogateopt,0.946042138755818,1.7847916,202,NaN,,-1,1,0,1,,
+6,0.3,2,surrogateopt,0.946491672561929,1.840368,202,NaN,,-1,1,0,1,,
+7,0.3,2,surrogateopt,0.946582042769345,1.5999337,202,NaN,,-1,1,0,1,,
+8,0.3,2,surrogateopt,0.947228386688104,1.5990423,202,NaN,,-1,1,0,1,,
+9,0.3,2,surrogateopt,0.947590941831292,1.6938242,202,NaN,,-1,1,0,1,,
+10,0.3,2,surrogateopt,0.947590941831292,1.8568394,202,NaN,,-1,1,0,1,,
+11,0.3,2,surrogateopt,0.947830871092745,1.6267444,202,NaN,,-1,1,0,1,,
+12,0.3,2,surrogateopt,0.94810674135036,2.2180064,202,NaN,,-1,1,0,1,,
+4,0.4,2,surrogateopt,0.726204131960376,4.0427517,332,NaN,,-1,1,0,1,,
+5,0.4,2,surrogateopt,0.866039501689031,1.5686811,202,NaN,,-1,1,0,1,,
+6,0.4,2,surrogateopt,0.868444395935079,1.473721,202,NaN,,-1,1,0,1,,
+7,0.4,2,surrogateopt,0.869103757381881,1.5934761,202,NaN,,-1,1,0,1,,
+8,0.4,2,surrogateopt,0.869604107401084,2.4035709,202,NaN,,-1,1,0,1,,
+9,0.4,2,surrogateopt,0.87062700950537,1.8006013,202,NaN,,-1,1,0,1,,
+10,0.4,2,surrogateopt,0.87062700950537,2.2965944,202,NaN,,-1,1,0,1,,
+11,0.4,2,surrogateopt,0.871302796162827,1.4735884,202,NaN,,-1,1,0,1,,
+12,0.4,2,surrogateopt,0.871518193311359,1.7129081,202,NaN,,-1,1,0,1,,
+4,0.5,2,surrogateopt,0.722788554929256,11.665637,529,NaN,,-1,1,0,1,,
+5,0.5,2,surrogateopt,0.80690468171593,1.4667,202,NaN,,-1,1,0,1,,
+6,0.5,2,surrogateopt,0.80690468171593,1.5745398,202,NaN,,-1,1,0,1,,
+7,0.5,2,surrogateopt,0.809368104648808,1.5645848,202,NaN,,-1,1,0,1,,
+8,0.5,2,surrogateopt,0.809368104648808,1.4367554,202,NaN,,-1,1,0,1,,
+9,0.5,2,surrogateopt,0.810827674699794,1.4563586,202,NaN,,-1,1,0,1,,
+10,0.5,2,surrogateopt,0.810827674699794,1.8175553,202,NaN,,-1,1,0,1,,
+11,0.5,2,surrogateopt,0.811792167258806,2.3030919,202,NaN,,-1,1,0,1,,
+12,0.5,2,surrogateopt,0.811792167258806,1.5551759,202,NaN,,-1,1,0,1,,
+4,0.2,0,simulannealbnd,1.79769313486232e+308,0.2958882,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.2,0,simulannealbnd,1.04627938982063,0.135335,414,401,iteration,0,1,0,1,,
+6,0.2,0,simulannealbnd,1.79769313486232e+308,0.1272521,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,0,simulannealbnd,1.79769313486232e+308,0.1794227,410,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,0,simulannealbnd,1.79769313486232e+308,0.1441841,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,0,simulannealbnd,1.79769313486232e+308,0.1490874,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,0,simulannealbnd,1.79769313486232e+308,0.3842805,413,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,0,simulannealbnd,1.79769313486232e+308,0.16921,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,0,simulannealbnd,1.79769313486232e+308,0.1915928,415,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,0,simulannealbnd,1.79769313486232e+308,0.1113825,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.3,0,simulannealbnd,0.826721328581649,0.1185821,414,401,iteration,0,1,0,1,,
+6,0.3,0,simulannealbnd,1.79769313486232e+308,0.120575,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,0,simulannealbnd,1.79769313486232e+308,0.1180439,410,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,0,simulannealbnd,1.79769313486232e+308,0.2659524,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,0,simulannealbnd,1.79769313486232e+308,0.2815792,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,0,simulannealbnd,1.79769313486232e+308,0.1713257,413,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,0,simulannealbnd,1.79769313486232e+308,0.285687,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,0,simulannealbnd,1.79769313486232e+308,0.2149591,415,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,0,simulannealbnd,1.79769313486232e+308,0.1049356,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.4,0,simulannealbnd,0.690982145576206,0.1160978,414,401,iteration,0,1,0,1,,
+6,0.4,0,simulannealbnd,1.79769313486232e+308,0.1169657,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,0,simulannealbnd,1.79769313486232e+308,0.1306862,410,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,0,simulannealbnd,1.79769313486232e+308,0.2397854,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,0,simulannealbnd,1.79769313486232e+308,0.1454856,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,0,simulannealbnd,1.79769313486232e+308,0.275549,413,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,0,simulannealbnd,1.79769313486232e+308,0.1735953,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,0,simulannealbnd,1.79769313486232e+308,0.1839618,415,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,0,simulannealbnd,1.79769313486232e+308,0.1016655,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.5,0,simulannealbnd,0.698942171249237,0.1106918,414,401,iteration,0,1,0,1,,
+6,0.5,0,simulannealbnd,1.79769313486232e+308,0.1179979,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,0,simulannealbnd,1.79769313486232e+308,0.1188899,410,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,0,simulannealbnd,1.79769313486232e+308,0.1303435,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,0,simulannealbnd,1.79769313486232e+308,0.3381302,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,0,simulannealbnd,1.79769313486232e+308,0.1564238,413,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,0,simulannealbnd,1.79769313486232e+308,0.1747598,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,0,simulannealbnd,1.79769313486232e+308,0.4035508,415,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,1,simulannealbnd,1.79769313486232e+308,0.1144669,407,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.2,1,simulannealbnd,1.79769313486232e+308,0.1142053,408,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.2,1,simulannealbnd,1.79769313486232e+308,0.1230493,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,1,simulannealbnd,1.79769313486232e+308,0.1256503,418,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,1,simulannealbnd,1.79769313486232e+308,0.1473614,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,1,simulannealbnd,1.79769313486232e+308,0.1507069,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,1,simulannealbnd,1.79769313486232e+308,0.169113,424,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,1,simulannealbnd,1.79769313486232e+308,0.2377062,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,1,simulannealbnd,1.79769313486232e+308,0.4438021,428,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,1,simulannealbnd,1.79769313486232e+308,0.1583103,407,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.3,1,simulannealbnd,1.79769313486232e+308,0.1604445,408,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.3,1,simulannealbnd,1.79769313486232e+308,0.2283156,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,1,simulannealbnd,1.79769313486232e+308,0.1338663,418,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,1,simulannealbnd,1.79769313486232e+308,0.2788072,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,1,simulannealbnd,1.79769313486232e+308,0.1496258,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,1,simulannealbnd,1.79769313486232e+308,0.1819957,424,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,1,simulannealbnd,1.79769313486232e+308,0.1747724,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,1,simulannealbnd,1.79769313486232e+308,0.1945097,428,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,1,simulannealbnd,1.79769313486232e+308,0.1826193,407,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.4,1,simulannealbnd,1.79769313486232e+308,0.1569643,408,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.4,1,simulannealbnd,1.79769313486232e+308,0.1216923,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,1,simulannealbnd,1.79769313486232e+308,0.1209148,418,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,1,simulannealbnd,1.79769313486232e+308,0.1392214,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,1,simulannealbnd,1.79769313486232e+308,0.1457574,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,1,simulannealbnd,1.79769313486232e+308,0.1586697,424,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,1,simulannealbnd,1.79769313486232e+308,0.1775284,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,1,simulannealbnd,1.79769313486232e+308,0.1973085,428,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,1,simulannealbnd,1.79769313486232e+308,0.106514,407,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.5,1,simulannealbnd,1.79769313486232e+308,0.1296243,408,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.5,1,simulannealbnd,1.79769313486232e+308,0.1180261,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,1,simulannealbnd,1.79769313486232e+308,0.2835636,418,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,1,simulannealbnd,1.79769313486232e+308,0.2827344,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,1,simulannealbnd,1.79769313486232e+308,0.1702163,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,1,simulannealbnd,1.79769313486232e+308,0.1939063,424,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,1,simulannealbnd,1.79769313486232e+308,0.170856,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,1,simulannealbnd,1.79769313486232e+308,0.343456,428,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,2,simulannealbnd,1.79769313486232e+308,0.1004987,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.2,2,simulannealbnd,1.79769313486232e+308,0.115858,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.2,2,simulannealbnd,1.79769313486232e+308,0.1224027,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,2,simulannealbnd,1.79769313486232e+308,0.1350545,418,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,2,simulannealbnd,1.79769313486232e+308,0.1527922,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,2,simulannealbnd,1.79769313486232e+308,0.2498969,422,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,2,simulannealbnd,1.79769313486232e+308,0.167362,413,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,2,simulannealbnd,1.79769313486232e+308,0.2042583,426,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,2,simulannealbnd,1.79769313486232e+308,0.1907173,428,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,2,simulannealbnd,1.79769313486232e+308,0.1142908,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.3,2,simulannealbnd,1.79769313486232e+308,0.1846487,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.3,2,simulannealbnd,1.79769313486232e+308,0.1080368,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,2,simulannealbnd,1.79769313486232e+308,0.1156824,418,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,2,simulannealbnd,1.79769313486232e+308,0.1174046,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,2,simulannealbnd,1.79769313486232e+308,0.1334025,422,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,2,simulannealbnd,1.79769313486232e+308,0.1415509,413,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,2,simulannealbnd,1.79769313486232e+308,0.6959521,426,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,2,simulannealbnd,1.79769313486232e+308,0.1932199,428,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,2,simulannealbnd,1.79769313486232e+308,0.1076398,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.4,2,simulannealbnd,1.79769313486232e+308,0.1285921,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.4,2,simulannealbnd,1.79769313486232e+308,0.1429481,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,2,simulannealbnd,1.79769313486232e+308,0.1298467,418,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,2,simulannealbnd,1.79769313486232e+308,0.1295565,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,2,simulannealbnd,1.79769313486232e+308,0.1473125,422,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,2,simulannealbnd,1.79769313486232e+308,0.1588723,413,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,2,simulannealbnd,1.79769313486232e+308,0.1777304,426,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,2,simulannealbnd,1.79769313486232e+308,0.2614552,428,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,2,simulannealbnd,1.79769313486232e+308,0.1020306,412,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.5,2,simulannealbnd,1.79769313486232e+308,0.1098491,414,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.5,2,simulannealbnd,1.79769313486232e+308,0.1234766,416,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,2,simulannealbnd,1.79769313486232e+308,0.1352542,418,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,2,simulannealbnd,1.79769313486232e+308,0.1306108,420,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,2,simulannealbnd,1.79769313486232e+308,0.3114242,422,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,2,simulannealbnd,1.79769313486232e+308,0.1611947,413,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,2,simulannealbnd,1.79769313486232e+308,0.2732656,426,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,2,simulannealbnd,1.79769313486232e+308,0.1897415,428,401,iteration,0,1,0,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,0,patternsearch,1.79769313486232e+308,0.0702179,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.2,0,patternsearch,1.79769313486232e+308,0.0741229,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.2,0,patternsearch,1.79769313486232e+308,0.049425,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,0,patternsearch,1.79769313486232e+308,0.0664379,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,0,patternsearch,1.79769313486232e+308,0.1102964,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,0,patternsearch,1.79769313486232e+308,0.0900295,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,0,patternsearch,1.79769313486232e+308,0.391027,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,0,patternsearch,1.79769313486232e+308,0.1294805,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,0,patternsearch,1.79769313486232e+308,0.1504846,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,0,patternsearch,1.79769313486232e+308,0.0344688,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.3,0,patternsearch,1.79769313486232e+308,0.0376405,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.3,0,patternsearch,1.79769313486232e+308,0.0489101,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,0,patternsearch,1.79769313486232e+308,0.0651456,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,0,patternsearch,1.79769313486232e+308,0.078027,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,0,patternsearch,1.79769313486232e+308,0.0836851,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,0,patternsearch,1.79769313486232e+308,0.1087575,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,0,patternsearch,1.79769313486232e+308,0.1936521,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,0,patternsearch,1.79769313486232e+308,0.1483054,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,0,patternsearch,1.79769313486232e+308,0.0363559,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.4,0,patternsearch,1.79769313486232e+308,0.0485721,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.4,0,patternsearch,1.79769313486232e+308,0.0528211,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,0,patternsearch,1.79769313486232e+308,0.0604309,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,0,patternsearch,1.79769313486232e+308,0.1459237,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,0,patternsearch,1.79769313486232e+308,0.0899033,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,0,patternsearch,1.79769313486232e+308,0.1043512,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,0,patternsearch,1.79769313486232e+308,0.1292553,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,0,patternsearch,1.79769313486232e+308,0.1523677,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,0,patternsearch,1.79769313486232e+308,0.0357932,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.5,0,patternsearch,1.79769313486232e+308,0.0385492,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.5,0,patternsearch,1.79769313486232e+308,0.0470094,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,0,patternsearch,1.79769313486232e+308,0.0701299,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,0,patternsearch,1.79769313486232e+308,0.0785025,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,0,patternsearch,1.79769313486232e+308,0.1316812,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,0,patternsearch,1.79769313486232e+308,0.1074352,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,0,patternsearch,1.79769313486232e+308,0.1252857,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,0,patternsearch,1.79769313486232e+308,0.3417969,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,1,patternsearch,1.79769313486232e+308,0.0548023,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.2,1,patternsearch,1.79769313486232e+308,0.0458397,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.2,1,patternsearch,1.79769313486232e+308,0.0510811,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,1,patternsearch,1.79769313486232e+308,0.0610551,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,1,patternsearch,1.79769313486232e+308,0.068488,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,1,patternsearch,1.79769313486232e+308,0.086153,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,1,patternsearch,1.79769313486232e+308,0.1051369,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,1,patternsearch,1.79769313486232e+308,0.12323,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,1,patternsearch,1.79769313486232e+308,0.3533366,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,1,patternsearch,1.79769313486232e+308,0.0396522,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.3,1,patternsearch,1.79769313486232e+308,0.0462644,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.3,1,patternsearch,1.79769313486232e+308,0.1026207,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,1,patternsearch,1.79769313486232e+308,0.0634027,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,1,patternsearch,1.79769313486232e+308,0.1942899,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,1,patternsearch,1.79769313486232e+308,0.0868666,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,1,patternsearch,1.79769313486232e+308,0.1080236,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,1,patternsearch,1.79769313486232e+308,0.1448998,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,1,patternsearch,1.79769313486232e+308,0.1810356,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,1,patternsearch,1.79769313486232e+308,0.0383279,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.4,1,patternsearch,1.79769313486232e+308,0.0515046,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.4,1,patternsearch,1.79769313486232e+308,0.0462597,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,1,patternsearch,1.79769313486232e+308,0.0608995,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,1,patternsearch,1.79769313486232e+308,0.0689799,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,1,patternsearch,1.79769313486232e+308,0.0903744,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,1,patternsearch,1.79769313486232e+308,0.1048205,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,1,patternsearch,1.79769313486232e+308,0.1297441,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,1,patternsearch,1.79769313486232e+308,0.1483554,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,1,patternsearch,1.79769313486232e+308,0.0324304,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.5,1,patternsearch,1.79769313486232e+308,0.0397284,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.5,1,patternsearch,1.79769313486232e+308,0.0474745,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,1,patternsearch,1.79769313486232e+308,0.114339,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,1,patternsearch,1.79769313486232e+308,0.2187383,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,1,patternsearch,1.79769313486232e+308,0.0836543,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,1,patternsearch,1.79769313486232e+308,0.1025656,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,1,patternsearch,1.79769313486232e+308,0.1690462,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,1,patternsearch,1.79769313486232e+308,0.3741754,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,2,patternsearch,1.79769313486232e+308,0.0344654,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.2,2,patternsearch,1.79769313486232e+308,0.0378772,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.2,2,patternsearch,1.79769313486232e+308,0.0496244,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.2,2,patternsearch,1.79769313486232e+308,0.0994759,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.2,2,patternsearch,1.79769313486232e+308,0.0720003,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.2,2,patternsearch,1.79769313486232e+308,0.116156,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.2,2,patternsearch,1.79769313486232e+308,0.1042728,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.2,2,patternsearch,1.79769313486232e+308,0.1256334,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.2,2,patternsearch,1.79769313486232e+308,0.1875103,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.3,2,patternsearch,1.79769313486232e+308,0.0343624,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.3,2,patternsearch,1.79769313486232e+308,0.0764518,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.3,2,patternsearch,1.79769313486232e+308,0.0579403,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.3,2,patternsearch,1.79769313486232e+308,0.0741536,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.3,2,patternsearch,1.79769313486232e+308,0.0632787,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.3,2,patternsearch,1.79769313486232e+308,0.0748015,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.3,2,patternsearch,1.79769313486232e+308,0.0937862,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.3,2,patternsearch,1.79769313486232e+308,0.3455702,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.3,2,patternsearch,1.79769313486232e+308,0.1489983,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.4,2,patternsearch,1.79769313486232e+308,0.0315799,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.4,2,patternsearch,1.79769313486232e+308,0.0384301,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.4,2,patternsearch,1.79769313486232e+308,0.076982,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.4,2,patternsearch,1.79769313486232e+308,0.057294,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.4,2,patternsearch,1.79769313486232e+308,0.0781549,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.4,2,patternsearch,1.79769313486232e+308,0.0845798,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.4,2,patternsearch,1.79769313486232e+308,0.1051348,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.4,2,patternsearch,1.79769313486232e+308,0.1393558,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.4,2,patternsearch,1.79769313486232e+308,0.2047102,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.5,2,patternsearch,1.79769313486232e+308,0.027737,193,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+5,0.5,2,patternsearch,1.79769313486232e+308,0.0457688,232,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+6,0.5,2,patternsearch,1.79769313486232e+308,0.0448005,271,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+7,0.5,2,patternsearch,1.79769313486232e+308,0.0576572,310,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+8,0.5,2,patternsearch,1.79769313486232e+308,0.0774832,348,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+9,0.5,2,patternsearch,1.79769313486232e+308,0.292476,387,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+10,0.5,2,patternsearch,1.79769313486232e+308,0.1083067,426,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+11,0.5,2,patternsearch,1.79769313486232e+308,0.4636903,465,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+12,0.5,2,patternsearch,1.79769313486232e+308,0.1588088,504,20,iteration,1,1,1,0,fpf:InvalidOptimizedReference,The reference optimizer did not return a usable normalized reference.
+4,0.2,0,paretosearch,0.166647617652002,1.6817132,6294,87,iteration,1,1,1,1,,
+5,0.2,0,paretosearch,0.166648102527255,3.1818564,7551,84,iteration,1,1,1,1,,
+6,0.2,0,paretosearch,0.196296616686904,2.4620743,8734,84,iteration,1,1,1,1,,
+7,0.2,0,paretosearch,0.204851451656849,3.6572215,13925,114,iteration,1,1,1,1,,
+8,0.2,0,paretosearch,0.184163721216422,4.1539922,14666,106,iteration,1,1,1,1,,
+9,0.2,0,paretosearch,0.129437009122666,6.3275265,20000,176,iteration,0,1,0,1,,
+10,0.2,0,paretosearch,0.180700553480364,7.135373,20000,160,iteration,1,1,1,1,,
+11,0.2,0,paretosearch,0.149696628722652,7.1348418,20000,147,iteration,0,1,0,1,,
+12,0.2,0,paretosearch,0.15445236565169,8.1890937,20000,142,iteration,0,1,0,1,,
+4,0.3,0,paretosearch,0.166106333506671,2.2557763,10494,144,iteration,1,1,1,1,,
+5,0.3,0,paretosearch,0.168895732938589,2.0355803,7437,89,iteration,1,1,1,1,,
+6,0.3,0,paretosearch,0.12207011578707,2.2016696,8717,88,iteration,1,1,1,1,,
+7,0.3,0,paretosearch,0.155426532506744,3.1238742,11600,105,iteration,1,1,1,1,,
+8,0.3,0,paretosearch,0.108069035670015,3.9449166,13266,97,iteration,1,1,1,1,,
+9,0.3,0,paretosearch,0.115707263423024,5.908996,20000,162,iteration,0,1,0,1,,
+10,0.3,0,paretosearch,0.117088833201223,6.4791471,20000,148,iteration,0,1,0,1,,
+11,0.3,0,paretosearch,0.10873192047052,10.8817013,20000,132,iteration,0,1,0,1,,
+12,0.3,0,paretosearch,0.099999656838125,8.0013662,20000,141,iteration,0,1,0,1,,
+4,0.4,0,paretosearch,0.12279455573706,1.6814191,7355,82,iteration,1,1,1,1,,
+5,0.4,0,paretosearch,0.122716986159804,1.9787012,8056,80,iteration,1,1,1,1,,
+6,0.4,0,paretosearch,0.115912456711913,2.4050657,8342,86,iteration,1,1,1,1,,
+7,0.4,0,paretosearch,0.108381327199875,6.8781433,9439,85,iteration,1,1,1,1,,
+8,0.4,0,paretosearch,0.164083169793738,4.0038772,13529,106,iteration,1,1,1,1,,
+9,0.4,0,paretosearch,0.101279350081019,4.0248611,12056,91,iteration,1,1,1,1,,
+10,0.4,0,paretosearch,0.101402422504543,4.3224943,11807,80,iteration,1,1,1,1,,
+11,0.4,0,paretosearch,0.102820840507072,5.7198616,14903,99,iteration,1,1,1,1,,
+12,0.4,0,paretosearch,0.111212449101949,6.8485571,16678,105,iteration,1,1,1,1,,
+4,0.5,0,paretosearch,0.125169791987286,1.0845901,4082,45,iteration,1,1,1,1,,
+5,0.5,0,paretosearch,0.125249978987158,1.3296956,4768,58,iteration,1,1,1,1,,
+6,0.5,0,paretosearch,0.125249978987158,1.6042906,5438,58,iteration,1,1,1,1,,
+7,0.5,0,paretosearch,0.122126601099146,2.7878876,8684,81,iteration,1,1,1,1,,
+8,0.5,0,paretosearch,0.121043187739975,3.9646724,13370,112,iteration,1,1,1,1,,
+9,0.5,0,paretosearch,0.0951273040829787,6.8457407,14023,102,iteration,1,1,1,1,,
+10,0.5,0,paretosearch,0.0958360531524701,4.1342334,11206,70,iteration,1,1,1,1,,
+11,0.5,0,paretosearch,0.0936903817501212,4.5857941,10971,61,iteration,1,1,1,1,,
+12,0.5,0,paretosearch,0.0937401792141032,8.475041,20000,117,iteration,0,1,0,1,,
+4,0.2,1,paretosearch,0.166647617652002,1.8817231,6294,87,iteration,1,1,1,1,,
+5,0.2,1,paretosearch,0.166648102527255,1.8224197,7551,84,iteration,1,1,1,1,,
+6,0.2,1,paretosearch,0.196296616686904,2.9137545,8734,84,iteration,1,1,1,1,,
+7,0.2,1,paretosearch,0.204851451656849,3.7642555,13925,114,iteration,1,1,1,1,,
+8,0.2,1,paretosearch,0.184163721216422,4.1894606,14666,106,iteration,1,1,1,1,,
+9,0.2,1,paretosearch,0.129437009122666,6.0521087,20000,176,iteration,0,1,0,1,,
+10,0.2,1,paretosearch,0.180700553480364,6.6472209,20000,160,iteration,1,1,1,1,,
+11,0.2,1,paretosearch,0.149696628722652,7.3316529,20000,147,iteration,0,1,0,1,,
+12,0.2,1,paretosearch,0.15445236565169,17.6644181,20000,142,iteration,0,1,0,1,,
+4,0.3,1,paretosearch,0.166106333506671,2.1689573,10494,144,iteration,1,1,1,1,,
+5,0.3,1,paretosearch,0.168895732938589,1.9240234,7437,89,iteration,1,1,1,1,,
+6,0.3,1,paretosearch,0.12207011578707,2.3122261,8717,88,iteration,1,1,1,1,,
+7,0.3,1,paretosearch,0.155426532506744,3.2496942,11600,105,iteration,1,1,1,1,,
+8,0.3,1,paretosearch,0.108069035670015,6.323451,13266,97,iteration,1,1,1,1,,
+9,0.3,1,paretosearch,0.115707263423024,6.238362,20000,162,iteration,0,1,0,1,,
+10,0.3,1,paretosearch,0.117088833201223,6.6660614,20000,148,iteration,0,1,0,1,,
+11,0.3,1,paretosearch,0.10873192047052,8.5061957,20000,132,iteration,0,1,0,1,,
+12,0.3,1,paretosearch,0.099999656838125,8.9683747,20000,141,iteration,0,1,0,1,,
+4,0.4,1,paretosearch,0.12279455573706,2.1897029,7355,82,iteration,1,1,1,1,,
+5,0.4,1,paretosearch,0.122716986159804,1.9693691,8056,80,iteration,1,1,1,1,,
+6,0.4,1,paretosearch,0.115912456711913,2.1804926,8342,86,iteration,1,1,1,1,,
+7,0.4,1,paretosearch,0.108381327199875,2.8491884,9439,85,iteration,1,1,1,1,,
+8,0.4,1,paretosearch,0.164083169793738,4.7263547,13529,106,iteration,1,1,1,1,,
+9,0.4,1,paretosearch,0.101279350081019,3.9599948,12056,91,iteration,1,1,1,1,,
+10,0.4,1,paretosearch,0.101402422504543,4.424525,11807,80,iteration,1,1,1,1,,
+11,0.4,1,paretosearch,0.102820840507072,5.69344,14903,99,iteration,1,1,1,1,,
+12,0.4,1,paretosearch,0.111212449101949,6.7891275,16678,105,iteration,1,1,1,1,,
+4,0.5,1,paretosearch,0.125169791987286,1.2806538,4082,45,iteration,1,1,1,1,,
+5,0.5,1,paretosearch,0.125249978987158,1.3783214,4768,58,iteration,1,1,1,1,,
+6,0.5,1,paretosearch,0.125249978987158,1.6469906,5438,58,iteration,1,1,1,1,,
+7,0.5,1,paretosearch,0.122126601099146,4.1082215,8684,81,iteration,1,1,1,1,,
+8,0.5,1,paretosearch,0.121043187739975,4.753868,13370,112,iteration,1,1,1,1,,
+9,0.5,1,paretosearch,0.0951273040829787,4.5107435,14023,102,iteration,1,1,1,1,,
+10,0.5,1,paretosearch,0.0958360531524701,4.0416369,11206,70,iteration,1,1,1,1,,
+11,0.5,1,paretosearch,0.0936903817501212,4.6711835,10971,61,iteration,1,1,1,1,,
+12,0.5,1,paretosearch,0.0937401792141032,15.0913071,20000,117,iteration,0,1,0,1,,
+4,0.2,2,paretosearch,0.180936140892418,1.971216,7791,94,iteration,1,1,1,1,,
+5,0.2,2,paretosearch,0.166648102527255,1.9792343,7551,84,iteration,1,1,1,1,,
+6,0.2,2,paretosearch,0.196296616686904,2.4557011,8734,84,iteration,1,1,1,1,,
+7,0.2,2,paretosearch,0.204851451656849,3.9932279,13925,114,iteration,1,1,1,1,,
+8,0.2,2,paretosearch,0.184163721216422,4.434062,14666,106,iteration,1,1,1,1,,
+9,0.2,2,paretosearch,0.129437009122666,8.9948461,20000,176,iteration,0,1,0,1,,
+10,0.2,2,paretosearch,0.180700553480364,6.5610822,20000,160,iteration,1,1,1,1,,
+11,0.2,2,paretosearch,0.149696628722652,7.5206584,20000,147,iteration,0,1,0,1,,
+12,0.2,2,paretosearch,0.15445236565169,8.3963611,20000,142,iteration,0,1,0,1,,
+4,0.3,2,paretosearch,0.167147701677018,2.0425974,9140,92,iteration,1,1,1,1,,
+5,0.3,2,paretosearch,0.168895732938589,2.4381449,7437,89,iteration,1,1,1,1,,
+6,0.3,2,paretosearch,0.12207011578707,2.1195119,8717,88,iteration,1,1,1,1,,
+7,0.3,2,paretosearch,0.155426532506744,2.8182574,11600,105,iteration,1,1,1,1,,
+8,0.3,2,paretosearch,0.108069035670015,3.6320169,13266,97,iteration,1,1,1,1,,
+9,0.3,2,paretosearch,0.115707263423024,7.6316726,20000,162,iteration,0,1,0,1,,
+10,0.3,2,paretosearch,0.117088833201223,6.4537683,20000,148,iteration,0,1,0,1,,
+11,0.3,2,paretosearch,0.10873192047052,17.8254271,20000,132,iteration,0,1,0,1,,
+12,0.3,2,paretosearch,0.099999656838125,8.1101748,20000,141,iteration,0,1,0,1,,
+4,0.4,2,paretosearch,0.1301787171898,2.012023,8347,80,iteration,1,1,1,1,,
+5,0.4,2,paretosearch,0.122716986159804,2.0200857,8056,80,iteration,1,1,1,1,,
+6,0.4,2,paretosearch,0.115912456711913,2.3404221,8342,86,iteration,1,1,1,1,,
+7,0.4,2,paretosearch,0.108381327199875,2.8588164,9439,85,iteration,1,1,1,1,,
+8,0.4,2,paretosearch,0.164083169793738,4.1349686,13529,106,iteration,1,1,1,1,,
+9,0.4,2,paretosearch,0.101279350081019,3.7970113,12056,91,iteration,1,1,1,1,,
+10,0.4,2,paretosearch,0.101402422504543,4.2087491,11807,80,iteration,1,1,1,1,,
+11,0.4,2,paretosearch,0.102820840507072,5.7562155,14903,99,iteration,1,1,1,1,,
+12,0.4,2,paretosearch,0.111212449101949,7.0430059,16678,105,iteration,1,1,1,1,,
+4,0.5,2,paretosearch,0.125169791987286,1.2643491,5263,45,iteration,1,1,1,1,,
+5,0.5,2,paretosearch,0.125249978987158,1.4073544,4768,58,iteration,1,1,1,1,,
+6,0.5,2,paretosearch,0.125249978987158,1.7842365,5438,58,iteration,1,1,1,1,,
+7,0.5,2,paretosearch,0.122126601099146,2.6681992,8684,81,iteration,1,1,1,1,,
+8,0.5,2,paretosearch,0.121043187739975,3.8375175,13370,112,iteration,1,1,1,1,,
+9,0.5,2,paretosearch,0.0951273040829787,6.771839,14023,102,iteration,1,1,1,1,,
+10,0.5,2,paretosearch,0.0958360531524701,4.109251,11206,70,iteration,1,1,1,1,,
+11,0.5,2,paretosearch,0.0936903817501212,5.60567,10971,61,iteration,1,1,1,1,,
+12,0.5,2,paretosearch,0.0937401792141032,8.141691,20000,117,iteration,0,1,0,1,,

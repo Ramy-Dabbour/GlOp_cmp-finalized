@@ -1,0 +1,15 @@
+gid,order,ratio,seed,trial,refSolver,mziSolver,status,failureStage,failureIdentifier,failureMessage,infra_failure
+35,4,0.2,0,15,0,1,failed,mzi,fpf:TelemetryWrite,"Cannot publish live record: The process cannot access the file because it is being used by another process.
+",True
+114,4,0.2,0,14,0,5,failed,mzi,MATLAB:eig:NoConvergence,Algorithm did not succeed.,False
+234,4,0.2,0,14,1,5,failed,mzi,MATLAB:eig:NoConvergence,Algorithm did not succeed.,False
+594,4,0.2,0,14,4,5,failed,mzi,MATLAB:eig:NoConvergence,Algorithm did not succeed.,False
+1597,6,0.2,0,17,1,1,failed,mzi,fpf:TelemetryWrite,"Cannot publish live record: The process cannot access the file because it is being used by another process.
+",True
+2170,7,0.2,0,10,0,0,failed,mzi,fpf:TelemetryWrite,"Cannot publish live record: The process cannot access the file because it is being used by another process.
+",True
+3743,9,0.2,0,3,1,1,failed,mzi,fpf:TelemetryWrite,"Cannot publish live record: The process cannot access the file because it is being used by another process.
+",True
+4480,10,0.2,0,20,1,1,failed,mzi,fpf:TelemetryWrite,"Cannot publish live record: The process cannot access the file because it is being used by another process.
+",True
+4585,10,0.2,0,5,2,1,failed,mzi,MATLAB:eig:NoConvergence,Algorithm did not succeed.,False

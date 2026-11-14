@@ -1,0 +1,23 @@
+[2026-10-19 15:37:03 +03:00] Installed recovery task 'GlOp_cmp Local Recovery 05FD25BC9F41': checks every minute while signed in and at sign-in.
+[2026-10-19 15:37:05 +03:00] Local benchmark supervisor PID 19536. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\supervisor.log
+[2026-10-19 15:37:06 +03:00] Started attempt 20261019-123705-962-19536, worker PID 14352. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\attempts\20261019-123705-962-19536\matlab.log
+[2026-10-20 03:07:33 +03:00] Attempt 20261019-123705-962-19536 exited with code 1. Outcome: failed.
+[2026-10-20 03:07:33 +03:00] Restarting in 15 seconds from the saved trials. STOP suppresses restart.
+[2026-10-20 03:07:49 +03:00] Started attempt 20261020-000749-009-19536, worker PID 7844. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\attempts\20261020-000749-009-19536\matlab.log
+[2026-10-22 22:42:21 +03:00] Attempt 20261020-000749-009-19536 exited with code 1. Outcome: failed.
+[2026-10-22 22:42:21 +03:00] Restarting in 30 seconds from the saved trials. STOP suppresses restart.
+[2026-10-22 22:42:51 +03:00] Started attempt 20261022-194251-181-19536, worker PID 24200. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\attempts\20261022-194251-181-19536\matlab.log
+[2026-10-23 06:28:17 +03:00] Attempt 20261022-194251-181-19536 exited with code 1. Outcome: failed.
+[2026-10-23 06:28:17 +03:00] Restarting in 60 seconds from the saved trials. STOP suppresses restart.
+[2026-10-23 06:29:17 +03:00] Started attempt 20261023-032917-564-19536, worker PID 20732. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\attempts\20261023-032917-564-19536\matlab.log
+[2026-10-24 18:27:37 +03:00] STOP requested. MATLAB will preserve committed results and exit at its next cancellation check.
+[2026-10-24 18:28:26 +03:00] Attempt 20261023-032917-564-19536 exited with code 0. Outcome: stopped.
+[2026-10-24 18:42:58 +03:00] Local benchmark supervisor PID 3764. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\supervisor.log
+[2026-10-24 18:42:59 +03:00] Started attempt 20261024-154259-359-3764, worker PID 14300. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\attempts\20261024-154259-359-3764\matlab.log
+[2026-10-24 19:32:37 +03:00] Attempt 20261024-154259-359-3764 exited with code 1. Outcome: failed.
+[2026-10-24 19:32:37 +03:00] Restarting in 120 seconds from the saved trials. STOP suppresses restart.
+[2026-10-24 19:34:38 +03:00] Started attempt 20261024-163438-144-3764, worker PID 19036. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\attempts\20261024-163438-144-3764\matlab.log
+[2026-10-27 01:27:26 +03:00] Local benchmark supervisor PID 13476. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\supervisor.log
+[2026-10-27 01:27:26 +03:00] Started attempt 20261026-222726-715-13476, worker PID 13852. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-results\attempts\20261026-222726-715-13476\matlab.log
+[2026-10-27 21:12:44 +03:00] STOP requested. MATLAB will preserve committed results and exit at its next cancellation check.
+[2026-10-27 21:12:58 +03:00] Attempt 20261026-222726-715-13476 exited with code 0. Outcome: stopped.

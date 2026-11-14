@@ -1,0 +1,6 @@
+Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-pool-smoke-20261005-225720-29d437/workspace/main.m#1791241758707074 to file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\pool-per-vcpu\downloads\pool-smoke\matlab-glop-pool-smoke-20261005-225720-29d437\snapshot-676a32f9d427a324-retry-24828a5f\workspace\main.m
+Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-pool-smoke-20261005-225720-29d437/workspace/parallelSweepTest.m#1791241758760215 to file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\pool-per-vcpu\downloads\pool-smoke\matlab-glop-pool-smoke-20261005-225720-29d437\snapshot-676a32f9d427a324-retry-24828a5f\workspace\parallelSweepTest.m
+  
+......................................
+
+Average throughput: 218.8kiB/s

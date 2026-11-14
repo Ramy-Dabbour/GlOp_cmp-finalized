@@ -1,0 +1,339 @@
+{
+  "description": "Independent NumPy transcription of the existing MATLAB transfer matrix; numerical checks support the algebraic proof, not formal certification.",
+  "random_lattice_designs_checked": 108,
+  "checks": {
+    "maximum_dc_deviation_from_one_half": 4.440892098500626e-16,
+    "maximum_even_lag_magnitude": 1.2872361232186953e-16,
+    "maximum_power_complementarity_residual": 8.881784197001252e-16,
+    "maximum_halfband_frequency_residual": 1.4654943925052066e-14,
+    "maximum_parseval_relative_discrepancy": 4.440892098500626e-16,
+    "maximum_floor_decomposition_discrepancy": 8.881784197001252e-16
+  },
+  "minimum_observed_E_minus_topology_bound": 0.0168820596676148,
+  "target_and_bound_table": [
+    {
+      "N": 4,
+      "rho": 0.2,
+      "raw_min": -0.06364941347182347,
+      "raw_max": 1.172295794321424,
+      "topology_E_lower_bound": 0.5401209664286176,
+      "admissible_affine_response_E": 0.10502116417570549,
+      "admissible_affine_response_J1": 0.18015817180929566
+    },
+    {
+      "N": 5,
+      "rho": 0.2,
+      "raw_min": -0.06364941347182343,
+      "raw_max": 1.1722957943214243,
+      "topology_E_lower_bound": 0.5401209664286176,
+      "admissible_affine_response_E": 0.10502116417570553,
+      "admissible_affine_response_J1": 0.18015817180929578
+    },
+    {
+      "N": 6,
+      "rho": 0.2,
+      "raw_min": -0.10256183569674093,
+      "raw_max": 1.1099298420688484,
+      "topology_E_lower_bound": 0.5427571057691288,
+      "admissible_affine_response_E": 0.11898464674706469,
+      "admissible_affine_response_J1": 0.1856967965368291
+    },
+    {
+      "N": 7,
+      "rho": 0.2,
+      "raw_min": -0.11847560801986229,
+      "raw_max": 1.0401362468231556,
+      "topology_E_lower_bound": 0.5406654484198892,
+      "admissible_affine_response_E": 0.13102288189078892,
+      "admissible_affine_response_J1": 0.1826126215267287
+    },
+    {
+      "N": 8,
+      "rho": 0.2,
+      "raw_min": -0.1019008684070436,
+      "raw_max": 1.0803557129491173,
+      "topology_E_lower_bound": 0.5444839330850747,
+      "admissible_affine_response_E": 0.11623808082247183,
+      "admissible_affine_response_J1": 0.17324953379751645
+    },
+    {
+      "N": 9,
+      "rho": 0.2,
+      "raw_min": -0.0728925085206718,
+      "raw_max": 1.1192140978987506,
+      "topology_E_lower_bound": 0.5440034891113957,
+      "admissible_affine_response_E": 0.09826364029781143,
+      "admissible_affine_response_J1": 0.15928903556327978
+    },
+    {
+      "N": 10,
+      "rho": 0.2,
+      "raw_min": -0.07289250852067175,
+      "raw_max": 1.1192140978987506,
+      "topology_E_lower_bound": 0.5440034891113957,
+      "admissible_affine_response_E": 0.09826364029781141,
+      "admissible_affine_response_J1": 0.15928903556327975
+    },
+    {
+      "N": 11,
+      "rho": 0.2,
+      "raw_min": -0.09680994458960718,
+      "raw_max": 1.087561971783741,
+      "topology_E_lower_bound": 0.5436825793369475,
+      "admissible_affine_response_E": 0.11250829286978473,
+      "admissible_affine_response_J1": 0.16999659259358893
+    },
+    {
+      "N": 12,
+      "rho": 0.2,
+      "raw_min": -0.10826219669157655,
+      "raw_max": 1.063628734622201,
+      "topology_E_lower_bound": 0.5453565101122873,
+      "admissible_affine_response_E": 0.12134097983496712,
+      "admissible_affine_response_J1": 0.17486042283591666
+    },
+    {
+      "N": 4,
+      "rho": 0.3,
+      "raw_min": -0.1156102790127676,
+      "raw_max": 1.089793420750114,
+      "topology_E_lower_bound": 0.4357750792419918,
+      "admissible_affine_response_E": 0.12462702028696429,
+      "admissible_affine_response_J1": 0.1664835176069552
+    },
+    {
+      "N": 5,
+      "rho": 0.3,
+      "raw_min": -0.1119851028482346,
+      "raw_max": 1.067668428952666,
+      "topology_E_lower_bound": 0.4321036774503261,
+      "admissible_affine_response_E": 0.11953921982851458,
+      "admissible_affine_response_J1": 0.1546024525865444
+    },
+    {
+      "N": 6,
+      "rho": 0.3,
+      "raw_min": -0.06619379055107312,
+      "raw_max": 1.125354038537394,
+      "topology_E_lower_bound": 0.43586064880175773,
+      "admissible_affine_response_E": 0.10247845858272632,
+      "admissible_affine_response_J1": 0.14529040015960745
+    },
+    {
+      "N": 7,
+      "rho": 0.3,
+      "raw_min": -0.09227611210306132,
+      "raw_max": 1.0977191910064932,
+      "topology_E_lower_bound": 0.43568331865063753,
+      "admissible_affine_response_E": 0.10987695138108902,
+      "admissible_affine_response_J1": 0.15015974997822232
+    },
+    {
+      "N": 8,
+      "rho": 0.3,
+      "raw_min": -0.11002895998878515,
+      "raw_max": 1.0643711319609352,
+      "topology_E_lower_bound": 0.4411029984672029,
+      "admissible_affine_response_E": 0.11790030611430796,
+      "admissible_affine_response_J1": 0.15144704399014772
+    },
+    {
+      "N": 9,
+      "rho": 0.3,
+      "raw_min": -0.0805963873796531,
+      "raw_max": 1.104419493068843,
+      "topology_E_lower_bound": 0.44036525925715114,
+      "admissible_affine_response_E": 0.10422337322837215,
+      "admissible_affine_response_J1": 0.14426718982009826
+    },
+    {
+      "N": 10,
+      "rho": 0.3,
+      "raw_min": -0.08059638737965302,
+      "raw_max": 1.1044194930688431,
+      "topology_E_lower_bound": 0.44036525925715114,
+      "admissible_affine_response_E": 0.10422337322837222,
+      "admissible_affine_response_J1": 0.14426718982009837
+    },
+    {
+      "N": 11,
+      "rho": 0.3,
+      "raw_min": -0.10468284191781119,
+      "raw_max": 1.0721137604672684,
+      "topology_E_lower_bound": 0.4398734641207752,
+      "admissible_affine_response_E": 0.11472829837965728,
+      "admissible_affine_response_J1": 0.14952047161396467
+    },
+    {
+      "N": 12,
+      "rho": 0.3,
+      "raw_min": -0.0910798919750927,
+      "raw_max": 1.0905423093871498,
+      "topology_E_lower_bound": 0.44223743313827035,
+      "admissible_affine_response_E": 0.10796473127735029,
+      "admissible_affine_response_J1": 0.14582686452150212
+    },
+    {
+      "N": 4,
+      "rho": 0.4,
+      "raw_min": -0.0861478971607122,
+      "raw_max": 1.108646380849601,
+      "topology_E_lower_bound": 0.2848836004515323,
+      "admissible_affine_response_E": 0.11082661704906893,
+      "admissible_affine_response_J1": 0.13990092078229782
+    },
+    {
+      "N": 5,
+      "rho": 0.4,
+      "raw_min": -0.08614789716071217,
+      "raw_max": 1.108646380849601,
+      "topology_E_lower_bound": 0.2848836004515323,
+      "admissible_affine_response_E": 0.11082661704906892,
+      "admissible_affine_response_J1": 0.13990092078229782
+    },
+    {
+      "N": 6,
+      "rho": 0.4,
+      "raw_min": -0.11113564019143744,
+      "raw_max": 1.068297763234537,
+      "topology_E_lower_bound": 0.3013338443740043,
+      "admissible_affine_response_E": 0.11417740435039485,
+      "admissible_affine_response_J1": 0.13748414178811375
+    },
+    {
+      "N": 7,
+      "rho": 0.4,
+      "raw_min": -0.06898936058125985,
+      "raw_max": 1.1145615178191233,
+      "topology_E_lower_bound": 0.30089107091778117,
+      "admissible_affine_response_E": 0.10596085438134145,
+      "admissible_affine_response_J1": 0.13340739402639143
+    },
+    {
+      "N": 8,
+      "rho": 0.4,
+      "raw_min": -0.10573927091464028,
+      "raw_max": 1.0742652685840708,
+      "topology_E_lower_bound": 0.30426243351950244,
+      "admissible_affine_response_E": 0.11197935587661809,
+      "admissible_affine_response_J1": 0.13618928216917606
+    },
+    {
+      "N": 9,
+      "rho": 0.4,
+      "raw_min": -0.0861478971607121,
+      "raw_max": 1.096715614209862,
+      "topology_E_lower_bound": 0.3035589311895838,
+      "admissible_affine_response_E": 0.10706189559299319,
+      "admissible_affine_response_J1": 0.13388357154380026
+    },
+    {
+      "N": 10,
+      "rho": 0.4,
+      "raw_min": -0.08614789716071208,
+      "raw_max": 1.0967156142098622,
+      "topology_E_lower_bound": 0.3035589311895838,
+      "admissible_affine_response_E": 0.10706189559299328,
+      "admissible_affine_response_J1": 0.13388357154380043
+    },
+    {
+      "N": 11,
+      "rho": 0.4,
+      "raw_min": -0.10151955717030317,
+      "raw_max": 1.0776573962953213,
+      "topology_E_lower_bound": 0.30309070922332493,
+      "admissible_affine_response_E": 0.1103496463269657,
+      "admissible_affine_response_J1": 0.13485753142131326
+    },
+    {
+      "N": 12,
+      "rho": 0.4,
+      "raw_min": -0.07681679600217589,
+      "raw_max": 1.1037963113055451,
+      "topology_E_lower_bound": 0.30456782025884427,
+      "admissible_affine_response_E": 0.10518560559791952,
+      "admissible_affine_response_J1": 0.13200362155794151
+    },
+    {
+      "N": 4,
+      "rho": 0.5,
+      "raw_min": -0.10021087743807078,
+      "raw_max": 1.1002108774380708,
+      "topology_E_lower_bound": 5.655120602767387e-17,
+      "admissible_affine_response_E": 0.11493062427514582,
+      "admissible_affine_response_J1": 0.13388216653637644
+    },
+    {
+      "N": 5,
+      "rho": 0.5,
+      "raw_min": -0.09417845420974269,
+      "raw_max": 1.0941784542097426,
+      "topology_E_lower_bound": 5.607493909707441e-17,
+      "admissible_affine_response_E": 0.11012000894027504,
+      "admissible_affine_response_J1": 0.1278959798696864
+    },
+    {
+      "N": 6,
+      "rho": 0.5,
+      "raw_min": -0.09417845420974241,
+      "raw_max": 1.0941784542097426,
+      "topology_E_lower_bound": 6.867749407273759e-17,
+      "admissible_affine_response_E": 0.11012000894027503,
+      "admissible_affine_response_J1": 0.12789597986968637
+    },
+    {
+      "N": 7,
+      "rho": 0.5,
+      "raw_min": -0.09211256668902418,
+      "raw_max": 1.0921125666890241,
+      "topology_E_lower_bound": 6.838551093169759e-17,
+      "admissible_affine_response_E": 0.10857052484095132,
+      "admissible_affine_response_J1": 0.12591013552088215
+    },
+    {
+      "N": 8,
+      "rho": 0.5,
+      "raw_min": -0.09211256665095377,
+      "raw_max": 1.0921125666508364,
+      "topology_E_lower_bound": 7.896478629017139e-17,
+      "admissible_affine_response_E": 0.10857052480300106,
+      "admissible_affine_response_J1": 0.1259101354768709
+    },
+    {
+      "N": 9,
+      "rho": 0.5,
+      "raw_min": -0.09116410442880266,
+      "raw_max": 1.0911641044288027,
+      "topology_E_lower_bound": 7.876290516674444e-17,
+      "admissible_affine_response_E": 0.1079139951695111,
+      "admissible_affine_response_J1": 0.125038679203158
+    },
+    {
+      "N": 10,
+      "rho": 0.5,
+      "raw_min": -0.09116410442880135,
+      "raw_max": 1.0911641044288014,
+      "topology_E_lower_bound": 8.805960502910498e-17,
+      "admissible_affine_response_E": 0.10791399516950985,
+      "admissible_affine_response_J1": 0.12503867920315656
+    },
+    {
+      "N": 11,
+      "rho": 0.5,
+      "raw_min": -0.09065092203048153,
+      "raw_max": 1.0906509220304814,
+      "topology_E_lower_bound": 8.790947368278675e-17,
+      "admissible_affine_response_E": 0.10759023681756007,
+      "admissible_affine_response_J1": 0.12459086359529267
+    },
+    {
+      "N": 12,
+      "rho": 0.5,
+      "raw_min": -0.09065092199443678,
+      "raw_max": 1.090650921994069,
+      "topology_E_lower_bound": 9.63000035089381e-17,
+      "admissible_affine_response_E": 0.10759023678116088,
+      "admissible_affine_response_J1": 0.12459086355314196
+    }
+  ]
+}

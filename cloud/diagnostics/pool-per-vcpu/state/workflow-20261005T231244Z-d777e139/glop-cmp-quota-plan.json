@@ -1,0 +1,43 @@
+{
+  "task_count": 3,
+  "parallelism": 3,
+  "workers_per_task": 8,
+  "total_workers": 24,
+  "quotas": [
+    {
+      "metric": "CPUS",
+      "limit": 200.0,
+      "usage": 8.0,
+      "per_vm": 8,
+      "available_vms": 24
+    },
+    {
+      "metric": "CPUS_ALL_REGIONS",
+      "limit": 32.0,
+      "usage": 8.0,
+      "per_vm": 8,
+      "available_vms": 3
+    },
+    {
+      "metric": "INSTANCES",
+      "limit": 24.0,
+      "usage": 1.0,
+      "per_vm": 1,
+      "available_vms": 23
+    },
+    {
+      "metric": "SSD_TOTAL_GB",
+      "limit": 500.0,
+      "usage": 100.0,
+      "per_vm": 100,
+      "available_vms": 4
+    },
+    {
+      "metric": "IN_USE_ADDRESSES",
+      "limit": 8.0,
+      "usage": 1.0,
+      "per_vm": 1,
+      "available_vms": 7
+    }
+  ]
+}

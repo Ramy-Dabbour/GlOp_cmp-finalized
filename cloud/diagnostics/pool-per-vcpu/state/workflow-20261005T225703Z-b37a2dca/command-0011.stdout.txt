@@ -1,0 +1,1047 @@
+[
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "iAz+qw==",
+    "creation_time": "2026-10-05T22:59:20+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1789998178"
+    },
+    "etag": "COXB0qj9o5cDEAE=",
+    "generation": "1791241160532197",
+    "md5_hash": "VgwUMT31YbpxN+a51CtWrg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/aggregateFavorability.m",
+    "size": 1822,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:20+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/aggregateFavorability.m#1791241160532197",
+    "update_time": "2026-10-05T22:59:20+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "KslzxQ==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008478"
+    },
+    "etag": "CNmY8qj9o5cDEAE=",
+    "generation": "1791241161051225",
+    "md5_hash": "5fg/TCK5GyZ9K6ySiiZEOQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/autocorrelationDcFirst.m",
+    "size": 742,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/autocorrelationDcFirst.m#1791241161051225",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "MzaK8g==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791217858"
+    },
+    "etag": "CND5g6n9o5cDEAE=",
+    "generation": "1791241161342160",
+    "md5_hash": "Bluxx+CxtNnesUT1dHaLtg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/batchWorkIndices.m",
+    "size": 551,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/batchWorkIndices.m#1791241161342160",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "37PQXg==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791217851"
+    },
+    "etag": "CMXJgqn9o5cDEAE=",
+    "generation": "1791241161319621",
+    "md5_hash": "9bC6DEBtbRZeDlogiPInCQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/benchmarkConfig.m",
+    "size": 540,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/benchmarkConfig.m#1791241161319621",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "BI7wWg==",
+    "creation_time": "2026-10-05T22:59:20+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030580"
+    },
+    "etag": "CMGX6qj9o5cDEAE=",
+    "generation": "1791241160920001",
+    "md5_hash": "yQi+Dwr0kxC2tw8l/l7uhA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/chebyshevExtrema.m",
+    "size": 595,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:20+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/chebyshevExtrema.m#1791241160920001",
+    "update_time": "2026-10-05T22:59:20+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "ZcVLhA==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030587"
+    },
+    "etag": "CNbehKn9o5cDEAE=",
+    "generation": "1791241161355094",
+    "md5_hash": "czkEqynpwZZEuOq5syBqiw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/chebyshevTCoefficients.m",
+    "size": 610,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/chebyshevTCoefficients.m#1791241161355094",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "hLph+w==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030590"
+    },
+    "etag": "CPzG+6j9o5cDEAE=",
+    "generation": "1791241161204604",
+    "md5_hash": "hzGwYLnNGj8VJrq0FnqLJw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/chebyshevUCoefficients.m",
+    "size": 610,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/chebyshevUCoefficients.m#1791241161204604",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "QAEcFQ==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788103379"
+    },
+    "etag": "CI3+8qj9o5cDEAE=",
+    "generation": "1791241161064205",
+    "md5_hash": "pQkKPbBcl+uqiuEPlC7peg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/clearRunArtifacts.m",
+    "size": 755,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/clearRunArtifacts.m#1791241161064205",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "wmXwjA==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788031611"
+    },
+    "etag": "CPeynKn9o5cDEAE=",
+    "generation": "1791241161742711",
+    "md5_hash": "+/vQgiBYUA8i08/xMKgaGQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/complexHarmonicExtrema.m",
+    "size": 1432,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/complexHarmonicExtrema.m#1791241161742711",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "8VZM4Q==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008387"
+    },
+    "etag": "CKflo6n9o5cDEAE=",
+    "generation": "1791241161863847",
+    "md5_hash": "8vViEgbx5HD2XBKFBnsb5w==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/csv_export.m",
+    "size": 4917,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/csv_export.m#1791241161863847",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "HKX0zQ==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008395"
+    },
+    "etag": "CMP8kqn9o5cDEAE=",
+    "generation": "1791241161588291",
+    "md5_hash": "jrEdAmORL+0Sf50zoqrMEQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/defaultCsvPath.m",
+    "size": 230,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/defaultCsvPath.m#1791241161588291",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "JislBg==",
+    "creation_time": "2026-10-05T22:59:21+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790009295"
+    },
+    "etag": "COCapKn9o5cDEAE=",
+    "generation": "1791241161870688",
+    "md5_hash": "1SsoslVoLA0M1xYRIYqVfw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/endToEndError.m",
+    "size": 2336,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:21+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/endToEndError.m#1791241161870688",
+    "update_time": "2026-10-05T22:59:21+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "5JFBfw==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788031769"
+    },
+    "etag": "CLjEtKn9o5cDEAE=",
+    "generation": "1791241162138168",
+    "md5_hash": "jBp3mzkL598W3Rj+8Egucw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/evaluateCosineLagResponse.m",
+    "size": 1074,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/evaluateCosineLagResponse.m#1791241162138168",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "DKVcZA==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788031618"
+    },
+    "etag": "CMDzrKn9o5cDEAE=",
+    "generation": "1791241162013120",
+    "md5_hash": "jjB5SzUe1lUJNbvnxosa0w==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/evaluateLagResponse.m",
+    "size": 773,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/evaluateLagResponse.m#1791241162013120",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "4AA0ow==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1789997911"
+    },
+    "etag": "CPi2tan9o5cDEAE=",
+    "generation": "1791241162152824",
+    "md5_hash": "kPzRAQUN/iia+oQhLSPVdA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/evaluateMziSolution.m",
+    "size": 1764,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/evaluateMziSolution.m#1791241162152824",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "Ntt6Tw==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030782"
+    },
+    "etag": "CM2ctqn9o5cDEAE=",
+    "generation": "1791241162165837",
+    "md5_hash": "3L4B7aVSjbRnw14nFGTlIg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/expandReferenceLagVector.m",
+    "size": 1450,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/expandReferenceLagVector.m#1791241162165837",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "XZMwNQ==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008391"
+    },
+    "etag": "CLT5zqn9o5cDEAE=",
+    "generation": "1791241162570932",
+    "md5_hash": "mYQQu1pEbeD1WV65CKBcDw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/extractSolverMetrics.m",
+    "size": 1281,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/extractSolverMetrics.m#1791241162570932",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "eZy+9Q==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008439"
+    },
+    "etag": "CMWcx6n9o5cDEAE=",
+    "generation": "1791241162444357",
+    "md5_hash": "P0BORf2jZNGCfOjOFSCNpA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/generateInitialPoints.m",
+    "size": 2402,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/generateInitialPoints.m#1791241162444357",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "O9kUpA==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788031563"
+    },
+    "etag": "CO/G1qn9o5cDEAE=",
+    "generation": "1791241162695535",
+    "md5_hash": "yHcVkjgxBoFCzbdz/cywmQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/generateReference.m",
+    "size": 192,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/generateReference.m#1791241162695535",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "3VYWRA==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030563"
+    },
+    "etag": "CPz11an9o5cDEAE=",
+    "generation": "1791241162685180",
+    "md5_hash": "gTxndNQQAds6YVxIcXbmIA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/generateSincReference.m",
+    "size": 474,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/generateSincReference.m#1791241162685180",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "6uCSZw==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008433"
+    },
+    "etag": "CJSi6Kn9o5cDEAE=",
+    "generation": "1791241162985748",
+    "md5_hash": "cIh1IfGRsG+UM4Q5GHReQQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/handleRunFailure.m",
+    "size": 325,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/handleRunFailure.m#1791241162985748",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "DL49AA==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008421"
+    },
+    "etag": "CKS536n9o5cDEAE=",
+    "generation": "1791241162841252",
+    "md5_hash": "1MzMS60Xsn/o4jgIuT+1Hw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/initializeRunResult.m",
+    "size": 919,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/initializeRunResult.m#1791241162841252",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "Glo/iQ==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030770"
+    },
+    "etag": "CPmE6an9o5cDEAE=",
+    "generation": "1791241162998393",
+    "md5_hash": "JjLG4dD0wiaB0THj27mR2w==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/isLagResponseNormalized.m",
+    "size": 331,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/isLagResponseNormalized.m#1791241162998393",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "X4inuw==",
+    "creation_time": "2026-10-05T22:59:22+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030575"
+    },
+    "etag": "CN+s6Kn9o5cDEAE=",
+    "generation": "1791241162987103",
+    "md5_hash": "GnHy2YT1bBiNRAtN8x/0hQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/isReferenceNormalized.m",
+    "size": 692,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:22+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/isReferenceNormalized.m#1791241162987103",
+    "update_time": "2026-10-05T22:59:22+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "lxRNlw==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791218007"
+    },
+    "etag": "CJ+1gar9o5cDEAE=",
+    "generation": "1791241163397791",
+    "md5_hash": "bQeAKkblC9aOHIr1hrnKTg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/mergeBatchResults.m",
+    "size": 3406,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/mergeBatchResults.m#1791241163397791",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "VESasw==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030706"
+    },
+    "etag": "CL2I96n9o5cDEAE=",
+    "generation": "1791241163228221",
+    "md5_hash": "GSlY0I+KZPA5owaM8ystHQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/multiplyPolynomialMatrices.m",
+    "size": 663,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/multiplyPolynomialMatrices.m#1791241163228221",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "QWYk8Q==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030710"
+    },
+    "etag": "CIzTiar9o5cDEAE=",
+    "generation": "1791241163532684",
+    "md5_hash": "4wgmHC8ocoEy0oWTv/rXJg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/multiplyPolynomialMatrixByConstant.m",
+    "size": 549,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/multiplyPolynomialMatrixByConstant.m#1791241163532684",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "9Kb44g==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1789997918"
+    },
+    "etag": "CK7Aiar9o5cDEAE=",
+    "generation": "1791241163530286",
+    "md5_hash": "rIjJmxc1WNFNOffIYUWQSA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/mziObjective.m",
+    "size": 331,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/mziObjective.m#1791241163530286",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "K2b20g==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030701"
+    },
+    "etag": "CMGWmar9o5cDEAE=",
+    "generation": "1791241163787073",
+    "md5_hash": "KbZiA019FZwXwaNOdLtlGQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/mziSMatrixCoefficients.m",
+    "size": 1851,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/mziSMatrixCoefficients.m#1791241163787073",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "B7T3/Q==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008428"
+    },
+    "etag": "CL7AkKr9o5cDEAE=",
+    "generation": "1791241163644990",
+    "md5_hash": "Sl9zzqqxDJjWXRO2Z2hOmQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/optimizeMzi.m",
+    "size": 2255,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/optimizeMzi.m#1791241163644990",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "yXlt+g==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008422"
+    },
+    "etag": "COXEmqr9o5cDEAE=",
+    "generation": "1791241163809381",
+    "md5_hash": "RzFsxVs/mZ0TJbAH/BYvJg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/optimizeReference.m",
+    "size": 1724,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/optimizeReference.m#1791241163809381",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "3yszFg==",
+    "creation_time": "2026-10-05T22:59:23+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030696"
+    },
+    "etag": "CPq5mar9o5cDEAE=",
+    "generation": "1791241163791610",
+    "md5_hash": "F6ebAtFn3mFkrNS1m9jejg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/phaseShiftPattern.m",
+    "size": 379,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:23+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/phaseShiftPattern.m#1791241163791610",
+    "update_time": "2026-10-05T22:59:23+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "Zw+TlQ==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788090364"
+    },
+    "etag": "CPjXsqr9o5cDEAE=",
+    "generation": "1791241164205048",
+    "md5_hash": "k2ZlFNo3xR+GMVicHHsTyQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/plotResponses.m",
+    "size": 1309,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/plotResponses.m#1791241164205048",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "t7wn3Q==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791240484"
+    },
+    "etag": "CKPYqKr9o5cDEAE=",
+    "generation": "1791241164041251",
+    "md5_hash": "uHxe+eRXVRad7tob7UF/9w==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/prepareBatchPool.m",
+    "size": 1025,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/prepareBatchPool.m#1791241164041251",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "I4+AUw==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791240488"
+    },
+    "etag": "CJOHu6r9o5cDEAE=",
+    "generation": "1791241164342163",
+    "md5_hash": "PBQvbeonQ4mAQZOItQXMAQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/prepareTrialPool.m",
+    "size": 1537,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/prepareTrialPool.m#1791241164342163",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "hg3JXg==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008439"
+    },
+    "etag": "CMb4uqr9o5cDEAE=",
+    "generation": "1791241164340294",
+    "md5_hash": "O0kExujyD1djtD84yqV2sw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/printRunSummary.m",
+    "size": 1346,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/printRunSummary.m#1791241164340294",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "pHXIHw==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008400"
+    },
+    "etag": "CI6eyar9o5cDEAE=",
+    "generation": "1791241164574478",
+    "md5_hash": "7Z1GW8cqgfTFhPJIhuYQhQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/readScalarField.m",
+    "size": 355,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/readScalarField.m#1791241164574478",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "AVYv1g==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030715"
+    },
+    "etag": "CNegwqr9o5cDEAE=",
+    "generation": "1791241164460119",
+    "md5_hash": "15chgr2htiopI5987+Wsxg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/realizedSMatrixLagCoefficients.m",
+    "size": 813,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/realizedSMatrixLagCoefficients.m#1791241164460119",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "XfRORA==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008428"
+    },
+    "etag": "CL2Ky6r9o5cDEAE=",
+    "generation": "1791241164604733",
+    "md5_hash": "wcJpnKjEl0pyao1KANXrdQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/recordRunFailure.m",
+    "size": 290,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/recordRunFailure.m#1791241164604733",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "4trmJg==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030571"
+    },
+    "etag": "CKSNzKr9o5cDEAE=",
+    "generation": "1791241164621476",
+    "md5_hash": "DuOA9cMqU/5ddVZG/VTydQ==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/referenceObjective.m",
+    "size": 598,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/referenceObjective.m#1791241164621476",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "e7t/hA==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030785"
+    },
+    "etag": "CJHL46r9o5cDEAE=",
+    "generation": "1791241165006225",
+    "md5_hash": "xgPNX1xROxCIRhFfZq49OA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/referenceSMatrixCoefficients.m",
+    "size": 511,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/referenceSMatrixCoefficients.m#1791241165006225",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "7XJ+dw==",
+    "creation_time": "2026-10-05T22:59:24+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790009209"
+    },
+    "etag": "CJ/M2qr9o5cDEAE=",
+    "generation": "1791241164858911",
+    "md5_hash": "wxY2Ss+3jz0ikx4RGbh6Hw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/run.m",
+    "size": 5019,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:24+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/run.m#1791241164858911",
+    "update_time": "2026-10-05T22:59:24+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "ycq4ow==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790084797"
+    },
+    "etag": "CIm67ar9o5cDEAE=",
+    "generation": "1791241165167881",
+    "md5_hash": "w3vbjQlMR9679032ev1v5w==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/runGlobalSolver.m",
+    "size": 6187,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/runGlobalSolver.m#1791241165167881",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "wbDJ/A==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791240490"
+    },
+    "etag": "CPXt7Kr9o5cDEAE=",
+    "generation": "1791241165158133",
+    "md5_hash": "VSvYqK+3tgd7ANygqUp/sg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/runSweep.m",
+    "size": 2180,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/runSweep.m#1791241165158133",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "wmW1qA==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008444"
+    },
+    "etag": "CKLT+ar9o5cDEAE=",
+    "generation": "1791241165367714",
+    "md5_hash": "4Ok5PoaKd6CJqBjjBXs9UA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/seedTrialStage.m",
+    "size": 915,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/seedTrialStage.m#1791241165367714",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "IrpnFQ==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030583"
+    },
+    "etag": "CIqD86r9o5cDEAE=",
+    "generation": "1791241165259146",
+    "md5_hash": "94lPfBJ59TqutOSkmyUHIw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/signalValuePolynomials.m",
+    "size": 790,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/signalValuePolynomials.m#1791241165259146",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "MNWCFg==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790084991"
+    },
+    "etag": "CNet/Kr9o5cDEAE=",
+    "generation": "1791241165412055",
+    "md5_hash": "Eu5b40uNKx6MszfeFBYAQg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/stopWhenObjectiveStalls.m",
+    "size": 1855,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/stopWhenObjectiveStalls.m#1791241165412055",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "cHzRfQ==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791217863"
+    },
+    "etag": "CIPI/ar9o5cDEAE=",
+    "generation": "1791241165431811",
+    "md5_hash": "lYXVnPYHMWNTXPLIWy1r7A==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/summarizeSweep.m",
+    "size": 1933,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/summarizeSweep.m#1791241165431811",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "dKGOxA==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791217853"
+    },
+    "etag": "CMGulKv9o5cDEAE=",
+    "generation": "1791241165805377",
+    "md5_hash": "0gGc3RbMvP1ioUbs63sXRw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/sweepSize.m",
+    "size": 1581,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/sweepSize.m#1791241165805377",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "2GXeIw==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791217855"
+    },
+    "etag": "CPPJi6v9o5cDEAE=",
+    "generation": "1791241165661427",
+    "md5_hash": "VkuOYVf69RtH/GcSQ/NjLA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/trialParameters.m",
+    "size": 985,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/trialParameters.m#1791241165661427",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "L8UA1Q==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788030692"
+    },
+    "etag": "COS6nav9o5cDEAE=",
+    "generation": "1791241165954404",
+    "md5_hash": "wAL4mEtQ1GqqgYofDrNACA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/unpackMziDesign.m",
+    "size": 562,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/unpackMziDesign.m#1791241165954404",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "ckRy1g==",
+    "creation_time": "2026-10-05T22:59:25+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1790008469"
+    },
+    "etag": "CMGXnqv9o5cDEAE=",
+    "generation": "1791241165966273",
+    "md5_hash": "Uv45cXjlhqSANwaIdYlJSg==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/validateReferenceCache.m",
+    "size": 876,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:25+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/validateReferenceCache.m#1791241165966273",
+    "update_time": "2026-10-05T22:59:25+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "Y+vXtg==",
+    "creation_time": "2026-10-05T22:59:26+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1788116752"
+    },
+    "etag": "CM2Kqqv9o5cDEAE=",
+    "generation": "1791241166161229",
+    "md5_hash": "k0CAn11M8azuakKq1AuxKA==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/writeRunArtifacts.m",
+    "size": 2077,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:26+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/+fpf/writeRunArtifacts.m#1791241166161229",
+    "update_time": "2026-10-05T22:59:26+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "mPcdYA==",
+    "creation_time": "2026-10-05T22:59:26+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791241040"
+    },
+    "etag": "CPerpKv9o5cDEAE=",
+    "generation": "1791241166067191",
+    "md5_hash": "6YSS1iz42DzfuVvPDUUcAw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/main.m",
+    "size": 2869,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:26+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/main.m#1791241166067191",
+    "update_time": "2026-10-05T22:59:26+0000"
+  },
+  {
+    "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+    "content_type": "text/plain",
+    "crc32c_hash": "/vWSVw==",
+    "creation_time": "2026-10-05T22:59:26+0000",
+    "custom_fields": {
+      "goog-reserved-file-mtime": "1791240723"
+    },
+    "etag": "CJHfsKv9o5cDEAE=",
+    "generation": "1791241166270353",
+    "md5_hash": "k2AHxBBMS5qXfY4Pau2Agw==",
+    "metageneration": 1,
+    "name": "runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/parallelSweepTest.m",
+    "size": 19321,
+    "storage_class": "STANDARD",
+    "storage_class_update_time": "2026-10-05T22:59:26+0000",
+    "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-pool-smoke-20261005-225720-29d437/source/parallelSweepTest.m#1791241166270353",
+    "update_time": "2026-10-05T22:59:26+0000"
+  }
+]

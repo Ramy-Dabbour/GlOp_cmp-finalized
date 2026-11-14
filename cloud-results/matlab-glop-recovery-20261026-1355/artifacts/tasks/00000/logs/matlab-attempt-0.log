@@ -1,0 +1,21 @@
+Synthetic recovery smoke: retry attempt 0, hard-crash threshold 3.
+[2026-10-26T14:09:06.229Z] RESUME task 0/1: 0/24 cloud-committed; 24 pending.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 8 workers.
+Batch pool: 8 process workers, one computational thread per worker.
+[2026-10-26T14:09:49.341Z] START trial 1: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=1
+[2026-10-26T14:09:49.376Z] START trial 2: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=2
+[2026-10-26T14:09:49.389Z] START trial 3: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=3
+[2026-10-26T14:09:49.399Z] START trial 4: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=4
+[2026-10-26T14:09:49.420Z] START trial 5: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=5
+[2026-10-26T14:09:49.427Z] START trial 6: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=6
+[2026-10-26T14:09:49.433Z] START trial 7: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=7
+[2026-10-26T14:09:49.438Z] START trial 8: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=8
+[2026-10-26T14:09:49.560Z] PROGRESS 0/24; successful=0; other=0; active=[1 2 3 4 5 6 7 8]; elapsed=44s
+[2026-10-26T14:09:51.650Z] PROGRESS 0/24; successful=0; other=0; active=[1 2 3 4 5 6 7 8]; elapsed=47s
+[2026-10-26T14:09:53.895Z] DURABLE trial 3: failed error=NaN evaluations=0 | 1/24; MAT+CSV published
+[2026-10-26T14:09:53.899Z] START trial 9: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=9
+[2026-10-26T14:09:54.102Z] DURABLE trial 4: succeeded error=1 evaluations=38 | 2/24; MAT+CSV published
+[2026-10-26T14:09:54.106Z] START trial 10: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=10
+[2026-10-26T14:09:54.156Z] DURABLE trial 5: succeeded error=1 evaluations=40 | 3/24; MAT+CSV published
+SMOKE HARD CRASH: three acknowledged commits published; halting process without cleanup.

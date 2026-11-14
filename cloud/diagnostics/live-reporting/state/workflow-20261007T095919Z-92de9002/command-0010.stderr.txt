@@ -1,0 +1,6 @@
+Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/tasks/00000/trials/17ce4ebc03b444780ee56e25425915f8e1f58935fd62694aeefd4d8b343446ce.jsonl.gz#1791366994538641 to file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\downloads\live-smoke\matlab-glop-live-smoke-20261007-094350-9c2a5c\snapshot-78bfc741958f5e1f\live\tasks\00000\trials\17ce4ebc03b444780ee56e25425915f8e1f58935fd62694aeefd4d8b343446ce.jsonl.gz
+Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/tasks/00000/trials/b0faee5cfac68ee6aeda9894a0a7ce3c1a78893f833c2fdf309214949002c389.jsonl.gz#1791366932826174 to file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\downloads\live-smoke\matlab-glop-live-smoke-20261007-094350-9c2a5c\snapshot-78bfc741958f5e1f\live\tasks\00000\trials\b0faee5cfac68ee6aeda9894a0a7ce3c1a78893f833c2fdf309214949002c389.jsonl.gz
+  
+.................................................
+
+Average throughput: 10.4kiB/s

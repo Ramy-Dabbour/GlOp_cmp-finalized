@@ -1,0 +1,11 @@
+{
+    "forced_supervisor_kill":  true,
+    "duplicate_suppressed":  true,
+    "forced_worker_kill":  true,
+    "trials":  24,
+    "reattached":  true,
+    "passed":  true,
+    "test_root":  "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\tests\\results\\supervisor-005601db30db46849a4ec68e672b3767",
+    "stop_suppressed_watch":  true,
+    "attempts":  2
+}

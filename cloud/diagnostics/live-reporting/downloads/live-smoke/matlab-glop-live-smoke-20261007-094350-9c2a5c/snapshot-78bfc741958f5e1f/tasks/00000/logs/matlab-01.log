@@ -1,0 +1,9 @@
+Batch task 1 of 1: 16 of 16 global trials.
+[Warning: Directory already exists.] 
+[> In main (line 44)
+In run (line 100)] 
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 8 workers.
+Batch pool: 8 process workers, one computational thread per worker.
+Executing 16 independent trials with 8 pool workers.
+Saved /work/shared/tasks/00000/results/trial_shard_00000.mat. Merge shards after the Batch job completes.

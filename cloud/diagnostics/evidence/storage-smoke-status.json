@@ -1,0 +1,89 @@
+{
+  "name": "projects/strange-reducer-509621-e8/locations/us-central1/jobs/matlab-storage-smoke-20261005-205327",
+  "status": {
+    "runDuration": "83.960665476s",
+    "state": "SUCCEEDED",
+    "statusEvents": [
+      {
+        "description": "Job state is set from QUEUED to SCHEDULED for job projects/1064328294968/locations/us-central1/jobs/matlab-storage-smoke-20261005-205327.",
+        "eventTime": "2026-10-05T20:54:01.768221599Z",
+        "type": "STATUS_CHANGED"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-source-and-probe] started.",
+        "eventTime": "2026-10-05T21:01:06.887618619Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-source-and-probe] finished with exit code 0.",
+        "eventTime": "2026-10-05T21:01:30.688868933Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #1 with display name [matlab-two-trial-smoke] started.",
+        "eventTime": "2026-10-05T21:01:30.689733731Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "Job state is set from SCHEDULED to RUNNING for job projects/1064328294968/locations/us-central1/jobs/matlab-storage-smoke-20261005-205327.",
+        "eventTime": "2026-10-05T21:01:06.887618619Z",
+        "type": "STATUS_CHANGED"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-source-and-probe] started.",
+        "eventTime": "2026-10-05T21:01:06.887618619Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-source-and-probe] finished with exit code 0.",
+        "eventTime": "2026-10-05T21:01:30.688868933Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #1 with display name [matlab-two-trial-smoke] started.",
+        "eventTime": "2026-10-05T21:01:30.689733731Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #1 with display name [matlab-two-trial-smoke] finished with exit code 0.",
+        "eventTime": "2026-10-05T21:02:20.246914664Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #2 with display name [preserve-diagnostic-outputs] started.",
+        "eventTime": "2026-10-05T21:02:20.247300463Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #2 with display name [preserve-diagnostic-outputs] finished with exit code 0.",
+        "eventTime": "2026-10-05T21:02:30.848231475Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "Job state is set from RUNNING to SUCCEEDED for job projects/1064328294968/locations/us-central1/jobs/matlab-storage-smoke-20261005-205327.",
+        "eventTime": "2026-10-05T21:02:30.848284095Z",
+        "type": "STATUS_CHANGED"
+      }
+    ],
+    "taskGroups": {
+      "group0": {
+        "counts": {
+          "SUCCEEDED": "1"
+        },
+        "instances": [
+          {
+            "bootDisk": {
+              "image": "projects/batch-custom-image/global/images/batch-cos-stable-official-20260924-00-p01",
+              "sizeGb": "100",
+              "type": "pd-balanced"
+            },
+            "machineType": "e2-standard-8",
+            "provisioningModel": "STANDARD",
+            "taskPack": "1"
+          }
+        ]
+      }
+    }
+  },
+  "uid": "matlab-storage-smo-ef145538-1e9c-479c0"
+}

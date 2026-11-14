@@ -1,0 +1,296 @@
+{
+  "tasks": [
+    {
+      "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0/tasks/0",
+      "status": {
+        "state": "SUCCEEDED",
+        "statusEvents": [
+          {
+            "eventTime": "2026-11-03T11:02:30.102542229Z",
+            "type": "CREATED",
+            "taskState": "PENDING"
+          },
+          {
+            "description": "Task state is updated from PENDING to ASSIGNED on zones/us-central1-c/instances/4629009205104508869",
+            "eventTime": "2026-11-03T11:20:04.836730307Z",
+            "type": "CREATED",
+            "taskState": "ASSIGNED"
+          },
+          {
+            "description": "Task state is updated from ASSIGNED to RUNNING on zones/us-central1-c/instances/4629009205104508869",
+            "eventTime": "2026-11-03T11:20:04.836736470Z",
+            "type": "RUNNING",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #0 with display name [prepare-and-restore] started.",
+            "eventTime": "2026-11-03T11:20:04.838605062Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+            "eventTime": "2026-11-03T11:50:43.041883572Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #1 with display name [durable-publisher] started.",
+            "eventTime": "2026-11-03T11:50:43.043384201Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+            "eventTime": "2026-11-03T11:50:43.044249320Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 0.",
+            "eventTime": "2026-11-11T13:09:25.450059957Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #3 with display name [preserve-completed-and-partial-results] started.",
+            "eventTime": "2026-11-11T13:09:25.452353711Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #3 with display name [preserve-completed-and-partial-results] finished with exit code 0.",
+            "eventTime": "2026-11-11T13:29:55.410316737Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "Task state is updated from RUNNING to SUCCEEDED on zones/us-central1-c/instances/4629009205104508869",
+            "eventTime": "2026-11-11T13:29:55.410534954Z",
+            "type": "SUCCEEDED",
+            "taskState": "SUCCEEDED"
+          }
+        ]
+      }
+    },
+    {
+      "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0/tasks/1",
+      "status": {
+        "state": "SUCCEEDED",
+        "statusEvents": [
+          {
+            "eventTime": "2026-11-03T11:02:30.102644900Z",
+            "type": "CREATED",
+            "taskState": "PENDING"
+          },
+          {
+            "description": "Task state is updated from PENDING to ASSIGNED on zones/us-central1-c/instances/4886743277640122334",
+            "eventTime": "2026-11-03T11:21:30.966601517Z",
+            "type": "CREATED",
+            "taskState": "ASSIGNED"
+          },
+          {
+            "description": "Task state is updated from ASSIGNED to RUNNING on zones/us-central1-c/instances/4886743277640122334",
+            "eventTime": "2026-11-03T11:21:30.966604346Z",
+            "type": "RUNNING",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #0 with display name [prepare-and-restore] started.",
+            "eventTime": "2026-11-03T11:21:30.968478227Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+            "eventTime": "2026-11-03T11:51:28.518379764Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #1 with display name [durable-publisher] started.",
+            "eventTime": "2026-11-03T11:51:28.519462054Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+            "eventTime": "2026-11-03T11:51:28.520114345Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 0.",
+            "eventTime": "2026-11-11T23:21:08.635741772Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #3 with display name [preserve-completed-and-partial-results] started.",
+            "eventTime": "2026-11-11T23:21:08.637246790Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #3 with display name [preserve-completed-and-partial-results] finished with exit code 0.",
+            "eventTime": "2026-11-11T23:41:11.332601965Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "Task state is updated from RUNNING to SUCCEEDED on zones/us-central1-c/instances/4886743277640122334",
+            "eventTime": "2026-11-11T23:41:11.332840888Z",
+            "type": "SUCCEEDED",
+            "taskState": "SUCCEEDED"
+          }
+        ]
+      }
+    },
+    {
+      "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0/tasks/2",
+      "status": {
+        "state": "SUCCEEDED",
+        "statusEvents": [
+          {
+            "eventTime": "2026-11-03T11:02:30.102687589Z",
+            "type": "CREATED",
+            "taskState": "PENDING"
+          },
+          {
+            "description": "Task state is updated from PENDING to ASSIGNED on zones/us-central1-c/instances/6293955515076870110",
+            "eventTime": "2026-11-03T11:19:55.317377931Z",
+            "type": "CREATED",
+            "taskState": "ASSIGNED"
+          },
+          {
+            "description": "Task state is updated from ASSIGNED to RUNNING on zones/us-central1-c/instances/6293955515076870110",
+            "eventTime": "2026-11-03T11:19:55.317384624Z",
+            "type": "RUNNING",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #0 with display name [prepare-and-restore] started.",
+            "eventTime": "2026-11-03T11:19:55.319493375Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+            "eventTime": "2026-11-03T11:48:25.228012839Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #1 with display name [durable-publisher] started.",
+            "eventTime": "2026-11-03T11:48:25.229324371Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+            "eventTime": "2026-11-03T11:48:25.230024702Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 0.",
+            "eventTime": "2026-11-11T14:48:37.668017668Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #3 with display name [preserve-completed-and-partial-results] started.",
+            "eventTime": "2026-11-11T14:48:37.669710148Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #3 with display name [preserve-completed-and-partial-results] finished with exit code 0.",
+            "eventTime": "2026-11-11T15:10:51.402472737Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "Task state is updated from RUNNING to SUCCEEDED on zones/us-central1-c/instances/6293955515076870110",
+            "eventTime": "2026-11-11T15:10:51.402797425Z",
+            "type": "SUCCEEDED",
+            "taskState": "SUCCEEDED"
+          }
+        ]
+      }
+    },
+    {
+      "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0/tasks/3",
+      "status": {
+        "state": "SUCCEEDED",
+        "statusEvents": [
+          {
+            "eventTime": "2026-11-03T11:02:30.102737570Z",
+            "type": "CREATED",
+            "taskState": "PENDING"
+          },
+          {
+            "description": "Task state is updated from PENDING to ASSIGNED on zones/us-central1-c/instances/1612444482446589917",
+            "eventTime": "2026-11-03T11:20:07.208331158Z",
+            "type": "CREATED",
+            "taskState": "ASSIGNED"
+          },
+          {
+            "description": "Task state is updated from ASSIGNED to RUNNING on zones/us-central1-c/instances/1612444482446589917",
+            "eventTime": "2026-11-03T11:20:07.208333537Z",
+            "type": "RUNNING",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #0 with display name [prepare-and-restore] started.",
+            "eventTime": "2026-11-03T11:20:07.209316537Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+            "eventTime": "2026-11-03T11:44:39.763611215Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #1 with display name [durable-publisher] started.",
+            "eventTime": "2026-11-03T11:44:39.764732776Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+            "eventTime": "2026-11-03T11:44:39.765266666Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 0.",
+            "eventTime": "2026-11-12T14:39:53.629765899Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #3 with display name [preserve-completed-and-partial-results] started.",
+            "eventTime": "2026-11-12T14:39:53.631342203Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "container at index #3 with display name [preserve-completed-and-partial-results] finished with exit code 0.",
+            "eventTime": "2026-11-12T15:04:01.387899343Z",
+            "type": "RUNNABLE_EVENT",
+            "taskState": "RUNNING"
+          },
+          {
+            "description": "Task state is updated from RUNNING to SUCCEEDED on zones/us-central1-c/instances/1612444482446589917",
+            "eventTime": "2026-11-12T15:04:01.388050818Z",
+            "type": "SUCCEEDED",
+            "taskState": "SUCCEEDED"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[2026-10-15 16:15:37 +03:00] Local benchmark supervisor PID 20596. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-005601db30db46849a4ec68e672b3767\run\supervisor.log
+[2026-10-15 16:15:37 +03:00] Started attempt 20261015-131537-321-20596, worker PID 16692. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-005601db30db46849a4ec68e672b3767\run\attempts\20261015-131537-321-20596\matlab.log
+[2026-10-15 16:15:40 +03:00] Attempt 20261015-131537-321-20596 exited with code -1. Outcome: failed.
+[2026-10-15 16:15:40 +03:00] Restarting in 1 seconds from the saved trials. STOP suppresses restart.
+[2026-10-15 16:15:41 +03:00] Started attempt 20261015-131541-420-20596, worker PID 19756. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-005601db30db46849a4ec68e672b3767\run\attempts\20261015-131541-420-20596\matlab.log
+[2026-10-15 16:15:45 +03:00] Local benchmark supervisor PID 5676. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-005601db30db46849a4ec68e672b3767\run\supervisor.log
+[2026-10-15 16:15:46 +03:00] Reattached to surviving worker PID 19756; no duplicate trial execution was started.
+[2026-10-15 16:15:53 +03:00] Attempt 20261015-131541-420-20596 exited with code 0. Outcome: completed.
+[2026-10-15 16:15:53 +03:00] BENCHMARK COMPLETED SUCCESSFULLY. MAT and CSV exports are saved in the project directory.

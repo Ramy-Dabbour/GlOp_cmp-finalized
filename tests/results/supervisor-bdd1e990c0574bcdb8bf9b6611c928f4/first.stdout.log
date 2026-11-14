@@ -1,0 +1,13 @@
+[2026-10-15 16:14:34 +03:00] Local benchmark supervisor PID 21364. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-bdd1e990c0574bcdb8bf9b6611c928f4\run\supervisor.log
+Intentional stop: scripts\local-benchmark.cmd Stop. Resume: scripts\local-benchmark.cmd Resume.
+[2026-10-15 16:14:34 +03:00] Started attempt 20261015-131434-339-21364, worker PID 12148. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-bdd1e990c0574bcdb8bf9b6611c928f4\run\attempts\20261015-131434-339-21364\matlab.log
+RESUME 0/24
+COMMITTED 1/24
+COMMITTED 2/24
+[2026-10-15 16:14:36 +03:00] Attempt 20261015-131434-339-21364 exited with code . Outcome: failed.
+[2026-10-15 16:14:36 +03:00] Restarting in 1 seconds from the saved trials. STOP suppresses restart.
+[2026-10-15 16:14:37 +03:00] Started attempt 20261015-131437-782-21364, worker PID 11844. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-bdd1e990c0574bcdb8bf9b6611c928f4\run\attempts\20261015-131437-782-21364\matlab.log
+RESUME 2/24
+COMMITTED 3/24
+COMMITTED 4/24
+COMMITTED 5/24

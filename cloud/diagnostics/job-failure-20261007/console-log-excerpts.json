@@ -1,0 +1,59 @@
+{
+  "captured_on": "2026-10-24",
+  "source": "Authenticated Google Cloud Console, Batch job Logs tab; visible log rows transcribed from the browser accessibility/DOM output. This is an excerpt, not a complete Cloud Logging API export.",
+  "url": "https://console.cloud.google.com/batch/jobsDetail/regions/us-central1/jobs/matlab-glop-cmp-20261007-135934-b1f7cc/logs?project=strange-reducer-509621-e8",
+  "job_uid": "matlab-glop-cmp-20-f0015c1e-5410-406b0",
+  "entries": [
+    {
+      "timestamp_utc": "2026-10-10T14:09:10.119Z",
+      "displayed_time_cairo": "2026-10-10 17:09:10.119 EEST",
+      "task_index": 0,
+      "source_note": "Relevant status-event substring from a longer Batch agent-state log entry.",
+      "message": "container at index #2 with display name [matlab-entry-1] finished with exit code 50005.",
+      "event_time_seconds": 1791641324,
+      "event_time_nanos": 928760322
+    },
+    {
+      "timestamp_utc": "2026-10-10T14:09:22.957Z",
+      "displayed_time_cairo": "2026-10-10 17:09:22.957 EEST",
+      "task_index": 1,
+      "message": "{\"active_workers\":8, \"assigned\":19440, \"completed\":8262, \"event\":\"live-progress\", \"status\":\"running\", \"task_index\":1}"
+    },
+    {
+      "timestamp_utc": "2026-10-10T14:09:58.728Z",
+      "displayed_time_cairo": "2026-10-10 17:09:58.728 EEST",
+      "task_index": 2,
+      "message": "Task task/matlab-glop-cmp-20-f0015c1e-5410-406b0-group0-2/0/0 runnable 2 wait error: signal: killed"
+    },
+    {
+      "timestamp_utc": "2026-10-10T14:09:58.728Z",
+      "displayed_time_cairo": "2026-10-10 17:09:58.728 EEST",
+      "task_index": 2,
+      "message": "Task task/matlab-glop-cmp-20-f0015c1e-5410-406b0-group0-2/0/0 runnable 2 execution err: command failed with exitCode -1. As it timed out, we overwrite its exitCode to 50005"
+    },
+    {
+      "timestamp_utc": "2026-10-10T14:10:07.961Z",
+      "displayed_time_cairo": "2026-10-10 17:10:07.961 EEST",
+      "task_index": 2,
+      "message": "Copying file:///work/shared/tasks/00002/logs/matlab-01.log to gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-cmp-20261007-135934-b1f7cc/tasks/00002/logs/matlab-01.log"
+    },
+    {
+      "timestamp_utc": "2026-10-10T14:10:26.233Z",
+      "displayed_time_cairo": "2026-10-10 17:10:26.233 EEST",
+      "task_index": 2,
+      "message": "{\"active_workers\":0, \"assigned\":19440, \"completed\":5752, \"event\":\"live-progress\", \"status\":\"incomplete\", \"task_index\":2}"
+    },
+    {
+      "timestamp_utc": "2026-10-10T14:10:26.293Z",
+      "displayed_time_cairo": "2026-10-10 17:10:26.293 EEST",
+      "task_index": 2,
+      "message": "RuntimeError: Partial live results recovered; MATLAB did not complete every assigned trial"
+    },
+    {
+      "timestamp_utc": "2026-10-10T14:10:26.595Z",
+      "displayed_time_cairo": "2026-10-10 17:10:26.595 EEST",
+      "task_index": 2,
+      "message": "Task task/matlab-glop-cmp-20-f0015c1e-5410-406b0-group0-2/0/0 runnable 3 execution err: command failed with exitCode 1"
+    }
+  ]
+}

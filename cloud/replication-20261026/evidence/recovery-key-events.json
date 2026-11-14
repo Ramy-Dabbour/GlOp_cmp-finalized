@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-10-26T14:09:03.231386164Z",
+    "textPayload": "Synthetic recovery smoke: retry attempt 0, hard-crash threshold 3."
+  },
+  {
+    "timestamp": "2026-10-26T14:09:06.232018580Z",
+    "textPayload": "[2026-10-26T14:09:06.229Z] RESUME task 0/1: 0/24 cloud-committed; 24 pending."
+  },
+  {
+    "timestamp": "2026-10-26T14:09:49.320227117Z",
+    "textPayload": "Batch pool: 8 process workers, one computational thread per worker."
+  },
+  {
+    "timestamp": "2026-10-26T14:09:54.159045905Z",
+    "textPayload": "SMOKE HARD CRASH: three acknowledged commits published; halting process without cleanup."
+  },
+  {
+    "timestamp": "2026-10-26T14:09:55.677174575Z",
+    "textPayload": "Task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/0/0 runnable 2 exited with status 137"
+  },
+  {
+    "timestamp": "2026-10-26T14:11:27.309352189Z",
+    "textPayload": "Synthetic recovery smoke: retry attempt 1, hard-crash threshold Inf."
+  },
+  {
+    "timestamp": "2026-10-26T14:11:32.220727690Z",
+    "textPayload": "[2026-10-26T14:11:32.216Z] RESUME task 0/1: 10/24 cloud-committed; 14 pending."
+  },
+  {
+    "timestamp": "2026-10-26T14:12:29.035216314Z",
+    "textPayload": "Batch pool: 8 process workers, one computational thread per worker."
+  },
+  {
+    "timestamp": "2026-10-26T14:12:36.483863184Z",
+    "textPayload": "[2026-10-26T14:12:36.482Z] COMPLETED: 24/24 durable trials."
+  }
+]

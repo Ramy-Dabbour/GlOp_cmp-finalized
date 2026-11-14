@@ -1,0 +1,8 @@
+{
+  "processId": 18548,
+  "startedAt": "2026-10-11T10:00:07.4441691Z",
+  "project": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp",
+  "profile": "Processes",
+  "log": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-runs\\20261011-125746\\matlab.log",
+  "arguments": "-wait -sd \"C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\" -batch \"parallel.defaultProfile('Processes'); setenv('BATCH_TASK_INDEX',''); setenv('BATCH_TASK_COUNT',''); setenv('FPF_OUTPUT_DIR',''); setenv('FPF_WORKERS_PER_TASK',''); setenv('FPF_LIVE_DIR',''); fprintf('LOCAL_BATCH_STARTED\\n'); main; fprintf('LOCAL_BATCH_COMPLETED\\n');\" -logfile \"C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-runs\\20261011-125746\\matlab.log\""
+}

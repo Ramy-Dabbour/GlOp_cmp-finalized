@@ -1,0 +1,21 @@
+{
+  "smoke_passed": true,
+  "real_solver_completed": true,
+  "serial_parallel_equal": true,
+  "trial_indices": [
+    1,
+    2
+  ],
+  "success": [
+    0,
+    0
+  ],
+  "errors": [
+    0,
+    0
+  ],
+  "evaluations": [
+    0,
+    0
+  ]
+}

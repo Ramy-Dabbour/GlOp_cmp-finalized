@@ -1,0 +1,154 @@
+[2026-10-15T13:19:38.284Z] RESUME: 4/8 committed trials; 4 pending. Outputs: C:/Users/Dell/Documents/MATLAB/GlOp_cmp/local-runs/recovery-verification-20261015
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+[2026-10-15T13:20:17.555Z] START trial 5/8: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=5
+[2026-10-15T13:20:17.600Z] START trial 6/8: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=6
+[2026-10-15T13:20:17.715Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=41s
+[2026-10-15T13:20:20.917Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=44s
+[2026-10-15T13:20:20.941Z] WORKER 23076 trial=6 stage=reference evaluations=0 best=NaN elapsed=0s last_update=2026-10-15T13:20:17.885Z
+[2026-10-15T13:20:20.952Z] WORKER 23476 trial=5 stage=reference evaluations=0 best=NaN elapsed=0s last_update=2026-10-15T13:20:17.792Z
+[2026-10-15T13:20:24.128Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=47s
+[2026-10-15T13:20:24.139Z] WORKER 23076 trial=6 stage=reference evaluations=46 best=0.0217391304 elapsed=5s last_update=2026-10-15T13:20:23.022Z
+[2026-10-15T13:20:24.145Z] WORKER 23476 trial=5 stage=reference evaluations=46 best=0.0217391304 elapsed=5s last_update=2026-10-15T13:20:22.920Z
+[2026-10-15T13:20:27.327Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=50s
+[2026-10-15T13:20:27.336Z] WORKER 23076 trial=6 stage=reference evaluations=46 best=0.0217391304 elapsed=5s last_update=2026-10-15T13:20:23.022Z
+[2026-10-15T13:20:27.342Z] WORKER 23476 trial=5 stage=reference evaluations=46 best=0.0217391304 elapsed=5s last_update=2026-10-15T13:20:22.920Z
+[2026-10-15T13:20:30.503Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=54s
+[2026-10-15T13:20:30.509Z] WORKER 23076 trial=6 stage=reference evaluations=92 best=0.0108695652 elapsed=10s last_update=2026-10-15T13:20:28.146Z
+[2026-10-15T13:20:30.514Z] WORKER 23476 trial=5 stage=reference evaluations=92 best=0.0108695652 elapsed=10s last_update=2026-10-15T13:20:28.034Z
+[2026-10-15T13:20:33.673Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=57s
+[2026-10-15T13:20:33.681Z] WORKER 23076 trial=6 stage=reference evaluations=138 best=0.00724637681 elapsed=16s last_update=2026-10-15T13:20:33.227Z
+[2026-10-15T13:20:33.687Z] WORKER 23476 trial=5 stage=reference evaluations=138 best=0.00724637681 elapsed=15s last_update=2026-10-15T13:20:33.081Z
+[2026-10-15T13:20:36.912Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=60s
+[2026-10-15T13:20:36.921Z] WORKER 23076 trial=6 stage=reference evaluations=138 best=0.00724637681 elapsed=16s last_update=2026-10-15T13:20:33.227Z
+[2026-10-15T13:20:36.925Z] WORKER 23476 trial=5 stage=reference evaluations=138 best=0.00724637681 elapsed=15s last_update=2026-10-15T13:20:33.081Z
+[2026-10-15T13:20:40.082Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=63s
+[2026-10-15T13:20:40.088Z] WORKER 23076 trial=6 stage=reference evaluations=184 best=0.00543478261 elapsed=21s last_update=2026-10-15T13:20:38.300Z
+[2026-10-15T13:20:40.094Z] WORKER 23476 trial=5 stage=reference evaluations=184 best=0.00543478261 elapsed=21s last_update=2026-10-15T13:20:38.114Z
+[2026-10-15T13:20:43.269Z] PROGRESS 4/8 (50.000%); successful=3; other=1; active=[5 6]; elapsed=66s
+[2026-10-15T13:20:44.640Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/8 (62.500%); MAT+CSV committed
+[2026-10-15T13:20:44.664Z] START trial 7/8: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=7
+[2026-10-15T13:20:44.893Z] SAVED trial 6: success=1 error=0.316232082 evaluations=204 | 6/8 (75.000%); MAT+CSV committed
+[2026-10-15T13:20:44.903Z] START trial 8/8: FIR=4 passband=0.2 seed=0 solvers=ga/particleswarm sample=8
+[2026-10-15T13:20:46.489Z] PROGRESS 6/8 (75.000%); successful=5; other=1; active=[7 8]; elapsed=70s
+[2026-10-15T13:20:46.498Z] WORKER 23076 trial=8 stage=reference evaluations=0 best=NaN elapsed=0s last_update=2026-10-15T13:20:44.972Z
+[2026-10-15T13:20:46.506Z] WORKER 23476 trial=7 stage=reference evaluations=0 best=NaN elapsed=0s last_update=2026-10-15T13:20:44.758Z
+[2026-10-15T13:20:49.674Z] PROGRESS 6/8 (75.000%); successful=5; other=1; active=[7 8]; elapsed=73s
+[2026-10-15T13:20:49.681Z] WORKER 23076 trial=8 stage=reference evaluations=0 best=NaN elapsed=0s last_update=2026-10-15T13:20:44.972Z
+[2026-10-15T13:20:49.686Z] WORKER 23476 trial=7 stage=reference evaluations=0 best=NaN elapsed=0s last_update=2026-10-15T13:20:44.758Z
+[2026-10-15T13:20:52.861Z] PROGRESS 6/8 (75.000%); successful=5; other=1; active=[7 8]; elapsed=76s
+[2026-10-15T13:20:52.869Z] WORKER 23076 trial=8 stage=reference evaluations=46 best=0.0217391304 elapsed=5s last_update=2026-10-15T13:20:50.048Z
+[2026-10-15T13:20:52.873Z] WORKER 23476 trial=7 stage=reference evaluations=46 best=0.0217391304 elapsed=5s last_update=2026-10-15T13:20:49.834Z
+[2026-10-15T13:20:56.016Z] PROGRESS 6/8 (75.000%); successful=5; other=1; active=[7 8]; elapsed=79s
+[2026-10-15T13:20:56.023Z] WORKER 23076 trial=8 stage=reference evaluations=92 best=0.0108695652 elapsed=10s last_update=2026-10-15T13:20:55.068Z
+[2026-10-15T13:20:56.029Z] WORKER 23476 trial=7 stage=reference evaluations=92 best=0.0108695652 elapsed=10s last_update=2026-10-15T13:20:54.865Z
+[2026-10-15T13:20:59.170Z] PROGRESS 6/8 (75.000%); successful=5; other=1; active=[7 8]; elapsed=82s
+[2026-10-15T13:20:59.177Z] WORKER 23076 trial=8 stage=reference evaluations=92 best=0.0108695652 elapsed=10s last_update=2026-10-15T13:20:55.068Z
+[2026-10-15T13:20:59.183Z] WORKER 23476 trial=7 stage=reference evaluations=92 best=0.0108695652 elapsed=10s last_update=2026-10-15T13:20:54.865Z
+[2026-10-15T13:21:02.350Z] PROGRESS 6/8 (75.000%); successful=5; other=1; active=[7 8]; elapsed=85s
+[2026-10-15T13:21:02.358Z] WORKER 23076 trial=8 stage=reference evaluations=138 best=0.00724637681 elapsed=15s last_update=2026-10-15T13:21:00.118Z
+[2026-10-15T13:21:02.363Z] WORKER 23476 trial=7 stage=reference evaluations=138 best=0.00724637681 elapsed=15s last_update=2026-10-15T13:20:59.961Z
+[2026-10-15T13:21:05.627Z] PROGRESS 6/8 (75.000%); successful=5; other=1; active=[7 8]; elapsed=89s
+[2026-10-15T13:21:05.635Z] WORKER 23076 trial=8 stage=reference evaluations=184 best=0.00543478261 elapsed=20s last_update=2026-10-15T13:21:05.148Z
+[2026-10-15T13:21:05.640Z] WORKER 23476 trial=7 stage=reference evaluations=184 best=0.00543478261 elapsed=20s last_update=2026-10-15T13:21:05.041Z
+[2026-10-15T13:21:07.023Z] SAVED trial 7: success=1 error=0.10916826 evaluations=62 | 7/8 (87.500%); MAT+CSV committed
+[2026-10-15T13:21:07.224Z] SAVED trial 8: success=1 error=0.16012942 evaluations=113 | 8/8 (100.000%); MAT+CSV committed
+[2026-10-15T13:21:07.558Z] COMPLETED: 8/8 trials committed; MAT and CSV saved.
+Executing 8 independent trials with 0 pool workers.
+Running localCheckpointTest
+Executing 5 independent trials with 0 pool workers.
+[2026-10-15T13:21:15.864Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp117ef9f1_56fd_4d2b_b86e_0e76449f0bdc
+[2026-10-15T13:21:15.872Z] START trial 1/5
+[2026-10-15T13:21:16.006Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-15T13:21:16.013Z] START trial 2/5
+[2026-10-15T13:21:18.341Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-15T13:21:18.346Z] START trial 3/5
+[2026-10-15T13:21:18.738Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-15T13:21:18.743Z] START trial 4/5
+[2026-10-15T13:21:19.125Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-15T13:21:19.154Z] START trial 5/5
+[2026-10-15T13:21:19.500Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-15T13:21:19.543Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+.Executing 5 independent trials with 0 pool workers.
+[2026-10-15T13:21:21.080Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp1747a6e8_b725_4992_8bd4_a8b2804d9258
+[2026-10-15T13:21:21.089Z] START trial 1/5
+[2026-10-15T13:21:21.212Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-15T13:21:21.216Z] START trial 2/5
+[2026-10-15T13:21:21.471Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-15T13:21:21.477Z] START trial 3/5
+[2026-10-15T13:21:21.569Z] ERROR fixture:Interrupted: Simulated interruption at trial 3.. Committed trials remain available for resume.
+[2026-10-15T13:21:21.876Z] RESUME: 2/5 committed trials; 3 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp1747a6e8_b725_4992_8bd4_a8b2804d9258
+[2026-10-15T13:21:21.881Z] START trial 3/5
+[2026-10-15T13:21:22.012Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-15T13:21:22.016Z] START trial 4/5
+[2026-10-15T13:21:22.136Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-15T13:21:22.140Z] START trial 5/5
+[2026-10-15T13:21:22.235Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-15T13:21:22.278Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+.[2026-10-15T13:21:22.802Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp50fcfb58_53e0_461c_b6fa_57835d7ec05d
+[2026-10-15T13:21:22.811Z] START trial 1/5
+[2026-10-15T13:21:22.919Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-15T13:21:22.925Z] START trial 2/5
+[2026-10-15T13:21:23.075Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-15T13:21:23.080Z] START trial 3/5
+[2026-10-15T13:21:23.198Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-15T13:21:23.204Z] START trial 4/5
+[2026-10-15T13:21:23.323Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-15T13:21:23.328Z] START trial 5/5
+[2026-10-15T13:21:23.455Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-15T13:21:23.528Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+.[2026-10-15T13:21:24.049Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpfdd7ccd7_3246_4b88_ace2_221712fbf6d4
+[2026-10-15T13:21:24.055Z] START trial 1/5
+[2026-10-15T13:21:24.146Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-15T13:21:24.152Z] START trial 2/5
+[2026-10-15T13:21:24.344Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-15T13:21:24.349Z] START trial 3/5
+[2026-10-15T13:21:24.494Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-15T13:21:24.500Z] START trial 4/5
+[2026-10-15T13:21:24.629Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-15T13:21:24.635Z] START trial 5/5
+[2026-10-15T13:21:24.763Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-15T13:21:24.798Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+[2026-10-15T13:21:24.901Z] ERROR fpf:CorruptCheckpoint: Invalid checkpoint C:\Users\Dell\AppData\Local\Temp\tpfdd7ccd7_3246_4b88_ace2_221712fbf6d4\local-results\checkpoints\trial_000000000002.mat: Unable to read file "C:\Users\Dell\AppData\Local\Temp\tpfdd7ccd7_3246_4b88_ace2_221712fbf6d4\local-results\checkpoints\trial_000000000002.mat".. Committed trials remain available for resume.
+.[2026-10-15T13:21:25.188Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tp2bb9b4e1_8bf4_4292_8386_f28e32ae9b85
+[2026-10-15T13:21:25.193Z] START trial 1/5
+[2026-10-15T13:21:25.270Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-15T13:21:25.274Z] START trial 2/5
+[2026-10-15T13:21:25.383Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-15T13:21:25.387Z] START trial 3/5
+[2026-10-15T13:21:25.485Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-15T13:21:25.489Z] START trial 4/5
+[2026-10-15T13:21:25.596Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-15T13:21:25.601Z] START trial 5/5
+[2026-10-15T13:21:25.695Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-15T13:21:25.740Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+[2026-10-15T13:21:26.091Z] ERROR fpf:CorruptCheckpoint: Invalid checkpoint C:\Users\Dell\AppData\Local\Temp\tp2bb9b4e1_8bf4_4292_8386_f28e32ae9b85\local-results\checkpoints\trial_000000000002.mat: Assertion failed.. Committed trials remain available for resume.
+.[2026-10-15T13:21:26.432Z] RESUME: 0/5 committed trials; 5 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpffc14fb7_966e_41d8_b8da_bf821e59d3d6
+[2026-10-15T13:21:26.440Z] START trial 1/5
+[2026-10-15T13:21:26.533Z] SAVED trial 1: success=1 error=0.236341473 evaluations=157 | 1/5 (20.000%); MAT+CSV committed
+[2026-10-15T13:21:26.538Z] START trial 2/5
+[2026-10-15T13:21:26.635Z] SAVED trial 2: success=1 error=0.138207005 evaluations=80 | 2/5 (40.000%); MAT+CSV committed
+[2026-10-15T13:21:26.639Z] START trial 3/5
+[2026-10-15T13:21:26.708Z] ERROR fixture:Interrupted: Simulated interruption at trial 3.. Committed trials remain available for resume.
+[2026-10-15T13:21:26.862Z] RESUME: 2/5 committed trials; 3 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpffc14fb7_966e_41d8_b8da_bf821e59d3d6
+[2026-10-15T13:21:26.867Z] START trial 3/5
+[2026-10-15T13:21:26.968Z] SAVED trial 3: success=1 error=0.218742532 evaluations=141 | 3/5 (60.000%); MAT+CSV committed
+[2026-10-15T13:21:26.972Z] START trial 4/5
+[2026-10-15T13:21:27.089Z] SAVED trial 4: success=0 error=0 evaluations=0 | 4/5 (80.000%); MAT+CSV committed
+[2026-10-15T13:21:27.093Z] START trial 5/5
+[2026-10-15T13:21:27.191Z] SAVED trial 5: success=1 error=0.209194411 evaluations=115 | 5/5 (100.000%); MAT+CSV committed
+[2026-10-15T13:21:27.233Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+[2026-10-15T13:21:27.371Z] RESUME: 5/5 committed trials; 0 pending. Outputs: C:\Users\Dell\AppData\Local\Temp\tpffc14fb7_966e_41d8_b8da_bf821e59d3d6
+[2026-10-15T13:21:27.448Z] COMPLETED: 5/5 trials committed; MAT and CSV saved.
+.
+Done localCheckpointTest
+__________
+
+Running parallelSweepTest
+...Executing 96 independent trials with 0 pool workers.
+..Executing 0 independent trials with 0 pool workers.
+..... .....
+Done parallelSweepTest
+__________
+
+EXTERNAL_RECOVERY_FIXTURE_PASSED

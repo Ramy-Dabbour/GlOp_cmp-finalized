@@ -1,0 +1,230 @@
+[
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000085.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000085.commit.json?alt=media&generation=1793220199438364 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000097.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000097.commit.json?alt=media&generation=1793220209888075 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000109.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000109.commit.json?alt=media&generation=1793220262825667 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000029.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000029.commit.json?alt=media&generation=1793220133211161 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000093.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000093.commit.json?alt=media&generation=1793220225483905 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000121.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000121.commit.json?alt=media&generation=1793220286179439 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000045.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000045.commit.json?alt=media&generation=1793220177055151 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000021.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000021.commit.json?alt=media&generation=1793220114497547 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000089.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000089.commit.json?alt=media&generation=1793220199438858 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000149.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000149.commit.json?alt=media&generation=1793220445113753 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000105.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000105.commit.json?alt=media&generation=1793220262819448 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000081.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000081.commit.json?alt=media&generation=1793220200978192 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000133.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000133.commit.json?alt=media&generation=1793220330452983 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000065.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000065.commit.json?alt=media&generation=1793220179559107 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000141.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000141.commit.json?alt=media&generation=1793220329558388 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000129.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000129.commit.json?alt=media&generation=1793220327239620 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000165.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000165.commit.json?alt=media&generation=1793220347365801 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000125.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000125.commit.json?alt=media&generation=1793220322350996 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000145.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000145.commit.json?alt=media&generation=1793220376875365 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000177.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000177.commit.json?alt=media&generation=1793220405485079 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000137.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000137.commit.json?alt=media&generation=1793220331735659 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000181.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000181.commit.json?alt=media&generation=1793220391503186 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000057.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000057.commit.json?alt=media&generation=1793220183136954 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000193.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000193.commit.json?alt=media&generation=1793220391458598 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000189.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000189.commit.json?alt=media&generation=1793220388172624 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000169.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000169.commit.json?alt=media&generation=1793220365038795 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000113.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000113.commit.json?alt=media&generation=1793220281994621 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000069.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000069.commit.json?alt=media&generation=1793220182565381 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000173.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000173.commit.json?alt=media&generation=1793220380735214 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000161.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000161.commit.json?alt=media&generation=1793220372510781 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000157.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000157.commit.json?alt=media&generation=1793220379721705 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000000153.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000000153.commit.json?alt=media&generation=1793220387078182 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001309.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001309.commit.json?alt=media&generation=1793222996635347 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001277.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001277.commit.json?alt=media&generation=1793222881901055 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001253.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001253.commit.json?alt=media&generation=1793222871366586 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001141.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001141.commit.json?alt=media&generation=1793222615186007 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001137.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001137.commit.json?alt=media&generation=1793222632910193 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001421.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001421.commit.json?alt=media&generation=1793223396290536 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001405.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001405.commit.json?alt=media&generation=1793223335819120 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001337.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001337.commit.json?alt=media&generation=1793223160347106 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001461.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001461.commit.json?alt=media&generation=1793224242265257 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001245.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001245.commit.json?alt=media&generation=1793222855352010 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001341.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001341.commit.json?alt=media&generation=1793223255154813 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001533.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001533.commit.json?alt=media&generation=1793223727003154 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001317.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001317.commit.json?alt=media&generation=1793223024703720 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001201.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001201.commit.json?alt=media&generation=1793222774675287 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001297.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001297.commit.json?alt=media&generation=1793222914523917 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001205.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001205.commit.json?alt=media&generation=1793222778782932 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001025.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001025.commit.json?alt=media&generation=1793222328757335 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001409.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001409.commit.json?alt=media&generation=1793223337408640 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001037.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001037.commit.json?alt=media&generation=1793222338399178 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/trial_000000001373.commit.json",
+    "error": "HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /storage/v1/b/strange-reducer-509621-e8-matlab-glop-cmp/o/outputs%2Fmatlab-glop-cmp-20261028-fixes%2Fcheckpoints%2Ftasks%2F00000%2Ftrial_000000001373.commit.json?alt=media&generation=1793223307847238 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00001/trial_000000000058.commit.json",
+    "error": "Unsafe storage object name"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00001/trial_000000000102.commit.json",
+    "error": "Unsafe storage object name"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00001/trial_000000000054.commit.json",
+    "error": "Unsafe storage object name"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00001/trial_000000000106.commit.json",
+    "error": "Unsafe storage object name"
+  },
+  {
+    "object": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00002/trial_000000000051.commit.json",
+    "error": "Unsafe storage object name"
+  }
+]

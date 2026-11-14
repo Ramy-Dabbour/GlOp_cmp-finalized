@@ -1,0 +1,1392 @@
+{
+  "checked_utc": "2026-11-02T15:22:26.972900+00:00",
+  "evidence_directory": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\reliability-fixes-20261028\\cloud-status-20261102T152206Z",
+  "batch_status": {
+    "check_error": "HTTP Error 403: Forbidden"
+  },
+  "identity_matches": false,
+  "summary": {
+    "check_error": "HTTP Error 403: Forbidden"
+  },
+  "latest_trial": null,
+  "tasks": [],
+  "batch_tasks": {
+    "check_error": "HTTP Error 403: Forbidden"
+  },
+  "error_logs": {
+    "entries": [
+      {
+        "textPayload": "rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry. Retrying in 5.717319397s\n",
+        "insertId": "c5cmhf1ze7uv",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:35.572935715Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:35.649424767Z"
+      },
+      {
+        "textPayload": "instance 2248781657292137749 report agent state error: rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry\n",
+        "insertId": "c5cmhf1ze7uu",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:35.572900195Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:35.649424767Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 3.665552392s\n",
+        "insertId": "ezuernewrzhm",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "974632647761323285",
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T13:51:23.725440656Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T13:51:53.746026164Z"
+      },
+      {
+        "textPayload": "instance 974632647761323285 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "ezuernewrzhl",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "974632647761323285",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T13:51:23.725196686Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T13:51:53.746026164Z"
+      },
+      {
+        "textPayload": "unexpected value <!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 503 (Server Error)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>503.</b> <ins>That\u2019s an error.</ins>\n  <p>The service you requested is not available yet.<p>Please try again in 30 seconds.  <ins>That\u2019s all we know.</ins>\n got from Spot preemption notice\n",
+        "insertId": "5l0tn5efycu0",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "1954529389099083029"
+          }
+        },
+        "timestamp": "2026-10-31T13:21:08.640984656Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T13:21:15.388152491Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 3.598570436s\n",
+        "insertId": "1r0rq50f1lml9j",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T07:22:27.829012615Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T07:22:27.874464389Z"
+      },
+      {
+        "textPayload": "instance 2248781657292137749 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "1r0rq50f1lml9i",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "2248781657292137749"
+          }
+        },
+        "timestamp": "2026-10-31T07:22:27.828984195Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T07:22:27.874464389Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 2.725269653s\n",
+        "insertId": "1l7i4fbe792yj",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "974632647761323285",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T06:46:36.108638969Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T06:47:00.606884597Z"
+      },
+      {
+        "textPayload": "instance 974632647761323285 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "1l7i4fbe792yi",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "974632647761323285",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T06:46:36.108603449Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T06:47:00.606884597Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 5.243926567s\n",
+        "insertId": "1tt5qsiffkltja",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T02:51:51.711000419Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T02:51:51.973435346Z"
+      },
+      {
+        "textPayload": "instance 2248781657292137749 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "1tt5qsiffkltj9",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T02:51:51.710969849Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T02:51:51.973435346Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 5.50192137s\n",
+        "insertId": "bjjf7f15dn9r",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "2248781657292137749",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T02:22:45.954957976Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T02:23:15.985478699Z"
+      },
+      {
+        "textPayload": "instance 2248781657292137749 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "bjjf7f15dn9q",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T02:22:45.954925356Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T02:23:15.985478699Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 3.171843723s\n",
+        "insertId": "199q00ke2amx7",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "5763941655804634389",
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T01:10:22.057694417Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T01:10:51.143693314Z"
+      },
+      {
+        "textPayload": "instance 5763941655804634389 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "199q00ke2amx6",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "5763941655804634389",
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T01:10:22.057664817Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T01:10:51.143693314Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 6.442364063s\n",
+        "insertId": "1989efcej70g3",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "5763941655804634389",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-30T20:31:43.720218804Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T20:32:13.745219802Z"
+      },
+      {
+        "textPayload": "instance 5763941655804634389 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "1989efcej70g2",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "5763941655804634389",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T20:31:43.720173324Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T20:32:13.745219802Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 4.729792563s\n",
+        "insertId": "1jj3knjejgsdm",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "1954529389099083029",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-30T20:28:04.313071947Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T20:28:34.337565850Z"
+      },
+      {
+        "textPayload": "instance 1954529389099083029 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "1jj3knjejgsdl",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "1954529389099083029",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T20:28:04.313036660Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T20:28:34.337565850Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 3.366191708s\n",
+        "insertId": "1qgqd3beiui0l",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a",
+            "instance_id": "974632647761323285"
+          }
+        },
+        "timestamp": "2026-10-30T20:27:58.285124915Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T20:28:28.310652995Z"
+      },
+      {
+        "textPayload": "instance 974632647761323285 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "1qgqd3beiui0k",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "974632647761323285",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-30T20:27:58.285091305Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T20:28:28.310652995Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 6.75931187s\n",
+        "insertId": "19jyg2uehnrip",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "2248781657292137749"
+          }
+        },
+        "timestamp": "2026-10-30T20:20:04.386874644Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T20:20:34.234287696Z"
+      },
+      {
+        "textPayload": "instance 2248781657292137749 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "19jyg2uehnrio",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "2248781657292137749",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T20:20:04.386821154Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T20:20:34.234287696Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 4.633080754s\n",
+        "insertId": "1k2kwa9ehju4v",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a",
+            "instance_id": "5763941655804634389"
+          }
+        },
+        "timestamp": "2026-10-30T19:55:31.060948311Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T19:56:01.087080952Z"
+      },
+      {
+        "textPayload": "instance 5763941655804634389 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "1k2kwa9ehju4u",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "5763941655804634389",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T19:55:31.060902742Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T19:56:01.087080952Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 7.041688546s\n",
+        "insertId": "smhskaegferk",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "1954529389099083029",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T19:24:26.190280532Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T19:24:53.273615253Z"
+      },
+      {
+        "textPayload": "instance 1954529389099083029 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "smhskaegferj",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "1954529389099083029"
+          }
+        },
+        "timestamp": "2026-10-30T19:24:26.190255167Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T19:24:53.273615253Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 6.325445255s\n",
+        "insertId": "5uuondfebegiw",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "1954529389099083029",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-30T19:04:16.849017347Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T19:04:46.870163060Z"
+      },
+      {
+        "textPayload": "instance 1954529389099083029 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "5uuondfebegiv",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "1954529389099083029"
+          }
+        },
+        "timestamp": "2026-10-30T19:04:16.848985257Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T19:04:46.870163060Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 7.303607576s\n",
+        "insertId": "1o8izhsebjotu",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "974632647761323285",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-30T19:00:04.603231828Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T19:00:18.436442748Z"
+      },
+      {
+        "textPayload": "instance 974632647761323285 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "1o8izhsebjott",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "974632647761323285",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T19:00:04.603178408Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T19:00:18.436442748Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 9.429634761s\n",
+        "insertId": "aaa2utfeee42i",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "5763941655804634389"
+          }
+        },
+        "timestamp": "2026-10-30T18:51:40.858749932Z",
+        "severity": "ERROR",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T18:52:05.812692134Z"
+      },
+      {
+        "textPayload": "instance 5763941655804634389 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "aaa2utfeee42h",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "5763941655804634389"
+          }
+        },
+        "timestamp": "2026-10-30T18:51:40.858720322Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T18:52:05.812692134Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 5.066830586s\n",
+        "insertId": "aaa2utfeee42f",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "5763941655804634389",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T18:51:35.780134934Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T18:52:05.812692134Z"
+      },
+      {
+        "textPayload": "instance 5763941655804634389 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "aaa2utfeee42e",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "5763941655804634389"
+          }
+        },
+        "timestamp": "2026-10-30T18:51:35.779982924Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T18:52:05.812692134Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 7.245924573s\n",
+        "insertId": "t6h2gufft0pu2",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "5763941655804634389",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T14:14:22.521110386Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T14:14:52.541258403Z"
+      },
+      {
+        "textPayload": "instance 5763941655804634389 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "t6h2gufft0pu1",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "5763941655804634389"
+          }
+        },
+        "timestamp": "2026-10-30T14:14:22.520958976Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T14:14:52.541258403Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 6.260663351s\n",
+        "insertId": "168nv2lfdu8up8",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "5763941655804634389",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T08:27:44.382209481Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T08:28:00.626942489Z"
+      },
+      {
+        "textPayload": "instance 5763941655804634389 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n",
+        "insertId": "168nv2lfdu8up7",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "5763941655804634389",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-30T08:27:44.382180291Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T08:28:00.626942489Z"
+      },
+      {
+        "textPayload": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 6.245707788s\n",
+        "insertId": "8mek8rfews5kf",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "2248781657292137749",
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-30T08:10:40.189591884Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-30T08:11:10.211445084Z"
+      }
+    ],
+    "nextPageToken": "et8GCtoGAUI4sNzMfmanWkzvVSulU2eWZNGeAf5NFgUztYw72jjj8MfeoROXtwONE3X_PkjTfnyaaQzO-B1IubfTuBk8ipxgcgAzOIHwV-BStl90rYpZiBUZRpgm_T0bAZiKEmt_-yHVRkTiOoFxCG00SH7QsTEmhRmCn9DDlBKmR_jmaahFlq3aBh_LVqjd8mlDVQQo541iaX-NyZi2QjCky_MHSp-YuDLm5ysGatJgUXxs28iIKGR5NgR51TCPIiVkZC4a0emb10doIk5Zx6PXHIkxqj_yBNgpVwVOQ1jyEger4UMWc8Ch2K4h1oPBgeYZrhk4bBO5BO-CYkhuYzTaAZHg5uJDqsl9RCHapKy89aq58nVwIVl3Y4xiJiGF_IlwWc7UWfzYijfqSLEqdz7daJU-QP_S6UM2Wr_ootwDrCTUj71mpZRR2Y0iAvfXulLX8LVS4-sJjnITkZsvipxRkept5VtaUc8ryJ5kK8gS2KrpHuk2bT4Uqo8oh4o_2JDJwI4bijDAm8i1czU4_EgqLu8Ie50DcxXmhsKKDePoNwAoQAQOt78ZUgN7ULyotMlgWqXmzHBussizsJ5nNHYd61JDBO6aCXa0nLMTyf-GIjvaHx8BnZgag2hJZKPUzECMgwRzrGiE72N0W9Qlu6BvMFlbERiCEHRY5Db_ESB0N0WSlTdT2jwvbE7R8c3NVlwUZ9q597cdf0Em-QIeoLHVqxnO4TB7A0W0eTRZU41eKTzS5pQmYraJ7pSCUVXsnv2GjH0yBVQ3JqAtIOgQHq8xWJQg8UXVzCg3FLY1S5jfsVsYBoM34LZGgxeqcUQVF2SRDyYzQ7TTt9J0CSIsabNfnV2wKZIpNrd2YSCw7WAFs-t3LNnj0qqjrty7SZG628AgTfO7m6T7yBi3m3oWCzYh3PWYzrkN9VG5I4GjgLAE6j4S4znLhtdVO5oQBLW7M8ZaJmJqXU0nLWBT-2eje67MXMELSRGDMxu9FpvNapT-EHnxzTs_9uSL2hj9U3J2WwSb0Stcbw29LYuaWbp1C4x4VYLaa5I5jtaNuwnMUHQdSbhSKufYjceV_IzjLzzYKaZNgDzicuFJqEo76_mws_L4EOX8EO7MsGwg2Ve5f5iBgn_A56C53iigO6Ko07YoEAE"
+  },
+  "recent_logs": {
+    "entries": [
+      {
+        "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k\" instance_id:5763941655804634389 creation_time:{seconds:1793219602 nanos:682490743} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219603 nanos:431205314} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219603 nanos:431209634} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793220035 nanos:805160361} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0 ASSIGNED\" event_time:{seconds:1793220035 nanos:927244459} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0 RUNNING\" event_time:{seconds:1793220035 nanos:927246179} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793220035 nanos:928007080} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793220059 nanos:458688759} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793220059 nanos:459567889} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793220059 nanos:460497748} task_state:RUNNING}}} report_time:{seconds:1793458176 nanos:271450427} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793219595 nanos:91140952} script_startup_time:{seconds:1793219602 nanos:141140952} agent_startup_time:{seconds:1793219602 nanos:682490743}}",
+        "insertId": "13zps97ezpifc",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a",
+            "instance_id": "5763941655804634389"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:36.271633327Z",
+        "severity": "INFO",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:36.294818502Z"
+      },
+      {
+        "textPayload": "rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry. Retrying in 5.717319397s\n",
+        "insertId": "c5cmhf1ze7uv",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:35.572935715Z",
+        "severity": "ERROR",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:35.649424767Z"
+      },
+      {
+        "textPayload": "instance 2248781657292137749 report agent state error: rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry\n",
+        "insertId": "c5cmhf1ze7uu",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:35.572900195Z",
+        "severity": "ERROR",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:35.649424767Z"
+      },
+      {
+        "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4\" instance_id:2248781657292137749 creation_time:{seconds:1793219599 nanos:976242403} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219600 nanos:785304225} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219600 nanos:785311565} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793219983 nanos:997700302} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0 ASSIGNED\" event_time:{seconds:1793219984 nanos:131597412} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0 RUNNING\" event_time:{seconds:1793219984 nanos:131599162} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793219984 nanos:132328802} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793220012 nanos:30578301} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793220012 nanos:31228262} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793220012 nanos:31600242} task_state:RUNNING}}} report_time:{seconds:1793458175 nanos:550581926} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793219593 nanos:41783339} script_startup_time:{seconds:1793219599 nanos:501783339} agent_startup_time:{seconds:1793219599 nanos:976242403}}",
+        "insertId": "c5cmhf1ze7ut",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "2248781657292137749"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:35.550820656Z",
+        "severity": "INFO",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:35.649424767Z"
+      },
+      {
+        "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z\" instance_id:974632647761323285 creation_time:{seconds:1793219608 nanos:330362418} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219609 nanos:1337343} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219609 nanos:1343163} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793220117 nanos:79535425} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2/0/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2/0/0 ASSIGNED\" event_time:{seconds:1793220117 nanos:160530427} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2/0/0 RUNNING\" event_time:{seconds:1793220117 nanos:160534896} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793220117 nanos:161537765} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793220135 nanos:410668272} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793220135 nanos:411163931} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793220135 nanos:411726550} task_state:RUNNING}}} report_time:{seconds:1793458167 nanos:661366393} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793219599 nanos:821284133} script_startup_time:{seconds:1793219607 nanos:701284133} agent_startup_time:{seconds:1793219608 nanos:330362418}}",
+        "insertId": "1jt1nf4f24z6ua",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "974632647761323285",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:27.661551893Z",
+        "severity": "INFO",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:27.765118015Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:19.775Z] START trial 24164: FIR=10 passband=0.5 seed=0 solvers=3/2 sample=4",
+        "insertId": "28f94dexxzjp",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "location": "us-central1-a",
+            "resource_container": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:19.776479563Z",
+        "severity": "INFO",
+        "labels": {
+          "matlab_cloud_mode": "durable_trial_shards",
+          "matlab_cloud_tasks": "4",
+          "matlab_smoke": "false",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+          "matlab_cloud_workers": "8",
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-3",
+          "matlab_cloud_live": "true",
+          "matlab_reliability_fixes": "true",
+          "matlab_replication": "20261028",
+          "matlab_cloud_managed": "true",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "matlab_project": "glop-cmp"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:22.397141778Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:19.761Z] DURABLE trial 24128: nonconverged error=0.635383299 evaluations=45937 | 6033/19440; MAT+CSV published",
+        "insertId": "28f94dexxzjo",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "resource_container": "strange-reducer-509621-e8",
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "location": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:19.766653080Z",
+        "severity": "INFO",
+        "labels": {
+          "matlab_cloud_tasks": "4",
+          "matlab_cloud_managed": "true",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+          "matlab_reliability_fixes": "true",
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-3",
+          "matlab_replication": "20261028",
+          "matlab_project": "glop-cmp",
+          "matlab_cloud_live": "true",
+          "matlab_cloud_workers": "8",
+          "matlab_smoke": "false",
+          "matlab_cloud_mode": "durable_trial_shards",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:22.397141778Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:16.109Z] START trial 28115: FIR=7 passband=0.2 seed=1 solvers=0/1 sample=15",
+        "insertId": "fll0meez0oob",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "location": "us-central1-a",
+            "resource_container": "strange-reducer-509621-e8",
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:16.110486065Z",
+        "severity": "INFO",
+        "labels": {
+          "matlab_cloud_managed": "true",
+          "matlab_cloud_mode": "durable_trial_shards",
+          "matlab_smoke": "false",
+          "matlab_replication": "20261028",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "matlab_cloud_live": "true",
+          "matlab_reliability_fixes": "true",
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2",
+          "matlab_cloud_workers": "8",
+          "matlab_cloud_tasks": "4",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "matlab_project": "glop-cmp",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:23.992417980Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:16.103Z] DURABLE trial 28095: nonconverged error=0.542762651 evaluations=73773 | 7021/19440; MAT+CSV published",
+        "insertId": "fll0meez0ooa",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "resource_container": "strange-reducer-509621-e8",
+            "location": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:16.105152816Z",
+        "severity": "INFO",
+        "labels": {
+          "matlab_replication": "20261028",
+          "matlab_smoke": "false",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "matlab_cloud_live": "true",
+          "matlab_cloud_workers": "8",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2",
+          "matlab_cloud_mode": "durable_trial_shards",
+          "matlab_cloud_tasks": "4",
+          "matlab_cloud_managed": "true",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "matlab_project": "glop-cmp",
+          "matlab_reliability_fixes": "true"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:23.992417980Z"
+      },
+      {
+        "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r\" instance_id:1954529389099083029 creation_time:{seconds:1793219605 nanos:122931753} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219605 nanos:809954868} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219605 nanos:809960894} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793220149 nanos:949769436} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-3/0/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-3/0/0 ASSIGNED\" event_time:{seconds:1793220150 nanos:37426302} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-3/0/0 RUNNING\" event_time:{seconds:1793220150 nanos:37428953} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793220150 nanos:39248011} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793220168 nanos:101627965} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793220168 nanos:102343075} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793220168 nanos:102957108} task_state:RUNNING}}} report_time:{seconds:1793458155 nanos:502799703} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793219595 nanos:744839253} script_startup_time:{seconds:1793219604 nanos:494839253} agent_startup_time:{seconds:1793219605 nanos:122931753}}",
+        "insertId": "k0qnxnf1hmdcm",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "1954529389099083029",
+            "project_id": "strange-reducer-509621-e8",
+            "zone": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:15.503045146Z",
+        "severity": "INFO",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:15.523727555Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:14.652Z] PROGRESS 7020/19440; successful=1383; other=5637; active=[28095 28099 28103 27995 27999 27991 28107 28111]; elapsed=237996s",
+        "insertId": "fll0meez0oo9",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "location": "us-central1-a",
+            "resource_container": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:14.653828876Z",
+        "severity": "INFO",
+        "labels": {
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2",
+          "matlab_cloud_managed": "true",
+          "matlab_replication": "20261028",
+          "matlab_smoke": "false",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "matlab_cloud_mode": "durable_trial_shards",
+          "matlab_reliability_fixes": "true",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "matlab_cloud_workers": "8",
+          "matlab_cloud_live": "true",
+          "matlab_cloud_tasks": "4",
+          "matlab_project": "glop-cmp"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:23.992417980Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:14.643Z] START trial 28111: FIR=7 passband=0.2 seed=1 solvers=0/1 sample=11",
+        "insertId": "fll0meez0oo8",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "resource_container": "strange-reducer-509621-e8",
+            "location": "us-central1-a",
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:14.644605747Z",
+        "severity": "INFO",
+        "labels": {
+          "matlab_cloud_tasks": "4",
+          "matlab_reliability_fixes": "true",
+          "matlab_cloud_workers": "8",
+          "matlab_cloud_live": "true",
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2",
+          "matlab_smoke": "false",
+          "matlab_cloud_mode": "durable_trial_shards",
+          "matlab_replication": "20261028",
+          "matlab_cloud_managed": "true",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "matlab_project": "glop-cmp"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:23.992417980Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:14.639Z] DURABLE trial 28091: nonconverged error=0.542564749 evaluations=87453 | 7020/19440; MAT+CSV published",
+        "insertId": "fll0meez0oo7",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "location": "us-central1-a",
+            "resource_container": "strange-reducer-509621-e8",
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:14.640518257Z",
+        "severity": "INFO",
+        "labels": {
+          "matlab_cloud_mode": "durable_trial_shards",
+          "matlab_cloud_tasks": "4",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "matlab_reliability_fixes": "true",
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2",
+          "matlab_cloud_live": "true",
+          "matlab_cloud_managed": "true",
+          "matlab_project": "glop-cmp",
+          "matlab_replication": "20261028",
+          "matlab_smoke": "false",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+          "matlab_cloud_workers": "8",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:23.992417980Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:12.498Z] PROGRESS 6032/19440; successful=1225; other=4807; active=[24128 24148 23908 24160 24156 24140 24132 24136]; elapsed=237946s",
+        "insertId": "28f94dexxzjn",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "location": "us-central1-a",
+            "resource_container": "strange-reducer-509621-e8",
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:12.500333738Z",
+        "severity": "INFO",
+        "labels": {
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-3",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+          "matlab_reliability_fixes": "true",
+          "matlab_cloud_workers": "8",
+          "matlab_cloud_live": "true",
+          "matlab_replication": "20261028",
+          "matlab_project": "glop-cmp",
+          "matlab_smoke": "false",
+          "matlab_cloud_mode": "durable_trial_shards",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "matlab_cloud_managed": "true",
+          "matlab_cloud_tasks": "4"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:22.397141778Z"
+      },
+      {
+        "textPayload": "[2026-10-31T14:49:09.895Z] PROGRESS 7260/19440; successful=1446; other=5814; active=[29054 29070 29062 29058 29066 28954 28950 28838]; elapsed=238071s",
+        "insertId": "79r6l8f25shph",
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "resource_container": "strange-reducer-509621-e8",
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "location": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:09.896551540Z",
+        "severity": "INFO",
+        "labels": {
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "matlab_cloud_workers": "8",
+          "matlab_reliability_fixes": "true",
+          "matlab_cloud_tasks": "4",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "matlab_smoke": "false",
+          "matlab_project": "glop-cmp",
+          "matlab_cloud_mode": "durable_trial_shards",
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "matlab_cloud_managed": "true",
+          "matlab_replication": "20261028",
+          "matlab_cloud_live": "true"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:19.775598951Z"
+      },
+      {
+        "insertId": "79r6l8f25shpg",
+        "jsonPayload": {
+          "event": "checkpoint-progress",
+          "pending_upload_errors": 0,
+          "completed": 7260,
+          "status": "running",
+          "task_index": 1
+        },
+        "resource": {
+          "type": "batch.googleapis.com/Job",
+          "labels": {
+            "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "resource_container": "strange-reducer-509621-e8",
+            "location": "us-central1-a"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:09.790384161Z",
+        "severity": "INFO",
+        "labels": {
+          "matlab_project": "glop-cmp",
+          "matlab_cloud_tasks": "4",
+          "matlab_reliability_fixes": "true",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "matlab_cloud_live": "true",
+          "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1",
+          "matlab_cloud_workers": "8",
+          "matlab_cloud_mode": "durable_trial_shards",
+          "matlab_replication": "20261028",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "matlab_smoke": "false",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "matlab_cloud_managed": "true"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+        "receiveTimestamp": "2026-10-31T14:49:19.775598951Z"
+      },
+      {
+        "textPayload": "Server response for instance 5763941655804634389: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219603 nanos:431205314} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219603 nanos:431209634} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793220035 nanos:805160361} task_state:SUCCEEDED}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes\"} tasks:{task:\"task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0 ASSIGNED\" event_time:{seconds:1793220035 nanos:927244459} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0 RUNNING\" event_time:{seconds:1793220035 nanos:927246179} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793220035 nanos:928007080} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793220059 nanos:458688759} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793220059 nanos:459567889} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793220059 nanos:460497748} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes\"} use_batch_monitored_resource:true.",
+        "insertId": "13zps97ezpifb",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "5763941655804634389",
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:06.344550150Z",
+        "severity": "INFO",
+        "labels": {
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:36.294818502Z"
+      },
+      {
+        "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k\" instance_id:5763941655804634389 creation_time:{seconds:1793219602 nanos:682490743} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0 ASSIGNED\" event_time:{seconds:1793220035 nanos:927244459} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1/0/0 RUNNING\" event_time:{seconds:1793220035 nanos:927246179} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793220035 nanos:928007080} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793220059 nanos:458688759} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793220059 nanos:459567889} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793220059 nanos:460497748} task_state:RUNNING}}} tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219603 nanos:431205314} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219603 nanos:431209634} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793220035 nanos:805160361} task_state:SUCCEEDED}}} report_time:{seconds:1793458146 nanos:268455268} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793219595 nanos:91140952} script_startup_time:{seconds:1793219602 nanos:141140952} agent_startup_time:{seconds:1793219602 nanos:682490743}}",
+        "insertId": "13zps97ezpifa",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8",
+            "instance_id": "5763941655804634389"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:06.268711588Z",
+        "severity": "INFO",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:36.294818502Z"
+      },
+      {
+        "textPayload": "Server response for instance 2248781657292137749: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219600 nanos:785304225} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219600 nanos:785311565} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793219983 nanos:997700302} task_state:SUCCEEDED}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes\"} tasks:{task:\"task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0 ASSIGNED\" event_time:{seconds:1793219984 nanos:131597412} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0 RUNNING\" event_time:{seconds:1793219984 nanos:131599162} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793219984 nanos:132328802} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793220012 nanos:30578301} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793220012 nanos:31228262} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793220012 nanos:31600242} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes\"} use_batch_monitored_resource:true.",
+        "insertId": "c5cmhf1ze7us",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "zone": "us-central1-a",
+            "instance_id": "2248781657292137749",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:05.630287662Z",
+        "severity": "INFO",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:35.649424767Z"
+      },
+      {
+        "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4\" instance_id:2248781657292137749 creation_time:{seconds:1793219599 nanos:976242403} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219600 nanos:785304225} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219600 nanos:785311565} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793219983 nanos:997700302} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0 ASSIGNED\" event_time:{seconds:1793219984 nanos:131597412} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0/0/0 RUNNING\" event_time:{seconds:1793219984 nanos:131599162} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793219984 nanos:132328802} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793220012 nanos:30578301} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793220012 nanos:31228262} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793220012 nanos:31600242} task_state:RUNNING}}} report_time:{seconds:1793458145 nanos:550501065} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793219593 nanos:41783339} script_startup_time:{seconds:1793219599 nanos:501783339} agent_startup_time:{seconds:1793219599 nanos:976242403}}",
+        "insertId": "8cpzwhf18nvd0",
+        "resource": {
+          "type": "gce_instance",
+          "labels": {
+            "instance_id": "2248781657292137749",
+            "zone": "us-central1-a",
+            "project_id": "strange-reducer-509621-e8"
+          }
+        },
+        "timestamp": "2026-10-31T14:49:05.550700765Z",
+        "severity": "INFO",
+        "labels": {
+          "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+          "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+          "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+        },
+        "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+        "receiveTimestamp": "2026-10-31T14:49:05.643437976Z"
+      }
+    ],
+    "nextPageToken": "et8GCtoGAUI4sNwVt8v6r9eIwzkOB7-jiPDiylPnTjw1hZPCVceQ5Bo-ZsmDH9KRqAbxwsqJ1CjIpzMd1Sa-3xDcnVkdTlvxnGx6rLZ8wb0vvBxJbsyuIgr4yORqBFlckuXsbATAw-1DwmVhvmUMIVKLIyiNroG3QicdlZGukfjWxEk72R8LAWdv8AzLJBecY4WfApL91UUZqr6yPF7ZU-8grH0oruVj1khXyfi6VrncX9F68axN7lCBLJzufCx_d_LiXg3oRQzpLgODfz5xkpAIwdcaZPSlRDqNEZM1AMvUA5VtQsrMiTwuAQdQPgqDJM5hVuZTG6aO_1VwDaipFigtl9zKEestPrXH-nXPCzd74-KO_7FhM_r148zXgnF6yMqTeOScxgRJ3DaPJeyRY_Jn3yeX-dG6Dwsu73IZvzwRlbECwSJGwrd0xbjdoOH4vfAWr60a1ygha6ZN0S4cGN5Z1eQ-nAe7mPpAo6If3gGss4qiPyvVYSh4JXpx1b3ccCHKfwf0TRJ_-fmfF_l2WLedQXALR-cCI8Ew8eo5Zsqn5iTkZ1kRrF9ACTL4DdbBnkxfdd7Rpzr2MN6YLXKPGImHIydXjWrwI4k7OQKIxrqrZG5JVILzbPt6ekbbAgcaQFDIsYBy1pzifVJwzdu-hirlrKXFBB3GL54AxT_ODshBjBjgM8iwepf1VzlU5rq4F_9d-Mfwu3yqxOIXzeL3TL6uHR_wp4pMhpTJIjK6LXBZ4rrfgrFpw_NsvN5VnomjRKan9T0jK_7-07mzdji8tR2_j8cOXv-8f5gR1zCL5PrxWUuWqBLWiH_K-7TdhnMifTBSbceG4T3Td2NIphFnVH0s_-ux0fRok4AqcOFKFpu0kkeKqtJK96FaPHPw4chpdQnQFsMQBHxUaQCyhIJRfzujyPx1OvDGZwB7faiz1K8eVOJpSXjSKc_x0uSr8I18CfnnaUfFOt0lDJFksb7OPglK5BBXJl4dNnubAh1WacJ033abv-Alt390HAjW-BiD70baoGqYIjKTYFOeXgatncIgfAWTBdU3fVBIAzwcRt1-sodWT4ws2eINQZ6GJEVv7Ep4lE9zZ6v8nmNJl6xIGzp5Mk0WhFyvEdaupVf7NQihII9_QNk8LpgWRfigr1tQEAE"
+  }
+}

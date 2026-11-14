@@ -1,0 +1,6 @@
+[
+  {
+    "account": "ramymdabbour@aucegypt.edu",
+    "status": "ACTIVE"
+  }
+]

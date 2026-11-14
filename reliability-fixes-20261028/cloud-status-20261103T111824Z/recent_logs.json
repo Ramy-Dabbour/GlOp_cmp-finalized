@@ -1,0 +1,605 @@
+{
+  "entries": [
+    {
+      "textPayload": "bbea5ee56cb3: Pull complete",
+      "insertId": "12msatff673bff",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:59.736167680Z",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_smoke": "false",
+        "matlab_cloud_live": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_project": "glop-cmp",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_workers": "8",
+        "matlab_replication": "20261028",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_managed": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "389b2ef180dd: Pull complete",
+      "insertId": "12msatff673bfe",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.601596535Z",
+      "labels": {
+        "matlab_smoke": "false",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_tasks": "4",
+        "matlab_reliability_fixes": "true",
+        "matlab_replication": "20261028",
+        "matlab_project": "glop-cmp",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_managed": "true",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_mode": "durable_trial_shards"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "0cc40c4b9941: Pull complete",
+      "insertId": "12msatff673bfd",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.571567552Z",
+      "labels": {
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_managed": "true",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_replication": "20261028",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_live": "true",
+        "matlab_reliability_fixes": "true",
+        "matlab_smoke": "false"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "1a787242a213: Pull complete",
+      "insertId": "12msatff673bfc",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.541479332Z",
+      "labels": {
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_cloud_workers": "8",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_managed": "true",
+        "matlab_smoke": "false",
+        "matlab_cloud_tasks": "4",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_live": "true",
+        "matlab_reliability_fixes": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "2628e5ca88e0: Pull complete",
+      "insertId": "12msatff673bfb",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.354764160Z",
+      "labels": {
+        "matlab_cloud_managed": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_live": "true",
+        "matlab_smoke": "false",
+        "matlab_replication": "20261028",
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_tasks": "4",
+        "task_id": "action/STARTUP/0/0/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_project": "glop-cmp",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "66f7702fc935: Pull complete",
+      "insertId": "12msatff673bfa",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.324914778Z",
+      "labels": {
+        "matlab_cloud_live": "true",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_workers": "8",
+        "matlab_smoke": "false",
+        "matlab_cloud_managed": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_tasks": "4",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_reliability_fixes": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "58ee8905a634: Pull complete",
+      "insertId": "12msatff673bf9",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.294722211Z",
+      "labels": {
+        "matlab_cloud_managed": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_live": "true",
+        "matlab_smoke": "false",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_tasks": "4",
+        "matlab_project": "glop-cmp",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_replication": "20261028",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_reliability_fixes": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "9b5236c8e73c: Pull complete",
+      "insertId": "12msatff673bf8",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.266720156Z",
+      "labels": {
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_managed": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_workers": "8",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_replication": "20261028",
+        "matlab_smoke": "false",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_live": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "bff2f32790e3: Pull complete",
+      "insertId": "12msatff673bf7",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.224691276Z",
+      "labels": {
+        "matlab_cloud_live": "true",
+        "matlab_cloud_managed": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_workers": "8",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_smoke": "false",
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_tasks": "4",
+        "matlab_reliability_fixes": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "b718acf766ab: Pull complete",
+      "insertId": "12msatff673bf6",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.196842422Z",
+      "labels": {
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_live": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_reliability_fixes": "true",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_smoke": "false",
+        "matlab_cloud_managed": "true",
+        "task_id": "action/STARTUP/0/0/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "e0d5a8918a88: Pull complete",
+      "insertId": "12msatff673bf5",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:57.167109971Z",
+      "labels": {
+        "matlab_reliability_fixes": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_workers": "8",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_smoke": "false",
+        "matlab_cloud_managed": "true",
+        "matlab_project": "glop-cmp",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_live": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "cd6065bca23b: Pull complete",
+      "insertId": "12msatff673bf4",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:55.142757462Z",
+      "labels": {
+        "matlab_smoke": "false",
+        "matlab_replication": "20261028",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_tasks": "4",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_managed": "true",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_workers": "8",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "task_id": "action/STARTUP/0/0/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "39138b5d684f: Pull complete",
+      "insertId": "12msatff673bf3",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:54.957398562Z",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_live": "true",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_tasks": "4",
+        "matlab_project": "glop-cmp",
+        "matlab_reliability_fixes": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_smoke": "false"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "a0116b731da6: Pull complete",
+      "insertId": "12msatff673bf0",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:37.550131652Z",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_tasks": "4",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_managed": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "matlab_project": "glop-cmp",
+        "matlab_smoke": "false",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_cloud_live": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:07.580476205Z"
+    },
+    {
+      "textPayload": "bbea5ee56cb3: Pull complete",
+      "insertId": "3wipicf7jkztw",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:29.865789672Z",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_smoke": "false",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_managed": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_live": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "matlab_project": "glop-cmp",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_replication": "20261028",
+        "matlab_cloud_tasks": "4"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:14:51.865624317Z"
+    },
+    {
+      "textPayload": "389b2ef180dd: Pull complete",
+      "insertId": "3wipicf7jkztv",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:27.306996519Z",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_workers": "8",
+        "matlab_smoke": "false",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_live": "true",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_project": "glop-cmp",
+        "matlab_replication": "20261028",
+        "matlab_cloud_tasks": "4",
+        "matlab_reliability_fixes": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:14:51.865624317Z"
+    },
+    {
+      "textPayload": "0cc40c4b9941: Pull complete",
+      "insertId": "3wipicf7jkztu",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:27.280714194Z",
+      "labels": {
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_workers": "8",
+        "task_id": "action/STARTUP/0/0/group0",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_smoke": "false",
+        "matlab_cloud_live": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_managed": "true",
+        "matlab_reliability_fixes": "true",
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:14:51.865624317Z"
+    },
+    {
+      "textPayload": "1a787242a213: Pull complete",
+      "insertId": "3wipicf7jkztt",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:27.251316987Z",
+      "labels": {
+        "matlab_reliability_fixes": "true",
+        "matlab_project": "glop-cmp",
+        "task_id": "action/STARTUP/0/0/group0",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_smoke": "false",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_live": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_workers": "8",
+        "matlab_replication": "20261028",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:14:51.865624317Z"
+    },
+    {
+      "textPayload": "2628e5ca88e0: Pull complete",
+      "insertId": "3wipicf7jkzts",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:27.096507930Z",
+      "labels": {
+        "matlab_reliability_fixes": "true",
+        "matlab_project": "glop-cmp",
+        "task_id": "action/STARTUP/0/0/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "matlab_smoke": "false",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_workers": "8",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_managed": "true",
+        "matlab_replication": "20261028"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:14:51.865624317Z"
+    },
+    {
+      "textPayload": "66f7702fc935: Pull complete",
+      "insertId": "3wipicf7jkztr",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:14:27.071713810Z",
+      "labels": {
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_managed": "true",
+        "task_id": "action/STARTUP/0/0/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_reliability_fixes": "true",
+        "matlab_replication": "20261028",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_tasks": "4",
+        "matlab_smoke": "false",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_project": "glop-cmp"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:14:51.865624317Z"
+    }
+  ],
+  "nextPageToken": "eoEHCvwGAUI4sNx66WneVX-LfncXcccWxi4TwrFD9c4J1_L-KCzC4kiGO3DqzvhAuDF8UB5D97aXNcyJgMEuNBtVZNxYaEzpbIHOF46tEqZ-aqBtPopZzXFzK0Zi0vXHgtzHmFvUv0koQW7elEk3VaLQwT6Kwx4wp0L6y92w8ZM7GL9xA_T0kXKlrACuvr3ObpTa3xPhKrp3Xhrtjj2nBOCW3OZEbqkCc84jRNuZSq5O0_cqAoCqVbI9QRjQupxh65fm2mrg6D-OZxdist2IGSKd-56S0AWgNMFbRD-YUF-TJddY8BMe8KJK03zSrc8DmkyC5U7TikNYlGxaJGBrhrjoUv6kV_D4_gNXqKRkova3d_B6tt3E67pxkJu2BIewmFaQuFyYbKX0aoHpAMXWSGrbTlYTdRHjfRvm9omGyodUNis40FSRBeHD4vzIoBBRdLUDc3DyBtpd-IINpwLPTRNt_B8Wixq5kdladxWasjf4pJ7s2mi5yWpKgrWIGX0O67NQ1Ean59HH1xx2wwq6237XucCAS35jiKoiW-281nRO3tMlwauBbNkSXD9h7IPbpv2J_reeC4I8Sm8kRwyHbgzRgT0hnAgGIn-mN3teZHZhmp5_558xpZ5JzmrnBbE1c7EDhZdetHA9cYcag3X2P5_pFF5HCMVyLNLvy8T1PyAcVKYV8koo6Ma7thrJ5_qh_yD-8XlMFQVV6o6Tp6cbf1ptWwMaisXPJMHtAGTkGxteybq0i-P9ZFIoq8jWoTGeHfCKx_bTiVkSjToEnmaWVUjx6QGnF7IfcneeEWw3M-GtLY-acF2B3eJMkJ94eR0XEklvMZO22FbEuHSEHpSME7dRCbPYbYe_LmpaeL1f05O-0tTSPW9EAdNCrTtPoipTIi4BNQ4l6o_EgwNgeF86D-ugzA4VpkZIJm2KDrQVWhdqN9m53L-kjpJST_1s8mNJsIdLYVmUV6ye-Zlt2WFWZuv5g1t36_7NqqMAxpTPIFW8XIq0xrbvwF0VajqY1EylRA8r9IPxPz1fPN5_lQyt32Q7db9BtiA-VKKFjvebZ-7JSZ9ba9ozx7fJFyXIqnE8no-gjonOsLj-wRVo-m9pZR7UVnGVfWEFnKuSSQHzROFZ8rDAw0b544R4x8Ax5JE12VmuVGyvVJMKjUcmesjCdX_O2XXG79H0xlT5fZKJ-HVT0hAB"
+}

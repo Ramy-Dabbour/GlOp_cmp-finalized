@@ -1,0 +1,17 @@
+{Error using fpf.writeLiveJson (line 13)
+Cannot publish live record: The process cannot access the file because it is being used by another process.
+
+
+Error in fpf.TrialReporter/publish (line 75)
+            fpf.writeLiveJson(fullfile(reporter.Directory,'workers',...
+
+Error in fpf.TrialReporter (line 18)
+            reporter.publish();
+
+Error in fpf.runReportedTrial (line 5)
+        reporter = fpf.TrialReporter(liveDirectory,globalId,parameter);
+
+Error in fpf.runCheckpointTrial (line 3)
+    result = fpf.runReportedTrial(runTrial,parameter,plotResolution,liveDirectory,globalId);
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

@@ -1,0 +1,25 @@
+[2026-10-15 16:15:45 +03:00] Local benchmark supervisor PID 5676. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-005601db30db46849a4ec68e672b3767\run\supervisor.log
+Intentional stop: scripts\local-benchmark.cmd Stop. Resume: scripts\local-benchmark.cmd Resume.
+[2026-10-15 16:15:46 +03:00] Reattached to surviving worker PID 19756; no duplicate trial execution was started.
+COMMITTED 5/24
+COMMITTED 6/24
+COMMITTED 7/24
+COMMITTED 8/24
+COMMITTED 9/24
+COMMITTED 10/24
+COMMITTED 11/24
+COMMITTED 12/24
+COMMITTED 13/24
+COMMITTED 14/24
+COMMITTED 15/24
+COMMITTED 16/24
+COMMITTED 17/24
+COMMITTED 18/24
+COMMITTED 19/24
+COMMITTED 20/24
+COMMITTED 21/24
+COMMITTED 22/24
+COMMITTED 23/24
+COMMITTED 24/24
+[2026-10-15 16:15:53 +03:00] Attempt 20261015-131541-420-20596 exited with code 0. Outcome: completed.
+[2026-10-15 16:15:53 +03:00] BENCHMARK COMPLETED SUCCESSFULLY. MAT and CSV exports are saved in the project directory.

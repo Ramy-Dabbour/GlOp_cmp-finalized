@@ -1,0 +1,4 @@
+2026-10-07T10:06:49.903301+00:00 live-smoke | matlab-glop-live-smoke-20261007-094350-9c2a5c | Batch SUCCEEDED | completed | completed 16/16 (100.00%) | succeeded 13, nonconverged 3, failed 0 | active workers 0, stale 0 | report age 609s
+2026-10-07T10:06:49.904303+00:00   Task 00000: completed, 16/16 complete, 0 active workers, 0 stale; last completion 2026-10-07T09:56:30.675Z
+2026-10-07T10:06:49.906302+00:00   Latest trial 16: succeeded; parameters [FIR order, passband, seed, reference solver, MZI solver, sample] = [4, 0.2, 0, 4, 4, 16]; elapsed 60.12s; end-to-end error 0.4004198198975798
+2026-10-07T10:06:49.906302+00:00   Live files: gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/

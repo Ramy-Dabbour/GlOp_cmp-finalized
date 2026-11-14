@@ -1,0 +1,22 @@
+{
+  "CheckedAt": "2026-11-03T13:12:43.2326052+02:00",
+  "Tasks": [
+    {
+      "Name": "GlOp_cmp Cloud Replication 20261026",
+      "Enabled": false,
+      "State": 1
+    },
+    {
+      "Name": "GlOp_cmp Cloud Replication 20261028",
+      "Enabled": false,
+      "State": 1
+    },
+    {
+      "Name": "GlOp_cmp Local Recovery 05FD25BC9F41",
+      "Enabled": false,
+      "State": 1
+    }
+  ],
+  "BenchmarkOrMonitorProcesses": [],
+  "StopMonitorPresent": true
+}

@@ -1,0 +1,16 @@
+{
+  "submitted_at_utc": "2026-11-03T11:02:23.499949+00:00",
+  "job_name": "projects/strange-reducer-509621-e8/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01",
+  "uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+  "batch_state": "QUEUED",
+  "resumed_run_id": "matlab-glop-cmp-20261028-fixes",
+  "verified_checkpoint_trials": 27907,
+  "remaining_trials_at_submission": 49853,
+  "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+  "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+  "frozen_batch_configuration_unchanged": true,
+  "local_monitor_enabled": false,
+  "task_count": 4,
+  "workers_per_task": 8,
+  "job_url": "https://console.cloud.google.com/batch/jobsDetail/regions/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01?project=strange-reducer-509621-e8"
+}

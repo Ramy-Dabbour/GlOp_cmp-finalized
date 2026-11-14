@@ -1,0 +1,9 @@
+[2026-10-15 16:13:20 +03:00] Local benchmark supervisor PID 22560. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-8b2c039d791e4595beb2ddf2121aa73d\run\supervisor.log
+Intentional stop: scripts\local-benchmark.cmd Stop. Resume: scripts\local-benchmark.cmd Resume.
+[2026-10-15 16:13:20 +03:00] Reattached to surviving worker PID 7556; no duplicate trial execution was started.
+COMMITTED 5/24
+COMMITTED 6/24
+COMMITTED 7/24
+COMMITTED 8/24
+COMMITTED 9/24
+COMMITTED 10/24

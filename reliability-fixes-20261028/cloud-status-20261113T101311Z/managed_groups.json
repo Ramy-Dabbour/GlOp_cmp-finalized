@@ -1,0 +1,105 @@
+{
+  "kind": "compute#regionInstanceGroupManagerList",
+  "id": "projects/strange-reducer-509621-e8/regions/us-central1/instanceGroupManagers",
+  "items": [
+    {
+      "kind": "compute#instanceGroupManager",
+      "id": "641449863989421342",
+      "creationTimestamp": "2026-10-28T13:32:49.635-07:00",
+      "name": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0",
+      "region": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/regions/us-central1",
+      "distributionPolicy": {
+        "zones": [
+          {
+            "zone": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-a"
+          },
+          {
+            "zone": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-b"
+          },
+          {
+            "zone": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c"
+          },
+          {
+            "zone": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-f"
+          }
+        ],
+        "targetShape": "ANY"
+      },
+      "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0",
+      "versions": [
+        {
+          "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0",
+          "targetSize": {
+            "calculated": 0
+          }
+        }
+      ],
+      "instanceGroup": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/regions/us-central1/instanceGroups/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0",
+      "baseInstanceName": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0",
+      "fingerprint": "8Ym2isZtkyU=",
+      "currentActions": {
+        "none": 0,
+        "creating": 0,
+        "creatingWithoutRetries": 0,
+        "verifying": 0,
+        "recreating": 0,
+        "deleting": 0,
+        "abandoning": 0,
+        "restarting": 0,
+        "refreshing": 0,
+        "suspending": 0,
+        "resuming": 0,
+        "stopping": 0,
+        "starting": 0
+      },
+      "status": {
+        "isStable": true,
+        "allInstancesConfig": {
+          "effective": true
+        },
+        "versionTarget": {
+          "isReached": true
+        },
+        "stateful": {
+          "hasStatefulConfig": false,
+          "perInstanceConfigs": {
+            "allEffective": true
+          }
+        }
+      },
+      "targetSize": 0,
+      "targetSizePolicy": {
+        "mode": "INDIVIDUAL"
+      },
+      "targetStoppedSize": 0,
+      "targetSuspendedSize": 0,
+      "listManagedInstancesResults": "PAGINATED",
+      "standbyPolicy": {
+        "mode": "MANUAL"
+      },
+      "selfLink": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0",
+      "updatePolicy": {
+        "type": "OPPORTUNISTIC",
+        "instanceRedistributionType": "PROACTIVE",
+        "minimalAction": "REPLACE",
+        "maxSurge": {
+          "fixed": 4,
+          "calculated": 4
+        },
+        "maxUnavailable": {
+          "fixed": 4,
+          "calculated": 4
+        },
+        "replacementMethod": "SUBSTITUTE"
+      },
+      "instanceLifecyclePolicy": {
+        "forceUpdateOnRepair": "NO",
+        "defaultActionOnFailure": "REPAIR",
+        "onFailedHealthCheck": "DEFAULT_ACTION"
+      },
+      "satisfiesPzi": true,
+      "satisfiesPzs": true
+    }
+  ],
+  "selfLink": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/regions/us-central1/instanceGroupManagers"
+}

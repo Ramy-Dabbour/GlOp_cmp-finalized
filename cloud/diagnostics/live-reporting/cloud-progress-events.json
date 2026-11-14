@@ -1,0 +1,112 @@
+[
+  {
+    "jsonPayload": {
+      "active_workers": 0,
+      "assigned": 16,
+      "completed": 16,
+      "event": "live-progress",
+      "status": "completed",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:56:41.066613842Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 0,
+      "assigned": 16,
+      "completed": 16,
+      "event": "live-progress",
+      "status": "completed",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:56:34.977098862Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 1,
+      "assigned": 16,
+      "completed": 15,
+      "event": "live-progress",
+      "status": "running",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:56:19.431486758Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 1,
+      "assigned": 16,
+      "completed": 15,
+      "event": "live-progress",
+      "status": "running",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:56:04.016225925Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 1,
+      "assigned": 16,
+      "completed": 15,
+      "event": "live-progress",
+      "status": "running",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:55:48.629957668Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 1,
+      "assigned": 16,
+      "completed": 15,
+      "event": "live-progress",
+      "status": "running",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:55:33.234507178Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 0,
+      "assigned": 16,
+      "completed": 0,
+      "event": "live-progress",
+      "status": "initializing",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:55:17.730958463Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 0,
+      "assigned": 16,
+      "completed": 0,
+      "event": "live-progress",
+      "status": "initializing",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:55:02.405593170Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 0,
+      "assigned": null,
+      "completed": 0,
+      "event": "live-progress",
+      "status": "waiting_for_matlab",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:54:47.105366901Z"
+  },
+  {
+    "jsonPayload": {
+      "active_workers": 0,
+      "assigned": null,
+      "completed": 0,
+      "event": "live-progress",
+      "status": "waiting_for_matlab",
+      "task_index": 0
+    },
+    "timestamp": "2026-10-07T09:54:31.769966766Z"
+  }
+]

@@ -1,0 +1,7 @@
+STORAGE_SMOKE_MATLAB_STARTED 26.1.0.3346908 (R2026a) Update 5
+Executing 2 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 2 independent trials with 2 pool workers.
+STORAGE_SMOKE_PASSED
+Parallel pool using the 'Processes' profile is shutting down.

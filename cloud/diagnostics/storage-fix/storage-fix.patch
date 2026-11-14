@@ -1,0 +1,34 @@
+--- a/matlab_cloud_run.py
++++ b/matlab_cloud_run.py
+@@ -96,9 +96,20 @@
+ def _prepare_program(source_uri: str) -> str:
+     # repr supplies Python literals; callers never concatenate shell commands.
+     return "\n".join([
+-        "import json, os, pathlib, subprocess, sys",
++        "import json, os, pathlib, shutil, subprocess, sys",
+         "os.environ['CLOUDSDK_PYTHON'] = sys.executable",
+         f"root = pathlib.Path({SHARED!r})",
++        "storage = shutil.disk_usage(root)",
++        "inodes = os.statvfs(root)",
++        "mount_record, mount_depth = None, -1",
++        "for record in pathlib.Path('/proc/self/mountinfo').read_text().splitlines():",
++        "    mount_path = pathlib.Path(record.split()[4].replace(r'\\040', ' ').replace(r'\\011', '\\t').replace(r'\\134', '\\\\'))",
++        "    if root.resolve().is_relative_to(mount_path) and len(mount_path.parts) > mount_depth:",
++        "        mount_record, mount_depth = record, len(mount_path.parts)",
++        "if mount_record is None: raise RuntimeError('Cannot identify the workspace backing filesystem')",
++        "filesystem = mount_record.split(' - ', 1)[1].split()[0]",
++        "print(json.dumps({'event':'workspace-storage','path':str(root),'total_bytes':storage.total,'free_bytes':storage.free,'total_inodes':inodes.f_files,'available_inodes':inodes.f_favail,'filesystem':filesystem,'mountinfo':mount_record}),flush=True)",
++        "if filesystem == 'tmpfs': raise RuntimeError('Workspace is backed by tmpfs, not the boot disk; bind /var/lib/google/matlab-cloud or mount a real disk before source transfer')",
+         "workspace = root / 'workspace'",
+         "if workspace.exists() and any(workspace.iterdir()): raise RuntimeError('Refusing nonempty run workspace')",
+         "workspace.mkdir(parents=True, exist_ok=True)",
+@@ -163,7 +174,8 @@
+     if ":" in image_name.rsplit("/", 1)[-1]:
+         image_name = image_name.rsplit(":", 1)[0]
+     image = image_name + "@" + digest
+-    volume = f"/mnt/disks/matlab-cloud:{SHARED}:rw"
++    # COS /mnt/disks is tmpfs unless a disk is explicitly mounted there.
++    volume = f"/var/lib/google/matlab-cloud:{SHARED}:rw"
+     output_uri = f"gs://{project.bucket}/outputs/{job_id}"
+     runnables: list[dict[str, Any]] = [{
+         "displayName": "prepare-source", "timeout": f"{transfer}s",

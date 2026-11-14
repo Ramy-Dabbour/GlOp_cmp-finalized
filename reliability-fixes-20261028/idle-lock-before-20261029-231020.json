@@ -1,0 +1,25 @@
+{
+  "captured": "2026-10-29T23:10:19.9690812+03:00",
+  "user": "DESKTOP-IHU7SGO\\Dell",
+  "active": 0,
+  "secure": 0,
+  "timeoutSeconds": 0,
+  "registry": {
+    "ScreenSaveActive": {
+      "exists": true,
+      "value": "1"
+    },
+    "ScreenSaverIsSecure": {
+      "exists": false,
+      "value": null
+    },
+    "ScreenSaveTimeOut": {
+      "exists": false,
+      "value": null
+    },
+    "SCRNSAVE.EXE": {
+      "exists": false,
+      "value": null
+    }
+  }
+}

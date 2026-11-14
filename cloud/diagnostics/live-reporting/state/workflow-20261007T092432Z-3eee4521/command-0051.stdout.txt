@@ -1,0 +1,196 @@
+{
+  "allocationPolicy": {
+    "instances": [
+      {
+        "policy": {
+          "bootDisk": {
+            "sizeGb": "100",
+            "type": "pd-balanced"
+          },
+          "machineType": "e2-standard-8",
+          "provisioningModel": "STANDARD"
+        }
+      }
+    ],
+    "labels": {
+      "batch-job-id": "matlab-glop-live-smoke-20261007-092446-1347d7"
+    },
+    "location": {
+      "allowedLocations": [
+        "regions/us-central1",
+        "zones/us-central1-a",
+        "zones/us-central1-b",
+        "zones/us-central1-c",
+        "zones/us-central1-f"
+      ]
+    },
+    "serviceAccount": {
+      "email": "1064328294968-compute@developer.gserviceaccount.com"
+    }
+  },
+  "createTime": "2026-10-07T09:27:09.739599543Z",
+  "labels": {
+    "matlab_cloud_live": "true",
+    "matlab_cloud_managed": "true",
+    "matlab_cloud_mode": "trial_shards",
+    "matlab_cloud_tasks": "1",
+    "matlab_cloud_workers": "8",
+    "matlab_project": "glop-live-smoke"
+  },
+  "logsPolicy": {
+    "destination": "CLOUD_LOGGING"
+  },
+  "name": "projects/strange-reducer-509621-e8/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7",
+  "status": {
+    "runDuration": "70.736338689s",
+    "state": "RUNNING",
+    "statusEvents": [
+      {
+        "description": "Job state is set from QUEUED to SCHEDULED for job projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7.",
+        "eventTime": "2026-10-07T09:27:12.913018446Z",
+        "type": "STATUS_CHANGED"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-source] started.",
+        "eventTime": "2026-10-07T09:34:48.620472527Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-source] finished with exit code 0.",
+        "eventTime": "2026-10-07T09:35:11.197652372Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #1 with display name [publish-live-trials] started.",
+        "eventTime": "2026-10-07T09:35:11.198480232Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #2 with display name [matlab-entry-1] started.",
+        "eventTime": "2026-10-07T09:35:11.199008652Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "Job state is set from SCHEDULED to RUNNING for job projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7.",
+        "eventTime": "2026-10-07T09:34:48.619764997Z",
+        "type": "STATUS_CHANGED"
+      }
+    ],
+    "taskGroups": {
+      "group0": {
+        "counts": {
+          "RUNNING": "1"
+        },
+        "instances": [
+          {
+            "bootDisk": {
+              "image": "projects/batch-custom-image/global/images/batch-cos-stable-official-20260924-00-p01",
+              "sizeGb": "100",
+              "type": "pd-balanced"
+            },
+            "machineType": "e2-standard-8",
+            "provisioningModel": "STANDARD",
+            "taskPack": "1"
+          }
+        ]
+      }
+    }
+  },
+  "taskGroups": [
+    {
+      "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-092446-1347d7/taskGroups/group0",
+      "parallelism": "1",
+      "taskCount": "1",
+      "taskCountPerNode": "1",
+      "taskSpec": {
+        "computeResource": {
+          "cpuMilli": "8000",
+          "memoryMib": "30000"
+        },
+        "maxRunDuration": "8100s",
+        "runnables": [
+          {
+            "container": {
+              "commands": [
+                "-c",
+                "import json, os, pathlib, shutil, subprocess, sys\nos.environ['CLOUDSDK_PYTHON'] = sys.executable\ntask_index = int(os.environ['BATCH_TASK_INDEX'])\ntask_count = int(os.environ['BATCH_TASK_COUNT'])\nif not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')\nroot = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'\nroot.mkdir(parents=True, exist_ok=True)\nstorage = shutil.disk_usage(root)\ninodes = os.statvfs(root)\nmount_record, mount_depth = None, -1\nfor record in pathlib.Path('/proc/self/mountinfo').read_text().splitlines():\n    mount_path = pathlib.Path(record.split()[4].replace(r'\\040', ' ').replace(r'\\011', '\\t').replace(r'\\134', '\\\\'))\n    if root.resolve().is_relative_to(mount_path) and len(mount_path.parts) > mount_depth:\n        mount_record, mount_depth = record, len(mount_path.parts)\nif mount_record is None: raise RuntimeError('Cannot identify the workspace backing filesystem')\nfilesystem = mount_record.split(' - ', 1)[1].split()[0]\nprint(json.dumps({'event':'workspace-storage','path':str(root),'total_bytes':storage.total,'free_bytes':storage.free,'total_inodes':inodes.f_files,'available_inodes':inodes.f_favail,'filesystem':filesystem,'mountinfo':mount_record}),flush=True)\nif filesystem == 'tmpfs': raise RuntimeError('Workspace is backed by tmpfs, not the boot disk; bind /var/lib/google/matlab-cloud or mount a real disk before source transfer')\nworkspace = root / 'workspace'\nif workspace.exists() and any(workspace.iterdir()): raise RuntimeError('Refusing nonempty run workspace')\nworkspace.mkdir(parents=True, exist_ok=True)\n(root / 'logs').mkdir(exist_ok=True)\n(root / 'results').mkdir(exist_ok=True)\n(root / 'live').mkdir(exist_ok=True)\nsubprocess.run(['gcloud','storage','rsync','gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-092446-1347d7/source',str(workspace),'--recursive','--checksums-only'],check=True)\nif not any(workspace.rglob('*')): raise RuntimeError('Downloaded source is empty')\nfor path in [root, *root.rglob('*')]:\n    if path.is_symlink(): raise RuntimeError('Unexpected source symlink')\n    os.chown(path,1001,1001)\n    os.chmod(path,0o775 if path.is_dir() else 0o664)\n(root / '_PREPARED.json').write_text(json.dumps({'prepared':True}),encoding='utf-8')"
+              ],
+              "entrypoint": "/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3",
+              "imageUri": "gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc",
+              "options": "--user 0:0",
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            },
+            "displayName": "prepare-source",
+            "timeout": "3600s"
+          },
+          {
+            "background": true,
+            "container": {
+              "commands": [
+                "-c",
+                "import os, pathlib, runpy, sys\ntask_index = int(os.environ['BATCH_TASK_INDEX'])\ntask_count = int(os.environ['BATCH_TASK_COUNT'])\nif not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')\nroot = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'\nroot.mkdir(parents=True, exist_ok=True)\nsys.argv = [str(root/'workspace/cloud/live_reporter.py'), '--root', str(root/'live'), '--output-uri', 'gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-092446-1347d7', '--job-id', 'matlab-glop-live-smoke-20261007-092446-1347d7', '--workers', '8', '--interval', '15']\nrunpy.run_path(sys.argv[0], run_name='__main__')"
+              ],
+              "entrypoint": "/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3",
+              "imageUri": "gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc",
+              "options": "--user 0:0",
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            },
+            "displayName": "publish-live-trials",
+            "timeout": "4500s"
+          },
+          {
+            "container": {
+              "commands": [
+                "-singleCompThread",
+                "-noFigureWindows",
+                "-licmode",
+                "onlinelicensing",
+                "-batch",
+                "taskRoot=fullfile('/work/shared','tasks',sprintf('%05d',str2double(getenv('BATCH_TASK_INDEX')))); setenv('FPF_OUTPUT_DIR',fullfile(taskRoot,'results')); setenv('MATLAB_CLOUD_OUTPUT_DIR',fullfile(taskRoot,'results')); setenv('MATLAB_CLOUD_PROJECT_DIR',fullfile(taskRoot,'workspace')); setenv('FPF_LIVE_DIR',fullfile(taskRoot,'live')); diary(fullfile(taskRoot,'logs','matlab-01.log')); cd(fullfile(taskRoot,'workspace')); run('main.m'); diary off;"
+              ],
+              "entrypoint": "/usr/local/bin/matlab",
+              "imageUri": "us-central1-docker.pkg.dev/strange-reducer-509621-e8/matlab-images/matlab-full@sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0",
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            },
+            "displayName": "matlab-entry-1",
+            "environment": {
+              "variables": {
+                "FPF_WORKERS_PER_TASK": "8",
+                "MATLAB_CLOUD_OUTPUT_DIR": "/work/shared/results",
+                "MATLAB_CLOUD_PROJECT_DIR": "/work/shared/workspace",
+                "MKL_NUM_THREADS": "1",
+                "OMP_NUM_THREADS": "1"
+              }
+            },
+            "timeout": "600s"
+          },
+          {
+            "alwaysRun": true,
+            "container": {
+              "commands": [
+                "-c",
+                "import datetime, hashlib, json, os, pathlib, subprocess, sys\nos.environ['CLOUDSDK_PYTHON'] = sys.executable\ntask_index = int(os.environ['BATCH_TASK_INDEX'])\ntask_count = int(os.environ['BATCH_TASK_COUNT'])\nif not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')\nroot = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'\nroot.mkdir(parents=True, exist_ok=True)\nif not (root / '_PREPARED.json').is_file(): raise RuntimeError('Source preparation did not finish')\nif any(path.is_symlink() for path in root.rglob('*')): raise RuntimeError('Unexpected output symlink')\noutput_uri = 'gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-092446-1347d7'\ntask_uri = output_uri + f'/tasks/{task_index:05d}'\nsubprocess.run(['gcloud','storage','rsync',str(root/'logs'),task_uri+'/logs','--recursive','--checksums-only'],check=True)\nsubprocess.run([sys.executable,str(root/'workspace/cloud/live_reporter.py'),'--root',str(root/'live'),'--output-uri',output_uri,'--job-id','matlab-glop-live-smoke-20261007-092446-1347d7','--workers','8','--final'],check=True)\nflush = json.loads((root/'live/_FLUSHED.json').read_text())\nif flush['status'] != 'completed': raise RuntimeError('Partial live results recovered; MATLAB did not complete every assigned trial')\nif task_index == 0:\n    subprocess.run(['gcloud','storage','rsync',str(root/'workspace'),output_uri+'/workspace','--recursive','--checksums-only'],check=True)\nshard = root / 'results' / f'trial_shard_{task_index:05d}.mat'\nif not shard.is_file(): raise RuntimeError('No completed trial shard; partial logs recovered')\nsubprocess.run(['gcloud','storage','cp',str(shard),output_uri+'/results/'+shard.name,'--if-generation-match=0'],check=True)\nmarker = root / '_TRANSFER_COMPLETE.json'\nmarker.write_text(json.dumps({'schema_version':2,'job_id':'matlab-glop-live-smoke-20261007-092446-1347d7','task_index':task_index,'task_count':task_count,'workers_per_task':8,'live_reporting':True,'live_published_trials':flush['completed_trials'],'shard_sha256':hashlib.sha256(shard.read_bytes()).hexdigest(),'collected_at':datetime.datetime.now(datetime.timezone.utc).isoformat()},indent=2),encoding='utf-8')\nsubprocess.run(['gcloud','storage','cp',str(marker),task_uri+'/'+marker.name,'--if-generation-match=0'],check=True)\nprint(f'Task {task_index} shard and transfer marker uploaded.',flush=True)"
+              ],
+              "entrypoint": "/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3",
+              "imageUri": "gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc",
+              "options": "--user 0:0",
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            },
+            "displayName": "preserve-outputs",
+            "timeout": "3600s"
+          }
+        ]
+      }
+    }
+  ],
+  "uid": "matlab-glop-live-s-c1c096ac-8c11-4f0b0",
+  "updateTime": "2026-10-07T09:34:48.619764997Z"
+}

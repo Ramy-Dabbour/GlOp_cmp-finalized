@@ -1,0 +1,269 @@
+{
+  "allocationPolicy": {
+    "instances": [
+      {
+        "policy": {
+          "bootDisk": {
+            "sizeGb": "100",
+            "type": "pd-balanced"
+          },
+          "machineType": "e2-standard-8",
+          "provisioningModel": "STANDARD"
+        }
+      }
+    ],
+    "labels": {
+      "batch-job-id": "matlab-glop-recovery-20261026-1355"
+    },
+    "location": {
+      "allowedLocations": [
+        "regions/us-central1",
+        "zones/us-central1-a",
+        "zones/us-central1-b",
+        "zones/us-central1-c",
+        "zones/us-central1-f"
+      ]
+    },
+    "serviceAccount": {
+      "email": "1064328294968-compute@developer.gserviceaccount.com"
+    }
+  },
+  "createTime": "2026-10-26T13:59:28.991938025Z",
+  "labels": {
+    "matlab_cloud_live": "true",
+    "matlab_cloud_managed": "true",
+    "matlab_cloud_mode": "durable_trial_shards",
+    "matlab_cloud_tasks": "1",
+    "matlab_cloud_workers": "8",
+    "matlab_project": "glop-cmp",
+    "matlab_replication": "20261026",
+    "matlab_smoke": "true"
+  },
+  "logsPolicy": {
+    "destination": "CLOUD_LOGGING"
+  },
+  "name": "projects/strange-reducer-509621-e8/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355",
+  "status": {
+    "runDuration": "259.782641020s",
+    "state": "SUCCEEDED",
+    "statusEvents": [
+      {
+        "description": "Job state is set from QUEUED to SCHEDULED for job projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355.",
+        "eventTime": "2026-10-26T13:59:37.782240651Z",
+        "type": "STATUS_CHANGED"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-and-restore] started.",
+        "eventTime": "2026-10-26T14:08:28.626313961Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+        "eventTime": "2026-10-26T14:08:45.504853475Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #1 with display name [durable-publisher] started.",
+        "eventTime": "2026-10-26T14:08:45.505577465Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+        "eventTime": "2026-10-26T14:08:45.506123025Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "Job state is set from SCHEDULED to RUNNING for job projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355.",
+        "eventTime": "2026-10-26T14:08:28.625511681Z",
+        "type": "STATUS_CHANGED"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-and-restore] started.",
+        "eventTime": "2026-10-26T14:08:28.626313961Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+        "eventTime": "2026-10-26T14:08:45.504853475Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #1 with display name [durable-publisher] started.",
+        "eventTime": "2026-10-26T14:08:45.505577465Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+        "eventTime": "2026-10-26T14:08:45.506123025Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 137.",
+        "eventTime": "2026-10-26T14:09:55.677302065Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #3 with display name [preserve-completed-and-partial-results] started.",
+        "eventTime": "2026-10-26T14:09:55.677906195Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #3 with display name [preserve-completed-and-partial-results] finished with exit code 0.",
+        "eventTime": "2026-10-26T14:09:58.926314201Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-and-restore] started.",
+        "eventTime": "2026-10-26T14:10:48.174500565Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+        "eventTime": "2026-10-26T14:11:03.329607823Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #1 with display name [durable-publisher] started.",
+        "eventTime": "2026-10-26T14:11:03.331114084Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+        "eventTime": "2026-10-26T14:11:03.332119204Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 0.",
+        "eventTime": "2026-10-26T14:12:43.647658199Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #3 with display name [preserve-completed-and-partial-results] started.",
+        "eventTime": "2026-10-26T14:12:43.649330359Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "container at index #3 with display name [preserve-completed-and-partial-results] finished with exit code 0.",
+        "eventTime": "2026-10-26T14:12:48.407994081Z",
+        "type": "RUNNING_EVENT"
+      },
+      {
+        "description": "Job state is set from RUNNING to SUCCEEDED for job projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355.",
+        "eventTime": "2026-10-26T14:12:48.408152701Z",
+        "type": "STATUS_CHANGED"
+      }
+    ],
+    "taskGroups": {
+      "group0": {
+        "counts": {
+          "SUCCEEDED": "1"
+        },
+        "instances": [
+          {
+            "bootDisk": {
+              "image": "projects/batch-custom-image/global/images/batch-cos-stable-official-20261016-00-p00",
+              "sizeGb": "100",
+              "type": "pd-balanced"
+            },
+            "machineType": "e2-standard-8",
+            "provisioningModel": "STANDARD",
+            "taskPack": "1"
+          }
+        ]
+      }
+    }
+  },
+  "taskGroups": [
+    {
+      "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "parallelism": "1",
+      "taskCount": "1",
+      "taskCountPerNode": "1",
+      "taskSpec": {
+        "computeResource": {
+          "cpuMilli": "8000",
+          "memoryMib": "30000"
+        },
+        "maxRetryCount": 10,
+        "runnables": [
+          {
+            "container": {
+              "commands": [
+                "-c",
+                "import hashlib,json,os,pathlib,shutil,subprocess,sys\nos.environ['CLOUDSDK_PYTHON']=sys.executable\nindex=int(os.environ['BATCH_TASK_INDEX']); count=int(os.environ['BATCH_TASK_COUNT'])\nif not 0<=index<count: raise RuntimeError('Invalid shard identity')\nroot=pathlib.Path('/work/shared/tasks')/f'{index:05d}'\nroot.mkdir(parents=True,exist_ok=True)\nmounts=[]\nfor line in pathlib.Path('/proc/self/mountinfo').read_text().splitlines():\n    mount=pathlib.Path(line.split()[4].replace(r'\\040',' '))\n    if root.resolve().is_relative_to(mount): mounts.append((len(mount.parts),line))\nfilesystem=max(mounts)[1].split(' - ',1)[1].split()[0]\nif filesystem=='tmpfs': raise RuntimeError('Workspace must be backed by persistent boot disk, not tmpfs')\nprint(json.dumps(dict(event='workspace-storage',filesystem=filesystem,free_bytes=shutil.disk_usage(root).free)),flush=True)\nworkspace=root/'workspace'\nfor name in ('workspace','results','logs'): (root/name).mkdir(exist_ok=True)\nsubprocess.run(['gcloud','storage','rsync','gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-recovery-20261026-1355/source',str(workspace),'--recursive','--checksums-only'],check=True)\nmanifest_bytes=(workspace/'manifest.json').read_bytes()\nif hashlib.sha256(manifest_bytes).hexdigest()!='5149d6998a0331e92f1ffe1b2db38c9bb379422d1735376e06132caa7413d7da': raise RuntimeError('Frozen manifest checksum mismatch')\nmanifest=json.loads(manifest_bytes)\nfor name,expected in manifest['files'].items():\n    path=workspace/name\n    if path.is_symlink() or not path.resolve().is_relative_to(workspace.resolve()): raise RuntimeError('Unsafe source path')\n    if hashlib.sha256(path.read_bytes()).hexdigest()!=expected: raise RuntimeError('Frozen source checksum mismatch: '+name)\nsubprocess.run([sys.executable,str(workspace/'cloud/durable_uploader.py'),'restore','--task-root',str(root),'--run-uri','gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-recovery-20261026-1355','--manifest',str(workspace/'manifest.json'),'--task-index',str(index),'--task-count',str(count)],check=True)\nfor name in ('_uploader.stop','UPLOAD_FAILED.json'): (root/'results'/name).unlink(missing_ok=True)\nfor path in [root,*root.rglob('*')]:\n    if path.is_symlink(): raise RuntimeError('Unexpected workspace symlink')\n    os.chown(path,1001,1001); os.chmod(path,0o775 if path.is_dir() else 0o664)\nprint(json.dumps(dict(event='source-verified-and-restored',run_id=manifest['run_id'],task_index=index)),flush=True)"
+              ],
+              "entrypoint": "/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3",
+              "imageUri": "gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc",
+              "options": "--user 0:0",
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            },
+            "displayName": "prepare-and-restore"
+          },
+          {
+            "background": true,
+            "container": {
+              "commands": [
+                "-c",
+                "import os,pathlib,runpy,sys\nindex=int(os.environ['BATCH_TASK_INDEX']); count=int(os.environ['BATCH_TASK_COUNT'])\nroot=pathlib.Path('/work/shared/tasks')/f'{index:05d}'\nscript=root/'workspace/cloud/durable_uploader.py'\nsys.argv=[str(script),'daemon','--task-root',str(root),'--run-uri','gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-recovery-20261026-1355','--manifest',str(root/'workspace/manifest.json'),'--task-index',str(index),'--task-count',str(count),'--interval','0.25']\nrunpy.run_path(str(script),run_name='__main__')"
+              ],
+              "entrypoint": "/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3",
+              "imageUri": "gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc",
+              "options": "--user 0:0",
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            },
+            "displayName": "durable-publisher"
+          },
+          {
+            "container": {
+              "commands": [
+                "-singleCompThread",
+                "-noFigureWindows",
+                "-licmode",
+                "onlinelicensing",
+                "-batch",
+                "index=str2double(getenv('BATCH_TASK_INDEX')); count=str2double(getenv('BATCH_TASK_COUNT')); taskRoot=fullfile('/work/shared','tasks',sprintf('%05d',index)); cd(fullfile(taskRoot,'workspace')); diary(fullfile(taskRoot,'logs',sprintf('matlab-attempt-%s.log',getenv('BATCH_TASK_RETRY_ATTEMPT')))); manifest=jsondecode(fileread('manifest.json')); identity=struct('run_id',manifest.run_id,'source_sha256',manifest.source_sha256,'config_sha256',manifest.config_sha256); fpf.runCloudRecoverySmoke(taskRoot,index,count,identity); diary off;"
+              ],
+              "entrypoint": "/usr/local/bin/matlab",
+              "imageUri": "us-central1-docker.pkg.dev/strange-reducer-509621-e8/matlab-images/matlab-full@sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0",
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            },
+            "displayName": "matlab-checkpoint-shard",
+            "environment": {
+              "variables": {
+                "FPF_WORKERS_PER_TASK": "8",
+                "MATLAB_CLOUD_OUTPUT_DIR": "/work/shared/results",
+                "MATLAB_CLOUD_PROJECT_DIR": "/work/shared/workspace",
+                "MKL_NUM_THREADS": "1",
+                "OMP_NUM_THREADS": "1"
+              }
+            }
+          },
+          {
+            "alwaysRun": true,
+            "container": {
+              "commands": [
+                "-c",
+                "import os,pathlib,runpy,sys\nindex=int(os.environ['BATCH_TASK_INDEX']); count=int(os.environ['BATCH_TASK_COUNT'])\nroot=pathlib.Path('/work/shared/tasks')/f'{index:05d}'\nscript=root/'workspace/cloud/durable_uploader.py'\nsys.argv=[str(script),'finalize','--task-root',str(root),'--run-uri','gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-recovery-20261026-1355','--manifest',str(root/'workspace/manifest.json'),'--task-index',str(index),'--task-count',str(count),'--interval','0.25']\nrunpy.run_path(str(script),run_name='__main__')"
+              ],
+              "entrypoint": "/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3",
+              "imageUri": "gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc",
+              "options": "--user 0:0",
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            },
+            "displayName": "preserve-completed-and-partial-results"
+          }
+        ]
+      }
+    }
+  ],
+  "uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+  "updateTime": "2026-10-26T14:12:48.408152701Z"
+}

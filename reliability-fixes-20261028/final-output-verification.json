@@ -1,0 +1,41 @@
+{
+  "verified_at_utc": "2026-10-29T14:59:28.333584+00:00",
+  "run_id": "matlab-glop-cmp-20261028-fixes",
+  "export_collected_at": "2026-10-29T14:54:42.147891+00:00",
+  "csv_rows": 77760,
+  "completed_export_rows": 9090,
+  "pending_export_rows": 68670,
+  "summary_rows": 36,
+  "mat_csv_identity_and_masks_match": true,
+  "live_updated_at": "2026-10-29T14:59:15.922827+00:00",
+  "live_completed_trials": 9131,
+  "workers": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "pending_upload_errors": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud-results\\matlab-glop-cmp-20261028-fixes\\trial_results.csv",
+      "bytes": 4144288,
+      "sha256": "ee5d99b58303aa25618f4a668486072fef6e8923e9411477fb608ed88964dc55"
+    },
+    {
+      "path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud-results\\matlab-glop-cmp-20261028-fixes\\benchmark_results.mat",
+      "bytes": 314210,
+      "sha256": "948b947f7b93c8f4610bbe4458a341465f34b39fb1f6512a2454602376936240"
+    },
+    {
+      "path": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud-results\\matlab-glop-cmp-20261028-fixes\\benchmark_summary.csv",
+      "bytes": 2131,
+      "sha256": "8c8f5e3f846c7c92d80822b2907c63f2ee4fe89d5782ec9113025f077c03f3c5"
+    }
+  ]
+}

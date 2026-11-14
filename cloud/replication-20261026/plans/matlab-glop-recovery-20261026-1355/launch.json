@@ -1,0 +1,13 @@
+{
+  "project": "strange-reducer-509621-e8",
+  "region": "us-central1",
+  "run_id": "matlab-glop-recovery-20261026-1355",
+  "source_uri": "gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-recovery-20261026-1355/source",
+  "run_uri": "gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-recovery-20261026-1355",
+  "mode": "smoke",
+  "task_count": 1,
+  "parallelism": 1,
+  "source_sha256": "32fccb2a1045390fc73044cbeab27fa128f8e195b7060a70009f833508349fa9",
+  "config_sha256": "2c8674dd47c4fb98f9afa414047a21d3a2caba426baced74d0211ebdf33a93d0",
+  "original_resources_unchanged": true
+}

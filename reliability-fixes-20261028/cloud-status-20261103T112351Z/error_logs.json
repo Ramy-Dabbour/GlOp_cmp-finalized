@@ -1,0 +1,1245 @@
+{
+  "entries": [
+    {
+      "textPayload": "Average throughput: 543.7kiB/s",
+      "insertId": "1405sdyf6qwmx3",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:48.008687466Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "matlab_replication": "20261028",
+        "matlab_cloud_live": "true",
+        "matlab_smoke": "false",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_managed": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_reliability_fixes": "true",
+        "matlab_project": "glop-cmp"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "",
+      "insertId": "1405sdyf6qwmx2",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:48.008647401Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_replication": "20261028",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_smoke": "false",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_live": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_tasks": "4",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_mode": "durable_trial_shards"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "...",
+      "insertId": "1405sdyf6qwmx1",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.825186757Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_project": "glop-cmp",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_reliability_fixes": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_replication": "20261028",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_workers": "8",
+        "matlab_smoke": "false",
+        "matlab_cloud_live": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_tasks": "4",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_managed": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/tests/telemetryRobustnessTest.m to file:///work/shared/tasks/00001/workspace/tests/telemetryRobustnessTest.m",
+      "insertId": "1405sdyf6qwmx0",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.275156671Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_managed": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_live": "true",
+        "matlab_smoke": "false",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_project": "glop-cmp",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "matlab_replication": "20261028"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/tests/runCloudValidation.m to file:///work/shared/tasks/00001/workspace/tests/runCloudValidation.m",
+      "insertId": "1405sdyf6qwmwz",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.274497433Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_smoke": "false",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_managed": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_replication": "20261028",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_live": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_tasks": "4"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/tests/cloudCheckpointTest.m to file:///work/shared/tasks/00001/workspace/tests/cloudCheckpointTest.m",
+      "insertId": "1405sdyf6qwmwy",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.273922812Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_reliability_fixes": "true",
+        "matlab_smoke": "false",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_project": "glop-cmp",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_replication": "20261028",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_workers": "8",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_managed": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/manifest.json to file:///work/shared/tasks/00001/workspace/manifest.json",
+      "insertId": "1405sdyf6qwmwv",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.273276305Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_live": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_reliability_fixes": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_replication": "20261028",
+        "matlab_cloud_workers": "8",
+        "matlab_project": "glop-cmp",
+        "matlab_smoke": "false"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/cloud/test_durable_uploader.py to file:///work/shared/tasks/00001/workspace/cloud/test_durable_uploader.py",
+      "insertId": "1405sdyf6qwmwu",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.272669497Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_live": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_project": "glop-cmp",
+        "matlab_smoke": "false",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_tasks": "4",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_managed": "true",
+        "matlab_replication": "20261028"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/cloud/durable_uploader.py to file:///work/shared/tasks/00001/workspace/cloud/durable_uploader.py",
+      "insertId": "1405sdyf6qwmws",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.271824652Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_replication": "20261028",
+        "matlab_cloud_managed": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_smoke": "false",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_project": "glop-cmp",
+        "matlab_reliability_fixes": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_live": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/writeRunArtifacts.m to file:///work/shared/tasks/00001/workspace/+fpf/writeRunArtifacts.m",
+      "insertId": "1405sdyf6qwmwr",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.271651460Z",
+      "severity": "ERROR",
+      "labels": {
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_live": "true",
+        "matlab_smoke": "false",
+        "matlab_reliability_fixes": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_replication": "20261028",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_mode": "durable_trial_shards"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/writeLiveJson.m to file:///work/shared/tasks/00001/workspace/+fpf/writeLiveJson.m",
+      "insertId": "1405sdyf6qwmwq",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.271579346Z",
+      "severity": "ERROR",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_managed": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_project": "glop-cmp",
+        "matlab_replication": "20261028",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_tasks": "4",
+        "matlab_smoke": "false",
+        "matlab_cloud_live": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/writeCloudJson.m to file:///work/shared/tasks/00001/workspace/+fpf/writeCloudJson.m",
+      "insertId": "1405sdyf6qwmwp",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.271562327Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_smoke": "false",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_workers": "8",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "matlab_reliability_fixes": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_managed": "true",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_tasks": "4",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_mode": "durable_trial_shards"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/validateReferenceCache.m to file:///work/shared/tasks/00001/workspace/+fpf/validateReferenceCache.m",
+      "insertId": "1405sdyf6qwmwo",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.271372551Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_project": "glop-cmp",
+        "matlab_replication": "20261028",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_managed": "true",
+        "matlab_smoke": "false",
+        "matlab_cloud_live": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_tasks": "4",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_reliability_fixes": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/unpackMziDesign.m to file:///work/shared/tasks/00001/workspace/+fpf/unpackMziDesign.m",
+      "insertId": "1405sdyf6qwmwn",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.268142408Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_live": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_reliability_fixes": "true",
+        "matlab_replication": "20261028",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_managed": "true",
+        "matlab_smoke": "false",
+        "matlab_project": "glop-cmp"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/trialParameters.m to file:///work/shared/tasks/00001/workspace/+fpf/trialParameters.m",
+      "insertId": "1405sdyf6qwmwm",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.267025671Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_tasks": "4",
+        "matlab_project": "glop-cmp",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_live": "true",
+        "matlab_smoke": "false",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_managed": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_replication": "20261028",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/sweepSize.m to file:///work/shared/tasks/00001/workspace/+fpf/sweepSize.m",
+      "insertId": "1405sdyf6qwmwl",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.266403990Z",
+      "severity": "ERROR",
+      "labels": {
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_replication": "20261028",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_managed": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_smoke": "false",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_tasks": "4",
+        "matlab_reliability_fixes": "true",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_workers": "8",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/summarizeSweep.m to file:///work/shared/tasks/00001/workspace/+fpf/summarizeSweep.m",
+      "insertId": "1405sdyf6qwmwk",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.265425668Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_tasks": "4",
+        "matlab_reliability_fixes": "true",
+        "matlab_smoke": "false",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_managed": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_live": "true",
+        "matlab_replication": "20261028",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_mode": "durable_trial_shards"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/stopWhenObjectiveStalls.m to file:///work/shared/tasks/00001/workspace/+fpf/stopWhenObjectiveStalls.m",
+      "insertId": "1405sdyf6qwmwj",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.264577395Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_tasks": "4",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_live": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "matlab_smoke": "false"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/signalValuePolynomials.m to file:///work/shared/tasks/00001/workspace/+fpf/signalValuePolynomials.m",
+      "insertId": "1405sdyf6qwmwi",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.263599365Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_smoke": "false",
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_workers": "8",
+        "matlab_project": "glop-cmp",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_live": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_reliability_fixes": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/seedTrialStage.m to file:///work/shared/tasks/00001/workspace/+fpf/seedTrialStage.m",
+      "insertId": "1405sdyf6qwmwh",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.262751982Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_project": "glop-cmp",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_replication": "20261028",
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "matlab_smoke": "false",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_managed": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runSweep.m to file:///work/shared/tasks/00001/workspace/+fpf/runSweep.m",
+      "insertId": "1405sdyf6qwmwg",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.261993114Z",
+      "severity": "ERROR",
+      "labels": {
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_replication": "20261028",
+        "matlab_smoke": "false",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_tasks": "4",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_live": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_project": "glop-cmp"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runReportedTrial.m to file:///work/shared/tasks/00001/workspace/+fpf/runReportedTrial.m",
+      "insertId": "1405sdyf6qwmwf",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.261084029Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_live": "true",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_smoke": "false",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_workers": "8",
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runLocalBenchmark.m to file:///work/shared/tasks/00001/workspace/+fpf/runLocalBenchmark.m",
+      "insertId": "1405sdyf6qwmwe",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.260359293Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_project": "glop-cmp",
+        "matlab_replication": "20261028",
+        "matlab_smoke": "false",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_managed": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_workers": "8"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runGlobalSolver.m to file:///work/shared/tasks/00001/workspace/+fpf/runGlobalSolver.m",
+      "insertId": "1405sdyf6qwmwd",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.259638925Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_smoke": "false",
+        "matlab_cloud_live": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_workers": "8",
+        "matlab_replication": "20261028",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_project": "glop-cmp"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runCloudRecoverySmoke.m to file:///work/shared/tasks/00001/workspace/+fpf/runCloudRecoverySmoke.m",
+      "insertId": "1405sdyf6qwmwc",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.259626918Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_live": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_managed": "true",
+        "matlab_reliability_fixes": "true",
+        "matlab_smoke": "false",
+        "matlab_replication": "20261028",
+        "matlab_project": "glop-cmp"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runCloudCheckpointTrial.m to file:///work/shared/tasks/00001/workspace/+fpf/runCloudCheckpointTrial.m",
+      "insertId": "1405sdyf6qwmwb",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.259609877Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_managed": "true",
+        "matlab_replication": "20261028",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_live": "true",
+        "matlab_project": "glop-cmp",
+        "matlab_smoke": "false",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runCloudCheckpointSmoke.m to file:///work/shared/tasks/00001/workspace/+fpf/runCloudCheckpointSmoke.m",
+      "insertId": "1405sdyf6qwmwa",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.259579048Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_live": "true",
+        "matlab_cloud_managed": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_project": "glop-cmp",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "matlab_cloud_workers": "8",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_tasks": "4",
+        "matlab_smoke": "false"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runCloudCheckpointShard.m to file:///work/shared/tasks/00001/workspace/+fpf/runCloudCheckpointShard.m",
+      "insertId": "1405sdyf6qwmw9",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.256904659Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_smoke": "false",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_workers": "8",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_project": "glop-cmp",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_managed": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_replication": "20261028"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/runCheckpointTrial.m to file:///work/shared/tasks/00001/workspace/+fpf/runCheckpointTrial.m",
+      "insertId": "1405sdyf6qwmw8",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.256088476Z",
+      "severity": "ERROR",
+      "labels": {
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_tasks": "4",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_managed": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_live": "true",
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_smoke": "false"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/run.m to file:///work/shared/tasks/00001/workspace/+fpf/run.m",
+      "insertId": "1405sdyf6qwmw7",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.254901843Z",
+      "severity": "ERROR",
+      "labels": {
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_replication": "20261028",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "matlab_smoke": "false",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_tasks": "4",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_managed": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_mode": "durable_trial_shards"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/referenceSMatrixCoefficients.m to file:///work/shared/tasks/00001/workspace/+fpf/referenceSMatrixCoefficients.m",
+      "insertId": "1405sdyf6qwmw6",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.254699122Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_managed": "true",
+        "matlab_cloud_tasks": "4",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_smoke": "false",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_workers": "8",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_live": "true",
+        "matlab_reliability_fixes": "true",
+        "matlab_replication": "20261028",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/referenceObjective.m to file:///work/shared/tasks/00001/workspace/+fpf/referenceObjective.m",
+      "insertId": "1405sdyf6qwmw5",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.254357164Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_managed": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_smoke": "false",
+        "matlab_reliability_fixes": "true",
+        "matlab_project": "glop-cmp",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_replication": "20261028",
+        "matlab_cloud_live": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_workers": "8",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_tasks": "4"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/recordRunFailure.m to file:///work/shared/tasks/00001/workspace/+fpf/recordRunFailure.m",
+      "insertId": "1405sdyf6qwmw4",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.254336946Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_live": "true",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_tasks": "4",
+        "matlab_smoke": "false",
+        "matlab_cloud_managed": "true",
+        "matlab_project": "glop-cmp",
+        "matlab_reliability_fixes": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/realizedSMatrixLagCoefficients.m to file:///work/shared/tasks/00001/workspace/+fpf/realizedSMatrixLagCoefficients.m",
+      "insertId": "1405sdyf6qwmw3",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.254306606Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_tasks": "4",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_smoke": "false",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_live": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_replication": "20261028",
+        "matlab_cloud_managed": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/readScalarField.m to file:///work/shared/tasks/00001/workspace/+fpf/readScalarField.m",
+      "insertId": "1405sdyf6qwmw2",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.251289699Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_project": "glop-cmp",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_managed": "true",
+        "matlab_replication": "20261028",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_smoke": "false",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_workers": "8",
+        "matlab_cloud_live": "true",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_tasks": "4"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/readCloudCheckpoint.m to file:///work/shared/tasks/00001/workspace/+fpf/readCloudCheckpoint.m",
+      "insertId": "1405sdyf6qwmw1",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.250560094Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_project": "glop-cmp",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_managed": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_smoke": "false",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_tasks": "4",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/printRunSummary.m to file:///work/shared/tasks/00001/workspace/+fpf/printRunSummary.m",
+      "insertId": "1405sdyf6qwmw0",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.249958805Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "matlab_smoke": "false",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_replication": "20261028",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_live": "true",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_cloud_managed": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_tasks": "4",
+        "matlab_project": "glop-cmp"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/prepareTrialPool.m to file:///work/shared/tasks/00001/workspace/+fpf/prepareTrialPool.m",
+      "insertId": "1405sdyf6qwmvz",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.249239016Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_smoke": "false",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_live": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_workers": "8",
+        "matlab_project": "glop-cmp",
+        "matlab_reliability_fixes": "true",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_managed": "true",
+        "matlab_replication": "20261028",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/prepareBatchPool.m to file:///work/shared/tasks/00001/workspace/+fpf/prepareBatchPool.m",
+      "insertId": "1405sdyf6qwmvy",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "location": "us-central1-c",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.248664147Z",
+      "severity": "ERROR",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "matlab_smoke": "false",
+        "matlab_replication": "20261028",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_managed": "true",
+        "matlab_project": "glop-cmp",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_reliability_fixes": "true"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    },
+    {
+      "textPayload": "Copying gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261028-fixes/source/+fpf/plotResponses.m to file:///work/shared/tasks/00001/workspace/+fpf/plotResponses.m",
+      "insertId": "1405sdyf6qwmvx",
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+          "location": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:21:47.247924155Z",
+      "severity": "ERROR",
+      "labels": {
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-1",
+        "matlab_cloud_managed": "true",
+        "matlab_reliability_fixes": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_live": "true",
+        "matlab_cloud_workers": "8",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_project": "glop-cmp",
+        "matlab_replication": "20261028",
+        "matlab_smoke": "false"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:22:10.008825523Z"
+    }
+  ],
+  "nextPageToken": "eoUHCoAHAUI4sNxXzAPM3utPpGIZkAbWK9Ar6tmStAfklsnSXI1EvzCBSkJNgNGcx3vj0GkFCmsCh9DmWBIwyglpWTZEIQCl3Ktme4GccsCGfG7cfr3hF6JBdzHu-widYPtO9i4epkCaUI2mj90o2Wmf7V7elQ9L_iUSHMw9LaIBMTw4c201wPTdjeBr8HMw1IAyfQgVgwf_w8E0Zd7bM8Q3-kdVP0WetnzmgJNkFP-kO6Z2ZmnzYwfDeOorArl9WLgmbwPWKY3A3UU3ocnkGGedMK5opQpDunAsDjO5UnALp0h0i8qcIheq89Y7o4Hcl0sPY9YbEpbDKVRsZ6QkYdbbRxElMMlOWlfVXcbBUJ5o_eCPKuxBxOyH25sDsSljO9zKt6ddrLsXV-U-_O6QEbQJodw0wkB1SvZSwISpXn4LaC8udIJ02LSaTxJ5s337JklCcHL-NZUANBuKIAoMaPtAw1gwHCjvmqq-1FRzd_Q1wjsdAQeuToljRLRVkCp_Cc9zebLzbo3g6Vhvk_FqAZbERQHsWb_UUCYdh2qQKkDRbw6vLjOnPIJK8vwHuj7c-p5zP2L5pTSvDc1wpcJBMVAr0wNm2zBMxObBI8cA1NWVFPZLZzMx9L-2GZKUN3PhqkTzeS9hGDaU3M39MgKH4q14V6OSemz_2rxvwzKS1vgnrjsRtDH7yRZ5h_X3MliXtHMvWrHqWizZezP4POrLzITjUHAQK9knVXYlHFX6oc0ZuYPPvvVS4X3fFuNxxDPgygvcfWz-H8u8b6fchMEaThNmxEi0HGXdOLVTp-sRs_UhOCfyYk_9oDXzxJRaysrOsrjNh9MtdlkkJTAOQkAocVLQO4xG-JjcB99mSWsxp5ocQc8cv425bX7EXHEd8W_AdT36w2SBzWVyWQVAabyqhx7AT4rWLZDB7WKRSO5b6nU0oOYq8EvMBoITFuqOPVEOCILOTMI82GbE5AyUXChvOL5b0pZRo53dsjK9wvqZl1TaDbRhPGFSC-yYqC_EnMwOxOdmdFGWXvY4oU4_oDU-JzFfroRtHvxfGGqJ-BnnEjnrzVtWOevkyGQYxNkbhfLyqarACyrkiGwTDbyKUy1LTfIfIGcUmEnNPFS02i5q3jMTvqa35GtiuLS1mdCLTz8f_rtznbsYCwADyMXv2cXQfT5XcrpQd4hXS-W2yFbnamZMNPrS5WYQAQ"
+}

@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "insertId": "1idss85f84mf8j",
+      "jsonPayload": {
+        "task_index": 2,
+        "event": "checkpoint-progress",
+        "status": "running",
+        "completed": 7022,
+        "pending_upload_errors": 0
+      },
+      "resource": {
+        "type": "batch.googleapis.com/Job",
+        "labels": {
+          "location": "us-central1-c",
+          "resource_container": "strange-reducer-509621-e8",
+          "job_id": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+        }
+      },
+      "timestamp": "2026-11-03T11:59:49.703018568Z",
+      "severity": "INFO",
+      "labels": {
+        "matlab_cloud_workers": "8",
+        "matlab_reliability_fixes": "true",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "matlab_smoke": "false",
+        "matlab_cloud_tasks": "4",
+        "matlab_cloud_mode": "durable_trial_shards",
+        "matlab_cloud_managed": "true",
+        "task_id": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-2",
+        "matlab_project": "glop-cmp",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "matlab_cloud_live": "true",
+        "matlab_replication": "20261028"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+      "receiveTimestamp": "2026-11-03T11:59:57.746493477Z"
+    }
+  ],
+  "nextPageToken": "et4GCtkGAUI4sNwlEtqjFh-_d1DkSl0DyUzXiq7jaGnFhYS5s7KtDngAylY0htr_qlUBEiQacvG2Vdoq8T44cwiIdqHRlxeTDmVQZXlWTcSIMepzsgxDt3myI-U6CTobyAUimnUwNxoEtUECnsmHAR1KW30sgaY2Xl1gEdUpJUTttia0tGmebxtcX2YGqfEqGemGy-EpwnC9pBvMricpYSU42Baie8BvITo-VVUN65ytw76OQqAVWue1esnteFSXH6Vn26yHuu7qaP1kXbpVKBX-iV8g2DXsX8USaUAAVaN72yu64MK5wGIDodbnXN55PyBHvD35M6N3Nj7RzecNnDsHP-gBKEGyBYLcaX8L5Dcjl6gbO1LKnHcMg_okDHSIu0egsotLyzyKBhk9EzxnIcR1WQaaVnTc3kqQvsay90scTkweEiqmYqvg_x1a1SVVBV9HaMJrHZB_lMq3qljwuA9uJ4Kyny8S1E7kCPDobN8bumwYZVW4iSjqu0W0kWs4zINtQEIq1jqZ1VSGuwMlGNXekoetF5ft9xbVT3KWcW53d4fDg3dbCzVht9rouf4FeLjwhgOX4MQvOnvMuqnmrYYp1Wds8yNpKOrS-vdRmnqzwBe6LHzcXBP4xKnPHkEIQAfkeDZBGpdTUVSRDhje8ZUER3oGiyg3CuWlhWFBTccugeAPWSHHkraqU0viFKyl-k01oKCl3BVOwH14-azu3e66RbNejVfk80KKIw1xn4RPkypcp-ukJnnlI99i7Y_p0kSbN0GPMmnINndrNLoAjTO51Bhv_2QVR7m5TWg52TU_OwgM3Wr_z1CpJy339oB1cepTYiytwdwTFRPNtuKTwfGkyx1njCexKehKjCX25mHmq7448JiuxRRPq-tbEg8V98XrZX26gLDOlQudih9h0KDKo3SlRFXZOVn5GNmXmJkBohyZtPgZ_upPeeR02RzNyrmnLk3N2n7_5VMqJ6odS7SH34tPGn-UfchBY3Bj2MYw91pHo_ak9XJX4Qdmb_nSpMqplX89War7hjgI61mz9zXTVDM5nliMP1b-BqH7IJnsjxQqZRTZ24EE3Rayi1geoi_Ne11AD4e--w8FsidbldfDRneC4BLMmo4LzfQU9X7gszXXAGW6-WGDOqMeMgUQAQ"
+}

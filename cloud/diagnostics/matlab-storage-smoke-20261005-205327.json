@@ -1,0 +1,103 @@
+{
+  "taskGroups": [
+    {
+      "taskCount": "1",
+      "parallelism": "1",
+      "taskCountPerNode": "1",
+      "taskSpec": {
+        "runnables": [
+          {
+            "displayName": "prepare-source-and-probe",
+            "timeout": "300s",
+            "container": {
+              "imageUri": "gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc",
+              "entrypoint": "/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3",
+              "commands": [
+                "-c",
+                "import errno, json, pathlib, shutil\nold = pathlib.Path('/diagnostics/old')\nprint('OLD_STORAGE ' + json.dumps(shutil.disk_usage(old)._asdict()), flush=True)\nprobe = old / 'storage-smoke-probe.bin'\ntry:\n    with probe.open('xb') as stream: stream.write(b'x' * 1048576)\n    print('OLD_1MIB_WRITE_SUCCEEDED', flush=True)\nexcept OSError as error:\n    if error.errno != errno.ENOSPC: raise\n    print('OLD_1MIB_WRITE_ENOSPC', flush=True)\nfinally:\n    probe.unlink(missing_ok=True)\nimport json, os, pathlib, shutil, subprocess, sys\nos.environ['CLOUDSDK_PYTHON'] = sys.executable\nroot = pathlib.Path('/work/shared')\nstorage = shutil.disk_usage(root)\ninodes = os.statvfs(root)\nmount_record, mount_depth = None, -1\nfor record in pathlib.Path('/proc/self/mountinfo').read_text().splitlines():\n    mount_path = pathlib.Path(record.split()[4].replace(r'\\040', ' ').replace(r'\\011', '\\t').replace(r'\\134', '\\\\'))\n    if root.resolve().is_relative_to(mount_path) and len(mount_path.parts) > mount_depth:\n        mount_record, mount_depth = record, len(mount_path.parts)\nif mount_record is None: raise RuntimeError('Cannot identify the workspace backing filesystem')\nfilesystem = mount_record.split(' - ', 1)[1].split()[0]\nprint(json.dumps({'event':'workspace-storage','path':str(root),'total_bytes':storage.total,'free_bytes':storage.free,'total_inodes':inodes.f_files,'available_inodes':inodes.f_favail,'filesystem':filesystem,'mountinfo':mount_record}),flush=True)\nif filesystem == 'tmpfs': raise RuntimeError('Workspace is backed by tmpfs, not the boot disk; bind /var/lib/google/matlab-cloud or mount a real disk before source transfer')\nworkspace = root / 'workspace'\nif workspace.exists() and any(workspace.iterdir()): raise RuntimeError('Refusing nonempty run workspace')\nworkspace.mkdir(parents=True, exist_ok=True)\n(root / 'logs').mkdir(exist_ok=True)\n(root / 'results').mkdir(exist_ok=True)\nsubprocess.run(['gcloud','storage','rsync','gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-cmp-20261005-201941-8ae913/source',str(workspace),'--recursive','--checksums-only'],check=True)\nif not any(workspace.rglob('*')): raise RuntimeError('Downloaded source is empty')\nfor path in [root, *root.rglob('*')]:\n    if path.is_symlink(): raise RuntimeError('Unexpected source symlink')\n    os.chown(path,1001,1001)\n    os.chmod(path,0o775 if path.is_dir() else 0o664)\n(root / '_PREPARED.json').write_text(json.dumps({'prepared':True}),encoding='utf-8')"
+              ],
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw",
+                "/mnt/disks/matlab-cloud-probe:/diagnostics/old:rw"
+              ],
+              "options": "--user 0:0"
+            }
+          },
+          {
+            "displayName": "matlab-two-trial-smoke",
+            "timeout": "600s",
+            "container": {
+              "imageUri": "us-central1-docker.pkg.dev/strange-reducer-509621-e8/matlab-images/matlab-full@sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0",
+              "entrypoint": "/usr/local/bin/matlab",
+              "commands": [
+                "-singleCompThread",
+                "-logfile",
+                "/work/shared/logs/matlab-smoke.log",
+                "-licmode",
+                "onlinelicensing",
+                "-batch",
+                "cd('/work/shared/workspace'); fprintf('STORAGE_SMOKE_MATLAB_STARTED %s\\n', version); config=fpf.benchmarkConfig(); config.firOrders=1; config.passbandRatios=0.3; config.randomSeeds=0; config.referenceSolvers=4; config.mziSolvers=4; config.N_tr=2; config.N_s=101; serial=fpf.runSweep(config,[1;2],0); parallel=fpf.runSweep(config,[1;2],2); pool=gcp('nocreate'); assert(~isempty(pool) && pool.NumWorkers==2); assert(isequaln(serial,parallel)); probeRun=fpf.run(1,0.3,4,4,101,0,SaveArtifacts=false,Display='off',Verbose=false,CollectDiagnostics=false,ThrowOnFailure=false); assert(probeRun.completed && probeRun.failureIdentifier==\"\"); smokePassed=true; save('/work/shared/results/storage_smoke.mat','smokePassed','config','serial','parallel','probeRun'); fprintf('STORAGE_SMOKE_PASSED\\n'); pool=gcp('nocreate'); if ~isempty(pool), delete(pool); end;"
+              ],
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ]
+            }
+          },
+          {
+            "displayName": "preserve-diagnostic-outputs",
+            "alwaysRun": true,
+            "timeout": "300s",
+            "container": {
+              "imageUri": "gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc",
+              "entrypoint": "/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3",
+              "commands": [
+                "-c",
+                "import datetime, json, os, pathlib, subprocess, sys\nos.environ['CLOUDSDK_PYTHON'] = sys.executable\nroot = pathlib.Path('/work/shared')\nif not (root / '_PREPARED.json').is_file(): raise RuntimeError('Source preparation did not finish; no complete run workspace to collect')\nif any(path.is_symlink() for path in root.rglob('*')): raise RuntimeError('Run outputs contain a symbolic link; refusing to follow it during collection')\nfor name in ('workspace','logs','results'):\n    local = root / name\n    if local.exists():\n        subprocess.run(['gcloud','storage','rsync',str(local),'gs://strange-reducer-509621-e8-matlab-glop-cmp/diagnostics/matlab-storage-smoke-20261005-205327'+'/'+name,'--recursive','--checksums-only'],check=True)\nmarker = root / '_TRANSFER_COMPLETE.json'\nmarker.write_text(json.dumps({'schema_version':1,'job_id':'matlab-storage-smoke-20261005-205327','collected_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'workspace_included':True,'scientific_completion_verified':False},indent=2),encoding='utf-8')\nsubprocess.run(['gcloud','storage','cp',str(marker),'gs://strange-reducer-509621-e8-matlab-glop-cmp/diagnostics/matlab-storage-smoke-20261005-205327/_TRANSFER_COMPLETE.json','--if-generation-match=0'],check=True)\nprint('Output collection completed. Scientific success is determined separately by the Batch job status and the project results.')"
+              ],
+              "volumes": [
+                "/var/lib/google/matlab-cloud:/work/shared:rw"
+              ],
+              "options": "--user 0:0"
+            }
+          }
+        ],
+        "computeResource": {
+          "cpuMilli": "8000",
+          "memoryMib": "30000"
+        },
+        "maxRetryCount": 0,
+        "maxRunDuration": "1500s"
+      }
+    }
+  ],
+  "allocationPolicy": {
+    "instances": [
+      {
+        "policy": {
+          "machineType": "e2-standard-8",
+          "provisioningModel": "STANDARD",
+          "bootDisk": {
+            "type": "pd-balanced",
+            "sizeGb": "100",
+            "image": "projects/batch-custom-image/global/images/batch-cos-stable-official-20260924-00-p01"
+          }
+        }
+      }
+    ],
+    "serviceAccount": {
+      "email": "1064328294968-compute@developer.gserviceaccount.com"
+    },
+    "location": {
+      "allowedLocations": [
+        "regions/us-central1"
+      ]
+    }
+  },
+  "labels": {
+    "matlab_project": "glop-cmp",
+    "purpose": "storage-diagnostic"
+  },
+  "logsPolicy": {
+    "destination": "CLOUD_LOGGING"
+  }
+}

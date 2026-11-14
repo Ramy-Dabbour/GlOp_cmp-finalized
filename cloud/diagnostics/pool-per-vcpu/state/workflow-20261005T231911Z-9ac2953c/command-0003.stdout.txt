@@ -1,0 +1,9 @@
+{
+  "image_summary": {
+    "digest": "sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0",
+    "fully_qualified_digest": "us-central1-docker.pkg.dev/strange-reducer-509621-e8/matlab-images/matlab-full@sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0",
+    "registry": "us-central1-docker.pkg.dev",
+    "repository": "matlab-images",
+    "slsa_build_level": "unknown"
+  }
+}

@@ -1,0 +1,4 @@
+LOCAL_BATCH_STARTED
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 77760 independent trials with 2 pool workers.

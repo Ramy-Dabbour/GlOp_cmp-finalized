@@ -1,0 +1,11 @@
+{
+  "schema_version": 2,
+  "job_id": "matlab-glop-live-smoke-20261007-094350-9c2a5c",
+  "task_index": 0,
+  "task_count": 1,
+  "workers_per_task": 8,
+  "live_reporting": true,
+  "live_published_trials": 16,
+  "shard_sha256": "c01d26e59ab54542b8d036cafe906c000133e8ca7e7ad8b6517d1b611c1d2aed",
+  "collected_at": "2026-10-07T09:56:44.134075+00:00"
+}

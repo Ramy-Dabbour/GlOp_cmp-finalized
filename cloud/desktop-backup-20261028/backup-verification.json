@@ -1,0 +1,19 @@
+{
+  "archive": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud\\desktop-backup-20261028\\glop-desktop-5182-trials-20261028.zip",
+  "archive_bytes": 78258656,
+  "archive_sha256": "52ac0e09a1e02199859b675bab7dafefe0084b4fa7c4e2118363e98f4e5bb57b",
+  "archive_md5_base64": "Z33YDt43vbnF786zHtbUKA==",
+  "archive_md5_hex": "677dd80ede37bdb9c5efceb31ed6d428",
+  "archived_files": 10486,
+  "completed_trials": 5182,
+  "every_archived_file_sha256_verified": true,
+  "cloud_overlap": {
+    "run_id": "matlab-glop-cmp-20261026-1405",
+    "source_csv": "cloud-results\\matlab-glop-cmp-20261026-1405\\trial_results.csv",
+    "source_csv_sha256": "653680250af0ceae921e52206ed6467cd166fef255ca272ce1dbcfc4d2ce1c69",
+    "snapshot_modified_at_utc": "2026-10-27T14:38:31.520732+00:00",
+    "completed_in_snapshot": 11271,
+    "desktop_ids_already_complete": 5182,
+    "desktop_ids_missing": []
+  }
+}

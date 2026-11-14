@@ -1,0 +1,40 @@
+{
+  "plan_version": 1,
+  "comment": "Fix these values BEFORE opening the full-run data. Any tolerance added later is exploratory.",
+  "tolerances_excess_over_bound": [
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "tolerance_grid_provenance": "Chosen after inspecting the local snapshot of 4,947 trials, which holds only rho=0.2, seed 0, orders 4-10. There the best excess per instance was 0.0008-0.0024; at tau=0.002 the best pair reached about 21% and the median pair 0%, so 0.002 separates almost nothing. No other ratio or seed informed the grid. Disclose this in the paper.",
+  "tolerances_gap_to_cell_best": [
+    0.001,
+    0.002,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "stage2_gap_tolerances": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "profile_grid": {
+    "min": 0.0001,
+    "max": 0.2,
+    "points": 80
+  },
+  "infrastructure_failure_identifiers": [
+    "fpf:TelemetryWrite"
+  ],
+  "duplicate_policy": "error",
+  "baseline_grid_points": 4001,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261028,
+  "bootstrap_block": [
+    "seed",
+    "trial"
+  ]
+}

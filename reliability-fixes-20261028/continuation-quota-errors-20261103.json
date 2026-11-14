@@ -1,0 +1,242 @@
+[
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:07:14.804-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:07:14.109-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:07:12.855-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:07:09.444-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:04:51.032-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:04:49.653-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:04:47.922-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:04:47.230-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:03:07.914-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:03:07.320-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:03:06.728-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:03:06.698-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:02:54.770-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:02:54.433-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:02:54.112-08:00"
+  },
+  {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Instance 'matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1' creation failed: Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally."
+    },
+    "instanceActionDetails": {
+      "action": "CREATING",
+      "instance": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/zones/us-central1-c/instances/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1",
+      "version": {
+        "instanceTemplate": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/global/instanceTemplates/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0",
+        "name": ""
+      }
+    },
+    "timestamp": "2026-11-03T03:02:53.864-08:00"
+  }
+]

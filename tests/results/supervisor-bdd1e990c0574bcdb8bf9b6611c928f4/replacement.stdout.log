@@ -1,0 +1,10 @@
+[2026-10-15 16:14:41 +03:00] Local benchmark supervisor PID 21836. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\tests\results\supervisor-bdd1e990c0574bcdb8bf9b6611c928f4\run\supervisor.log
+Intentional stop: scripts\local-benchmark.cmd Stop. Resume: scripts\local-benchmark.cmd Resume.
+[2026-10-15 16:14:41 +03:00] Reattached to surviving worker PID 11844; no duplicate trial execution was started.
+COMMITTED 6/24
+COMMITTED 7/24
+COMMITTED 8/24
+COMMITTED 9/24
+COMMITTED 10/24
+COMMITTED 11/24
+[2026-10-15 16:14:42 +03:00] STOP requested. MATLAB will preserve committed results and exit at its next cancellation check.

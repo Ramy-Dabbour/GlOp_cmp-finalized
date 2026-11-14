@@ -1,0 +1,638 @@
+{
+  "inventory_sha256": "78bfc741958f5e1f6277acbbdb3323de551e62bfc70b7495ccbadfff7208914a",
+  "objects": [
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/summary.json",
+      "relative": "live/summary.json",
+      "generation": "1791367001043753",
+      "size": 1173,
+      "md5_hash": "5MC4s0xPl4HfuCAnikJ9jw==",
+      "crc32c_hash": "4EVb6Q=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/tasks/00000/latest.json",
+      "relative": "live/tasks/00000/latest.json",
+      "generation": "1791367000752287",
+      "size": 4347,
+      "md5_hash": "vbvfCJ3ODUE985dNt40QBg==",
+      "crc32c_hash": "kJ5djw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/tasks/00000/latest_trial.json",
+      "relative": "live/tasks/00000/latest_trial.json",
+      "generation": "1791367000854005",
+      "size": 488,
+      "md5_hash": "wh8JQO3egA0RZ+ffESKokw==",
+      "crc32c_hash": "WjfWgA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/tasks/00000/trials/17ce4ebc03b444780ee56e25425915f8e1f58935fd62694aeefd4d8b343446ce.jsonl.gz",
+      "relative": "live/tasks/00000/trials/17ce4ebc03b444780ee56e25425915f8e1f58935fd62694aeefd4d8b343446ce.jsonl.gz",
+      "generation": "1791366994538641",
+      "size": 304,
+      "md5_hash": "7eMNpLpSnOQa99D/Px0upg==",
+      "crc32c_hash": "Ns4GUg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/tasks/00000/trials/b0faee5cfac68ee6aeda9894a0a7ce3c1a78893f833c2fdf309214949002c389.jsonl.gz",
+      "relative": "live/tasks/00000/trials/b0faee5cfac68ee6aeda9894a0a7ce3c1a78893f833c2fdf309214949002c389.jsonl.gz",
+      "generation": "1791366932826174",
+      "size": 857,
+      "md5_hash": "F27Je1QvrIJzEODa+PPaHQ==",
+      "crc32c_hash": "bc/rqg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/results/trial_shard_00000.mat",
+      "relative": "results/trial_shard_00000.mat",
+      "generation": "1791367003833289",
+      "size": 2968,
+      "md5_hash": "zWL//kR5p65k+fNXCe5eQQ==",
+      "crc32c_hash": "kVkZ6Q=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/tasks/00000/_TRANSFER_COMPLETE.json",
+      "relative": "tasks/00000/_TRANSFER_COMPLETE.json",
+      "generation": "1791367005084618",
+      "size": 346,
+      "md5_hash": "JOGYq+JHtVqPUJ02B6J6TA==",
+      "crc32c_hash": "pHFKdw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/tasks/00000/logs/matlab-01.log",
+      "relative": "tasks/00000/logs/matlab-01.log",
+      "generation": "1791366999975900",
+      "size": 463,
+      "md5_hash": "ZZ4SYHcz5BlsIvO2gDs60w==",
+      "crc32c_hash": "bDufMg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/TrialReporter.m",
+      "relative": "workspace/+fpf/TrialReporter.m",
+      "generation": "1791367002282992",
+      "size": 3990,
+      "md5_hash": "fv2fec3jn+8qhw5GtCrmQg==",
+      "crc32c_hash": "Byz3Nw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/aggregateFavorability.m",
+      "relative": "workspace/+fpf/aggregateFavorability.m",
+      "generation": "1791367002305182",
+      "size": 1822,
+      "md5_hash": "VgwUMT31YbpxN+a51CtWrg==",
+      "crc32c_hash": "iAz+qw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/autocorrelationDcFirst.m",
+      "relative": "workspace/+fpf/autocorrelationDcFirst.m",
+      "generation": "1791367002341845",
+      "size": 742,
+      "md5_hash": "5fg/TCK5GyZ9K6ySiiZEOQ==",
+      "crc32c_hash": "KslzxQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/batchWorkIndices.m",
+      "relative": "workspace/+fpf/batchWorkIndices.m",
+      "generation": "1791367002370588",
+      "size": 551,
+      "md5_hash": "Bluxx+CxtNnesUT1dHaLtg==",
+      "crc32c_hash": "MzaK8g=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/benchmarkConfig.m",
+      "relative": "workspace/+fpf/benchmarkConfig.m",
+      "generation": "1791367002346012",
+      "size": 540,
+      "md5_hash": "9bC6DEBtbRZeDlogiPInCQ==",
+      "crc32c_hash": "37PQXg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/chebyshevExtrema.m",
+      "relative": "workspace/+fpf/chebyshevExtrema.m",
+      "generation": "1791367002326179",
+      "size": 595,
+      "md5_hash": "yQi+Dwr0kxC2tw8l/l7uhA==",
+      "crc32c_hash": "BI7wWg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/chebyshevTCoefficients.m",
+      "relative": "workspace/+fpf/chebyshevTCoefficients.m",
+      "generation": "1791367002390779",
+      "size": 610,
+      "md5_hash": "czkEqynpwZZEuOq5syBqiw==",
+      "crc32c_hash": "ZcVLhA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/chebyshevUCoefficients.m",
+      "relative": "workspace/+fpf/chebyshevUCoefficients.m",
+      "generation": "1791367002398088",
+      "size": 610,
+      "md5_hash": "hzGwYLnNGj8VJrq0FnqLJw==",
+      "crc32c_hash": "hLph+w=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/clearRunArtifacts.m",
+      "relative": "workspace/+fpf/clearRunArtifacts.m",
+      "generation": "1791367002499912",
+      "size": 755,
+      "md5_hash": "pQkKPbBcl+uqiuEPlC7peg==",
+      "crc32c_hash": "QAEcFQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/complexHarmonicExtrema.m",
+      "relative": "workspace/+fpf/complexHarmonicExtrema.m",
+      "generation": "1791367002325516",
+      "size": 1432,
+      "md5_hash": "+/vQgiBYUA8i08/xMKgaGQ==",
+      "crc32c_hash": "wmXwjA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/csv_export.m",
+      "relative": "workspace/+fpf/csv_export.m",
+      "generation": "1791367002499883",
+      "size": 4917,
+      "md5_hash": "8vViEgbx5HD2XBKFBnsb5w==",
+      "crc32c_hash": "8VZM4Q=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/currentReporter.m",
+      "relative": "workspace/+fpf/currentReporter.m",
+      "generation": "1791367002292910",
+      "size": 225,
+      "md5_hash": "UZLZz8mk9dbv/bRDyXwadg==",
+      "crc32c_hash": "iU4HYg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/defaultCsvPath.m",
+      "relative": "workspace/+fpf/defaultCsvPath.m",
+      "generation": "1791367002481112",
+      "size": 230,
+      "md5_hash": "jrEdAmORL+0Sf50zoqrMEQ==",
+      "crc32c_hash": "HKX0zQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/endToEndError.m",
+      "relative": "workspace/+fpf/endToEndError.m",
+      "generation": "1791367002312931",
+      "size": 2336,
+      "md5_hash": "1SsoslVoLA0M1xYRIYqVfw==",
+      "crc32c_hash": "JislBg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/evaluateCosineLagResponse.m",
+      "relative": "workspace/+fpf/evaluateCosineLagResponse.m",
+      "generation": "1791367002394583",
+      "size": 1074,
+      "md5_hash": "jBp3mzkL598W3Rj+8Egucw==",
+      "crc32c_hash": "5JFBfw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/evaluateLagResponse.m",
+      "relative": "workspace/+fpf/evaluateLagResponse.m",
+      "generation": "1791367002501361",
+      "size": 773,
+      "md5_hash": "jjB5SzUe1lUJNbvnxosa0w==",
+      "crc32c_hash": "DKVcZA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/evaluateMziSolution.m",
+      "relative": "workspace/+fpf/evaluateMziSolution.m",
+      "generation": "1791367002392698",
+      "size": 1764,
+      "md5_hash": "kPzRAQUN/iia+oQhLSPVdA==",
+      "crc32c_hash": "4AA0ow=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/expandReferenceLagVector.m",
+      "relative": "workspace/+fpf/expandReferenceLagVector.m",
+      "generation": "1791367002400208",
+      "size": 1450,
+      "md5_hash": "3L4B7aVSjbRnw14nFGTlIg==",
+      "crc32c_hash": "Ntt6Tw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/extractSolverMetrics.m",
+      "relative": "workspace/+fpf/extractSolverMetrics.m",
+      "generation": "1791367002304392",
+      "size": 1281,
+      "md5_hash": "mYQQu1pEbeD1WV65CKBcDw==",
+      "crc32c_hash": "XZMwNQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/generateInitialPoints.m",
+      "relative": "workspace/+fpf/generateInitialPoints.m",
+      "generation": "1791367002393833",
+      "size": 2402,
+      "md5_hash": "P0BORf2jZNGCfOjOFSCNpA==",
+      "crc32c_hash": "eZy+9Q=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/generateReference.m",
+      "relative": "workspace/+fpf/generateReference.m",
+      "generation": "1791367002296008",
+      "size": 192,
+      "md5_hash": "yHcVkjgxBoFCzbdz/cywmQ==",
+      "crc32c_hash": "O9kUpA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/generateSincReference.m",
+      "relative": "workspace/+fpf/generateSincReference.m",
+      "generation": "1791367002320695",
+      "size": 474,
+      "md5_hash": "gTxndNQQAds6YVxIcXbmIA==",
+      "crc32c_hash": "3VYWRA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/handleRunFailure.m",
+      "relative": "workspace/+fpf/handleRunFailure.m",
+      "generation": "1791367002403101",
+      "size": 325,
+      "md5_hash": "cIh1IfGRsG+UM4Q5GHReQQ==",
+      "crc32c_hash": "6uCSZw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/initializeRunResult.m",
+      "relative": "workspace/+fpf/initializeRunResult.m",
+      "generation": "1791367002413353",
+      "size": 919,
+      "md5_hash": "1MzMS60Xsn/o4jgIuT+1Hw==",
+      "crc32c_hash": "DL49AA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/isLagResponseNormalized.m",
+      "relative": "workspace/+fpf/isLagResponseNormalized.m",
+      "generation": "1791367002414318",
+      "size": 331,
+      "md5_hash": "JjLG4dD0wiaB0THj27mR2w==",
+      "crc32c_hash": "Glo/iQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/isReferenceNormalized.m",
+      "relative": "workspace/+fpf/isReferenceNormalized.m",
+      "generation": "1791367002393083",
+      "size": 692,
+      "md5_hash": "GnHy2YT1bBiNRAtN8x/0hQ==",
+      "crc32c_hash": "X4inuw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/jsonSafe.m",
+      "relative": "workspace/+fpf/jsonSafe.m",
+      "generation": "1791367002384716",
+      "size": 907,
+      "md5_hash": "4GeWzxID+7Mh07DQVIqS2g==",
+      "crc32c_hash": "c+W+aQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/mergeBatchResults.m",
+      "relative": "workspace/+fpf/mergeBatchResults.m",
+      "generation": "1791367002285022",
+      "size": 3406,
+      "md5_hash": "bQeAKkblC9aOHIr1hrnKTg==",
+      "crc32c_hash": "lxRNlw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/multiplyPolynomialMatrices.m",
+      "relative": "workspace/+fpf/multiplyPolynomialMatrices.m",
+      "generation": "1791367002243848",
+      "size": 663,
+      "md5_hash": "GSlY0I+KZPA5owaM8ystHQ==",
+      "crc32c_hash": "VESasw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/multiplyPolynomialMatrixByConstant.m",
+      "relative": "workspace/+fpf/multiplyPolynomialMatrixByConstant.m",
+      "generation": "1791367002416132",
+      "size": 549,
+      "md5_hash": "4wgmHC8ocoEy0oWTv/rXJg==",
+      "crc32c_hash": "QWYk8Q=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/mziObjective.m",
+      "relative": "workspace/+fpf/mziObjective.m",
+      "generation": "1791367002368616",
+      "size": 331,
+      "md5_hash": "rIjJmxc1WNFNOffIYUWQSA==",
+      "crc32c_hash": "9Kb44g=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/mziSMatrixCoefficients.m",
+      "relative": "workspace/+fpf/mziSMatrixCoefficients.m",
+      "generation": "1791367002301332",
+      "size": 1851,
+      "md5_hash": "KbZiA019FZwXwaNOdLtlGQ==",
+      "crc32c_hash": "K2b20g=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/optimizeMzi.m",
+      "relative": "workspace/+fpf/optimizeMzi.m",
+      "generation": "1791367002302961",
+      "size": 2255,
+      "md5_hash": "Sl9zzqqxDJjWXRO2Z2hOmQ==",
+      "crc32c_hash": "B7T3/Q=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/optimizeReference.m",
+      "relative": "workspace/+fpf/optimizeReference.m",
+      "generation": "1791367002297077",
+      "size": 1724,
+      "md5_hash": "RzFsxVs/mZ0TJbAH/BYvJg==",
+      "crc32c_hash": "yXlt+g=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/phaseShiftPattern.m",
+      "relative": "workspace/+fpf/phaseShiftPattern.m",
+      "generation": "1791367002331592",
+      "size": 379,
+      "md5_hash": "F6ebAtFn3mFkrNS1m9jejg==",
+      "crc32c_hash": "3yszFg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/plotResponses.m",
+      "relative": "workspace/+fpf/plotResponses.m",
+      "generation": "1791367002336287",
+      "size": 1309,
+      "md5_hash": "k2ZlFNo3xR+GMVicHHsTyQ==",
+      "crc32c_hash": "Zw+TlQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/prepareBatchPool.m",
+      "relative": "workspace/+fpf/prepareBatchPool.m",
+      "generation": "1791367002368891",
+      "size": 1025,
+      "md5_hash": "uHxe+eRXVRad7tob7UF/9w==",
+      "crc32c_hash": "t7wn3Q=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/prepareTrialPool.m",
+      "relative": "workspace/+fpf/prepareTrialPool.m",
+      "generation": "1791367002349516",
+      "size": 1537,
+      "md5_hash": "PBQvbeonQ4mAQZOItQXMAQ==",
+      "crc32c_hash": "I4+AUw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/printRunSummary.m",
+      "relative": "workspace/+fpf/printRunSummary.m",
+      "generation": "1791367002369139",
+      "size": 1346,
+      "md5_hash": "O0kExujyD1djtD84yqV2sw==",
+      "crc32c_hash": "hg3JXg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/readScalarField.m",
+      "relative": "workspace/+fpf/readScalarField.m",
+      "generation": "1791367002275781",
+      "size": 355,
+      "md5_hash": "7Z1GW8cqgfTFhPJIhuYQhQ==",
+      "crc32c_hash": "pHXIHw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/realizedSMatrixLagCoefficients.m",
+      "relative": "workspace/+fpf/realizedSMatrixLagCoefficients.m",
+      "generation": "1791367002358004",
+      "size": 813,
+      "md5_hash": "15chgr2htiopI5987+Wsxg==",
+      "crc32c_hash": "AVYv1g=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/recordRunFailure.m",
+      "relative": "workspace/+fpf/recordRunFailure.m",
+      "generation": "1791367002365011",
+      "size": 290,
+      "md5_hash": "wcJpnKjEl0pyao1KANXrdQ==",
+      "crc32c_hash": "XfRORA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/referenceObjective.m",
+      "relative": "workspace/+fpf/referenceObjective.m",
+      "generation": "1791367002320171",
+      "size": 598,
+      "md5_hash": "DuOA9cMqU/5ddVZG/VTydQ==",
+      "crc32c_hash": "4trmJg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/referenceSMatrixCoefficients.m",
+      "relative": "workspace/+fpf/referenceSMatrixCoefficients.m",
+      "generation": "1791367002301496",
+      "size": 511,
+      "md5_hash": "xgPNX1xROxCIRhFfZq49OA==",
+      "crc32c_hash": "e7t/hA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/run.m",
+      "relative": "workspace/+fpf/run.m",
+      "generation": "1791367002333880",
+      "size": 5019,
+      "md5_hash": "wxY2Ss+3jz0ikx4RGbh6Hw==",
+      "crc32c_hash": "7XJ+dw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/runGlobalSolver.m",
+      "relative": "workspace/+fpf/runGlobalSolver.m",
+      "generation": "1791367002307887",
+      "size": 6512,
+      "md5_hash": "0htWI+mknALpGFZYaFTM6A==",
+      "crc32c_hash": "BgV7qg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/runReportedTrial.m",
+      "relative": "workspace/+fpf/runReportedTrial.m",
+      "generation": "1791367002311784",
+      "size": 1313,
+      "md5_hash": "qBF21o9cGC5kZyYQxkH/Yg==",
+      "crc32c_hash": "YtybGA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/runSweep.m",
+      "relative": "workspace/+fpf/runSweep.m",
+      "generation": "1791367002378919",
+      "size": 2222,
+      "md5_hash": "vMibfsClf105N2DEqeQh/g==",
+      "crc32c_hash": "xJEgwQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/seedTrialStage.m",
+      "relative": "workspace/+fpf/seedTrialStage.m",
+      "generation": "1791367002361525",
+      "size": 915,
+      "md5_hash": "4Ok5PoaKd6CJqBjjBXs9UA==",
+      "crc32c_hash": "wmW1qA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/signalValuePolynomials.m",
+      "relative": "workspace/+fpf/signalValuePolynomials.m",
+      "generation": "1791367002362545",
+      "size": 790,
+      "md5_hash": "94lPfBJ59TqutOSkmyUHIw==",
+      "crc32c_hash": "IrpnFQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/stopWhenObjectiveStalls.m",
+      "relative": "workspace/+fpf/stopWhenObjectiveStalls.m",
+      "generation": "1791367002370390",
+      "size": 1855,
+      "md5_hash": "Eu5b40uNKx6MszfeFBYAQg==",
+      "crc32c_hash": "MNWCFg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/summarizeSweep.m",
+      "relative": "workspace/+fpf/summarizeSweep.m",
+      "generation": "1791367002335280",
+      "size": 1933,
+      "md5_hash": "lYXVnPYHMWNTXPLIWy1r7A==",
+      "crc32c_hash": "cHzRfQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/sweepSize.m",
+      "relative": "workspace/+fpf/sweepSize.m",
+      "generation": "1791367002351216",
+      "size": 1581,
+      "md5_hash": "0gGc3RbMvP1ioUbs63sXRw==",
+      "crc32c_hash": "dKGOxA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/trialParameters.m",
+      "relative": "workspace/+fpf/trialParameters.m",
+      "generation": "1791367002349370",
+      "size": 985,
+      "md5_hash": "VkuOYVf69RtH/GcSQ/NjLA==",
+      "crc32c_hash": "2GXeIw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/unpackMziDesign.m",
+      "relative": "workspace/+fpf/unpackMziDesign.m",
+      "generation": "1791367002325894",
+      "size": 562,
+      "md5_hash": "wAL4mEtQ1GqqgYofDrNACA==",
+      "crc32c_hash": "L8UA1Q=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/validateReferenceCache.m",
+      "relative": "workspace/+fpf/validateReferenceCache.m",
+      "generation": "1791367002331152",
+      "size": 876,
+      "md5_hash": "Uv45cXjlhqSANwaIdYlJSg==",
+      "crc32c_hash": "ckRy1g=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/writeLiveJson.m",
+      "relative": "workspace/+fpf/writeLiveJson.m",
+      "generation": "1791367002290200",
+      "size": 599,
+      "md5_hash": "5hJzLn2PqqjRYxvylna7BQ==",
+      "crc32c_hash": "D2D8JQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/+fpf/writeRunArtifacts.m",
+      "relative": "workspace/+fpf/writeRunArtifacts.m",
+      "generation": "1791367002307704",
+      "size": 2077,
+      "md5_hash": "k0CAn11M8azuakKq1AuxKA==",
+      "crc32c_hash": "Y+vXtg=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/cloud/live_reporter.py",
+      "relative": "workspace/cloud/live_reporter.py",
+      "generation": "1791367002236997",
+      "size": 17103,
+      "md5_hash": "IbYq0nWoqSfymFmuB6LAGw==",
+      "crc32c_hash": "SbJPAw=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/liveSmokeTrial.m",
+      "relative": "workspace/liveSmokeTrial.m",
+      "generation": "1791367002308785",
+      "size": 500,
+      "md5_hash": "2LNmKZjZKhp3NdAxtlhvtw==",
+      "crc32c_hash": "+gi+xQ=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/main.m",
+      "relative": "workspace/main.m",
+      "generation": "1791367002349819",
+      "size": 4288,
+      "md5_hash": "R7c9RckzpLvWkJV+uFVN6Q==",
+      "crc32c_hash": "RR7GQA=="
+    },
+    {
+      "name": "outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/workspace/parallelSweepTest.m",
+      "relative": "workspace/parallelSweepTest.m",
+      "generation": "1791367002333757",
+      "size": 19321,
+      "md5_hash": "k2AHxBBMS5qXfY4Pau2Agw==",
+      "crc32c_hash": "/vWSVw=="
+    }
+  ],
+  "local_sha256": {
+    "live/summary.json": "476b4ebe9a452b8ce923502c49e50ccd14b90b10b28d244a6e44f5a8ee814a6c",
+    "live/tasks/00000/latest.json": "8dbcb4931d9120bbaddb7d660493cdfa0b70f42b081409c8a9757a5de088c010",
+    "live/tasks/00000/latest_trial.json": "28811579a8f325771ddc765293f9097b3d752614df5d057d4c4c85fd9847fceb",
+    "live/tasks/00000/trials/17ce4ebc03b444780ee56e25425915f8e1f58935fd62694aeefd4d8b343446ce.jsonl.gz": "17ce4ebc03b444780ee56e25425915f8e1f58935fd62694aeefd4d8b343446ce",
+    "live/tasks/00000/trials/b0faee5cfac68ee6aeda9894a0a7ce3c1a78893f833c2fdf309214949002c389.jsonl.gz": "b0faee5cfac68ee6aeda9894a0a7ce3c1a78893f833c2fdf309214949002c389",
+    "results/trial_shard_00000.mat": "c01d26e59ab54542b8d036cafe906c000133e8ca7e7ad8b6517d1b611c1d2aed",
+    "tasks/00000/_TRANSFER_COMPLETE.json": "3efb9fbc61474eafaae583db0e098bcf371a2092e80243dd9890a445f54bed2d",
+    "tasks/00000/logs/matlab-01.log": "777d2d961bde424650832cd34ee116df3933f0796b99fd58ae36540482d57cd1",
+    "workspace/+fpf/TrialReporter.m": "6a2889502356d54dac3fa80bc27d3979371402cf82e0a01fd8c5aac8337a81ae",
+    "workspace/+fpf/aggregateFavorability.m": "902d0d37b40d2fd9b70d0a7cc703abf991e8040856987e9f7ca810fd51761112",
+    "workspace/+fpf/autocorrelationDcFirst.m": "250da9bb34ed65b1583043db357461c2bf0e7c9dd63240bb8e9768e64cde6d88",
+    "workspace/+fpf/batchWorkIndices.m": "16c4d919c43187d92b6de2bd02fa8971fc59a6aa7f5a18aa8c6685a4dcfaa294",
+    "workspace/+fpf/benchmarkConfig.m": "fccd5681cc0a9a60c94b873a121f88608883ae3f8d1f87ecbea70c929f4c1ffa",
+    "workspace/+fpf/chebyshevExtrema.m": "cd13022e355f7207126a286cdf0751b4ea524ac721ff60e1a577c0c1d463eae9",
+    "workspace/+fpf/chebyshevTCoefficients.m": "77920366badfa8195a4d1a8394dd259222ae8e6184d09f5c9e172687baea8da8",
+    "workspace/+fpf/chebyshevUCoefficients.m": "6af11f940af1b0530d3eb712b946c0034c7817a1a52be8ea2f3471bc3bd1ac25",
+    "workspace/+fpf/clearRunArtifacts.m": "57dd3e326f971d390e4e549fb74c1cd2703d78e33285f451f753f7d7810ecc20",
+    "workspace/+fpf/complexHarmonicExtrema.m": "1e6ce6dd26dd56599fb3792f225c6b2ff85bbf77aec19e289afb98b53580a6fe",
+    "workspace/+fpf/csv_export.m": "2794eae4abd4a9a588f8d120d5ab7cc57af24a50619b9de2f3a6d8245eed2646",
+    "workspace/+fpf/currentReporter.m": "ee1bc6feafe3d1308100dfea85e33f3992369e2bf8fb9bb662792a670b40a6d9",
+    "workspace/+fpf/defaultCsvPath.m": "3536512e3bad3fa659c31ad9379873c6984535c6591657ff3f03aac622b69119",
+    "workspace/+fpf/endToEndError.m": "9d6c5440132d8beb16b8ec5e827803b896d7eccb1887ba502a2887258ad856c4",
+    "workspace/+fpf/evaluateCosineLagResponse.m": "e61589146f0501061e80c4668e6e89ec79e2d0c3fe7e05dfed8e33a0894621c3",
+    "workspace/+fpf/evaluateLagResponse.m": "64f57e4624d8083d4e223188c5f1a1d0f629bd7d6e5a3bb092fa1b66507007f0",
+    "workspace/+fpf/evaluateMziSolution.m": "6921893aa4ac6174c74630d92d3dfc7cdd3ff284bcd57cb8e87d47d8a90eabc9",
+    "workspace/+fpf/expandReferenceLagVector.m": "04785dba7ad1b413636a5f9601831b3ba9da57098bc0bfcdf23fe05d2c5baf32",
+    "workspace/+fpf/extractSolverMetrics.m": "f45d8196a90d92c551cbdcea1a79cca87775ec1bbca3502960f443b7e4f761c5",
+    "workspace/+fpf/generateInitialPoints.m": "c9d2374f25c7c86a0b8751564f38ce4830ba5d044ecb26f3cad7fcc02f9d6105",
+    "workspace/+fpf/generateReference.m": "2245ebd409dc6459bda97e5ef9abcc8b9bf93a834687659fe06238d15ae0f643",
+    "workspace/+fpf/generateSincReference.m": "ff1ba0180584261ff85c20f18b454a4c60e63677462e625eea10672bdedebeb8",
+    "workspace/+fpf/handleRunFailure.m": "c137f3dffbb5e9f3715a0891bc28033d30856101dece33248a670689250c0148",
+    "workspace/+fpf/initializeRunResult.m": "421e98e77ba0c39730169d7c9e1a8dd039dc8b651084201f77b52af3ee972e5b",
+    "workspace/+fpf/isLagResponseNormalized.m": "99a30a7b2a1e0d8a26e9f6cfff3e399487d6095e6c19ac21353381288eae30c9",
+    "workspace/+fpf/isReferenceNormalized.m": "9e7c089a9e4eab74e0200e34972c363ddca1824ddfd9c519428e6cb421e658c8",
+    "workspace/+fpf/jsonSafe.m": "cbe7341ad3c201e592a4602ad0ed228d819fcc985870db2896a380791d51329e",
+    "workspace/+fpf/mergeBatchResults.m": "67cc261963d8725f3de7f3de5bc2937c36ae0ac6429e59c1e34fafc1fdb91a2b",
+    "workspace/+fpf/multiplyPolynomialMatrices.m": "13f8d75f2f1c1f9bf0431cf9e5577b664f65782aefdf78f68ddc6394e1b8f5b2",
+    "workspace/+fpf/multiplyPolynomialMatrixByConstant.m": "36c1cc17a5ed3d7ad1df7c2076c661a141d8e821627fb5d875fc2bda97fcf510",
+    "workspace/+fpf/mziObjective.m": "dcee4e0b10b1a5fb0d564407d63429c4f509ad047703b6d221d1fb99326da3cd",
+    "workspace/+fpf/mziSMatrixCoefficients.m": "f3f5d432f57f1d5883fc732aad00e57fa5b3bd59c23c83a401abf77d7ae8c7f4",
+    "workspace/+fpf/optimizeMzi.m": "5a8cb3b288c8af984bd74021a937a0d13ae0b0b7bbe303971f4dfe9d6a65edc3",
+    "workspace/+fpf/optimizeReference.m": "f17e535079a4d95a2555bfa45809428301bf3c3c92ec5ba600bc40d992ac4503",
+    "workspace/+fpf/phaseShiftPattern.m": "a671e3730bfe6617666ad4ffcd86c87ecc3f54a1174318f8519ba4f5c9fe70ff",
+    "workspace/+fpf/plotResponses.m": "be09ee5a643c58552da447d6e8f99975b73bcb6852d7a1e1dc2e42ad3a15658e",
+    "workspace/+fpf/prepareBatchPool.m": "d405d2daeb30bf42c76b131743c49ddc99f4a9820c821129545d2d05fa150d21",
+    "workspace/+fpf/prepareTrialPool.m": "8dca01c8fd86ff54c2fa073734e2a994df0368cdb3acc40c787636ffc7479ca9",
+    "workspace/+fpf/printRunSummary.m": "589b9774ca77b3702b41f31cc128fca75a8be27910cfac1db7ec130e4f6d1531",
+    "workspace/+fpf/readScalarField.m": "bdfbc4a24cd2a5350e573bf4271190cf85d27673ae6023ae42a4d0717e0497d7",
+    "workspace/+fpf/realizedSMatrixLagCoefficients.m": "8b89b92d26c8536e0a4b0af28cfc9a93b5b179e077d456995af5d18853f9d044",
+    "workspace/+fpf/recordRunFailure.m": "74ba681f6de47571a5474d4e88b84f0aa73b6880d175801df3848d2d91ffbb15",
+    "workspace/+fpf/referenceObjective.m": "8e5730725deed842f3e8a793f82ffc2fea760a238d11df0f3c6ff2e039ea4f52",
+    "workspace/+fpf/referenceSMatrixCoefficients.m": "90d79764109b0dca20485e9080d6b80dfc1df1f903b2e30760cdbb622f40fb4c",
+    "workspace/+fpf/run.m": "de569c0ab862c91012b37d7fa368538baee2a256a29bb18baf7b3557a70ab5e0",
+    "workspace/+fpf/runGlobalSolver.m": "3316ac2312a1ba02ac70f3d583a013dcc888941ea4981f15d49010484b0d0f74",
+    "workspace/+fpf/runReportedTrial.m": "e9b6c89baa31baccba09a9430d7b344980b60cb5db7af2c2a4ee50d7e62fa1f6",
+    "workspace/+fpf/runSweep.m": "815723c66909644d663a6e77786857b8161635e7c48532f08d330e3f163ed693",
+    "workspace/+fpf/seedTrialStage.m": "641c1a2b36b7443cfdb159ff8299b78fa2dacb1575bbc9776917c5e6c796bd0d",
+    "workspace/+fpf/signalValuePolynomials.m": "64bd97573c25b3096f8a269f73f52e9a32c4b04a24e14785b7d4e71dd40cf748",
+    "workspace/+fpf/stopWhenObjectiveStalls.m": "9e49abb8f5b2e285ae73c1a4625472e38bf3fc0d496d114767389dbe1a26891e",
+    "workspace/+fpf/summarizeSweep.m": "07b30ce554815b1d40194599a941127e29145df3cdc900d06ec25d962e96a188",
+    "workspace/+fpf/sweepSize.m": "f7c27c2d8fd0f8c8adac213fcf52ed84ecde6d75066e96d157a5fc51dc372d06",
+    "workspace/+fpf/trialParameters.m": "7b78ddaf033c1213fbc93cd00c54cea42c5a8926e93eef2e3abf11305f6da6d7",
+    "workspace/+fpf/unpackMziDesign.m": "1deb994f9da8dafa7b3f13309031ed9feba5321aca45476c882aa1e8de39b4e7",
+    "workspace/+fpf/validateReferenceCache.m": "9aa91f19d16d9f15766c6eed03c5b7f7fccd24b6d87f1ee9f6f5bdc7c99e9513",
+    "workspace/+fpf/writeLiveJson.m": "db4da2de970891b4f6ee441fdbf88c7e3d210f7006269a96eb067b05e495a66e",
+    "workspace/+fpf/writeRunArtifacts.m": "2600671c1a413363047a71c6dd467a555faa7d7d791feb350156602ba34ee9c0",
+    "workspace/cloud/live_reporter.py": "74e72fde4a59ebb74ddd2c96e82d89851c1f6038820df2b0ef4efea28d3bdc5a",
+    "workspace/liveSmokeTrial.m": "bcc38b0be3b584fcd7bb3f6b064d6735990f8fcac10050208b41665bc81bc615",
+    "workspace/main.m": "0f6df9bdb6c3da86fd3164762cb3cef2af5fbf8264acbd0eb0ffb064198f229e",
+    "workspace/parallelSweepTest.m": "fa36328bac76f7854c4ff5c1b5896eb12f491c84e61460537fbe067a82de09fd"
+  },
+  "downloaded_utc": "2026-10-07T10:04:16.831684+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "bucket": "strange-reducer-509621-e8-matlab-glop-cmp",
+  "content_type": "application/x-zip-compressed",
+  "crc32c_hash": "RUVILQ==",
+  "creation_time": "2026-10-28T17:48:29+0000",
+  "etag": "CKac992i3ZcDEAE=",
+  "generation": "1793209709481510",
+  "md5_hash": "Z33YDt43vbnF786zHtbUKA==",
+  "metageneration": 1,
+  "name": "desktop-backup-20261028-5182/glop-desktop-5182-trials-20261028.zip",
+  "size": 78258656,
+  "storage_class": "STANDARD",
+  "storage_class_update_time": "2026-10-28T17:48:29+0000",
+  "storage_url": "gs://strange-reducer-509621-e8-matlab-glop-cmp/desktop-backup-20261028-5182/glop-desktop-5182-trials-20261028.zip#1793209709481510",
+  "update_time": "2026-10-28T17:48:29+0000"
+}

@@ -1,0 +1,13 @@
+{
+  "jsonPayload": {
+    "available_inodes": 5444985,
+    "event": "workspace-storage",
+    "filesystem": "ext4",
+    "free_bytes": 70316154880,
+    "mountinfo": "368 359 8:1 /var/lib/google/matlab-cloud /work/shared rw,nosuid,nodev,relatime - ext4 /dev/sda1 rw,commit=30",
+    "path": "/work/shared",
+    "total_bytes": 101203873792,
+    "total_inodes": 6258720
+  },
+  "timestamp": "2026-10-05T21:01:23.711470859Z"
+}

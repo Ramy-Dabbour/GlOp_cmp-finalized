@@ -1,0 +1,12 @@
+2026-10-05T22:57:08.081335+00:00 Verified cloud project strange-reducer-509621-e8 and reusable MATLAB environment sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0.
+2026-10-05T22:57:34.219048+00:00 Quota-sized run: 3 tasks on 3 VMs, 8 MATLAB workers per VM (24 workers total). No extra queued tasks.
+2026-10-05T22:57:34.219048+00:00   CPUS: 8.0/200.0 used; room for 24 VMs.
+2026-10-05T22:57:34.220049+00:00   E2_CPUS: 0.0/24.0 used; room for 3 VMs.
+2026-10-05T22:57:34.221048+00:00   CPUS_ALL_REGIONS: 8.0/32.0 used; room for 3 VMs.
+2026-10-05T22:57:34.222047+00:00   INSTANCES: 1.0/24.0 used; room for 23 VMs.
+2026-10-05T22:57:34.223049+00:00   SSD_TOTAL_GB: 100.0/500.0 used; room for 4 VMs.
+2026-10-05T22:57:34.564816+00:00   IN_USE_ADDRESSES: 1.0/8.0 used; room for 7 VMs.
+2026-10-05T22:57:34.993687+00:00 Cloud run plan for GlOp_cmp: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\pool-per-vcpu\state\workflow-20261005T225631Z-5a7e7269\matlab-glop-cmp-20261005-225708-52013e-batch.json
+2026-10-05T22:57:34.994687+00:00 Entry points: main.m
+2026-10-05T22:57:34.997950+00:00 Results: gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-cmp-20261005-225708-52013e/
+2026-10-05T22:57:34.999997+00:00 PREVIEW ONLY: no source snapshot uploaded and no cloud compute submitted.

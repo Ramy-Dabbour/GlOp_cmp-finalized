@@ -1,0 +1,14 @@
+{
+  "run_id": "matlab-glop-cmp-20261026-1405",
+  "jobs": [
+    {
+      "job_id": "matlab-glop-cmp-20261026-1405",
+      "submitted_at": "2026-10-26T14:21:29.582631+00:00",
+      "uid": "matlab-glop-cmp-20-ec6fa5ce-93cc-4baf0"
+    }
+  ],
+  "current_job": "matlab-glop-cmp-20261026-1405",
+  "last_checked_at": "2026-10-27T14:42:21.377209+00:00",
+  "batch_state": "RUNNING",
+  "completed_trials": 11283
+}

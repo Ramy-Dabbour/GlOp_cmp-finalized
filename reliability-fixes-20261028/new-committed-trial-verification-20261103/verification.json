@@ -1,0 +1,18 @@
+{
+  "verified_at_utc": "2026-11-03T11:59:46.777500+00:00",
+  "trial_id": 24224,
+  "task_index": 3,
+  "new_since_recovery_snapshot": true,
+  "completed_at": "2026-11-03T11:56:18.197Z",
+  "outcome": "nonconverged",
+  "all_checks_passed": true,
+  "checks": [
+    "GCS size and MD5",
+    "MAT and JSON SHA256",
+    "source/config/run identity",
+    "trial parameters and shard",
+    "MAT readability and full optimization results",
+    "MAT/JSON outcome agreement"
+  ],
+  "cloud_commit": "gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00003/trial_000000024224.commit.json"
+}

@@ -1,0 +1,35 @@
+{
+  "verified_at_utc": "2026-11-03T10:54:42.983949+00:00",
+  "run_id": "matlab-glop-cmp-20261028-fixes",
+  "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+  "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+  "all_checks_passed": true,
+  "verified_committed_trials": 27907,
+  "total_trials": 77760,
+  "remaining_trials": 49853,
+  "by_task": {
+    "0": 7590,
+    "1": 7262,
+    "2": 7021,
+    "3": 6034
+  },
+  "outcomes": {
+    "nonconverged": 22339,
+    "succeeded": 5568
+  },
+  "checkpoint_objects_listed": 83721,
+  "downloaded_export_files": 24,
+  "source_manifest_matches": true,
+  "full_mat_results_verified": true,
+  "checks": [
+    "GCS object MD5 and size",
+    "MAT and sidecar SHA-256",
+    "run/source/config identities",
+    "shard assignment and unique trial IDs",
+    "frozen-grid parameters",
+    "MAT readability",
+    "MAT/JSON outcomes and complete optimization results"
+  ],
+  "elapsed_seconds": 297.2029999999795,
+  "backup_directory": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\cloud-results\\matlab-glop-cmp-20261028-fixes\\recovery-backup-20261103"
+}

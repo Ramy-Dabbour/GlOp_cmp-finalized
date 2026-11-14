@@ -1,0 +1,11 @@
+[2026-10-15 16:15:10 +03:00] Installed recovery task 'GlOp_cmp Recovery Verification 20261015': checks every minute while signed in and at sign-in.
+[2026-10-15 16:15:14 +03:00] Local benchmark supervisor PID 23180. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-runs\recovery-verification-20261015\local-results\supervisor.log
+[2026-10-15 16:15:14 +03:00] Started attempt 20261015-131514-261-23180, worker PID 7676. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-runs\recovery-verification-20261015\local-results\attempts\20261015-131514-261-23180\matlab.log
+[2026-10-15 16:17:04 +03:00] Attempt 20261015-131514-261-23180 exited with code . Outcome: failed.
+[2026-10-15 16:17:04 +03:00] Restarting in 5 seconds from the saved trials. STOP suppresses restart.
+[2026-10-15 16:17:09 +03:00] Started attempt 20261015-131709-390-23180, worker PID 13488. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-runs\recovery-verification-20261015\local-results\attempts\20261015-131709-390-23180\matlab.log
+[2026-10-15 16:19:17 +03:00] Local benchmark supervisor PID 19784. Live log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-runs\recovery-verification-20261015\local-results\supervisor.log
+[2026-10-15 16:19:17 +03:00] Previous attempt 20261015-131709-390-23180 was interrupted. Resuming committed results.
+[2026-10-15 16:19:17 +03:00] Started attempt 20261015-131917-404-19784, worker PID 17600. Log: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\local-runs\recovery-verification-20261015\local-results\attempts\20261015-131917-404-19784\matlab.log
+[2026-10-15 16:21:43 +03:00] Attempt 20261015-131917-404-19784 exited with code 0. Outcome: completed.
+[2026-10-15 16:21:43 +03:00] BENCHMARK COMPLETED SUCCESSFULLY. MAT and CSV exports are saved in the project directory.

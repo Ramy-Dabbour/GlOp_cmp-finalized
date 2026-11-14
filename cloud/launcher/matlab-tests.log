@@ -1,0 +1,32 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\Dell\Documents\MATLAB\FIR_Photonic_Filter__Global_Optimization\Module_1__RefGen] 
+[Warning: Name is nonexistent or not a directory: C:\Users\Dell\Documents\MATLAB\FIR_Photonic_Filter__Global_Optimization] 
+Running parallelSweepTest
+Starting parallel pool (parpool) using the 'Processes' profile ...
+06-Oct-2026 01:53:48: Job Running. Waiting for parallel pool workers to connect ...
+Connected to parallel pool with 8 workers.
+Batch pool: 8 process workers, one computational thread per worker.
+Parallel pool using the 'Processes' profile is shutting down.
+.Executing 96 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 96 independent trials with 2 pool workers.
+Parallel pool using the 'Processes' profile is shutting down.
+....Executing 96 independent trials with 0 pool workers.
+..Executing 0 independent trials with 0 pool workers.
+... .......
+Done parallelSweepTest
+__________
+
+  1×17 TestResult array with properties:
+
+    Name
+    Passed
+    Failed
+    Incomplete
+    Duration
+    Details
+
+Totals:
+   17 Passed, 0 Failed, 0 Incomplete.
+   152.9401 seconds testing time.
+

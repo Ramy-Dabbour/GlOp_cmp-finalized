@@ -1,0 +1,14 @@
+{
+  "run_id": "matlab-glop-recovery-20261026-1355",
+  "jobs": [
+    {
+      "job_id": "matlab-glop-recovery-20261026-1355",
+      "submitted_at": "2026-10-26T13:59:30.299931+00:00",
+      "uid": "matlab-glop-recove-2ce8e332-2be5-4afd0"
+    }
+  ],
+  "current_job": "matlab-glop-recovery-20261026-1355",
+  "last_checked_at": "2026-10-26T14:14:43.820692+00:00",
+  "batch_state": "SUCCEEDED",
+  "completed_trials": 24
+}

@@ -1,0 +1,19 @@
+{
+  "approved_at_utc": "2026-10-28T20:27:17.730349+00:00",
+  "test_compatibility": "fopen(all) -> openedFiles; assertions unchanged",
+  "test_before_sha256": "805a04a4aa6e88098316c1b2871cf5244c31161ffaa0f917c7049d4eb5905e1d",
+  "test_after_sha256": "8d98bd6928fe0253b807461507e9a68b18fc04463188494758f88cd95193f5c4",
+  "delta_ladder_dB": [
+    -20,
+    -25,
+    -30,
+    -35,
+    -40,
+    -45,
+    -50,
+    -55,
+    -60
+  ],
+  "analysis_plan_sha256": "d51c49917e8ccd3cb4cd9d3d766b6e92eac7e281a286aa5d825134bf627f908d",
+  "json_export_patch_approved": true
+}

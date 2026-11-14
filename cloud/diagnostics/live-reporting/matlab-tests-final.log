@@ -1,0 +1,69 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\Dell\Documents\MATLAB\FIR_Photonic_Filter__Global_Optimization\Module_1__RefGen] 
+[Warning: Name is nonexistent or not a directory: C:\Users\Dell\Documents\MATLAB\FIR_Photonic_Filter__Global_Optimization] 
+Running liveReportingTest
+Executing 3 independent trials with 0 pool workers.
+Executing 3 independent trials with 0 pool workers.
+..Executing 1 independent trials with 0 pool workers.
+.Executing 1 independent trials with 0 pool workers.
+
+================================================================================
+Error occurred in liveReportingTest/realTwoStageTrialPreservesNumericalResults and it did not run to completion.
+    ---------
+    Error ID:
+    ---------
+    'MATLAB:json:UnsupportedDataType'
+    --------------
+    Error Details:
+    --------------
+    Error using jsonencode
+    Unable to encode objects of class function_handle as JSON-formatted text.
+    
+    Error in fpf.writeLiveJson (line 9)
+        fprintf(file,'%s',jsonencode(fpf.jsonSafe(value)));
+    
+    Error in fpf.TrialReporter/finish (line 58)
+                fpf.writeLiveJson(path,record);
+    
+    Error in fpf.runReportedTrial (line 28)
+            reporter.finish(result,observedError);
+    
+    Error in fpf.runSweep (line 31)
+        parfor (workIndex = 1:numberOfTests,workerLimit)
+    
+    Error in liveReportingTest/realTwoStageTrialPreservesNumericalResults (line 71)
+                fpf.runSweep(config,1,0,LiveDirectory=folder.Folder);
+================================================================================
+.Executing 8 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 8 independent trials with 2 pool workers.
+Parallel pool using the 'Processes' profile is shutting down.
+.
+Done liveReportingTest
+__________
+
+Running parallelSweepTest
+Starting parallel pool (parpool) using the 'Processes' profile ...
+07-Oct-2026 12:10:50: Job Queued. Waiting for parallel pool job with ID 2 to start ...
+Connected to parallel pool with 8 workers.
+Batch pool: 8 process workers, one computational thread per worker.
+Parallel pool using the 'Processes' profile is shutting down.
+.Executing 96 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 96 independent trials with 2 pool workers.
+Parallel pool using the 'Processes' profile is shutting down.
+....Executing 96 independent trials with 0 pool workers.
+..Executing 0 independent trials with 0 pool workers.
+... .......
+Done parallelSweepTest
+__________
+
+Failure Summary:
+
+     Name                                                          Failed  Incomplete  Reason(s)
+    =============================================================================================
+     liveReportingTest/realTwoStageTrialPreservesNumericalResults    X         X       Errored.
+{Error using assert
+Assertion failed.
+} 

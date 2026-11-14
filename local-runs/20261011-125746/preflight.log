@@ -1,0 +1,23 @@
+MATLAB version: 26.1.0.3276743 (R2026a) Update 3
+    {'Processes'}    {'Threads'}
+
+LOCAL_PROFILE: Processes; type=Local; workers=2; threads=1
+Beginning validation for cluster profile 'Processes'
+Cluster connection test (parcluster)
+   Stage started at 12:58:54.
+   Finished at 12:58:55. Running duration <1 sec.
+..........................................................................PASSED
+
+Finished validation with status: PASSED
+Validation report written to 'C:/Users/Dell/Documents/MATLAB/GlOp_cmp/local-runs/20261011-125746/profile-validation.txt'
+Running parallelSweepTest
+Executing 96 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 96 independent trials with 2 pool workers.
+Parallel pool using the 'Processes' profile is shutting down.
+.
+Done parallelSweepTest
+__________
+
+LOCAL_PREFLIGHT_PASSED

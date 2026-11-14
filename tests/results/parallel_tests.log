@@ -1,0 +1,55 @@
+Running parallelSweepTest
+Executing 96 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 96 independent trials with 2 pool workers.
+Parallel pool using the 'Processes' profile is shutting down.
+....Executing 96 independent trials with 0 pool workers.
+..Executing 0 independent trials with 0 pool workers.
+.... ......
+Done parallelSweepTest
+__________
+
+                                              Name                                              Passed    Failed    Incomplete    Duration      Details   
+    ________________________________________________________________________________________    ______    ______    __________    ________    ____________
+
+    {'parallelSweepTest/processPoolMatchesSerialWithSeededTrials'                          }    true      false       false         43.653    {1×1 struct}
+    {'parallelSweepTest/mapsEveryTrialInOriginalLoopOrder'                                 }    true      false       false        0.14788    {1×1 struct}
+    {'parallelSweepTest/mapsReorderedSubsetAcrossDimensionBoundaries'                      }    true      false       false       0.016819    {1×1 struct}
+    {'parallelSweepTest/fiveThousandBatchTasksCoverDefaultSweepExactlyOnce'                }    true      false       false        0.20514    {1×1 struct}
+    {'parallelSweepTest/serialSweepMatchesIndependentNestedLoopOracle'                     }    true      false       false        0.39372    {1×1 struct}
+    {'parallelSweepTest/sweepRejectsDuplicateGlobalTrials'                                 }    true      false       false        0.21649    {1×1 struct}
+    {'parallelSweepTest/emptyBatchAssignmentProducesEmptyResultColumns'                    }    true      false       false       0.099871    {1×1 struct}
+    {'parallelSweepTest/failedTrialsStayInDenominatorAndContributeNoMetrics'               }    true      false       false        0.20294    {1×1 struct}
+    {'parallelSweepTest/summaryMatchesOriginalGroupedFloatingPointSums'                    }    true      false       false        0.23459    {1×1 struct}
+    {'parallelSweepTest/summaryRejectsIncompleteOrDuplicateWork(invalidCoverage=missing)'  }    true      false       false        0.21104    {1×1 struct}
+    {'parallelSweepTest/summaryRejectsIncompleteOrDuplicateWork(invalidCoverage=duplicate)'}    true      false       false         0.1717    {1×1 struct}
+    {'parallelSweepTest/mergesInterleavedShardsAndWritesMatchingMatAndCsv'                 }    true      false       false         4.5972    {1×1 struct}
+    {'parallelSweepTest/mergeRejectsInvalidShardSets(invalidShards=missing)'               }    true      false       false        0.27661    {1×1 struct}
+    {'parallelSweepTest/mergeRejectsInvalidShardSets(invalidShards=duplicateTask)'         }    true      false       false         0.3236    {1×1 struct}
+    {'parallelSweepTest/mergeRejectsInvalidShardSets(invalidShards=configuration)'         }    true      false       false         0.2504    {1×1 struct}
+    {'parallelSweepTest/mergeRejectsInvalidShardSets(invalidShards=taskCount)'             }    true      false       false        0.58294    {1×1 struct}
+
+Executing 2 independent trials with 0 pool workers.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+Executing 2 independent trials with 2 pool workers.
+REAL_SOLVER_SERIAL_PARALLEL_MATCH
+Parallel pool using the 'Processes' profile is shutting down.
+runSweep.m
+         id: 'PFBNS'
+    message: 'The entire array or structure 'runTrial' is a broadcast variable. This might result in unnecessary communication overhead.'
+        fix: 0
+       line: 27
+     column: [21 28]
+
+parallelSweepTest.m
+  2×1 struct array with fields:
+
+    id
+    message
+    fix
+    line
+    column
+
+CODE_ANALYZER_ISSUES=3

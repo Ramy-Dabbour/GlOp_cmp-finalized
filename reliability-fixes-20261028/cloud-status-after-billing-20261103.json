@@ -1,0 +1,2248 @@
+{
+  "checked_utc": "2026-11-03T10:33:38.126189+00:00",
+  "evidence_directory": "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\reliability-fixes-20261028\\cloud-status-20261103T103327Z",
+  "batch_status": {
+    "state": "FAILED",
+    "statusEvents": [
+      {
+        "description": "Job state is set from QUEUED to SCHEDULED for job projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes.",
+        "eventTime": "2026-10-28T20:32:42.409823438Z",
+        "type": "STATUS_CHANGED"
+      },
+      {
+        "description": "Job state is set from SCHEDULED to RUNNING for job projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes.",
+        "eventTime": "2026-10-28T20:39:44.132328802Z",
+        "type": "STATUS_CHANGED"
+      },
+      {
+        "description": "Job state is set from RUNNING to FAILED for job projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes.",
+        "eventTime": "2026-10-31T14:49:31.544045160Z",
+        "type": "STATUS_CHANGED"
+      },
+      {
+        "description": "Job gets non-retryable information Batch Error: code - CODE_GCE_PERMISSION_DENIED, description - googleapi: Error 403: This API method requires billing to be enabled. Please enable billing on project #1064328294968 by visiting https://console.developers.google.com/billing/enable?project=1064328294968 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\nDetails:\n[\n  {\n    \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n    \"domain\": \"googleapis.com\",\n    \"metadata\": {\n      \"consoleUrl\": \"https://console.developers.google.com/billing/enable?project=1064328294968\",\n      \"consumer\": \"projects/1064328294968\",\n      \"containerInfo\": \"1064328294968\",\n      \"service\": \"compute.googleapis.com\"\n    },\n    \"reason\": \"BILLING_DISABLED\"\n  },\n  {\n    \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n    \"locale\": \"en-US\",\n    \"message\": \"This API method requires billing to be enabled. Please enable billing on project #1064328294968 by visiting https://console.developers.google.com/billing/enable?project=1064328294968 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n  },\n  {\n    \"@type\": \"type.googleapis.com/google.rpc.Help\",\n    \"links\": [\n      {\n        \"description\": \"Google developers console billing\",\n        \"url\": \"https://console.developers.google.com/billing/enable?project=1064328294968\"\n      }\n    ]\n  }\n]\n, forbidden.",
+        "eventTime": "2026-10-31T22:16:02.222510042Z",
+        "type": "OPERATIONAL_INFO"
+      }
+    ],
+    "taskGroups": {
+      "group0": {
+        "counts": {
+          "FAILED": "4"
+        },
+        "instances": [
+          {
+            "machineType": "e2-standard-8",
+            "provisioningModel": "STANDARD",
+            "taskPack": "1",
+            "bootDisk": {
+              "type": "pd-balanced",
+              "sizeGb": "100",
+              "image": "projects/batch-custom-image/global/images/batch-cos-stable-official-20261016-00-p00"
+            }
+          }
+        ]
+      }
+    },
+    "runDuration": "238187.411716358s"
+  },
+  "identity_matches": true,
+  "summary": {
+    "active_workers": 31,
+    "completed_trials": 27905,
+    "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+    "failed_trials": 0,
+    "nonconverged_trials": 22337,
+    "percent_complete": 35.88605967078189,
+    "published_trials": 27905,
+    "reporting_tasks": 4,
+    "run_id": "matlab-glop-cmp-20261028-fixes",
+    "schema_version": 1,
+    "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+    "stale_workers": 0,
+    "status": "running",
+    "succeeded_trials": 5568,
+    "task_count": 4,
+    "total_trials": 77760,
+    "updated_at": "2026-10-31T14:49:30.050495+00:00"
+  },
+  "latest_trial": {
+    "completed": true,
+    "completed_at": "2026-10-31T14:49:20.983Z",
+    "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+    "elapsed_seconds": 203.463182,
+    "error": 0.6810190028210835,
+    "evaluation_count_complete": true,
+    "evaluations": 38425,
+    "failure_identifier": "",
+    "failure_message": "",
+    "legacy_error": 0,
+    "legacy_evaluations": 0,
+    "mzi_evaluations": 38210,
+    "observed_evaluations": 38425,
+    "parameters": [
+      8,
+      0.2,
+      1,
+      2,
+      0,
+      14
+    ],
+    "reference_evaluations": 215,
+    "run_id": "matlab-glop-cmp-20261028-fixes",
+    "schema_version": 1,
+    "sha256": "4c4c0315137469f40a58228b17223f0260f140febf8f7eda2df85c6a84bcb291",
+    "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+    "started_at": "2026-10-31T14:45:57.518Z",
+    "status": "nonconverged",
+    "success": false,
+    "trial_id": 29054
+  },
+  "tasks": [
+    {
+      "active_workers": 8,
+      "assigned_trials": 19440,
+      "checkpoint_prefix": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00000/",
+      "completed_trials": 7590,
+      "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+      "failed_trials": 0,
+      "failure_identifier": null,
+      "failure_message": null,
+      "finalized": false,
+      "global_total_trials": 77760,
+      "nonconverged_trials": 6076,
+      "pending_upload_errors": 0,
+      "published_trials": 7590,
+      "run_id": "matlab-glop-cmp-20261028-fixes",
+      "schema_version": 1,
+      "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+      "stale_workers": 0,
+      "status": "running",
+      "succeeded_trials": 1514,
+      "task_count": 4,
+      "task_index": 0,
+      "updated_at": "2026-10-31T14:49:22.676258+00:00",
+      "workers_per_task": 8
+    },
+    {
+      "active_workers": 7,
+      "assigned_trials": 19440,
+      "checkpoint_prefix": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00001/",
+      "completed_trials": 7261,
+      "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+      "failed_trials": 0,
+      "failure_identifier": null,
+      "failure_message": null,
+      "finalized": false,
+      "global_total_trials": 77760,
+      "nonconverged_trials": 5815,
+      "pending_upload_errors": 0,
+      "published_trials": 7261,
+      "run_id": "matlab-glop-cmp-20261028-fixes",
+      "schema_version": 1,
+      "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+      "stale_workers": 0,
+      "status": "running",
+      "succeeded_trials": 1446,
+      "task_count": 4,
+      "task_index": 1,
+      "updated_at": "2026-10-31T14:49:29.750081+00:00",
+      "workers_per_task": 8
+    },
+    {
+      "active_workers": 8,
+      "assigned_trials": 19440,
+      "checkpoint_prefix": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00002/",
+      "completed_trials": 7021,
+      "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+      "failed_trials": 0,
+      "failure_identifier": null,
+      "failure_message": null,
+      "finalized": false,
+      "global_total_trials": 77760,
+      "nonconverged_trials": 5638,
+      "pending_upload_errors": 0,
+      "published_trials": 7021,
+      "run_id": "matlab-glop-cmp-20261028-fixes",
+      "schema_version": 1,
+      "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+      "stale_workers": 0,
+      "status": "running",
+      "succeeded_trials": 1383,
+      "task_count": 4,
+      "task_index": 2,
+      "updated_at": "2026-10-31T14:49:24.757656+00:00",
+      "workers_per_task": 8
+    },
+    {
+      "active_workers": 8,
+      "assigned_trials": 19440,
+      "checkpoint_prefix": "outputs/matlab-glop-cmp-20261028-fixes/checkpoints/tasks/00003/",
+      "completed_trials": 6033,
+      "config_sha256": "cf3ace5e4fd430fa3ea4b3a12f810e968cc3b5fcde61d2a80455d97e3bc7aa65",
+      "failed_trials": 0,
+      "failure_identifier": null,
+      "failure_message": null,
+      "finalized": false,
+      "global_total_trials": 77760,
+      "nonconverged_trials": 4808,
+      "pending_upload_errors": 0,
+      "published_trials": 6033,
+      "run_id": "matlab-glop-cmp-20261028-fixes",
+      "schema_version": 1,
+      "source_sha256": "813470dcc18ac0f022405b9ef2ad2a8b7261adfed5420e29c6076d5d03bb8d31",
+      "stale_workers": 0,
+      "status": "running",
+      "succeeded_trials": 1225,
+      "task_count": 4,
+      "task_index": 3,
+      "updated_at": "2026-10-31T14:49:25.494005+00:00",
+      "workers_per_task": 8
+    }
+  ],
+  "batch_tasks": {
+    "tasks": [
+      {
+        "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0/tasks/0",
+        "status": {
+          "state": "FAILED",
+          "statusEvents": [
+            {
+              "eventTime": "2026-10-28T20:32:42.514393072Z",
+              "type": "CREATED",
+              "taskState": "PENDING"
+            },
+            {
+              "description": "Task state is updated from PENDING to ASSIGNED on zones/us-central1-a/instances/2248781657292137749",
+              "eventTime": "2026-10-28T20:39:44.131597412Z",
+              "type": "CREATED",
+              "taskState": "ASSIGNED"
+            },
+            {
+              "description": "Task state is updated from ASSIGNED to RUNNING on zones/us-central1-a/instances/2248781657292137749",
+              "eventTime": "2026-10-28T20:39:44.131599162Z",
+              "type": "RUNNING",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #0 with display name [prepare-and-restore] started.",
+              "eventTime": "2026-10-28T20:39:44.132328802Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+              "eventTime": "2026-10-28T20:40:12.030578301Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #1 with display name [durable-publisher] started.",
+              "eventTime": "2026-10-28T20:40:12.031228262Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+              "eventTime": "2026-10-28T20:40:12.031600242Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            }
+          ]
+        }
+      },
+      {
+        "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0/tasks/1",
+        "status": {
+          "state": "FAILED",
+          "statusEvents": [
+            {
+              "eventTime": "2026-10-28T20:32:42.514450168Z",
+              "type": "CREATED",
+              "taskState": "PENDING"
+            },
+            {
+              "description": "Task state is updated from PENDING to ASSIGNED on zones/us-central1-a/instances/5763941655804634389",
+              "eventTime": "2026-10-28T20:40:35.927244459Z",
+              "type": "CREATED",
+              "taskState": "ASSIGNED"
+            },
+            {
+              "description": "Task state is updated from ASSIGNED to RUNNING on zones/us-central1-a/instances/5763941655804634389",
+              "eventTime": "2026-10-28T20:40:35.927246179Z",
+              "type": "RUNNING",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #0 with display name [prepare-and-restore] started.",
+              "eventTime": "2026-10-28T20:40:35.928007080Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+              "eventTime": "2026-10-28T20:40:59.458688759Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #1 with display name [durable-publisher] started.",
+              "eventTime": "2026-10-28T20:40:59.459567889Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+              "eventTime": "2026-10-28T20:40:59.460497748Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            }
+          ]
+        }
+      },
+      {
+        "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0/tasks/2",
+        "status": {
+          "state": "FAILED",
+          "statusEvents": [
+            {
+              "eventTime": "2026-10-28T20:32:42.514463701Z",
+              "type": "CREATED",
+              "taskState": "PENDING"
+            },
+            {
+              "description": "Task state is updated from PENDING to ASSIGNED on zones/us-central1-a/instances/974632647761323285",
+              "eventTime": "2026-10-28T20:41:57.160530427Z",
+              "type": "CREATED",
+              "taskState": "ASSIGNED"
+            },
+            {
+              "description": "Task state is updated from ASSIGNED to RUNNING on zones/us-central1-a/instances/974632647761323285",
+              "eventTime": "2026-10-28T20:41:57.160534896Z",
+              "type": "RUNNING",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #0 with display name [prepare-and-restore] started.",
+              "eventTime": "2026-10-28T20:41:57.161537765Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+              "eventTime": "2026-10-28T20:42:15.410668272Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #1 with display name [durable-publisher] started.",
+              "eventTime": "2026-10-28T20:42:15.411163931Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+              "eventTime": "2026-10-28T20:42:15.411726550Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            }
+          ]
+        }
+      },
+      {
+        "name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0/tasks/3",
+        "status": {
+          "state": "FAILED",
+          "statusEvents": [
+            {
+              "eventTime": "2026-10-28T20:32:42.514477489Z",
+              "type": "CREATED",
+              "taskState": "PENDING"
+            },
+            {
+              "description": "Task state is updated from PENDING to ASSIGNED on zones/us-central1-a/instances/1954529389099083029",
+              "eventTime": "2026-10-28T20:42:30.037426302Z",
+              "type": "CREATED",
+              "taskState": "ASSIGNED"
+            },
+            {
+              "description": "Task state is updated from ASSIGNED to RUNNING on zones/us-central1-a/instances/1954529389099083029",
+              "eventTime": "2026-10-28T20:42:30.037428953Z",
+              "type": "RUNNING",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #0 with display name [prepare-and-restore] started.",
+              "eventTime": "2026-10-28T20:42:30.039248011Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #0 with display name [prepare-and-restore] finished with exit code 0.",
+              "eventTime": "2026-10-28T20:42:48.101627965Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #1 with display name [durable-publisher] started.",
+              "eventTime": "2026-10-28T20:42:48.102343075Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            },
+            {
+              "description": "container at index #2 with display name [matlab-checkpoint-shard] started.",
+              "eventTime": "2026-10-28T20:42:48.102957108Z",
+              "type": "RUNNABLE_EVENT",
+              "taskState": "RUNNING"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "billing_info": {
+    "name": "projects/strange-reducer-509621-e8/billingInfo",
+    "projectId": "strange-reducer-509621-e8",
+    "billingAccountName": "billingAccounts/01D6C5-4D9D70-815F9F",
+    "billingEnabled": true
+  },
+  "project_info": {
+    "name": "projects/1064328294968",
+    "parent": "organizations/870771636270",
+    "projectId": "strange-reducer-509621-e8",
+    "state": "ACTIVE",
+    "displayName": "FIR-Fil-Op-Al-Cmp",
+    "createTime": "2026-09-24T21:13:09.575Z",
+    "updateTime": "2026-09-29T02:04:57.814272Z",
+    "etag": "W/\"cce81b5b5c2bde42\""
+  },
+  "compute_instances": {
+    "kind": "compute#instanceAggregatedList",
+    "id": "projects/strange-reducer-509621-e8/aggregated/instances",
+    "items": {
+      "zones/us-central1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-central1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-central1-a"
+            }
+          ]
+        }
+      },
+      "zones/us-central1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-central1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-central1-b"
+            }
+          ]
+        }
+      },
+      "zones/us-central1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-central1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-central1-c"
+            }
+          ]
+        }
+      },
+      "zones/us-central1-f": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-central1-f'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-central1-f"
+            }
+          ]
+        }
+      },
+      "zones/europe-west1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west1-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-west1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west1-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west1-d": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west1-d'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west1-d"
+            }
+          ]
+        }
+      },
+      "zones/us-west1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west1-a"
+            }
+          ]
+        }
+      },
+      "zones/us-west1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west1-b"
+            }
+          ]
+        }
+      },
+      "zones/us-west1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west1-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-east1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-east1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-east1-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-east1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-east1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-east1-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-east1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-east1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-east1-c"
+            }
+          ]
+        }
+      },
+      "zones/us-east1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east1-b"
+            }
+          ]
+        }
+      },
+      "zones/us-east1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east1-c"
+            }
+          ]
+        }
+      },
+      "zones/us-east1-d": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east1-d'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east1-d"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast1-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast1-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast1-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast1-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast1-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast1-c"
+            }
+          ]
+        }
+      },
+      "zones/us-east4-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east4-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east4-a"
+            }
+          ]
+        }
+      },
+      "zones/us-east4-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east4-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east4-b"
+            }
+          ]
+        }
+      },
+      "zones/us-east4-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east4-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east4-c"
+            }
+          ]
+        }
+      },
+      "zones/australia-southeast1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/australia-southeast1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/australia-southeast1-c"
+            }
+          ]
+        }
+      },
+      "zones/australia-southeast1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/australia-southeast1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/australia-southeast1-a"
+            }
+          ]
+        }
+      },
+      "zones/australia-southeast1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/australia-southeast1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/australia-southeast1-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-west2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west2-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-west2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west2-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-west2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west2-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west3-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west3-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west3-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west3-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west3-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west3-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-west3-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west3-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west3-b"
+            }
+          ]
+        }
+      },
+      "zones/southamerica-east1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/southamerica-east1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/southamerica-east1-a"
+            }
+          ]
+        }
+      },
+      "zones/southamerica-east1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/southamerica-east1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/southamerica-east1-b"
+            }
+          ]
+        }
+      },
+      "zones/southamerica-east1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/southamerica-east1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/southamerica-east1-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-south1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-south1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-south1-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-south1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-south1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-south1-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-south1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-south1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-south1-c"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-northeast1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-northeast1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-northeast1-a"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-northeast1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-northeast1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-northeast1-b"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-northeast1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-northeast1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-northeast1-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west4-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west4-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west4-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west4-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west4-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west4-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-west4-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west4-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west4-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-west4-ai1a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west4-ai1a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west4-ai1a"
+            }
+          ]
+        }
+      },
+      "zones/europe-north1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-north1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-north1-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-north1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-north1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-north1-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-north1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-north1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-north1-a"
+            }
+          ]
+        }
+      },
+      "zones/us-west2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west2-c"
+            }
+          ]
+        }
+      },
+      "zones/us-west2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west2-b"
+            }
+          ]
+        }
+      },
+      "zones/us-west2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west2-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-east2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-east2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-east2-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-east2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-east2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-east2-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-east2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-east2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-east2-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-west6-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west6-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west6-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-west6-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west6-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west6-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west6-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west6-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west6-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast2-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast2-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast2-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast3-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast3-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast3-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast3-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast3-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast3-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-northeast3-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-northeast3-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-northeast3-b"
+            }
+          ]
+        }
+      },
+      "zones/us-west3-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west3-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west3-a"
+            }
+          ]
+        }
+      },
+      "zones/us-west3-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west3-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west3-b"
+            }
+          ]
+        }
+      },
+      "zones/us-west3-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west3-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west3-c"
+            }
+          ]
+        }
+      },
+      "zones/us-west4-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west4-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west4-c"
+            }
+          ]
+        }
+      },
+      "zones/us-west4-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west4-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west4-a"
+            }
+          ]
+        }
+      },
+      "zones/us-west4-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-west4-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-west4-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast2-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast2-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast2-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-central2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-central2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-central2-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-central2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-central2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-central2-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-central2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-central2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-central2-a"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-northeast2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-northeast2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-northeast2-b"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-northeast2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-northeast2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-northeast2-a"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-northeast2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-northeast2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-northeast2-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-south2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-south2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-south2-a"
+            }
+          ]
+        }
+      },
+      "zones/asia-south2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-south2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-south2-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-south2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-south2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-south2-b"
+            }
+          ]
+        }
+      },
+      "zones/australia-southeast2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/australia-southeast2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/australia-southeast2-a"
+            }
+          ]
+        }
+      },
+      "zones/australia-southeast2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/australia-southeast2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/australia-southeast2-c"
+            }
+          ]
+        }
+      },
+      "zones/australia-southeast2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/australia-southeast2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/australia-southeast2-b"
+            }
+          ]
+        }
+      },
+      "zones/southamerica-west1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/southamerica-west1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/southamerica-west1-a"
+            }
+          ]
+        }
+      },
+      "zones/southamerica-west1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/southamerica-west1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/southamerica-west1-b"
+            }
+          ]
+        }
+      },
+      "zones/southamerica-west1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/southamerica-west1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/southamerica-west1-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west8-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west8-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west8-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-west8-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west8-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west8-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-west8-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west8-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west8-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west9-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west9-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west9-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-west9-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west9-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west9-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-west9-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west9-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west9-c"
+            }
+          ]
+        }
+      },
+      "zones/us-east5-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east5-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east5-c"
+            }
+          ]
+        }
+      },
+      "zones/us-east5-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east5-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east5-b"
+            }
+          ]
+        }
+      },
+      "zones/us-east5-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-east5-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-east5-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-southwest1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-southwest1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-southwest1-b"
+            }
+          ]
+        }
+      },
+      "zones/europe-southwest1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-southwest1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-southwest1-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-southwest1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-southwest1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-southwest1-c"
+            }
+          ]
+        }
+      },
+      "zones/us-south1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-south1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-south1-c"
+            }
+          ]
+        }
+      },
+      "zones/us-south1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-south1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-south1-a"
+            }
+          ]
+        }
+      },
+      "zones/us-south1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-south1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-south1-b"
+            }
+          ]
+        }
+      },
+      "zones/us-south1-ai1b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/us-south1-ai1b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/us-south1-ai1b"
+            }
+          ]
+        }
+      },
+      "zones/me-west1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-west1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-west1-b"
+            }
+          ]
+        }
+      },
+      "zones/me-west1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-west1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-west1-a"
+            }
+          ]
+        }
+      },
+      "zones/me-west1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-west1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-west1-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west12-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west12-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west12-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west12-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west12-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west12-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-west12-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west12-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west12-b"
+            }
+          ]
+        }
+      },
+      "zones/me-central1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-central1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-central1-a"
+            }
+          ]
+        }
+      },
+      "zones/me-central1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-central1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-central1-b"
+            }
+          ]
+        }
+      },
+      "zones/me-central1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-central1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-central1-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west10-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west10-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west10-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-west10-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west10-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west10-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-west10-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-west10-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-west10-b"
+            }
+          ]
+        }
+      },
+      "zones/me-central2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-central2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-central2-c"
+            }
+          ]
+        }
+      },
+      "zones/me-central2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-central2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-central2-a"
+            }
+          ]
+        }
+      },
+      "zones/me-central2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/me-central2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/me-central2-b"
+            }
+          ]
+        }
+      },
+      "zones/africa-south1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/africa-south1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/africa-south1-b"
+            }
+          ]
+        }
+      },
+      "zones/africa-south1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/africa-south1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/africa-south1-a"
+            }
+          ]
+        }
+      },
+      "zones/africa-south1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/africa-south1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/africa-south1-c"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-south1-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-south1-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-south1-b"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-south1-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-south1-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-south1-a"
+            }
+          ]
+        }
+      },
+      "zones/northamerica-south1-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/northamerica-south1-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/northamerica-south1-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-north2-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-north2-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-north2-c"
+            }
+          ]
+        }
+      },
+      "zones/europe-north2-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-north2-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-north2-a"
+            }
+          ]
+        }
+      },
+      "zones/europe-north2-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/europe-north2-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/europe-north2-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast3-b": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast3-b'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast3-b"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast3-c": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast3-c'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast3-c"
+            }
+          ]
+        }
+      },
+      "zones/asia-southeast3-a": {
+        "warning": {
+          "code": "NO_RESULTS_ON_PAGE",
+          "message": "No results for the scope 'zones/asia-southeast3-a'.",
+          "data": [
+            {
+              "key": "scope",
+              "value": "zones/asia-southeast3-a"
+            }
+          ]
+        }
+      }
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/strange-reducer-509621-e8/aggregated/instances"
+  },
+  "checkpoint_progress": {
+    "last_checkpoint_task_0": {
+      "entries": [
+        {
+          "insertId": "sx5hawf248205",
+          "jsonPayload": {
+            "completed": 7590,
+            "event": "checkpoint-progress",
+            "pending_upload_errors": 0,
+            "task_index": 0,
+            "status": "running"
+          },
+          "resource": {
+            "type": "batch.googleapis.com/Job",
+            "labels": {
+              "location": "us-central1-a",
+              "resource_container": "strange-reducer-509621-e8",
+              "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+            }
+          },
+          "timestamp": "2026-10-31T14:49:02.739966184Z",
+          "severity": "INFO",
+          "labels": {
+            "matlab_smoke": "false",
+            "matlab_cloud_managed": "true",
+            "matlab_cloud_tasks": "4",
+            "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "matlab_reliability_fixes": "true",
+            "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+            "matlab_cloud_workers": "8",
+            "matlab_project": "glop-cmp",
+            "matlab_cloud_live": "true",
+            "matlab_replication": "20261028",
+            "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0",
+            "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4",
+            "matlab_cloud_mode": "durable_trial_shards"
+          },
+          "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+          "receiveTimestamp": "2026-10-31T14:49:14.528430420Z"
+        }
+      ],
+      "nextPageToken": "eoUHCoAHAUI4sNz0gm648ztOVF3vWnWPszD4wc87-vPWrPfbezCdmZbyVVNKo8AEQW5jk6_xaCkZavizhX39iZBT7CMyJHqNifbRmpRJ1alMMOctZuiob2rO0Jbd8D7GLMk5S5SzaXLn-P_wtWhOYF1ZqiZjgsqPgtLbSxV_zEfecwq-DhUFpC8SMcuv-6MakhpxesDaXjFIPIUAJAvkTujpfBqtyhagIe0Zkg96r46YyivQVxpyQf2hWwMvZN1ny_CVmEsKCHOzxC4vbix023MbC6-1bZSUFoDu4IKD3TXYEJQRU5iTk3cruSH2Bet_3KyBjQA8Q5eC6VgeKr5rz7rpvb_npneNfDIrVbSDxK5uDb8Mi3P1WwFiLXaboTqZQ1Q6XA77AktMBjT1R9r6m3eZcOo4H6ndnKuzX7gi0ke9fPT8HKjf4wDPoEdng8ZtmjjyGXl1XDpvIeVjhoV-Vf782Rps8FlxL_ODX6Bfahc--T5PPu5LsnQEzvig78PjFywF93wx1DOjSm5dYS1W3JVQApjPGjpug23lZtwCrAFWPXM5LgQQXDwIRORETWAia8LAcsTUAdIgQuUxNtLjploEBV-ZfTtqCC8sP6AZ92fi4dT9HAT38h4gEDoyI3ETeIfQYeeJle1aay8N0KpX8BAjjGGjt4L0wLqUUi0nfdW11RYXO-866V_9l9I1lC_On5uk1H3tNCNyBEN9SP7TfGFtJx5rDrGFXLbDNQMl5r3mYOjriB4-XbhbFHO9ND6dKGDFlMrDAGp8B3V5byumo0nGToqGWJebE8Z6jPWfmz8TTN90pWMKPiikuU4gm8UDSUrrpiaIhDcCjRlk9leoPoRcIarRHe_Xws3SYgwQyrj6tgAhL-o9Q1AmWf9BtqH1ZWWzEB1fmr-d-Maqm5eoNw27f-yc1dy6wpnInoeASOniBUq5zp1u_SKUdEkAw3ORLFw7DuKYQCcbrj_cHS7yN4pMKZNhVIMRrnSGo6bDLr3GXwpSYTmOOO3osXZgCxJcUxYha4fxcFPyLpanYiXu_hnEGFIs0HtHiR-JWSB7-2QiYwsz2mgFo6EKC6W2KAIthD7yOP8cKe899YdPAFLoXJsiBxMWW0pdo1Au-3QzMHX4iDnVI0xhulUcISz4UgwikBkpdmX0YECK59Imo30Ho1QdAzIIevelXXeJSvVot8EOIGCrgAAQAQ"
+    },
+    "last_checkpoint_task_2": {
+      "entries": [
+        {
+          "insertId": "fll0meez0oo6",
+          "jsonPayload": {
+            "task_index": 2,
+            "event": "checkpoint-progress",
+            "pending_upload_errors": 0,
+            "status": "running",
+            "completed": 7019
+          },
+          "resource": {
+            "type": "batch.googleapis.com/Job",
+            "labels": {
+              "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+              "location": "us-central1-a",
+              "resource_container": "strange-reducer-509621-e8"
+            }
+          },
+          "timestamp": "2026-10-31T14:49:04.242337266Z",
+          "severity": "INFO",
+          "labels": {
+            "matlab_cloud_tasks": "4",
+            "matlab_cloud_mode": "durable_trial_shards",
+            "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-2",
+            "matlab_smoke": "false",
+            "matlab_cloud_live": "true",
+            "matlab_reliability_fixes": "true",
+            "matlab_replication": "20261028",
+            "matlab_project": "glop-cmp",
+            "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "matlab_cloud_workers": "8",
+            "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z",
+            "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+            "matlab_cloud_managed": "true"
+          },
+          "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+          "receiveTimestamp": "2026-10-31T14:49:23.992417980Z"
+        }
+      ],
+      "nextPageToken": "eoAHCvsGAUI4sNyFzxLZDiqMLO-OGsImssMrkTydKu_VXhgCHvUjy3yv74Anze3UqlQ6VolPcLkzDxKwnr6tuHgVEK7fSNOFhOXZinzPlJk8jrnqtvlNQ5gb1gpCBiIW-lbbEwerlROEi4vFYzukOPGf3bYiezVIuIUk5vBiI9LhCk42S-Ige5q_6KjhXo0TkL9s96OUW2IH8jEo7xHu3WfgnSzc6EQSKNyZTtcPwBelFLhJ0D3bE8bgmF4DwA_o47bWWaARL5jUPOLmiYLcdeCWM2yARNnpIHG5JcZWwROfTYSdB86fYoHEDmv_V-XsDVzyQpd9YDqICSMztQHSTCajk2uCPhcwIoq8UIlMBpRP4JZZwiGlXf5947nJux63s915FqOUGB0mgnwk2W8cp37p5A7vZSHQsFOFAKOpInt_LuMGiDhh8u-XCMJ1qoiF5MtXmSehQgVeK0W-J1zHVD3Nd_KeKpi96vAV-53EOK5yMCYs5TcTCphE-2WBQox6Ee8owzjE9yBASjDhAJh0BzQpY__i3s6N76r-BsZu_VlJ47_oWko0PRmDftuztOOyAoLwbAEsGYuWbvPxIQfrJ462Q6lRlyiBNF6Ypw66QviVaTtfNzGT3QX4LHIjcE9lwldWo14hFb7Q5M0Wzey8s1BeY0ZGvKYOAyLkD9m09219KLmMpz3vKOmkZ03ZHO4KQGpxfns72JPZRcqKK3ftKwluatJj2UmnYdZUO4pwIBX1FfB_chge3bxo4UHdSQ766OxGCrzGZoTpGx6Z62GP5YQkWVoAnIRxB7JQBBuLDmafDdGq_HjkZ7dEoIBvAEUKdbTMP2BbnpA4SmabrCbZGKguEQLxtE7bbca8JglkDONSLr0j4IvDJaGDxYQziD552v8aAyzo1dos_bGeBXAL0p7TTvQPJLkZUE0bp1T852UdPKO4bLuUxU6Nn6JlInWW_Gc5E9eE1-18rFSr_ZzGcmtgWyhG24ckO1MkUbzcMXTzNBDpQjfkT9n2m0eifWHeho1ObLQhcl_OGCMg0oYECMtdo56Iew22hYSdT2GofcFIkYX2WK0Qs9pIa8QBfS1wXikzWaQzKuT8hMF3SOTj8Lmh19hAdCXS6js0k9iBcKHmucwDaSf3MFizJhsu3y_RKdiExgFklVM4XYks1eWFpSnJeHffpesa1shlQ9z6VkzSEAE"
+    },
+    "last_checkpoint_task_1": {
+      "entries": [
+        {
+          "insertId": "79r6l8f25shpg",
+          "jsonPayload": {
+            "completed": 7260,
+            "status": "running",
+            "pending_upload_errors": 0,
+            "event": "checkpoint-progress",
+            "task_index": 1
+          },
+          "resource": {
+            "type": "batch.googleapis.com/Job",
+            "labels": {
+              "location": "us-central1-a",
+              "resource_container": "strange-reducer-509621-e8",
+              "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+            }
+          },
+          "timestamp": "2026-10-31T14:49:09.790384161Z",
+          "severity": "INFO",
+          "labels": {
+            "matlab_replication": "20261028",
+            "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "matlab_cloud_workers": "8",
+            "matlab_reliability_fixes": "true",
+            "matlab_cloud_mode": "durable_trial_shards",
+            "matlab_cloud_tasks": "4",
+            "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+            "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k",
+            "matlab_cloud_live": "true",
+            "matlab_smoke": "false",
+            "matlab_cloud_managed": "true",
+            "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-1",
+            "matlab_project": "glop-cmp"
+          },
+          "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+          "receiveTimestamp": "2026-10-31T14:49:19.775598951Z"
+        }
+      ],
+      "nextPageToken": "eoYHCoEHAUI4sNzLusdpf_ZNWMOaeIKQ8PYdV5WemxBslIcf7hG5qjR3_uQQWbZt6UaG2rdJNbzrQcdrXzJEb55xa1yguQ3LqqmZiRmRt3-kZBCM0LmDmlYSl48fu8Is6eUqjJkVoQw4OJf-mgskX9jX_jufeuw-WCMj7PlHMO8CGAFmIX_A1oROJE4QSN6m-OCU15ag6zy2SZY7_qk7wizLrMXgJHXxmhWMWTqmQbxv0Q2lWxT3LPiSYk1dzhySWayojGGJYb_hLveem6AW6__4PgswVOMO5HfJTmkjKae8hgf3g4y6Ilc2ScbENxcuN8KPn9iER5h2xp8YKkKyJDr2iL-uEKnWRi_RAUP1-lEtEyzQtjLhR96WL3qH6ci8cjApVopyHqS4eOjbt1YBgqnt6GlEBGn07IOEgyiLvjWFDbqDQ5vu2iP0zG4ujwzWE7Gz0hwaw4Sk5pM7cztGZo1dOOo3Dqc_9P6l_3j_axKQn2K3eqWHj-dyeUWqW_y7FrmQ_7pneoo8uNaTAz1Mfll9Hj7DfefaD8uKGd7Lj2RGy_8esv9tEAxa_mKk1Z1CUjU3XoxNVz2M_O0gVx8vAtezcaEvgFXxT3fYdY7Y6kET_0FJEuopkmklBtx6wOVV8GSH476pymsbO4Hh5rY1_ONkD7UmiMA2UNIgba6d8v_64Q8918BrDEcul5wpbJCMC7EcfHEYpCkY5-kDf70ID6Tyt6lHIUJMUmUa57CzaZNhh8hwi6TWoCQgdf4ZbplSEtpxJIe6trc_6aGkCDtARtS7Gb9Nlx7YN87RqCg_sWDhnl6h_VGU6xWuxYWq4Cdjr_7kNRDuEOu6kmKrLQk8OoqoL104oaTJNuJGUk8AxwVg6dYGIscdlyF4t1lK9MyH9okCRk9ZRrBX1vu0Q1INNBjiYkIGKFqQz90Zm0rY5Iz11dcV4dOtNV0LCrwu7pjMaSsZ1Lst9-85YYjlFzcO5YyUPDwZ6lkXpp30XpR4P_Sh2fIPRwQz2evUpQGNBAg5-Qcz0xWh1ob-Lpja7iuMPumWjwnBX6mfv17YGsl2xm4b96MVaCUSB6S4s5xPbVZwZT7fg1C3JShWObt8NcXfKIvYPtcstpdMlGfTROUz1VCddl7G1-GgmrSN6h9-L6lXkm9RkafrfLjkWc-tSGIU9KArdOOQ0MnJ1UZWHkVKr0JQ6TDlrfv7EAE"
+    },
+    "last_checkpoint_task_3": {
+      "entries": [
+        {
+          "insertId": "28f94dexxzjm",
+          "jsonPayload": {
+            "status": "running",
+            "completed": 6032,
+            "pending_upload_errors": 0,
+            "task_index": 3,
+            "event": "checkpoint-progress"
+          },
+          "resource": {
+            "type": "batch.googleapis.com/Job",
+            "labels": {
+              "job_id": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+              "resource_container": "strange-reducer-509621-e8",
+              "location": "us-central1-a"
+            }
+          },
+          "timestamp": "2026-10-31T14:49:03.451658621Z",
+          "severity": "INFO",
+          "labels": {
+            "matlab_cloud_mode": "durable_trial_shards",
+            "matlab_cloud_live": "true",
+            "matlab_reliability_fixes": "true",
+            "matlab_cloud_managed": "true",
+            "task_id": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-3",
+            "matlab_replication": "20261028",
+            "hostname": "matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-d64r",
+            "job_uid": "matlab-glop-cmp-20-ed645c4b-746d-44400",
+            "matlab_smoke": "false",
+            "matlab_project": "glop-cmp",
+            "matlab_cloud_tasks": "4",
+            "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes/taskGroups/group0",
+            "matlab_cloud_workers": "8"
+          },
+          "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+          "receiveTimestamp": "2026-10-31T14:49:22.397141778Z"
+        }
+      ],
+      "nextPageToken": "eoAHCvsGAUI4sNyS7XF9T92qBBWkWbDVM38mjtL0UyySBq2Xb92EI3mr3buwH8B2Wvj5LDzfdnajAD8ha1YDxQ8Paa0f_y27bSP5XEwKMwGQT6zHAvU_pzy64EQpEBga9QZbCGvN8epmzy6RKhsGbJ4J7tYU-ztwsdbL8fzc4-GhGQQ4U9C7dsUuaPFPjt_lxLXcqhGNGV4uY_gqQw9z62qntgDcgCZRHCSWSOB7Yyuj1JW2x2ebC0aOcnThq6P26bFWrO9IPbtRTEI9MJobNcJAGI-T4MEUA1njMBnJP7JcjWbgADPNi1JeMX3SoQQh8QKZET5JMdMrt5JwOs2xvWKTKOghfbPNnxikry7a9Qdnhs1ko2PnNONOkugzfIuVsriRKsxLdhxvxozwJYVdh7SMEP4mDIPXC83C-UT9fnU_i1UwxlD7Z-RBCa1kBuFTcxYLQ8K5p13Mkb98k1whkTi14VavPXRaHjWrVrwIh-W8bxZ5JNy3ug1kUbsL2HWvfDIxxggXDQupe4S8-LjTag8SnosbmvlvRafu6lcQ4Byka3q0m74nC1cFwHkrNPRJ0VTP0VX2rqFGgOCNd5WsyGAjLkFUe4r5yRf_vz6-RWy7whNOHyXmmjzmiV18xAPOP8ska1H7BdOPozcAyHRAsMX8yXXriZSCPO6vdH_SAcHn66DUWB8fRTjZuz_ZV221dcNt_ehvMttWFAGng3flCPUzBgOErla9IxOdcc3Bvxku68f5iLovTSV0M-o_1Glg_HXEbUj_sSlsxXlIKkq2InKwbg9mnx_xO-V4i-zagLUPttxcW3Jh1mLKklc16oColK3KRG71pWS0KbKIyLAgi7VgdOYtHWU4TyJVotPH-tlzADmz6q2NZ7Vas98hU9P1z5UscpaH7YSdpjUUdzEFMhz1XTOiQQo3ZihDKhktJsvmOWtJ41kGika5tO0c-MBu40dqk8r8Bzy7VXUbv1QjsrmD38cuUb9ELXp0V8uMa9vsW37oUiqWPqYaJP4WLXsmrDzQu2xQRS-u2bYtXqdBEPhOllWmjh9APS5CkwUl1PeG8YKj30_qgyZrafkSUwfg6mGJDfJ52sRDC60LhhHOtUNiZikhktivGPCEVmsZhD9iK_g9U9iKD-rJTo5gc9pYyzlwtQ6vIfiyIL-mxRt76-Za-Rc1nAdPdYARCWGq8EjjEAE"
+    }
+  },
+  "error_logs": [
+    {
+      "timestamp": "2026-10-31T14:49:35.572935715Z",
+      "message": "rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry. Retrying in 5.717319397s\n"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:35.572900195Z",
+      "message": "instance 2248781657292137749 report agent state error: rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry\n"
+    },
+    {
+      "timestamp": "2026-10-31T13:51:23.725440656Z",
+      "message": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 3.665552392s\n"
+    },
+    {
+      "timestamp": "2026-10-31T13:51:23.725196686Z",
+      "message": "instance 974632647761323285 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n"
+    },
+    {
+      "timestamp": "2026-10-31T13:21:08.640984656Z",
+      "message": "unexpected value <!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 503 (Server Error)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>503.</b> <ins>That\u2019s an error.</ins>\n  <p>The service you requested is not available yet.<p>Please try again in 30 seconds.  <ins>That\u2019s all we know.</ins>\n got from Spot preemption notice\n"
+    },
+    {
+      "timestamp": "2026-10-31T07:22:27.829012615Z",
+      "message": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 3.598570436s\n"
+    },
+    {
+      "timestamp": "2026-10-31T07:22:27.828984195Z",
+      "message": "instance 2248781657292137749 report agent state error: rpc error: code = Unavailable desc = 502:Bad Gateway\n"
+    },
+    {
+      "timestamp": "2026-10-31T06:46:36.108638969Z",
+      "message": "rpc error: code = Unavailable desc = 502:Bad Gateway. Retrying in 2.725269653s\n"
+    }
+  ],
+  "recent_logs": [
+    {
+      "timestamp": "2026-10-31T14:49:36.271633327Z",
+      "message": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-nv4k\" instance_id:5763941655804634389 creation_time:{seconds:1793219602 nanos:682490743} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219603 nanos:431205314} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219603 nanos:431209634} task_state:RUNNI"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:35.572935715Z",
+      "message": "rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry. Retrying in 5.717319397s\n"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:35.572900195Z",
+      "message": "instance 2248781657292137749 report agent state error: rpc error: code = PermissionDenied desc = Write access to project '1064328294968' was denied: please check billing account associated and retry\n"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:35.550820656Z",
+      "message": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-s3w4\" instance_id:2248781657292137749 creation_time:{seconds:1793219599 nanos:976242403} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219600 nanos:785304225} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219600 nanos:785311565} task_state:RUNNI"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:27.661551893Z",
+      "message": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-a\" instance:\"matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0-5x1z\" instance_id:974632647761323285 creation_time:{seconds:1793219608 nanos:330362418} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-ed645c4b-746d-44400-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-ed645c4b-746d-44400\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793219609 nanos:1337343} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793219609 nanos:1343163} task_state:RUNNING} s"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:19.776479563Z",
+      "message": "[2026-10-31T14:49:19.775Z] START trial 24164: FIR=10 passband=0.5 seed=0 solvers=3/2 sample=4"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:19.766653080Z",
+      "message": "[2026-10-31T14:49:19.761Z] DURABLE trial 24128: nonconverged error=0.635383299 evaluations=45937 | 6033/19440; MAT+CSV published"
+    },
+    {
+      "timestamp": "2026-10-31T14:49:16.110486065Z",
+      "message": "[2026-10-31T14:49:16.109Z] START trial 28115: FIR=7 passband=0.2 seed=1 solvers=0/1 sample=15"
+    }
+  ]
+}

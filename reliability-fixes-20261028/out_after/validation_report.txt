@@ -1,0 +1,17 @@
+fpf_analysis report  (2026-10-28 20:45:19, 135.1s)
+trials loaded: 5182   script sha256: 8043cef61b0536df   plan sha256: ba23222858008a69
+
+PASS  global IDs unique
+WARN  coverage: 5182 of 77760 planned trials present -- partial run: every number is a diagnostic, not a result
+PASS  recomputed end-to-end error equals the program's own value (all returned designs)  -- max |diff| = 3.33e-16 over 5173 trials
+PASS  no error below its half-band bound  -- smallest margin = 7.46e-04
+PASS  half-band identity: DC = 1/2 on every returned matrix  -- max dev = 8.88e-16
+PASS  half-band identity: even-lag coefficients vanish  -- max = 1.79e-16
+PASS  delta = sqrt(E^2 - bound^2) is finite on every returned design
+PASS  legacy success implies a recorded error
+INFO  trials without a Stage-2 result: 9; of which infrastructure failures: 5
+INFO    failure identifier 'MATLAB:eig:NoConvergence': 4
+INFO    failure identifier 'fpf:TelemetryWrite': 5
+PASS  cross-source: MAT checkpoints agree with recomputed E and evaluations on successes  -- 1069 successes compared; max E diff 3.33e-16; max evals diff 0
+PASS  no Stage-1 solver beats the convex lower bound (tolerance 1e-6)  -- violations: 0
+INFO  convex baseline: max grid-relaxation violation 6.72e-07; all shifted solutions feasible: True; max upper-lower gap 9.37e-07

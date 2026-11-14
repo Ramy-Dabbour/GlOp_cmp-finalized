@@ -1,0 +1,5 @@
+[2026-10-26T13:55:54.779245+00:00] Uploading frozen source and checksum manifest.
+[2026-10-26T13:58:26.008004+00:00] Uploading frozen source and checksum manifest.
+[2026-10-26T13:59:24.236781+00:00] Submitting matlab-glop-recovery-20261026-1355; immutable run namespace matlab-glop-recovery-20261026-1355.
+[2026-10-26T13:59:30.305396+00:00] Job: https://console.cloud.google.com/batch/jobsDetail/regions/us-central1/jobs/matlab-glop-recovery-20261026-1355?project=strange-reducer-509621-e8
+[2026-10-26T14:17:28.784011+00:00] Collected partial MAT/CSV/log artifacts to C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud-results\matlab-glop-recovery-20261026-1355; 24 assigned CSV rows (including pending).

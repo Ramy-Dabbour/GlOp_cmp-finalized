@@ -1,0 +1,13 @@
+{
+    "attempt":  "20261024-163438-144-3764",
+    "worker_pid":  19036,
+    "worker_start_ticks":  "639284564781623338",
+    "started_utc":  "2026-10-24T16:34:38.1686146Z",
+    "log_path":  "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\attempts\\20261024-163438-144-3764\\matlab.log",
+    "log_offset":  1806675,
+    "stdout_path":  "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\attempts\\20261024-163438-144-3764\\stdout.log",
+    "stdout_offset":  0,
+    "stderr_path":  "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\attempts\\20261024-163438-144-3764\\stderr.log",
+    "stderr_offset":  0,
+    "result_path":  "C:\\Users\\Dell\\Documents\\MATLAB\\GlOp_cmp\\local-results\\attempts\\20261024-163438-144-3764\\exit.json"
+}

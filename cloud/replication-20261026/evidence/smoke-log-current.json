@@ -1,0 +1,1829 @@
+[
+  {
+    "insertId": "1bi062qf673mxr",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:13:18.433355056Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61\" instance_id:8288776070962012727 creation_time:{seconds:1793023210 nanos:990427502} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 0.\" event_time:{seconds:1793023963 nanos:647658199} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #3 with display name [preserve-completed-and-partial-results] started.\" event_time:{seconds:1793023963 nanos:649330359} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #3 with display name [preserve-completed-and-partial-results] finished with exit code 0.\" event_time:{seconds:1793023968 nanos:407994081} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023968 nanos:408152701} task_state:SUCCEEDED}}} report_time:{seconds:1793023988 nanos:44140180} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793023202 nanos:561645014} script_startup_time:{seconds:1793023210 nanos:301645014} agent_startup_time:{seconds:1793023210 nanos:990427502}}",
+    "timestamp": "2026-10-26T14:13:08.044675590Z"
+  },
+  {
+    "insertId": "1bi062qf673mxq",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:13:18.433355056Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Scheduler reported task \"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\"",
+    "timestamp": "2026-10-26T14:12:48.408174891Z"
+  },
+  {
+    "insertId": "1y79hfif1oi6h6",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.432572455Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 succeeded",
+    "timestamp": "2026-10-26T14:12:48.408064591Z"
+  },
+  {
+    "insertId": "1y79hfif1oi6h5",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.432572455Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 background runnables all exited on their own.",
+    "timestamp": "2026-10-26T14:12:48.408058241Z"
+  },
+  {
+    "insertId": "1y79hfif1oi6h4",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.432572455Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 runnable 1 exited with status 0",
+    "timestamp": "2026-10-26T14:12:48.408045181Z"
+  },
+  {
+    "insertId": "1y79hfif1oi6h3",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.432572455Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 runnable 3 exited with status 0",
+    "timestamp": "2026-10-26T14:12:48.407932071Z"
+  },
+  {
+    "insertId": "1y79hfif1oi6h2",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.432572455Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 8288776070962012727: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}} intended_state:ASSIGNED job_uid:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-recovery-20261026-1355\"} tasks:{task:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 0.\" event_time:{seconds:1793023963 nanos:647658199} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #3 with display name [preserve-completed-and-partial-results] started.\" event_time:{seconds:1793023963 nanos:649330359} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-recovery-20261026-1355\"} use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-26T14:12:48.150825070Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg7b",
+    "jsonPayload": {
+      "completed": 24,
+      "event": "checkpoint-progress",
+      "pending_upload_errors": 0,
+      "status": "completed",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-26T14:12:48.148643709Z"
+  },
+  {
+    "insertId": "1sdrfmwf4fco97",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.064851316Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61\" instance_id:8288776070962012727 creation_time:{seconds:1793023210 nanos:990427502} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] finished with exit code 0.\" event_time:{seconds:1793023963 nanos:647658199} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #3 with display name [preserve-completed-and-partial-results] started.\" event_time:{seconds:1793023963 nanos:649330359} task_state:RUNNING}}} report_time:{seconds:1793023968 nanos:41980778} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793023202 nanos:561645014} script_startup_time:{seconds:1793023210 nanos:301645014} agent_startup_time:{seconds:1793023210 nanos:990427502}}",
+    "timestamp": "2026-10-26T14:12:48.042505258Z"
+  },
+  {
+    "insertId": "1sdrfmwf4fco96",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.064851316Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Runnable command line: docker run --rm --name ba3da3e3-c44f-4a61-86e1-650189a8f437 --entrypoint /usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3 --env BATCH_TASK_COUNT=1 --env BATCH_TASK_INDEX=0 --env BATCH_TASK_RETRY_ATTEMPT=1 --env BATCH_TASK_UID=matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0 --env CLOUDSDK_PYTHON=/usr/bin/python3 --env BATCH_JOB_UID=matlab-glop-recove-2ce8e332-2be5-4afd0 --env BATCH_JOB_ID=matlab-glop-recovery-20261026-1355 --volume /var/lib/google/matlab-cloud:/work/shared:rw --user 0:0 gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc -c import os,pathlib,runpy,sys\nindex=int(os.environ['BATCH_TASK_INDEX']); count=int(os.environ['BATCH_TASK_COUNT'])\nroot=pathlib.Path('/work/shared/tasks')/f'{index:05d}'\nscript=root/'workspace/cloud/durable_uploader.py'\nsys.argv=[str(script),'finalize','--task-root',str(root),'--run-uri','gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-recovery-20261026-1355','--manifest',str(root/'workspace/manifest.json'),'--task-index',str(index),'--task-count',str(count),'--interval','0.25']\nrunpy.run_path(str(script),run_name='__main__')",
+    "timestamp": "2026-10-26T14:12:43.649301179Z"
+  },
+  {
+    "insertId": "1sdrfmwf4fco95",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.064851316Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Executing runnable container:{image_uri:\"gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc\" commands:\"-c\" commands:\"import os,pathlib,runpy,sys\\nindex=int(os.environ['BATCH_TASK_INDEX']); count=int(os.environ['BATCH_TASK_COUNT'])\\nroot=pathlib.Path('/work/shared/tasks')/f'{index:05d}'\\nscript=root/'workspace/cloud/durable_uploader.py'\\nsys.argv=[str(script),'finalize','--task-root',str(root),'--run-uri','gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-recovery-20261026-1355','--manifest',str(root/'workspace/manifest.json'),'--task-index',str(index),'--task-count',str(count),'--interval','0.25']\\nrunpy.run_path(str(script),run_name='__main__')\" entrypoint:\"/usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3\" volumes:\"/var/lib/google/matlab-cloud:/work/shared:rw\" options:\"--user 0:0\"} display_name:\"preserve-completed-and-partial-results\" always_run:true for Task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 in TaskGroup group0 of Job matlab-glop-recove-2ce8e332-2be5-4afd0.",
+    "timestamp": "2026-10-26T14:12:43.649275049Z"
+  },
+  {
+    "insertId": "1sdrfmwf4fco94",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.064851316Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Container name is ba3da3e3-c44f-4a61-86e1-650189a8f437",
+    "timestamp": "2026-10-26T14:12:43.647987409Z"
+  },
+  {
+    "insertId": "1sdrfmwf4fco93",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.064851316Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 runnable 2 exited with status 0",
+    "timestamp": "2026-10-26T14:12:43.647388019Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg7a",
+    "jsonPayload": {
+      "completed": 24,
+      "event": "checkpoint-progress",
+      "pending_upload_errors": 0,
+      "status": "completed",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-26T14:12:40.947517179Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg79",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:36.482Z] COMPLETED: 24/24 durable trials.",
+    "timestamp": "2026-10-26T14:12:36.483863184Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg78",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:36.336Z] DURABLE trial 24: failed error=NaN evaluations=0 | 24/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:36.338136696Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg77",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:36.297Z] DURABLE trial 23: nonconverged error=1 evaluations=76 | 23/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:36.298726131Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg76",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:36.253Z] DURABLE trial 22: succeeded error=1 evaluations=74 | 22/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:36.254383795Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg75",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:35.605Z] PROGRESS 21/24; successful=15; other=6; active=[22 23 24]; elapsed=65s",
+    "timestamp": "2026-10-26T14:12:35.606976746Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg74",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:35.589Z] DURABLE trial 21: succeeded error=1 evaluations=72 | 21/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:35.590679775Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg73",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:35.533Z] DURABLE trial 20: succeeded error=1 evaluations=70 | 20/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:35.534954808Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg72",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.982Z] DURABLE trial 19: succeeded error=1 evaluations=68 | 19/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.984465550Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg71",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.836Z] DURABLE trial 16: nonconverged error=1 evaluations=62 | 18/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.838034292Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg70",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.778Z] DURABLE trial 15: succeeded error=1 evaluations=60 | 17/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.780953605Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6z",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.726Z] START trial 24: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=24",
+    "timestamp": "2026-10-26T14:12:34.728967229Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6y",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.721Z] DURABLE trial 13: succeeded error=1 evaluations=56 | 16/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.722660098Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6x",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.661Z] START trial 23: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=23",
+    "timestamp": "2026-10-26T14:12:34.663111281Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6w",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.656Z] DURABLE trial 12: succeeded error=1 evaluations=54 | 15/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.657826450Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6v",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.601Z] START trial 22: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=22",
+    "timestamp": "2026-10-26T14:12:34.602865044Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6u",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.595Z] DURABLE trial 11: succeeded error=1 evaluations=52 | 14/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.597195443Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6t",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.408Z] START trial 21: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=21",
+    "timestamp": "2026-10-26T14:12:34.409261470Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6s",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.404Z] DURABLE trial 18: succeeded error=1 evaluations=66 | 13/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.406026350Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6r",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.338Z] START trial 20: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=20",
+    "timestamp": "2026-10-26T14:12:34.341145852Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6q",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.332Z] DURABLE trial 17: failed error=NaN evaluations=0 | 12/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.333697821Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6p",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.108Z] START trial 19: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=19",
+    "timestamp": "2026-10-26T14:12:34.109821954Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6o",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:34.101Z] DURABLE trial 14: succeeded error=1 evaluations=58 | 11/24; MAT+CSV published",
+    "timestamp": "2026-10-26T14:12:34.102839943Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6n",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:33.429Z] PROGRESS 10/24; successful=6; other=4; active=[11 12 13 14 15 16 17 18]; elapsed=63s",
+    "timestamp": "2026-10-26T14:12:33.430596031Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6m",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:31.363Z] PROGRESS 10/24; successful=6; other=4; active=[11 12 13 14 15 16 17 18]; elapsed=61s",
+    "timestamp": "2026-10-26T14:12:31.368449619Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6l",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.265Z] PROGRESS 10/24; successful=6; other=4; active=[11 12 13 14 15 16 17 18]; elapsed=59s",
+    "timestamp": "2026-10-26T14:12:29.270086542Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6k",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.201Z] START trial 18: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=18",
+    "timestamp": "2026-10-26T14:12:29.203735924Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6j",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.195Z] START trial 17: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=17",
+    "timestamp": "2026-10-26T14:12:29.198293583Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6i",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.189Z] START trial 16: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=16",
+    "timestamp": "2026-10-26T14:12:29.191391493Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6h",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.183Z] START trial 15: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=15",
+    "timestamp": "2026-10-26T14:12:29.185025382Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6g",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.152Z] START trial 14: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=14",
+    "timestamp": "2026-10-26T14:12:29.155208408Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6f",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.139Z] START trial 13: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=13",
+    "timestamp": "2026-10-26T14:12:29.140916346Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6e",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.116Z] START trial 12: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=12",
+    "timestamp": "2026-10-26T14:12:29.124877294Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6d",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:12:29.067Z] START trial 11: FIR=4 passband=0.2 seed=0 solvers=0/1 sample=11",
+    "timestamp": "2026-10-26T14:12:29.077699869Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6c",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Batch pool: 8 process workers, one computational thread per worker.",
+    "timestamp": "2026-10-26T14:12:29.035216314Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6b",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Connected to parallel pool with 8 workers.",
+    "timestamp": "2026-10-26T14:12:27.862544930Z"
+  },
+  {
+    "insertId": "ic8ujyf3peg6a",
+    "jsonPayload": {
+      "completed": 10,
+      "event": "checkpoint-progress",
+      "pending_upload_errors": 0,
+      "status": "running",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.515337706Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-26T14:12:24.260944450Z"
+  },
+  {
+    "insertId": "1sdrfmwf4fco92",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.064851316Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 8288776070962012727: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}} intended_state:ASSIGNED job_uid:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-recovery-20261026-1355\"} tasks:{task:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-recovery-20261026-1355\"} use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-26T14:12:18.118520609Z"
+  },
+  {
+    "insertId": "1sdrfmwf4fco91",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:48.064851316Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61\" instance_id:8288776070962012727 creation_time:{seconds:1793023210 nanos:990427502} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING}}} report_time:{seconds:1793023938 nanos:38710290} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793023202 nanos:561645014} script_startup_time:{seconds:1793023210 nanos:301645014} agent_startup_time:{seconds:1793023210 nanos:990427502}}",
+    "timestamp": "2026-10-26T14:12:18.041769420Z"
+  },
+  {
+    "insertId": "1gg1rztf49uwwt",
+    "jsonPayload": {
+      "completed": 10,
+      "event": "checkpoint-progress",
+      "pending_upload_errors": 0,
+      "status": "running",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:23.486631808Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-26T14:12:08.881518760Z"
+  },
+  {
+    "insertId": "1gg1rztf49uwws",
+    "jsonPayload": {
+      "completed": 10,
+      "event": "checkpoint-progress",
+      "pending_upload_errors": 0,
+      "status": "running",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:12:23.486631808Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-26T14:11:53.465168086Z"
+  },
+  {
+    "insertId": "avnhn9f4axsbw",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:18.067553272Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 8288776070962012727: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}} intended_state:ASSIGNED job_uid:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-recovery-20261026-1355\"} tasks:{task:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-recovery-20261026-1355\"} use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-26T14:11:48.114497462Z"
+  },
+  {
+    "insertId": "avnhn9f4axsbv",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:12:18.067553272Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61\" instance_id:8288776070962012727 creation_time:{seconds:1793023210 nanos:990427502} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING}}} report_time:{seconds:1793023908 nanos:35720512} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793023202 nanos:561645014} script_startup_time:{seconds:1793023210 nanos:301645014} agent_startup_time:{seconds:1793023210 nanos:990427502}}",
+    "timestamp": "2026-10-26T14:11:48.035937823Z"
+  },
+  {
+    "insertId": "1mu0svuf4pjzw5",
+    "jsonPayload": {
+      "completed": 10,
+      "event": "checkpoint-progress",
+      "pending_upload_errors": 0,
+      "status": "running",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:11:52.090965930Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-26T14:11:38.051085512Z"
+  },
+  {
+    "insertId": "1mu0svuf4pjzw4",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:11:52.090965930Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting parallel pool (parpool) using the 'Processes' profile ...",
+    "timestamp": "2026-10-26T14:11:36.131416267Z"
+  },
+  {
+    "insertId": "1mu0svuf4pjzw3",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:11:52.090965930Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "[2026-10-26T14:11:32.216Z] RESUME task 0/1: 10/24 cloud-committed; 14 pending.",
+    "timestamp": "2026-10-26T14:11:32.220727690Z"
+  },
+  {
+    "insertId": "1mu0svuf4pjzw2",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:11:52.090965930Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "textPayload": "Synthetic recovery smoke: retry attempt 1, hard-crash threshold Inf.",
+    "timestamp": "2026-10-26T14:11:27.309352189Z"
+  },
+  {
+    "insertId": "1mu0svuf4pjzw1",
+    "jsonPayload": {
+      "completed": 10,
+      "event": "checkpoint-progress",
+      "pending_upload_errors": 0,
+      "status": "running",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:11:52.090965930Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-26T14:11:22.065164158Z"
+  },
+  {
+    "insertId": "jpqjpuf5pdhwg",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:11:48.061199932Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Server response for instance 8288776070962012727: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}} intended_state:ASSIGNED job_uid:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-recovery-20261026-1355\"} tasks:{task:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-recovery-20261026-1355\"} use_batch_monitored_resource:true.",
+    "timestamp": "2026-10-26T14:11:18.222059627Z"
+  },
+  {
+    "insertId": "jpqjpuf5pdhwf",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:11:48.061199932Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61\" instance_id:8288776070962012727 creation_time:{seconds:1793023210 nanos:990427502} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0\" version:\"cloud-batch-agent_20261014.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.638.5\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261016-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-recove-2ce8e332-2be5-4afd0\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:SUCCEEDED status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793023211 nanos:911574334} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793023211 nanos:911582275} task_state:RUNNING} status_events:{type:\"SUCCEEDED\" description:\"succeeded\" event_time:{seconds:1793023708 nanos:25210837} task_state:SUCCEEDED}}} tasks:{task_id:\"task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 ASSIGNED\" event_time:{seconds:1793023848 nanos:172542164} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task task/matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0/1/0 RUNNING\" event_time:{seconds:1793023848 nanos:172546495} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] started.\" event_time:{seconds:1793023848 nanos:174500565} task_state:RUNNING} status_events:{type:\"RUNNABLE_END_EVENT\" description:\"container at index #0 with display name [prepare-and-restore] finished with exit code 0.\" event_time:{seconds:1793023863 nanos:329607823} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #1 with display name [durable-publisher] started.\" event_time:{seconds:1793023863 nanos:331114084} task_state:RUNNING} status_events:{type:\"RUNNABLE_START_EVENT\" description:\"container at index #2 with display name [matlab-checkpoint-shard] started.\" event_time:{seconds:1793023863 nanos:332119204} task_state:RUNNING}}} report_time:{seconds:1793023878 nanos:33716958} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793023202 nanos:561645014} script_startup_time:{seconds:1793023210 nanos:301645014} agent_startup_time:{seconds:1793023210 nanos:990427502}}",
+    "timestamp": "2026-10-26T14:11:18.033956288Z"
+  },
+  {
+    "insertId": "134ke5ff5u3qee",
+    "jsonPayload": {
+      "completed": 10,
+      "event": "checkpoint-progress",
+      "pending_upload_errors": 0,
+      "status": "running",
+      "task_index": 0
+    },
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "matlab_cloud_live": "true",
+      "matlab_cloud_managed": "true",
+      "matlab_cloud_mode": "durable_trial_shards",
+      "matlab_cloud_tasks": "1",
+      "matlab_cloud_workers": "8",
+      "matlab_project": "glop-cmp",
+      "matlab_replication": "20261026",
+      "matlab_smoke": "true",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0",
+      "task_id": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_task_logs",
+    "receiveTimestamp": "2026-10-26T14:11:19.202817289Z",
+    "resource": {
+      "labels": {
+        "job_id": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+        "location": "us-central1-c",
+        "resource_container": "strange-reducer-509621-e8"
+      },
+      "type": "batch.googleapis.com/Job"
+    },
+    "severity": "INFO",
+    "timestamp": "2026-10-26T14:11:06.653997076Z"
+  },
+  {
+    "insertId": "mrbxckf4d29ap",
+    "labels": {
+      "hostname": "matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0-7d61",
+      "job_uid": "matlab-glop-recove-2ce8e332-2be5-4afd0",
+      "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-recovery-20261026-1355/taskGroups/group0"
+    },
+    "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+    "receiveTimestamp": "2026-10-26T14:11:18.059059504Z",
+    "resource": {
+      "labels": {
+        "instance_id": "8288776070962012727",
+        "project_id": "strange-reducer-509621-e8",
+        "zone": "us-central1-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "textPayload": "Runnable command line: docker run --rm --name ad7e29cb-1fb9-458e-8ca0-b37592dfad35 --entrypoint /usr/local/bin/matlab --env BATCH_TASK_COUNT=1 --env BATCH_TASK_INDEX=0 --env BATCH_TASK_RETRY_ATTEMPT=1 --env BATCH_TASK_UID=matlab-glop-recove-2ce8e332-2be5-4afd0-group0-0 --env CLOUDSDK_PYTHON=/usr/bin/python3 --env FPF_WORKERS_PER_TASK=8 --env MATLAB_CLOUD_OUTPUT_DIR=/work/shared/results --env MATLAB_CLOUD_PROJECT_DIR=/work/shared/workspace --env MKL_NUM_THREADS=1 --env OMP_NUM_THREADS=1 --env BATCH_JOB_UID=matlab-glop-recove-2ce8e332-2be5-4afd0 --env BATCH_JOB_ID=matlab-glop-recovery-20261026-1355 --volume /var/lib/google/matlab-cloud:/work/shared:rw us-central1-docker.pkg.dev/strange-reducer-509621-e8/matlab-images/matlab-full@sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0 -singleCompThread -noFigureWindows -licmode onlinelicensing -batch index=str2double(getenv('BATCH_TASK_INDEX')); count=str2double(getenv('BATCH_TASK_COUNT')); taskRoot=fullfile('/work/shared','tasks',sprintf('%05d',index)); cd(fullfile(taskRoot,'workspace')); diary(fullfile(taskRoot,'logs',sprintf('matlab-attempt-%s.log',getenv('BATCH_TASK_RETRY_ATTEMPT')))); manifest=jsondecode(fileread('manifest.json')); identity=struct('run_id',manifest.run_id,'source_sha256',manifest.source_sha256,'config_sha256',manifest.config_sha256); fpf.runCloudRecoverySmoke(taskRoot,index,count,identity); diary off;",
+    "timestamp": "2026-10-26T14:11:03.332091644Z"
+  }
+]

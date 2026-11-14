@@ -1,0 +1,19 @@
+{
+  "run_id": "matlab-glop-cmp-20261028-fixes",
+  "jobs": [
+    {
+      "job_id": "matlab-glop-cmp-20261028-fixes",
+      "submitted_at": "2026-10-28T20:32:38.124687+00:00",
+      "uid": "matlab-glop-cmp-20-ed645c4b-746d-44400"
+    },
+    {
+      "job_id": "matlab-glop-cmp-20261028-fixes-r01",
+      "submitted_at": "2026-11-03T11:02:23.493950+00:00",
+      "uid": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+    }
+  ],
+  "current_job": "matlab-glop-cmp-20261028-fixes-r01",
+  "last_checked_at": "2026-11-03T12:00:22.013449+00:00",
+  "batch_state": "RUNNING",
+  "completed_trials": 27936
+}

@@ -1,0 +1,9 @@
+{
+  "job_id": "matlab-glop-pool-smoke-20261005-225720-29d437",
+  "task_count": 2,
+  "inventory_sha256": "676a32f9d427a324795f2603ac0ca841bae7c82e859dd1f97fd8f8374da21bb4",
+  "sha256": {
+    "benchmark_results.mat": "4f7b2d34e625459ddf1415a2bdbfaaff2d6a220e3ffee8a9fc41ba17699412b8",
+    "benchmark_results.csv": "bcd546212a497f5f85e22affaa763e234ed241ad64ffb1160da7fa0b9e8cbbbe"
+  }
+}

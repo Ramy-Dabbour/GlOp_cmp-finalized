@@ -1,0 +1,196 @@
+{
+  "unchanged_original_functions": [
+    "aggregateFavorability.m",
+    "atomicReplace.m",
+    "autocorrelationDcFirst.m",
+    "batchWorkIndices.m",
+    "benchmarkConfig.m",
+    "chebyshevExtrema.m",
+    "chebyshevTCoefficients.m",
+    "chebyshevUCoefficients.m",
+    "clearRunArtifacts.m",
+    "complexHarmonicExtrema.m",
+    "csv_export.m",
+    "currentReporter.m",
+    "defaultCsvPath.m",
+    "endToEndError.m",
+    "evaluateCosineLagResponse.m",
+    "evaluateLagResponse.m",
+    "evaluateMziSolution.m",
+    "expandReferenceLagVector.m",
+    "extractSolverMetrics.m",
+    "generateInitialPoints.m",
+    "generateReference.m",
+    "generateSincReference.m",
+    "handleRunFailure.m",
+    "initializeRunResult.m",
+    "isLagResponseNormalized.m",
+    "isReferenceNormalized.m",
+    "jsonSafe.m",
+    "mergeBatchResults.m",
+    "multiplyPolynomialMatrices.m",
+    "multiplyPolynomialMatrixByConstant.m",
+    "mziObjective.m",
+    "mziSMatrixCoefficients.m",
+    "optimizeMzi.m",
+    "optimizeReference.m",
+    "phaseShiftPattern.m",
+    "plotResponses.m",
+    "prepareBatchPool.m",
+    "prepareTrialPool.m",
+    "printRunSummary.m",
+    "readScalarField.m",
+    "realizedSMatrixLagCoefficients.m",
+    "recordRunFailure.m",
+    "referenceObjective.m",
+    "referenceSMatrixCoefficients.m",
+    "run.m",
+    "runCheckpointTrial.m",
+    "runGlobalSolver.m",
+    "runLocalBenchmark.m",
+    "runReportedTrial.m",
+    "runSweep.m",
+    "seedTrialStage.m",
+    "signalValuePolynomials.m",
+    "stopWhenObjectiveStalls.m",
+    "summarizeSweep.m",
+    "sweepSize.m",
+    "trialParameters.m",
+    "unpackMziDesign.m",
+    "validateReferenceCache.m",
+    "writeLiveJson.m",
+    "writeRunArtifacts.m"
+  ],
+  "modified_original_functions": [
+    "TrialReporter.m"
+  ],
+  "new_cloud_functions": [
+    "cloudCheckpointSmokeTrial.m",
+    "cloudFileSha256.m",
+    "readCloudCheckpoint.m",
+    "runCloudCheckpointShard.m",
+    "runCloudCheckpointSmoke.m",
+    "runCloudCheckpointTrial.m",
+    "runCloudRecoverySmoke.m",
+    "writeCloudJson.m"
+  ],
+  "scientific_solver_and_objective_files_unchanged": true,
+  "matlab_tests": [
+    {
+      "name": "cloudCheckpointTest/processWorkersSaveAllOutcomesAndResume",
+      "passed": true,
+      "failed": false,
+      "duration": 112.48634520000002
+    },
+    {
+      "name": "cloudCheckpointTest/allOutcomesPublishAndResumeWithoutRepeating",
+      "passed": true,
+      "failed": false,
+      "duration": 31.8856962
+    },
+    {
+      "name": "cloudCheckpointTest/missingAckIsNotCompletionAndResumeUsesOriginalMat",
+      "passed": true,
+      "failed": false,
+      "duration": 2.7058402
+    },
+    {
+      "name": "cloudCheckpointTest/invalidAckHashFailsLoudly",
+      "passed": true,
+      "failed": false,
+      "duration": 0.45490830000000004
+    },
+    {
+      "name": "cloudCheckpointTest/identityMismatchCannotReuseRecords",
+      "passed": true,
+      "failed": false,
+      "duration": 0.5910150999999999
+    },
+    {
+      "name": "cloudCheckpointTest/stridedAssignmentKeepsUnassignedMaskFalse",
+      "passed": true,
+      "failed": false,
+      "duration": 1.5124529
+    },
+    {
+      "name": "cloudCheckpointTest/telemetryFailureDoesNotLoseScientificResult",
+      "passed": true,
+      "failed": false,
+      "duration": 1.2632691999999999
+    },
+    {
+      "name": "cloudCheckpointTest/productionRejectsChangedWorkerOrScienceSettings",
+      "passed": true,
+      "failed": false,
+      "duration": 0.4547348
+    },
+    {
+      "name": "cloudCheckpointTest/invalidResponseRetainsReturnedScientificPayload",
+      "passed": true,
+      "failed": false,
+      "duration": 2.2454923999999994
+    },
+    {
+      "name": "cloudCheckpointTest/interruptionAfterThreeCommitsResumesRemainingTrials",
+      "passed": true,
+      "failed": false,
+      "duration": 25.087670600000006
+    }
+  ],
+  "code_analyzer": {
+    "runCloudCheckpointShard": [
+      {
+        "id": "FEATGPID",
+        "message": "'feature('getpid')' is unsupported and not recommended. With appropriate code changes, use the function 'matlabProcessID' instead.",
+        "fix": 0,
+        "line": 74,
+        "column": [
+          35,
+          42
+        ]
+      },
+      {
+        "id": "MSNU",
+        "message": "A Code Analyzer message was once suppressed here, but the message is no longer generated.",
+        "fix": 1,
+        "line": 160,
+        "column": [
+          43,
+          53
+        ]
+      }
+    ],
+    "runCloudCheckpointTrial": {
+      "id": "FEATGPID",
+      "message": "'feature('getpid')' is unsupported and not recommended. With appropriate code changes, use the function 'matlabProcessID' instead.",
+      "fix": 0,
+      "line": 136,
+      "column": [
+        99,
+        106
+      ]
+    },
+    "readCloudCheckpoint": [],
+    "cloudFileSha256": [],
+    "writeCloudJson": [],
+    "TrialReporter": {
+      "id": "FEATGPID",
+      "message": "'feature('getpid')' is unsupported and not recommended. With appropriate code changes, use the function 'matlabProcessID' instead.",
+      "fix": 0,
+      "line": 14,
+      "column": [
+        38,
+        45
+      ]
+    },
+    "runCloudCheckpointSmoke": [],
+    "runCloudRecoverySmoke": [],
+    "cloudCheckpointSmokeTrial": []
+  },
+  "uploader_tests": {
+    "passed": 18
+  },
+  "deployment_tests": {
+    "passed": 9
+  }
+}

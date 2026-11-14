@@ -1,0 +1,425 @@
+{
+  "entries": [
+    {
+      "textPayload": "Server response for instance 4629009205104508869: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704258 nanos:542437450} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704258 nanos:542445072} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "15hwmff6pclrf",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c",
+          "instance_id": "4629009205104508869"
+        }
+      },
+      "timestamp": "2026-11-03T11:16:28.499332026Z",
+      "severity": "INFO",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:28.600449916Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1\" instance_id:4629009205104508869 creation_time:{seconds:1793704257 nanos:904495840} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704258 nanos:542437450} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704258 nanos:542445072} task_state:RUNNING}}} report_time:{seconds:1793704588 nanos:416583909} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704249 nanos:225705686} script_startup_time:{seconds:1793704257 nanos:225705686} agent_startup_time:{seconds:1793704257 nanos:904495840}}",
+      "insertId": "15hwmff6pclre",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8",
+          "instance_id": "4629009205104508869"
+        }
+      },
+      "timestamp": "2026-11-03T11:16:28.416714015Z",
+      "severity": "INFO",
+      "labels": {
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:28.600449916Z"
+    },
+    {
+      "textPayload": "Server response for instance 6293955515076870110: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704281 nanos:981888485} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704281 nanos:981908949} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "1lqsnxbf7ci3cp",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8",
+          "instance_id": "6293955515076870110"
+        }
+      },
+      "timestamp": "2026-11-03T11:16:21.933974148Z",
+      "severity": "INFO",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:51.868886670Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk\" instance_id:6293955515076870110 creation_time:{seconds:1793704280 nanos:236143747} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704281 nanos:981888485} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704281 nanos:981908949} task_state:RUNNING}}} report_time:{seconds:1793704581 nanos:849715804} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704270 nanos:866009415} script_startup_time:{seconds:1793704279 nanos:526009415} agent_startup_time:{seconds:1793704280 nanos:236143747}}",
+      "insertId": "1lqsnxbf7ci3co",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "6293955515076870110",
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:16:21.849971737Z",
+      "severity": "INFO",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:51.868886670Z"
+    },
+    {
+      "textPayload": "Server response for instance 4886743277640122334: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704273 nanos:696923958} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704273 nanos:696929235} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "1ca3lgnf71kt2w",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c",
+          "instance_id": "4886743277640122334"
+        }
+      },
+      "timestamp": "2026-11-03T11:16:13.661304792Z",
+      "severity": "INFO",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:43.585367820Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l\" instance_id:4886743277640122334 creation_time:{seconds:1793704271 nanos:920961309} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704273 nanos:696923958} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704273 nanos:696929235} task_state:RUNNING}}} report_time:{seconds:1793704573 nanos:564379881} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704262 nanos:158366529} script_startup_time:{seconds:1793704271 nanos:218366529} agent_startup_time:{seconds:1793704271 nanos:920961309}}",
+      "insertId": "1ca3lgnf71kt2v",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "instance_id": "4886743277640122334",
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:16:13.564529080Z",
+      "severity": "INFO",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:43.585367820Z"
+    },
+    {
+      "textPayload": "Server response for instance 1612444482446589917: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704271 nanos:303597955} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704271 nanos:303604403} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "1403kxtf7ipn70",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "1612444482446589917",
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:16:11.287261487Z",
+      "severity": "INFO",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:41.205129051Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj\" instance_id:1612444482446589917 creation_time:{seconds:1793704270 nanos:655400934} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704271 nanos:303597955} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704271 nanos:303604403} task_state:RUNNING}}} report_time:{seconds:1793704571 nanos:178738462} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704261 nanos:550823140} script_startup_time:{seconds:1793704270 nanos:90823139} agent_startup_time:{seconds:1793704270 nanos:655400934}}",
+      "insertId": "1403kxtf7ipn6z",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "1612444482446589917",
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:16:11.178903883Z",
+      "severity": "INFO",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:41.205129051Z"
+    },
+    {
+      "textPayload": "Server response for instance 4629009205104508869: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704258 nanos:542437450} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704258 nanos:542445072} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "15hwmff6pclrd",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "instance_id": "4629009205104508869",
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:58.580346753Z",
+      "severity": "INFO",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:28.600449916Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1\" instance_id:4629009205104508869 creation_time:{seconds:1793704257 nanos:904495840} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704258 nanos:542437450} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704258 nanos:542445072} task_state:RUNNING}}} report_time:{seconds:1793704558 nanos:415652439} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704249 nanos:225705686} script_startup_time:{seconds:1793704257 nanos:225705686} agent_startup_time:{seconds:1793704257 nanos:904495840}}",
+      "insertId": "15nqx0ef6s90yb",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "4629009205104508869",
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:58.415785599Z",
+      "severity": "INFO",
+      "labels": {
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:58.444832708Z"
+    },
+    {
+      "textPayload": "Server response for instance 6293955515076870110: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704281 nanos:981888485} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704281 nanos:981908949} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "1q7k0rrebh6pk",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c",
+          "instance_id": "6293955515076870110"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:51.949668763Z",
+      "severity": "INFO",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:21.868559862Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk\" instance_id:6293955515076870110 creation_time:{seconds:1793704280 nanos:236143747} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704281 nanos:981888485} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704281 nanos:981908949} task_state:RUNNING}}} report_time:{seconds:1793704551 nanos:848835740} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704270 nanos:866009415} script_startup_time:{seconds:1793704279 nanos:526009415} agent_startup_time:{seconds:1793704280 nanos:236143747}}",
+      "insertId": "1q7k0rrebh6pj",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8",
+          "instance_id": "6293955515076870110"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:51.848971770Z",
+      "severity": "INFO",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:21.868559862Z"
+    },
+    {
+      "textPayload": "Server response for instance 4886743277640122334: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704273 nanos:696923958} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704273 nanos:696929235} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "xvyfhif8353xv",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "4886743277640122334",
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:43.656532743Z",
+      "severity": "INFO",
+      "labels": {
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:13.585555777Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l\" instance_id:4886743277640122334 creation_time:{seconds:1793704271 nanos:920961309} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704273 nanos:696923958} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704273 nanos:696929235} task_state:RUNNING}}} report_time:{seconds:1793704543 nanos:563394120} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704262 nanos:158366529} script_startup_time:{seconds:1793704271 nanos:218366529} agent_startup_time:{seconds:1793704271 nanos:920961309}}",
+      "insertId": "xvyfhif8353xu",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "instance_id": "4886743277640122334",
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:43.563628034Z",
+      "severity": "INFO",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-r15l",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:13.585555777Z"
+    },
+    {
+      "textPayload": "Server response for instance 1612444482446589917: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704271 nanos:303597955} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704271 nanos:303604403} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "kv6kbsf8206ty",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8",
+          "instance_id": "1612444482446589917",
+          "zone": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:41.272672571Z",
+      "severity": "INFO",
+      "labels": {
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:11.201119467Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj\" instance_id:1612444482446589917 creation_time:{seconds:1793704270 nanos:655400934} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704271 nanos:303597955} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704271 nanos:303604403} task_state:RUNNING}}} report_time:{seconds:1793704541 nanos:177786302} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704261 nanos:550823140} script_startup_time:{seconds:1793704270 nanos:90823139} agent_startup_time:{seconds:1793704270 nanos:655400934}}",
+      "insertId": "kv6kbsf8206tx",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8",
+          "instance_id": "1612444482446589917"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:41.177964685Z",
+      "severity": "INFO",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-g2zj",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:16:11.201119467Z"
+    },
+    {
+      "textPayload": "Server response for instance 4629009205104508869: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704258 nanos:542437450} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704258 nanos:542445072} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "15nqx0ef6s90ya",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "4629009205104508869",
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:28.514781851Z",
+      "severity": "INFO",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:58.444832708Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1\" instance_id:4629009205104508869 creation_time:{seconds:1793704257 nanos:904495840} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704258 nanos:542437450} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704258 nanos:542445072} task_state:RUNNING}}} report_time:{seconds:1793704528 nanos:415447147} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704249 nanos:225705686} script_startup_time:{seconds:1793704257 nanos:225705686} agent_startup_time:{seconds:1793704257 nanos:904495840}}",
+      "insertId": "15nqx0ef6s90y9",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "4629009205104508869",
+          "zone": "us-central1-c",
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:28.415611540Z",
+      "severity": "INFO",
+      "labels": {
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0",
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-gtt1"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:58.444832708Z"
+    },
+    {
+      "textPayload": "Server response for instance 6293955515076870110: tasks:{task:\"action/STARTUP/0/0/group0\" status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704281 nanos:981888485} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704281 nanos:981908949} task_state:RUNNING}} intended_state:ASSIGNED job_uid:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" task_group_id:\"group0\" location:\"us-central1\" job_id:\"matlab-glop-cmp-20261028-fixes-r01\"} min_report_interval:{seconds:3} use_batch_monitored_resource:true.",
+      "insertId": "xwaqbaf7ver3z",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "instance_id": "6293955515076870110",
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:21.942628428Z",
+      "severity": "INFO",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:51.869132539Z"
+    },
+    {
+      "textPayload": "report agent state: metadata:{parent:\"projects/1064328294968/locations/us-central1\" zone:\"us-central1-c\" instance:\"matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk\" instance_id:6293955515076870110 creation_time:{seconds:1793704280 nanos:236143747} creator:\"projects/1064328294968/regions/us-central1/instanceGroupManagers/matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0\" version:\"cloud-batch-agent_20261023.00_p00\" os_release:{key:\"BUILD_ID\" value:\"18867.652.7\"} os_release:{key:\"ID\" value:\"cos\"} os_release:{key:\"NAME\" value:\"Container-Optimized OS\"} os_release:{key:\"VERSION\" value:\"121\"} os_release:{key:\"VERSION_ID\" value:\"121\"} image_version:\"batch-cos-stable-20261025-00-p00\" machine_type:\"e2-standard-8\"} agent_info:{state:AGENT_RUNNING job_id:\"matlab-glop-cmp-20-6b653f38-2802-46e00\" user_project_num:1064328294968 tasks:{task_id:\"action/STARTUP/0/0/group0\" task_status:{state:RUNNING status_events:{type:\"ASSIGNED\" description:\"task action/STARTUP/0/0/group0 ASSIGNED\" event_time:{seconds:1793704281 nanos:981888485} task_state:ASSIGNED} status_events:{type:\"RUNNING\" description:\"task action/STARTUP/0/0/group0 RUNNING\" event_time:{seconds:1793704281 nanos:981908949} task_state:RUNNING}}} report_time:{seconds:1793704521 nanos:847773562} task_group_id:\"group0\"} agent_timing_info:{boot_time:{seconds:1793704270 nanos:866009415} script_startup_time:{seconds:1793704279 nanos:526009415} agent_startup_time:{seconds:1793704280 nanos:236143747}}",
+      "insertId": "xwaqbaf7ver3y",
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8",
+          "zone": "us-central1-c",
+          "instance_id": "6293955515076870110"
+        }
+      },
+      "timestamp": "2026-11-03T11:15:21.847962428Z",
+      "severity": "INFO",
+      "labels": {
+        "hostname": "matlab-glop-cmp-20-6b653f38-2802-46e00-group0-0-nqjk",
+        "job_uid": "matlab-glop-cmp-20-6b653f38-2802-46e00",
+        "task_group_name": "projects/1064328294968/locations/us-central1/jobs/matlab-glop-cmp-20261028-fixes-r01/taskGroups/group0"
+      },
+      "logName": "projects/strange-reducer-509621-e8/logs/batch_agent_logs",
+      "receiveTimestamp": "2026-11-03T11:15:51.869132539Z"
+    }
+  ],
+  "nextPageToken": "etwGCtcGAUI4sNzQ6WFEZcy7PvgGpvtJchNmYWmcAesmOQyb2-oJxvtZjv0UqNbP1-542MnDR17raS4xYb8rDpbFP79WUko8bdFUhMloXZyZcNz3HQBOOMsx51gW4mZPYWVcGVDa01vubGuBagkxEzf-TekIzYX_tj_VYQMcDfWibHPfLsp6L_7bQYYOqzBTDbywav9ZGq_NrDlZ-B0rd-w0yOeOltBRh1p6Z0AkkVISE0SSuHjUUAveFb40AQpI5EuY4O8QMsZ8pu6FCjOKrgqfLZ996GILrhsLjlq0tUUPy9Vl-rkRwnUbZGdAEIQDsApug9QDFfR8BljDUZML5Kh2yTHN03RMdXwpWMbE0FuE9lQ1_xATLuIjoLl7oSaxvhHyj21vKi06TsRUuDHI_gthMiGw1-OkpTUKN5csc8xDR7bBrWTGz6BOMJ9wmFxfYAqM0R5FGMbtRveVuw-EDVgIJf_DjSsC_hc9hLJqHPtYp3ITc5hBq1H3NI_cakXoV1syDtRzWdkLNvUhGLLw2GqJx903BJEJxnXKkc32WSsUwZ-wtSOcFNMluwg3dgPAkT3m2XaYAYdh3qbz4DPuAATFCvjSVswr0_L7tHa8KACgKUktxXNxeaaIBb3AM4b_rXmKD69CLhGRpho83FxqXM9gxX38ck1cA3lUF_E1z3rLkX5V6_OpWNWG-o9sf1jaQgDPirhWa0PRY6XIIhXqbNasJ2u0-aXgFrtO6v3fs3aRIzNaX62h0_FmSxS69EKz4Cb9hlw_Ham3imVr9UTOZ4x3S0CXaQ1nu_iyXTBkiQgHnhYLkLXlYDDyltBt5_g9CASN4gmT9wwHemV6h2DHU3H1x7Nfq_g3vKdEnSAOFURK_T3vIuyIIEZ5DS2V2YSo9w2L-KlNOIH_6BQL-pEI_IRroWYg0ony1BnjT0Sxmb3i1E0wm0KkjT2dEegvv5zEqiHr84jaTQtQ_AKZuuJDOwnh3vBGsEa6ry4xBk_w_jwSXj0cqDa2IFHphPb20iR_I3pbsX--rA4nAd1Y-qZtuA9phDzN1yrDqXPou4eSFjxMxJLt8EXk89RzhIYnKgn5-kOV3MB8LfOphmZvTViYcyPYr4XZuVG9audsQAA8QDwlt4vQbRTvBNtz_cJZEAE"
+}

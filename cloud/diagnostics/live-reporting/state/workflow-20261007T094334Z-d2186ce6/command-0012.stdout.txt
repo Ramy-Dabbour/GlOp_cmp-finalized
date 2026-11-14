@@ -1,0 +1,169 @@
+allocationPolicy:
+  instances:
+  - policy:
+      bootDisk:
+        sizeGb: '100'
+        type: pd-balanced
+      machineType: e2-standard-8
+      provisioningModel: STANDARD
+  labels:
+    batch-job-id: matlab-glop-live-smoke-20261007-094350-9c2a5c
+  location:
+    allowedLocations:
+    - regions/us-central1
+    - zones/us-central1-a
+    - zones/us-central1-b
+    - zones/us-central1-c
+    - zones/us-central1-f
+  serviceAccount:
+    email: 1064328294968-compute@developer.gserviceaccount.com
+createTime: '2026-10-07T09:46:20.711669520Z'
+labels:
+  matlab_cloud_live: 'true'
+  matlab_cloud_managed: 'true'
+  matlab_cloud_mode: trial_shards
+  matlab_cloud_tasks: '1'
+  matlab_cloud_workers: '8'
+  matlab_project: glop-live-smoke
+logsPolicy:
+  destination: CLOUD_LOGGING
+name: projects/strange-reducer-509621-e8/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-094350-9c2a5c
+status:
+  runDuration: 0s
+  state: QUEUED
+taskGroups:
+- name: projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-094350-9c2a5c/taskGroups/group0
+  parallelism: '1'
+  taskCount: '1'
+  taskCountPerNode: '1'
+  taskSpec:
+    computeResource:
+      cpuMilli: '8000'
+      memoryMib: '30000'
+    maxRunDuration: 8100s
+    runnables:
+    - container:
+        commands:
+        - -c
+        - |-
+          import json, os, pathlib, shutil, subprocess, sys
+          os.environ['CLOUDSDK_PYTHON'] = sys.executable
+          task_index = int(os.environ['BATCH_TASK_INDEX'])
+          task_count = int(os.environ['BATCH_TASK_COUNT'])
+          if not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')
+          root = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'
+          root.mkdir(parents=True, exist_ok=True)
+          storage = shutil.disk_usage(root)
+          inodes = os.statvfs(root)
+          mount_record, mount_depth = None, -1
+          for record in pathlib.Path('/proc/self/mountinfo').read_text().splitlines():
+              mount_path = pathlib.Path(record.split()[4].replace(r'\040', ' ').replace(r'\011', '\t').replace(r'\134', '\\'))
+              if root.resolve().is_relative_to(mount_path) and len(mount_path.parts) > mount_depth:
+                  mount_record, mount_depth = record, len(mount_path.parts)
+          if mount_record is None: raise RuntimeError('Cannot identify the workspace backing filesystem')
+          filesystem = mount_record.split(' - ', 1)[1].split()[0]
+          print(json.dumps({'event':'workspace-storage','path':str(root),'total_bytes':storage.total,'free_bytes':storage.free,'total_inodes':inodes.f_files,'available_inodes':inodes.f_favail,'filesystem':filesystem,'mountinfo':mount_record}),flush=True)
+          if filesystem == 'tmpfs': raise RuntimeError('Workspace is backed by tmpfs, not the boot disk; bind /var/lib/google/matlab-cloud or mount a real disk before source transfer')
+          workspace = root / 'workspace'
+          if workspace.exists() and any(workspace.iterdir()): raise RuntimeError('Refusing nonempty run workspace')
+          workspace.mkdir(parents=True, exist_ok=True)
+          (root / 'logs').mkdir(exist_ok=True)
+          (root / 'results').mkdir(exist_ok=True)
+          (root / 'live').mkdir(exist_ok=True)
+          subprocess.run(['gcloud','storage','rsync','gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source',str(workspace),'--recursive','--checksums-only'],check=True)
+          if not any(workspace.rglob('*')): raise RuntimeError('Downloaded source is empty')
+          for path in [root, *root.rglob('*')]:
+              if path.is_symlink(): raise RuntimeError('Unexpected source symlink')
+              os.chown(path,1001,1001)
+              os.chmod(path,0o775 if path.is_dir() else 0o664)
+          (root / '_PREPARED.json').write_text(json.dumps({'prepared':True}),encoding='utf-8')
+        entrypoint: /usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3
+        imageUri: gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc
+        options: --user 0:0
+        volumes:
+        - /var/lib/google/matlab-cloud:/work/shared:rw
+      displayName: prepare-source
+      timeout: 3600s
+    - background: true
+      container:
+        commands:
+        - -c
+        - |-
+          import os, pathlib, runpy, sys
+          task_index = int(os.environ['BATCH_TASK_INDEX'])
+          task_count = int(os.environ['BATCH_TASK_COUNT'])
+          if not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')
+          root = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'
+          root.mkdir(parents=True, exist_ok=True)
+          sys.argv = [str(root/'workspace/cloud/live_reporter.py'), '--root', str(root/'live'), '--output-uri', 'gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c', '--job-id', 'matlab-glop-live-smoke-20261007-094350-9c2a5c', '--workers', '8', '--interval', '15']
+          runpy.run_path(sys.argv[0], run_name='__main__')
+        entrypoint: /usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3
+        imageUri: gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc
+        options: --user 0:0
+        volumes:
+        - /var/lib/google/matlab-cloud:/work/shared:rw
+      displayName: publish-live-trials
+      timeout: 4500s
+    - container:
+        commands:
+        - -singleCompThread
+        - -noFigureWindows
+        - -licmode
+        - onlinelicensing
+        - -batch
+        - taskRoot=fullfile('/work/shared','tasks',sprintf('%05d',str2double(getenv('BATCH_TASK_INDEX'))));
+          setenv('FPF_OUTPUT_DIR',fullfile(taskRoot,'results')); setenv('MATLAB_CLOUD_OUTPUT_DIR',fullfile(taskRoot,'results'));
+          setenv('MATLAB_CLOUD_PROJECT_DIR',fullfile(taskRoot,'workspace')); setenv('FPF_LIVE_DIR',fullfile(taskRoot,'live'));
+          diary(fullfile(taskRoot,'logs','matlab-01.log')); cd(fullfile(taskRoot,'workspace'));
+          run('main.m'); diary off;
+        entrypoint: /usr/local/bin/matlab
+        imageUri: us-central1-docker.pkg.dev/strange-reducer-509621-e8/matlab-images/matlab-full@sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0
+        volumes:
+        - /var/lib/google/matlab-cloud:/work/shared:rw
+      displayName: matlab-entry-1
+      environment:
+        variables:
+          FPF_WORKERS_PER_TASK: '8'
+          MATLAB_CLOUD_OUTPUT_DIR: /work/shared/results
+          MATLAB_CLOUD_PROJECT_DIR: /work/shared/workspace
+          MKL_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+      timeout: 600s
+    - alwaysRun: true
+      container:
+        commands:
+        - -c
+        - |-
+          import datetime, hashlib, json, os, pathlib, subprocess, sys
+          os.environ['CLOUDSDK_PYTHON'] = sys.executable
+          task_index = int(os.environ['BATCH_TASK_INDEX'])
+          task_count = int(os.environ['BATCH_TASK_COUNT'])
+          if not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')
+          root = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'
+          root.mkdir(parents=True, exist_ok=True)
+          if not (root / '_PREPARED.json').is_file(): raise RuntimeError('Source preparation did not finish')
+          if any(path.is_symlink() for path in root.rglob('*')): raise RuntimeError('Unexpected output symlink')
+          output_uri = 'gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c'
+          task_uri = output_uri + f'/tasks/{task_index:05d}'
+          subprocess.run(['gcloud','storage','rsync',str(root/'logs'),task_uri+'/logs','--recursive','--checksums-only'],check=True)
+          subprocess.run([sys.executable,str(root/'workspace/cloud/live_reporter.py'),'--root',str(root/'live'),'--output-uri',output_uri,'--job-id','matlab-glop-live-smoke-20261007-094350-9c2a5c','--workers','8','--final'],check=True)
+          flush = json.loads((root/'live/_FLUSHED.json').read_text())
+          if flush['status'] != 'completed': raise RuntimeError('Partial live results recovered; MATLAB did not complete every assigned trial')
+          if task_index == 0:
+              subprocess.run(['gcloud','storage','rsync',str(root/'workspace'),output_uri+'/workspace','--recursive','--checksums-only'],check=True)
+          shard = root / 'results' / f'trial_shard_{task_index:05d}.mat'
+          if not shard.is_file(): raise RuntimeError('No completed trial shard; partial logs recovered')
+          subprocess.run(['gcloud','storage','cp',str(shard),output_uri+'/results/'+shard.name,'--if-generation-match=0'],check=True)
+          marker = root / '_TRANSFER_COMPLETE.json'
+          marker.write_text(json.dumps({'schema_version':2,'job_id':'matlab-glop-live-smoke-20261007-094350-9c2a5c','task_index':task_index,'task_count':task_count,'workers_per_task':8,'live_reporting':True,'live_published_trials':flush['completed_trials'],'shard_sha256':hashlib.sha256(shard.read_bytes()).hexdigest(),'collected_at':datetime.datetime.now(datetime.timezone.utc).isoformat()},indent=2),encoding='utf-8')
+          subprocess.run(['gcloud','storage','cp',str(marker),task_uri+'/'+marker.name,'--if-generation-match=0'],check=True)
+          print(f'Task {task_index} shard and transfer marker uploaded.',flush=True)
+        entrypoint: /usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3
+        imageUri: gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc
+        options: --user 0:0
+        volumes:
+        - /var/lib/google/matlab-cloud:/work/shared:rw
+      displayName: preserve-outputs
+      timeout: 3600s
+uid: matlab-glop-live-s-33ec14ac-cd51-42df0
+updateTime: '2026-10-07T09:46:20.711669520Z'

@@ -1,0 +1,9 @@
+{
+  "schema_version": 2,
+  "job_id": "matlab-glop-pool-smoke-20261005-225720-29d437",
+  "task_index": 1,
+  "task_count": 2,
+  "workers_per_task": 8,
+  "shard_sha256": "2c4d7e3a79238cb31750e06ea3eea18e9331217feaf8035262d74f6262757b2f",
+  "collected_at": "2026-10-05T23:11:25.341083+00:00"
+}

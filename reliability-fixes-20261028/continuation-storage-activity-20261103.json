@@ -1,0 +1,401 @@
+{
+  "timeSeries": [
+    {
+      "metric": {
+        "labels": {
+          "method": "GetBucketStorageLayout"
+        },
+        "type": "storage.googleapis.com/api/request_count"
+      },
+      "resource": {
+        "type": "gcs_bucket",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "metricKind": "DELTA",
+      "valueType": "INT64",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:27:50.312412Z",
+            "endTime": "2026-11-03T11:28:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:26:50.312412Z",
+            "endTime": "2026-11-03T11:27:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:25:50.312412Z",
+            "endTime": "2026-11-03T11:26:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:24:50.312412Z",
+            "endTime": "2026-11-03T11:25:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:50.312412Z",
+            "endTime": "2026-11-03T11:24:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:50.312412Z",
+            "endTime": "2026-11-03T11:23:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:21:50.312412Z",
+            "endTime": "2026-11-03T11:22:50.312412Z"
+          },
+          "value": {
+            "int64Value": "1"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:20:50.312412Z",
+            "endTime": "2026-11-03T11:21:50.312412Z"
+          },
+          "value": {
+            "int64Value": "3"
+          }
+        }
+      ]
+    },
+    {
+      "metric": {
+        "labels": {
+          "method": "GetObjectMetadata"
+        },
+        "type": "storage.googleapis.com/api/request_count"
+      },
+      "resource": {
+        "type": "gcs_bucket",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "metricKind": "DELTA",
+      "valueType": "INT64",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:50.312412Z",
+            "endTime": "2026-11-03T11:24:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:50.312412Z",
+            "endTime": "2026-11-03T11:23:50.312412Z"
+          },
+          "value": {
+            "int64Value": "1"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:21:50.312412Z",
+            "endTime": "2026-11-03T11:22:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:20:50.312412Z",
+            "endTime": "2026-11-03T11:21:50.312412Z"
+          },
+          "value": {
+            "int64Value": "3"
+          }
+        }
+      ]
+    },
+    {
+      "metric": {
+        "labels": {
+          "method": "ListObjects"
+        },
+        "type": "storage.googleapis.com/api/request_count"
+      },
+      "resource": {
+        "type": "gcs_bucket",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "metricKind": "DELTA",
+      "valueType": "INT64",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:27:50.312412Z",
+            "endTime": "2026-11-03T11:28:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:26:50.312412Z",
+            "endTime": "2026-11-03T11:27:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:25:50.312412Z",
+            "endTime": "2026-11-03T11:26:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:24:50.312412Z",
+            "endTime": "2026-11-03T11:25:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:50.312412Z",
+            "endTime": "2026-11-03T11:24:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:50.312412Z",
+            "endTime": "2026-11-03T11:23:50.312412Z"
+          },
+          "value": {
+            "int64Value": "14"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:21:50.312412Z",
+            "endTime": "2026-11-03T11:22:50.312412Z"
+          },
+          "value": {
+            "int64Value": "10"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:20:50.312412Z",
+            "endTime": "2026-11-03T11:21:50.312412Z"
+          },
+          "value": {
+            "int64Value": "70"
+          }
+        }
+      ]
+    },
+    {
+      "metric": {
+        "labels": {
+          "method": "ReadObject"
+        },
+        "type": "storage.googleapis.com/api/request_count"
+      },
+      "resource": {
+        "type": "gcs_bucket",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "metricKind": "DELTA",
+      "valueType": "INT64",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:27:50.312412Z",
+            "endTime": "2026-11-03T11:28:50.312412Z"
+          },
+          "value": {
+            "int64Value": "2965"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:26:50.312412Z",
+            "endTime": "2026-11-03T11:27:50.312412Z"
+          },
+          "value": {
+            "int64Value": "3017"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:25:50.312412Z",
+            "endTime": "2026-11-03T11:26:50.312412Z"
+          },
+          "value": {
+            "int64Value": "3062"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:24:50.312412Z",
+            "endTime": "2026-11-03T11:25:50.312412Z"
+          },
+          "value": {
+            "int64Value": "2989"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:50.312412Z",
+            "endTime": "2026-11-03T11:24:50.312412Z"
+          },
+          "value": {
+            "int64Value": "3015"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:50.312412Z",
+            "endTime": "2026-11-03T11:23:50.312412Z"
+          },
+          "value": {
+            "int64Value": "3025"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:21:50.312412Z",
+            "endTime": "2026-11-03T11:22:50.312412Z"
+          },
+          "value": {
+            "int64Value": "2725"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:20:50.312412Z",
+            "endTime": "2026-11-03T11:21:50.312412Z"
+          },
+          "value": {
+            "int64Value": "1263"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:19:50.312412Z",
+            "endTime": "2026-11-03T11:20:50.312412Z"
+          },
+          "value": {
+            "int64Value": "1"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:18:50.312412Z",
+            "endTime": "2026-11-03T11:19:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        }
+      ]
+    },
+    {
+      "metric": {
+        "labels": {
+          "method": "WriteObject"
+        },
+        "type": "storage.googleapis.com/api/request_count"
+      },
+      "resource": {
+        "type": "gcs_bucket",
+        "labels": {
+          "project_id": "strange-reducer-509621-e8"
+        }
+      },
+      "metricKind": "DELTA",
+      "valueType": "INT64",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:23:50.312412Z",
+            "endTime": "2026-11-03T11:24:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:22:50.312412Z",
+            "endTime": "2026-11-03T11:23:50.312412Z"
+          },
+          "value": {
+            "int64Value": "0"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:21:50.312412Z",
+            "endTime": "2026-11-03T11:22:50.312412Z"
+          },
+          "value": {
+            "int64Value": "1"
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2026-11-03T11:20:50.312412Z",
+            "endTime": "2026-11-03T11:21:50.312412Z"
+          },
+          "value": {
+            "int64Value": "3"
+          }
+        }
+      ]
+    }
+  ],
+  "unit": "1"
+}

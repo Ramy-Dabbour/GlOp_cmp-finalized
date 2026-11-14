@@ -1,0 +1,36 @@
+function benchmarkResults = summarizeSweep(trialResults)
+%SUMMARIZESWEEP Reduce a complete sweep in the original deterministic order.
+    config = trialResults.config;
+    workSize = fpf.sweepSize(config);
+    totalTests = prod(workSize);
+    [indices,order] = sort(trialResults.workIndices(:));
+    if ~isequal(indices,(1:totalTests).') || ...
+            numel(trialResults.success) ~= totalTests || ...
+            numel(trialResults.errors) ~= totalTests || ...
+            numel(trialResults.evaluations) ~= totalTests
+        error("fpf:IncompleteSweep",...
+            "Results must cover every global trial ID exactly once.");
+    end
+    % First sum the repeated trials, then the operating points. Failures
+    % remain in the denominator and contribute zero error/evaluations.
+    resultSize = [workSize(1:3),prod(workSize(4:6))];
+    successes = reshape(trialResults.success(order),resultSize);
+    errors = trialResults.errors(order);
+    evaluations = trialResults.evaluations(order);
+    errors(~trialResults.success(order)) = 0;
+    evaluations(~trialResults.success(order)) = 0;
+    successfulTrials = reshape(sum(sum(successes,1),4),workSize(2:3)).';
+    successfulErrorSum = reshape(sum(sum(reshape(errors,resultSize),1),4),...
+        workSize(2:3)).';
+    successfulEvaluationSum = reshape(...
+        sum(sum(reshape(evaluations,resultSize),1),4),workSize(2:3)).';
+    trialsPerPair = workSize(1).*prod(workSize(4:6));
+    favorabilityIndex = fpf.aggregateFavorability(successfulTrials,...
+        trialsPerPair,successfulErrorSum,successfulEvaluationSum);
+    [referenceGrid,mziGrid] = ndgrid(config.referenceSolvers + 1,...
+        config.mziSolvers + 1);
+    benchmarkResults = table(...
+        reshape(config.solverNames(referenceGrid(:)),[],1),...
+        reshape(config.solverNames(mziGrid(:)),[],1),favorabilityIndex(:),...
+        VariableNames=["referenceSolver","mziSolver","favorabilityIndex"]);
+end

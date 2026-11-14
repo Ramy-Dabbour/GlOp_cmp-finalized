@@ -1,0 +1,289 @@
+2026-10-07T09:43:50.508740+00:00 Verified cloud project strange-reducer-509621-e8 and reusable MATLAB environment sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0.
+2026-10-07T09:44:08.185372+00:00 Quota-sized run: 1 tasks on 1 VMs, 8 MATLAB workers per VM (8 workers total). No extra queued tasks.
+2026-10-07T09:44:08.186377+00:00   CPUS: 24.0/200.0 used; room for 22 VMs.
+2026-10-07T09:44:08.187370+00:00   CPUS_ALL_REGIONS: 24.0/32.0 used; room for 1 VMs.
+2026-10-07T09:44:08.188374+00:00   INSTANCES: 3.0/24.0 used; room for 21 VMs.
+2026-10-07T09:44:08.189373+00:00   SSD_TOTAL_GB: 300.0/500.0 used; room for 2 VMs.
+2026-10-07T09:44:08.190376+00:00   IN_USE_ADDRESSES: 3.0/8.0 used; room for 5 VMs.
+2026-10-07T09:44:08.295148+00:00 Cloud run plan for live-smoke: C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-batch.json
+2026-10-07T09:44:08.297158+00:00 Entry points: main.m
+2026-10-07T09:44:08.298503+00:00 Results: gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/
+2026-10-07T09:44:08.298503+00:00 Live statistics: gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c/live/summary.json
+2026-10-07T09:44:08.298503+00:00 Inspect live worker activity and latest results with: progress "live-smoke"
+2026-10-07T09:45:41.041947+00:00 At file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\**, worker process 30536 thread 19216 listed 62...
+WARNING: The following characters are invalid in Windows file and directory names: /:*?"<>|
+Renaming 2e03e314d439535118004668dac3533ccc4c8c8e.9c2a5c-source_** to 2e03e314d439535118004668dac3533ccc4c8c8e.9c2a5c-source_$2$2Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\TrialReporter.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/TrialReporter.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\aggregateFavorability.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/aggregateFavorability.m
+  
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\autocorrelationDcFirst.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/autocorrelationDcFirst.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\batchWorkIndices.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/batchWorkIndices.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\benchmarkConfig.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/benchmarkConfig.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\chebyshevExtrema.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/chebyshevExtrema.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\chebyshevTCoefficients.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/chebyshevTCoefficients.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\chebyshevUCoefficients.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/chebyshevUCoefficients.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\clearRunArtifacts.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/clearRunArtifacts.m
+...............................Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\complexHarmonicExtrema.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/complexHarmonicExtrema.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\csv_export.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/csv_export.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\currentReporter.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/currentReporter.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\defaultCsvPath.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/defaultCsvPath.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\endToEndError.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/endToEndError.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\evaluateCosineLagResponse.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/evaluateCosineLagResponse.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\evaluateLagResponse.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/evaluateLagResponse.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\evaluateMziSolution.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/evaluateMziSolution.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\expandReferenceLagVector.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/expandReferenceLagVector.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\extractSolverMetrics.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/extractSolverMetrics.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\generateInitialPoints.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/generateInitialPoints.m
+.Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\generateReference.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/generateReference.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\generateSincReference.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/generateSincReference.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\handleRunFailure.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/handleRunFailure.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\initializeRunResult.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/initializeRunResult.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\isLagResponseNormalized.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/isLagResponseNormalized.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\isReferenceNormalized.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/isReferenceNormalized.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\jsonSafe.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/jsonSafe.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\mergeBatchResults.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/mergeBatchResults.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\multiplyPolynomialMatrices.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/multiplyPolynomialMatrices.m
+.Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\multiplyPolynomialMatrixByConstant.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/multiplyPolynomialMatrixByConstant.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\mziObjective.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/mziObjective.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\mziSMatrixCoefficients.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/mziSMatrixCoefficients.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\optimizeMzi.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/optimizeMzi.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\optimizeReference.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/optimizeReference.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\phaseShiftPattern.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/phaseShiftPattern.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\plotResponses.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/plotResponses.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\prepareBatchPool.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/prepareBatchPool.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\prepareTrialPool.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/prepareTrialPool.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\printRunSummary.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/printRunSummary.m
+.Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\readScalarField.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/readScalarField.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\realizedSMatrixLagCoefficients.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/realizedSMatrixLagCoefficients.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\recordRunFailure.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/recordRunFailure.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\referenceObjective.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/referenceObjective.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\referenceSMatrixCoefficients.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/referenceSMatrixCoefficients.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\run.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/run.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\runGlobalSolver.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/runGlobalSolver.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\runReportedTrial.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/runReportedTrial.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\runSweep.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/runSweep.m
+.Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\seedTrialStage.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/seedTrialStage.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\signalValuePolynomials.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/signalValuePolynomials.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\stopWhenObjectiveStalls.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/stopWhenObjectiveStalls.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\summarizeSweep.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/summarizeSweep.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\sweepSize.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/sweepSize.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\trialParameters.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/trialParameters.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\unpackMziDesign.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/unpackMziDesign.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\validateReferenceCache.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/validateReferenceCache.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\writeLiveJson.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/writeLiveJson.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\+fpf\writeRunArtifacts.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/+fpf/writeRunArtifacts.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\cloud\live_reporter.py to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/cloud/live_reporter.py
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\liveSmokeTrial.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/liveSmokeTrial.m
+.Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\main.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/main.m
+Copying file://C:\Users\Dell\Documents\MATLAB\GlOp_cmp\cloud\diagnostics\live-reporting\state\workflow-20261007T094334Z-d2186ce6\matlab-glop-live-smoke-20261007-094350-9c2a5c-source\parallelSweepTest.m to gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source/parallelSweepTest.m
+.
+
+Average throughput: 18.5kiB/s
+2026-10-07T09:46:02.205922+00:00 live-smoke: verified 62 uploaded source files by size and checksum.
+2026-10-07T09:46:16.840642+00:00 Submitting exact job ID matlab-glop-live-smoke-20261007-094350-9c2a5c. If interrupted, inspect this ID before requesting another run.
+2026-10-07T09:46:21.428418+00:00 allocationPolicy:
+  instances:
+  - policy:
+      bootDisk:
+        sizeGb: '100'
+        type: pd-balanced
+      machineType: e2-standard-8
+      provisioningModel: STANDARD
+  labels:
+    batch-job-id: matlab-glop-live-smoke-20261007-094350-9c2a5c
+  location:
+    allowedLocations:
+    - regions/us-central1
+    - zones/us-central1-a
+    - zones/us-central1-b
+    - zones/us-central1-c
+    - zones/us-central1-f
+  serviceAccount:
+    email: 1064328294968-compute@developer.gserviceaccount.com
+createTime: '2026-10-07T09:46:20.711669520Z'
+labels:
+  matlab_cloud_live: 'true'
+  matlab_cloud_managed: 'true'
+  matlab_cloud_mode: trial_shards
+  matlab_cloud_tasks: '1'
+  matlab_cloud_workers: '8'
+  matlab_project: glop-live-smoke
+logsPolicy:
+  destination: CLOUD_LOGGING
+name: projects/strange-reducer-509621-e8/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-094350-9c2a5c
+status:
+  runDuration: 0s
+  state: QUEUED
+taskGroups:
+- name: projects/1064328294968/locations/us-central1/jobs/matlab-glop-live-smoke-20261007-094350-9c2a5c/taskGroups/group0
+  parallelism: '1'
+  taskCount: '1'
+  taskCountPerNode: '1'
+  taskSpec:
+    computeResource:
+      cpuMilli: '8000'
+      memoryMib: '30000'
+    maxRunDuration: 8100s
+    runnables:
+    - container:
+        commands:
+        - -c
+        - |-
+          import json, os, pathlib, shutil, subprocess, sys
+          os.environ['CLOUDSDK_PYTHON'] = sys.executable
+          task_index = int(os.environ['BATCH_TASK_INDEX'])
+          task_count = int(os.environ['BATCH_TASK_COUNT'])
+          if not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')
+          root = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'
+          root.mkdir(parents=True, exist_ok=True)
+          storage = shutil.disk_usage(root)
+          inodes = os.statvfs(root)
+          mount_record, mount_depth = None, -1
+          for record in pathlib.Path('/proc/self/mountinfo').read_text().splitlines():
+              mount_path = pathlib.Path(record.split()[4].replace(r'\040', ' ').replace(r'\011', '\t').replace(r'\134', '\\'))
+              if root.resolve().is_relative_to(mount_path) and len(mount_path.parts) > mount_depth:
+                  mount_record, mount_depth = record, len(mount_path.parts)
+          if mount_record is None: raise RuntimeError('Cannot identify the workspace backing filesystem')
+          filesystem = mount_record.split(' - ', 1)[1].split()[0]
+          print(json.dumps({'event':'workspace-storage','path':str(root),'total_bytes':storage.total,'free_bytes':storage.free,'total_inodes':inodes.f_files,'available_inodes':inodes.f_favail,'filesystem':filesystem,'mountinfo':mount_record}),flush=True)
+          if filesystem == 'tmpfs': raise RuntimeError('Workspace is backed by tmpfs, not the boot disk; bind /var/lib/google/matlab-cloud or mount a real disk before source transfer')
+          workspace = root / 'workspace'
+          if workspace.exists() and any(workspace.iterdir()): raise RuntimeError('Refusing nonempty run workspace')
+          workspace.mkdir(parents=True, exist_ok=True)
+          (root / 'logs').mkdir(exist_ok=True)
+          (root / 'results').mkdir(exist_ok=True)
+          (root / 'live').mkdir(exist_ok=True)
+          subprocess.run(['gcloud','storage','rsync','gs://strange-reducer-509621-e8-matlab-glop-cmp/runs/matlab-glop-live-smoke-20261007-094350-9c2a5c/source',str(workspace),'--recursive','--checksums-only'],check=True)
+          if not any(workspace.rglob('*')): raise RuntimeError('Downloaded source is empty')
+          for path in [root, *root.rglob('*')]:
+              if path.is_symlink(): raise RuntimeError('Unexpected source symlink')
+              os.chown(path,1001,1001)
+              os.chmod(path,0o775 if path.is_dir() else 0o664)
+          (root / '_PREPARED.json').write_text(json.dumps({'prepared':True}),encoding='utf-8')
+        entrypoint: /usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3
+        imageUri: gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc
+        options: --user 0:0
+        volumes:
+        - /var/lib/google/matlab-cloud:/work/shared:rw
+      displayName: prepare-source
+      timeout: 3600s
+    - background: true
+      container:
+        commands:
+        - -c
+        - |-
+          import os, pathlib, runpy, sys
+          task_index = int(os.environ['BATCH_TASK_INDEX'])
+          task_count = int(os.environ['BATCH_TASK_COUNT'])
+          if not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')
+          root = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'
+          root.mkdir(parents=True, exist_ok=True)
+          sys.argv = [str(root/'workspace/cloud/live_reporter.py'), '--root', str(root/'live'), '--output-uri', 'gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c', '--job-id', 'matlab-glop-live-smoke-20261007-094350-9c2a5c', '--workers', '8', '--interval', '15']
+          runpy.run_path(sys.argv[0], run_name='__main__')
+        entrypoint: /usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3
+        imageUri: gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc
+        options: --user 0:0
+        volumes:
+        - /var/lib/google/matlab-cloud:/work/shared:rw
+      displayName: publish-live-trials
+      timeout: 4500s
+    - container:
+        commands:
+        - -singleCompThread
+        - -noFigureWindows
+        - -licmode
+        - onlinelicensing
+        - -batch
+        - taskRoot=fullfile('/work/shared','tasks',sprintf('%05d',str2double(getenv('BATCH_TASK_INDEX'))));
+          setenv('FPF_OUTPUT_DIR',fullfile(taskRoot,'results')); setenv('MATLAB_CLOUD_OUTPUT_DIR',fullfile(taskRoot,'results'));
+          setenv('MATLAB_CLOUD_PROJECT_DIR',fullfile(taskRoot,'workspace')); setenv('FPF_LIVE_DIR',fullfile(taskRoot,'live'));
+          diary(fullfile(taskRoot,'logs','matlab-01.log')); cd(fullfile(taskRoot,'workspace'));
+          run('main.m'); diary off;
+        entrypoint: /usr/local/bin/matlab
+        imageUri: us-central1-docker.pkg.dev/strange-reducer-509621-e8/matlab-images/matlab-full@sha256:676bd795c0807bc1c337bbcd1f88406aea0b1122fdd54f1993c1f483d0e875b0
+        volumes:
+        - /var/lib/google/matlab-cloud:/work/shared:rw
+      displayName: matlab-entry-1
+      environment:
+        variables:
+          FPF_WORKERS_PER_TASK: '8'
+          MATLAB_CLOUD_OUTPUT_DIR: /work/shared/results
+          MATLAB_CLOUD_PROJECT_DIR: /work/shared/workspace
+          MKL_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+      timeout: 600s
+    - alwaysRun: true
+      container:
+        commands:
+        - -c
+        - |-
+          import datetime, hashlib, json, os, pathlib, subprocess, sys
+          os.environ['CLOUDSDK_PYTHON'] = sys.executable
+          task_index = int(os.environ['BATCH_TASK_INDEX'])
+          task_count = int(os.environ['BATCH_TASK_COUNT'])
+          if not 0 <= task_index < task_count: raise RuntimeError('Invalid Batch task identity')
+          root = pathlib.Path('/work/shared') / 'tasks' / f'{task_index:05d}'
+          root.mkdir(parents=True, exist_ok=True)
+          if not (root / '_PREPARED.json').is_file(): raise RuntimeError('Source preparation did not finish')
+          if any(path.is_symlink() for path in root.rglob('*')): raise RuntimeError('Unexpected output symlink')
+          output_uri = 'gs://strange-reducer-509621-e8-matlab-glop-cmp/outputs/matlab-glop-live-smoke-20261007-094350-9c2a5c'
+          task_uri = output_uri + f'/tasks/{task_index:05d}'
+          subprocess.run(['gcloud','storage','rsync',str(root/'logs'),task_uri+'/logs','--recursive','--checksums-only'],check=True)
+          subprocess.run([sys.executable,str(root/'workspace/cloud/live_reporter.py'),'--root',str(root/'live'),'--output-uri',output_uri,'--job-id','matlab-glop-live-smoke-20261007-094350-9c2a5c','--workers','8','--final'],check=True)
+          flush = json.loads((root/'live/_FLUSHED.json').read_text())
+          if flush['status'] != 'completed': raise RuntimeError('Partial live results recovered; MATLAB did not complete every assigned trial')
+          if task_index == 0:
+              subprocess.run(['gcloud','storage','rsync',str(root/'workspace'),output_uri+'/workspace','--recursive','--checksums-only'],check=True)
+          shard = root / 'results' / f'trial_shard_{task_index:05d}.mat'
+          if not shard.is_file(): raise RuntimeError('No completed trial shard; partial logs recovered')
+          subprocess.run(['gcloud','storage','cp',str(shard),output_uri+'/results/'+shard.name,'--if-generation-match=0'],check=True)
+          marker = root / '_TRANSFER_COMPLETE.json'
+          marker.write_text(json.dumps({'schema_version':2,'job_id':'matlab-glop-live-smoke-20261007-094350-9c2a5c','task_index':task_index,'task_count':task_count,'workers_per_task':8,'live_reporting':True,'live_published_trials':flush['completed_trials'],'shard_sha256':hashlib.sha256(shard.read_bytes()).hexdigest(),'collected_at':datetime.datetime.now(datetime.timezone.utc).isoformat()},indent=2),encoding='utf-8')
+          subprocess.run(['gcloud','storage','cp',str(marker),task_uri+'/'+marker.name,'--if-generation-match=0'],check=True)
+          print(f'Task {task_index} shard and transfer marker uploaded.',flush=True)
+        entrypoint: /usr/lib/google-cloud-sdk/platform/bundledpythonunix/bin/python3
+        imageUri: gcr.io/google.com/cloudsdktool/google-cloud-cli@sha256:1d0be2098e132a30d023809835b7bf7ce94b68e2ac88d39feab1db6bb3677ecc
+        options: --user 0:0
+        volumes:
+        - /var/lib/google/matlab-cloud:/work/shared:rw
+      displayName: preserve-outputs
+      timeout: 3600s
+uid: matlab-glop-live-s-33ec14ac-cd51-42df0
+updateTime: '2026-10-07T09:46:20.711669520Z'
+2026-10-07T09:46:21.430433+00:00 Job matlab-glop-live-s-33ec14ac-cd51-42df0 was successfully submitted.
+2026-10-07T09:46:25.474776+00:00 Submitted matlab-glop-live-smoke-20261007-094350-9c2a5c; UID matlab-glop-live-s-33ec14ac-cd51-42df0. Waiting and collection continue in the common workflow.
+2026-10-07T09:46:29.410520+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:46:43.312267+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:46:57.366806+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:47:11.262041+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:47:25.462643+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:47:39.888499+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:47:54.560194+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:48:08.574193+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:48:22.623769+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:48:36.536674+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:48:50.659652+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:49:04.585160+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:49:18.552066+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:49:32.906894+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:49:46.821086+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:50:01.922948+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:50:15.875554+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:50:29.844270+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:50:43.709427+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:50:57.620117+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:51:11.817653+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:51:26.363077+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:51:40.310055+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:51:54.380756+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:52:08.733337+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:52:22.651271+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:52:36.539839+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:52:50.483850+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:53:04.600492+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:53:18.562178+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:53:32.512086+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:53:47.108353+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:54:01.507260+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:54:15.344703+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:54:29.573826+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: SCHEDULED
+2026-10-07T09:54:43.489092+00:00 Smoke job matlab-glop-live-smoke-20261007-094350-9c2a5c: RUNNING
