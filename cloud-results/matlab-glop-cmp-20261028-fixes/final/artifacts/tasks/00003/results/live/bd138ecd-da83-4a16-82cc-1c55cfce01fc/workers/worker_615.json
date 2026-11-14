@@ -1,0 +1,1 @@
+{"schema_version":1,"worker_pid":615,"global_trial_id":24132,"parameters":[10,0.5,0,3,0,12],"started_at":"2026-10-31T14:40:12.735Z","stage":"mzi","active":true,"objective_evaluations":41356,"stage_evaluations":41295,"last_objective":0.69614578193278109,"best_stage_objective":0.69537914833988856,"updated_at":"2026-10-31T14:49:24.422Z","elapsed_seconds":551.688494}
